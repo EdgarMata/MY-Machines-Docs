@@ -1,7 +1,20 @@
-# 5. Teste de Diagnóstico de Rede e SSH
-    - name: SSH Debug Test
-      run: |
-        echo "1. A testar se o VPS responde na porta web 80:"
-        nc -zv -w 5 ${{ secrets.VPS_IP }} 80
-        echo "2. A testar se o VPS responde na porta SSH 22:"
-        nc -zv -w 5 ${{ secrets.VPS_IP }} 22
+name: debug-teste-portas
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  diagnostico-rede:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testar Conexao com o VPS
+        run: |
+          echo "=================================================="
+          echo "1. A TESTAR PORTA WEB 80 (Nginx Proxy Manager):"
+          nc -zv -w 10 217.65.146.37 80
+          
+          echo "=================================================="
+          echo "2. A TESTAR PORTA SSH 22 (Acesso ao Servidor):"
+          nc -zv -w 10 217.65.146.37 22
+          echo "=================================================="
