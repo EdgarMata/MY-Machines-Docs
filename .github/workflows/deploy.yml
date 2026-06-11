@@ -37,5 +37,5 @@ jobs:
         ARGS: "-rlgoDzvc --delete"
         SOURCE: "site/" # Pasta local gerada pelo 'mkdocs build'
         REMOTE_HOST: ${{ secrets.VPS_IP }}
-        USER: ${{ secrets.VPS_USER }}
+        REMOTE_USER: ${{ secrets.VPS_USER }}
         TARGET: "/var/www/my-machines-docs" # A pasta do teu Nginx no VPS
