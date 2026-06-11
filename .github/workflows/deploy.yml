@@ -1,20 +1,21 @@
-name: debug-teste-portas
+name: deploy-docs
 
 on:
   push:
     branches: [ main, master ]
 
 jobs:
-  diagnostico-rede:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: self-hosted
     steps:
-      - name: Testar Conexao com o VPS
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build MkDocs via Docker
         run: |
-          echo "=================================================="
-          echo "1. A TESTAR PORTA WEB 80 (Nginx Proxy Manager):"
-          nc -zv -w 10 217.65.146.37 80
-          
-          echo "=================================================="
-          echo "2. A TESTAR PORTA SSH 22 (Acesso ao Servidor):"
-          nc -zv -w 10 217.65.146.37 22
-          echo "=================================================="
+          docker run --rm -v $(pwd):/docs squidfunk/mkdocs-material build
+
+      - name: Move files to Web Folder
+        run: |
+          mkdir -p /var/www/my-machines-docs
+          cp -r site/* /var/www/my-machines-docs/
