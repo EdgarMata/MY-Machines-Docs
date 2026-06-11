@@ -1,41 +1,7 @@
-name: Deploy Central Docs to VPS
-
-on:
-  push:
-    branches:
-      - main # O automatismo corre sempre que enviares código para a branch main
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-    # 1. Descarrega o código do teu GitHub para a máquina virtual do Action
-    - name: Checkout code
-      uses: actions/checkout@v4
-
-    # 2. Configura o ambiente Python
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
-
-    # 3. Instala o MkDocs e o tema Material
-    - name: Install MkDocs Material
+# 5. Teste de Diagnóstico de Rede e SSH
+    - name: SSH Debug Test
       run: |
-        pip install mkdocs-material
-
-    # 4. Compila todo o site unificado (Gera a pasta /site com o HTML final)
-    - name: Build documentation
-      run: mkdocs build
-
-    # 5. Envia os ficheiros HTML para a pasta do Nginx no teu VPS de forma segura via Rsync
-    - name: Deploy to VPS
-      uses: easingthemes/ssh-deploy@v5.1.0
-      with:
-        SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_KEY }}
-        ARGS: "-rlgoDzvc --delete"
-        SOURCE: "site/" # Pasta local gerada pelo 'mkdocs build'
-        REMOTE_HOST: ${{ secrets.VPS_IP }}
-        REMOTE_USER: ${{ secrets.VPS_USER }}
-        TARGET: "/var/www/my-machines-docs" # A pasta do teu Nginx no VPS
+        echo "1. A testar se o VPS responde na porta web 80:"
+        nc -zv -w 5 ${{ secrets.VPS_IP }} 80
+        echo "2. A testar se o VPS responde na porta SSH 22:"
+        nc -zv -w 5 ${{ secrets.VPS_IP }} 22
