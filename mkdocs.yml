@@ -1,0 +1,19 @@
+site_name: My Machines Documentation Portal
+site_url: "https://docs.my-machines.com"
+site_author: "Edgar Mata"
+
+theme:
+  name: 'material'
+  palette:
+    scheme: slate # Tom escuro Maker
+    primary: teal
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - MY Delta 3D Printer: my-delta-3d-printer/index.md
+  - MY Cloner 3D Printer: my-cloner-3d-printer/index.md
+  - MY CO2 Laser CNC: my-co2laser-cnc/index.md
