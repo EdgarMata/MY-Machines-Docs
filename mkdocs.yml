@@ -115,209 +115,296 @@ extra_css:
   - assets/extra.css
 
 markdown_extensions:
-  - tables
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - def_list
-  - pymdownx.magiclink
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - admonition
-  - pymdownx.superfences
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.mark
-  - pymdownx.caret
-  - pymdownx.tilde
-  - attr_list
-  - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.keys
-  - toc:
-      permalink: true
-      title: Table of Contents
+    - tables
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - def_list
+    - pymdownx.magiclink
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - admonition
+    - pymdownx.superfences
+    - pymdownx.arithmatex:
+        generic: true
+    - footnotes
+    - pymdownx.details
+    - pymdownx.mark
+    - pymdownx.caret
+    - pymdownx.tilde
+    - attr_list
+    - md_in_html
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.keys
+    - toc:
+        permalink: true
+        title: Table of Contents
 
 # ARQUITETURA MULTI-MÁQUINA INTEGRADA
 nav:
-  - Home: index.md
+    - Home: index.md
 
-  - '3D Printers':
-      - 'MY-Cloner':
-          - Home: '3d-printers/my-cloner/index.md'
-          - Manual:
-              - Overview: '3d-printers/my-cloner/manual/index.md'
-              - Bill of Materials:
-                  - Mechanical Parts: '3d-printers/my-cloner/manual/bom/mecanical-parts.md'
-                  - Electronic Parts: '3d-printers/my-cloner/manual/bom/eletronic-parts.md'
-                  - Printed Parts: '3d-printers/my-cloner/manual/bom/printed-parts.md'
-              - Assembly Guide:
-                  - Introduction: '3d-printers/my-cloner/manual/assembly-guide/01_introduction.md'
-                  - Y-Axis Assembly: '3d-printers/my-cloner/manual/assembly-guide/02_y-axis_assembly.md'
-                  - X-Axis Assembly: '3d-printers/my-cloner/manual/assembly-guide/03_x-axis_assembly.md'
-                  - Z-Axis Assembly: '3d-printers/my-cloner/manual/assembly-guide/04_z-axis_assembly.md'
-                  - E-Axis Assembly: '3d-printers/my-cloner/manual/assembly-guide/05_e-axis_assembly.md'
-                  - LCD Assembly: '3d-printers/my-cloner/manual/assembly-guide/06_lcd_assembly.md'
-                  - Heatbed and PSU Assembly: '3d-printers/my-cloner/manual/assembly-guide/07_heatbed_and_psu_assembly.md'
-                  - Electronics Assembly: '3d-printers/my-cloner/manual/assembly-guide/08_electronics_assembly.md'
-                  - Pre-flight Check: '3d-printers/my-cloner/manual/assembly-guide/09_pre-flight_check.md'
-              - Wiring Diagram:
-                  - Power Supply: '3d-printers/my-cloner/manual/wiring-diagram/power-supply.md'
-                  - Mainboard: '3d-printers/my-cloner/manual/wiring-diagram/mainboard.md'
-                  - Display: '3d-printers/my-cloner/manual/wiring-diagram/display.md'
-                  - Motors: '3d-printers/my-cloner/manual/wiring-diagram/motors.md'
-                  - Extruder: '3d-printers/my-cloner/manual/wiring-diagram/extruder.md'
-                  - Endstops: '3d-printers/my-cloner/manual/wiring-diagram/endstops.md'
-                  - Fans: '3d-printers/my-cloner/manual/wiring-diagram/fans.md'
-              - Initial Setup:
-                  - Printer Overview: '3d-printers/my-cloner/manual/inicial-setup/printer-overview.md'
-                  - First Time Setup: '3d-printers/my-cloner/manual/inicial-setup/first-time-setup.md'
-                  - Klipper Interface Guide: '3d-printers/my-cloner/manual/inicial-setup/klipper-interface-guide.md'
-                  - Loading Filament: '3d-printers/my-cloner/manual/inicial-setup/loading-unloading-filament.md'
-                  - Glossary: '3d-printers/my-cloner/manual/inicial-setup/glossary-of-terms.md'
-          - Slicer:
-              - Overview: '3d-printers/my-cloner/slicer/index.md'
-              - Intro to Slicing: '3d-printers/my-cloner/slicer/introduction-to-slicing.md'
-              - Orca Slicer: '3d-printers/my-cloner/slicer/setting-up-orca-slicer.md'
-              - Prusa & Super Slicer: '3d-printers/my-cloner/slicer/prusa_and_super_slicer.md'
-              - Workflow: '3d-printers/my-cloner/slicer/basic-slicing-workflow.md'
-              - Print Settings: '3d-printers/my-cloner/slicer/understanding-print-settings.md'
-          - Maintenance:
-              - Overview: '3d-printers/my-cloner/maintenance/index.md'
-              - Preventive:
-                  - Belt Tension: '3d-printers/my-cloner/maintenance/preventive-maintenance/belt-tension.md'
-                  - Extruder: '3d-printers/my-cloner/maintenance/preventive-maintenance/cleaning-extruder.md'
-                  - Nozzle: '3d-printers/my-cloner/maintenance/preventive-maintenance/cleaning-nozzle.md'
-                  - Print Bed: '3d-printers/my-cloner/maintenance/preventive-maintenance/cleaning-print-bed.md'
-                  - Lubrication: '3d-printers/my-cloner/maintenance/preventive-maintenance/lubrication.md'
-                  - Schedule: '3d-printers/my-cloner/maintenance/preventive-maintenance/maintenance-schedule.md'
-                  - Consumables: '3d-printers/my-cloner/maintenance/preventive-maintenance/replacing-consumables.md'
-              - Reactive:
-                  - Fans: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-fans.md'
-                  - Heater: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-heater.md'
-                  - Hotend: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-the-hotend.md'
-                  - Nozzle Change: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-the-nozzle.md'
-                  - Thermistor: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-thermistor.md'
-          - Safety:
-              - Overview: '3d-printers/my-cloner/safety/index.md'
-              - Electrical: '3d-printers/my-cloner/safety/electrical-and-thermal-safety.md'
-              - Chemical/Fire: '3d-printers/my-cloner/safety/chemical-and-fire-safety.md'
-              - Power Supply: '3d-printers/my-cloner/safety/handling-power-supply.md'
-              - Safe Usage: '3d-printers/my-cloner/safety/safe-usage.md'
-          - Troubleshooting:
-              - Overview: '3d-printers/my-cloner/troubleshooting/index.md'
-              - Quality:
-                  - Banding: '3d-printers/my-cloner/troubleshooting/banding.md'
-                  - Bridging: '3d-printers/my-cloner/troubleshooting/bridging.md'
-                  - Elephant Foot: '3d-printers/my-cloner/troubleshooting/elephant-foot.md'
-                  - Ghosting: '3d-printers/my-cloner/troubleshooting/ghosting.md'
-                  - Infill: '3d-printers/my-cloner/troubleshooting/infill-issues.md'
-                  - Adhesion: '3d-printers/my-cloner/troubleshooting/layer-adhesion-issues.md'
-                  - Overhangs: '3d-printers/my-cloner/troubleshooting/overhangs.md'
-                  - Pillowing: '3d-printers/my-cloner/troubleshooting/pillowing.md'
-                  - Stringing: '3d-printers/my-cloner/troubleshooting/stringing.md'
-                  - Warping: '3d-printers/my-cloner/troubleshooting/warping.md'
-              - Extrusion:
-                  - Problems: '3d-printers/my-cloner/troubleshooting/extrusion-problems.md'
-                  - Over-Extrusion: '3d-printers/my-cloner/troubleshooting/over-extrusion.md'
-                  - Under-Extrusion: '3d-printers/my-cloner/troubleshooting/under-extrusion.md'
-              - Mechanical:
-                  - Hardware: '3d-printers/my-cloner/troubleshooting/hardware-issues.md'
-                  - Layer Shifting: '3d-printers/my-cloner/troubleshooting/layer-shifting.md'
-                  - Skipping: '3d-printers/my-cloner/troubleshooting/layers-skipping.md'
-                  - Z-Axis: '3d-printers/my-cloner/troubleshooting/z-axis-issues.md'
-              - Connectivity/System:
-                  - Connection: '3d-printers/my-cloner/troubleshooting/connectivity-issues.md'
-                  - Software: '3d-printers/my-cloner/troubleshooting/software-issues.md'
-          - Tips & Tricks:
-              - Overview: '3d-printers/my-cloner/tips-and-tricks/index.md'
-              - Cooling: '3d-printers/my-cloner/tips-and-tricks/better-cooling.md'
-              - Tuning First Layer: '3d-printers/my-cloner/tips-and-tricks/hardware-&-calibration/fine_tuning_first_layer.md'
-              - Speed: '3d-printers/my-cloner/tips-and-tricks/optimized-print-speed.md'
-              - Supports: '3d-printers/my-cloner/tips-and-tricks/optimized-support-settings.md'
-              - Perfect Layer: '3d-printers/my-cloner/tips-and-tricks/perfect-first-layer.md'
-              - Anti-Warping: '3d-printers/my-cloner/tips-and-tricks/preventing-warping.md'
-              - Materials: '3d-printers/my-cloner/tips-and-tricks/printing-&-materials/tips_for_common_materials.md'
-              - Vibration: '3d-printers/my-cloner/tips-and-tricks/reduce-vibration.md'
-              - Stringing: '3d-printers/my-cloner/tips-and-tricks/reducing-stringing.md'
-              - CAD Design: '3d-printers/my-cloner/tips-and-tricks/slicer-software/designing-for-3d-printing.md'
-              - Testing: '3d-printers/my-cloner/tips-and-tricks/test-settings-with-small-prints.md'
-          - Downloads:
-              - Overview: '3d-printers/my-cloner/downloads/index.md'
-              - STL Files: '3d-printers/my-cloner/downloads/transferencias/stl-files.md'
-              - Slicer Profiles: '3d-printers/my-cloner/downloads/transferencias/slicer-profiles.md'
-              - Firmware: '3d-printers/my-cloner/downloads/transferencias/firmware-configuration.md'
-              - CAD Files: '3d-printers/my-cloner/downloads/transferencias/cad-files.md'
-              - BOM Files: '3d-printers/my-cloner/downloads/transferencias/bom-files.md'
-              - Offline Manual: '3d-printers/my-cloner/downloads/transferencias/offline-manual.md'
-          - FAQ: '3d-printers/my-cloner/faq.md'
-          - About:
-              - Overview: '3d-printers/my-cloner/about/overview.md'
-              - Features: '3d-printers/my-cloner/about/features.md'
-              - Specifications: '3d-printers/my-cloner/about/specifications.md'
-              - Box Contents: '3d-printers/my-cloner/about/box-contents.md'
-              - Warranty: '3d-printers/my-cloner/about/warranty.md'
+    - '3D Printers':
+        - 'MY-Cloner':
+            - Home: '3d-printers/my-cloner/index.md'
+            - Manual:
+                - Overview: '3d-printers/my-cloner/manual/index.md'
+                - Bill of Materials:
+                    - Mechanical Parts: '3d-printers/my-cloner/manual/bom/mecanical-parts.md'
+                    - Electronic Parts: '3d-printers/my-cloner/manual/bom/eletronic-parts.md'
+                    - Printed Parts: '3d-printers/my-cloner/manual/bom/printed-parts.md'
+                - Assembly Guide:
+                    - Introduction: '3d-printers/my-cloner/manual/assembly-guide/01_introduction.md'
+                    - Y-Axis Assembly: '3d-printers/my-cloner/manual/assembly-guide/02_y-axis_assembly.md'
+                    - X-Axis Assembly: '3d-printers/my-cloner/manual/assembly-guide/03_x-axis_assembly.md'
+                    - Z-Axis Assembly: '3d-printers/my-cloner/manual/assembly-guide/04_z-axis_assembly.md'
+                    - E-Axis Assembly: '3d-printers/my-cloner/manual/assembly-guide/05_e-axis_assembly.md'
+                    - LCD Assembly: '3d-printers/my-cloner/manual/assembly-guide/06_lcd_assembly.md'
+                    - Heatbed and PSU Assembly: '3d-printers/my-cloner/manual/assembly-guide/07_heatbed_and_psu_assembly.md'
+                    - Electronics Assembly: '3d-printers/my-cloner/manual/assembly-guide/08_electronics_assembly.md'
+                    - Pre-flight Check: '3d-printers/my-cloner/manual/assembly-guide/09_pre-flight_check.md'
+                - Wiring Diagram:
+                    - Power Supply: '3d-printers/my-cloner/manual/wiring-diagram/power-supply.md'
+                    - Mainboard: '3d-printers/my-cloner/manual/wiring-diagram/mainboard.md'
+                    - Display: '3d-printers/my-cloner/manual/wiring-diagram/display.md'
+                    - Motors: '3d-printers/my-cloner/manual/wiring-diagram/motors.md'
+                    - Extruder: '3d-printers/my-cloner/manual/wiring-diagram/extruder.md'
+                    - Endstops: '3d-printers/my-cloner/manual/wiring-diagram/endstops.md'
+                    - Fans: '3d-printers/my-cloner/manual/wiring-diagram/fans.md'
+                - Initial Setup:
+                    - Printer Overview: '3d-printers/my-cloner/manual/inicial-setup/printer-overview.md'
+                    - First Time Setup: '3d-printers/my-cloner/manual/inicial-setup/first-time-setup.md'
+                    - Klipper Interface Guide: '3d-printers/my-cloner/manual/inicial-setup/klipper-interface-guide.md'
+                    - Loading Filament: '3d-printers/my-cloner/manual/inicial-setup/loading-unloading-filament.md'
+                    - Glossary: '3d-printers/my-cloner/manual/inicial-setup/glossary-of-terms.md'
+            - Slicer:
+                - Overview: '3d-printers/my-cloner/slicer/index.md'
+                - Intro to Slicing: '3d-printers/my-cloner/slicer/introduction-to-slicing.md'
+                - Orca Slicer: '3d-printers/my-cloner/slicer/setting-up-orca-slicer.md'
+                - Prusa & Super Slicer: '3d-printers/my-cloner/slicer/prusa_and_super_slicer.md'
+                - Workflow: '3d-printers/my-cloner/slicer/basic-slicing-workflow.md'
+                - Print Settings: '3d-printers/my-cloner/slicer/understanding-print-settings.md'
+            - Maintenance:
+                - Overview: '3d-printers/my-cloner/maintenance/index.md'
+                - Preventive:
+                    - Belt Tension: '3d-printers/my-cloner/maintenance/preventive-maintenance/belt-tension.md'
+                    - Extruder: '3d-printers/my-cloner/maintenance/preventive-maintenance/cleaning-extruder.md'
+                    - Nozzle: '3d-printers/my-cloner/maintenance/preventive-maintenance/cleaning-nozzle.md'
+                    - Print Bed: '3d-printers/my-cloner/maintenance/preventive-maintenance/cleaning-print-bed.md'
+                    - Lubrication: '3d-printers/my-cloner/maintenance/preventive-maintenance/lubrication.md'
+                    - Schedule: '3d-printers/my-cloner/maintenance/preventive-maintenance/maintenance-schedule.md'
+                    - Consumables: '3d-printers/my-cloner/maintenance/preventive-maintenance/replacing-consumables.md'
+                - Reactive:
+                    - Fans: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-fans.md'
+                    - Heater: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-heater.md'
+                    - Hotend: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-the-hotend.md'
+                    - Nozzle Change: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-the-nozzle.md'
+                    - Thermistor: '3d-printers/my-cloner/maintenance/reactive-maintenance/replacing-thermistor.md'
+            - Safety:
+                - Overview: '3d-printers/my-cloner/safety/index.md'
+                - Electrical: '3d-printers/my-cloner/safety/electrical-and-thermal-safety.md'
+                - Chemical/Fire: '3d-printers/my-cloner/safety/chemical-and-fire-safety.md'
+                - Power Supply: '3d-printers/my-cloner/safety/handling-power-supply.md'
+                - Safe Usage: '3d-printers/my-cloner/safety/safe-usage.md'
+            - Troubleshooting:
+                - Overview: '3d-printers/my-cloner/troubleshooting/index.md'
+                - Quality:
+                    - Banding: '3d-printers/my-cloner/troubleshooting/banding.md'
+                    - Bridging: '3d-printers/my-cloner/troubleshooting/bridging.md'
+                    - Elephant Foot: '3d-printers/my-cloner/troubleshooting/elephant-foot.md'
+                    - Ghosting: '3d-printers/my-cloner/troubleshooting/ghosting.md'
+                    - Infill: '3d-printers/my-cloner/troubleshooting/infill-issues.md'
+                    - Adhesion: '3d-printers/my-cloner/troubleshooting/layer-adhesion-issues.md'
+                    - Overhangs: '3d-printers/my-cloner/troubleshooting/overhangs.md'
+                    - Pillowing: '3d-printers/my-cloner/troubleshooting/pillowing.md'
+                    - Stringing: '3d-printers/my-cloner/troubleshooting/stringing.md'
+                    - Warping: '3d-printers/my-cloner/troubleshooting/warping.md'
+                - Extrusion:
+                    - Problems: '3d-printers/my-cloner/troubleshooting/extrusion-problems.md'
+                    - Over-Extrusion: '3d-printers/my-cloner/troubleshooting/over-extrusion.md'
+                    - Under-Extrusion: '3d-printers/my-cloner/troubleshooting/under-extrusion.md'
+                - Mechanical:
+                    - Hardware: '3d-printers/my-cloner/troubleshooting/hardware-issues.md'
+                    - Layer Shifting: '3d-printers/my-cloner/troubleshooting/layer-shifting.md'
+                    - Skipping: '3d-printers/my-cloner/troubleshooting/layers-skipping.md'
+                    - Z-Axis: '3d-printers/my-cloner/troubleshooting/z-axis-issues.md'
+                - Connectivity/System:
+                    - Connection: '3d-printers/my-cloner/troubleshooting/connectivity-issues.md'
+                    - Software: '3d-printers/my-cloner/troubleshooting/software-issues.md'
+            - Tips & Tricks:
+                - Overview: '3d-printers/my-cloner/tips-and-tricks/index.md'
+                - Cooling: '3d-printers/my-cloner/tips-and-tricks/better-cooling.md'
+                - Tuning First Layer: '3d-printers/my-cloner/tips-and-tricks/hardware-&-calibration/fine_tuning_first_layer.md'
+                - Speed: '3d-printers/my-cloner/tips-and-tricks/optimized-print-speed.md'
+                - Supports: '3d-printers/my-cloner/tips-and-tricks/optimized-support-settings.md'
+                - Perfect Layer: '3d-printers/my-cloner/tips-and-tricks/perfect-first-layer.md'
+                - Anti-Warping: '3d-printers/my-cloner/tips-and-tricks/preventing-warping.md'
+                - Materials: '3d-printers/my-cloner/tips-and-tricks/printing-&-materials/tips_for_common_materials.md'
+                - Vibration: '3d-printers/my-cloner/tips-and-tricks/reduce-vibration.md'
+                - Stringing: '3d-printers/my-cloner/tips-and-tricks/reducing-stringing.md'
+                - CAD Design: '3d-printers/my-cloner/tips-and-tricks/slicer-software/designing-for-3d-printing.md'
+                - Testing: '3d-printers/my-cloner/tips-and-tricks/test-settings-with-small-prints.md'
+            - Downloads:
+                - Overview: '3d-printers/my-cloner/downloads/index.md'
+                - STL Files: '3d-printers/my-cloner/downloads/transferencias/stl-files.md'
+                - Slicer Profiles: '3d-printers/my-cloner/downloads/transferencias/slicer-profiles.md'
+                - Firmware: '3d-printers/my-cloner/downloads/transferencias/firmware-configuration.md'
+                - CAD Files: '3d-printers/my-cloner/downloads/transferencias/cad-files.md'
+                - BOM Files: '3d-printers/my-cloner/downloads/transferencias/bom-files.md'
+                - Offline Manual: '3d-printers/my-cloner/downloads/transferencias/offline-manual.md'
+            - FAQ: '3d-printers/my-cloner/faq.md'
+            - About:
+                - Overview: '3d-printers/my-cloner/about/overview.md'
+                - Features: '3d-printers/my-cloner/about/features.md'
+                - Specifications: '3d-printers/my-cloner/about/specifications.md'
+                - Box Contents: '3d-printers/my-cloner/about/box-contents.md'
+                - Warranty: '3d-printers/my-cloner/about/warranty.md'
+        
 
-      - 'MY-Delta':
-          - 'Overview & Safety': '3d-printers/my-delta/index.md'
-          - 'Assembly Manual': '3d-printers/my-delta/assembly.md'
-          - 'Software & Slicer': '3d-printers/my-delta/software.md'
-          - 'Maintenance': '3d-printers/my-delta/maintenance.md'
-          - 'Troubleshooting & Files': '3d-printers/my-delta/troubleshooting.md'
-      - 'MY-CoreXY':
-          - 'Overview & Safety': '3d-printers/my-corexy/index.md'
-          - 'Assembly Manual': '3d-printers/my-corexy/assembly.md'
-          - 'Software & Slicer': '3d-printers/my-corexy/software.md'
-          - 'Maintenance': '3d-printers/my-corexy/maintenance.md'
-          - 'Troubleshooting & Files': '3d-printers/my-corexy/troubleshooting.md'
-      - 'MY-Giga1M3':
-          - 'Overview & Safety': '3d-printers/my-giga1m3/index.md'
-          - 'Assembly Manual': '3d-printers/my-giga1m3/assembly.md'
-          - 'Software & Slicer': '3d-printers/my-giga1m3/software.md'
-          - 'Maintenance': '3d-printers/my-giga1m3/maintenance.md'
-          - 'Troubleshooting & Files': '3d-printers/my-giga1m3/troubleshooting.md'
-      - 'MY-Mini':
-          - 'Overview & Safety': '3d-printers/my-mini/index.md'
-          - 'Assembly Manual': '3d-printers/my-mini/assembly.md'
-          - 'Software & Slicer': '3d-printers/my-mini/software.md'
-          - 'Maintenance': '3d-printers/my-mini/maintenance.md'
-          - 'Troubleshooting & Files': '3d-printers/my-mini/troubleshooting.md'
+        - MY-CoreXY:
+            - Home: index.md
+            - Overview: 3d-printers/my-corexy/manual/index.md
+            - Introduction:
+                - Welcome & Safety: 3d-printers/my-corexy/manual/introduction/index.md
+                - Printing Guidelines: 3d-printers/my-corexy/manual/introduction/printing-guidelines.md
+                - File Naming Convention: 3d-printers/my-corexy/manual/introduction/file-naming.md
+                - Hardware Reference: 3d-printers/my-corexy/manual/introduction/hardware-reference.md
+                - Required Tools: 3d-printers/my-corexy/manual/introduction/required-tools.md
+                - Core Assembly Techniques: 3d-printers/my-corexy/manual/introduction/assembly-techniques.md
+            - Assembly Guide:
+                - Step 01 Frame: 3d-printers/my-corexy/manual/assembly/01-frame.md
+                - Step 02 Z-Drives and Idlers: 3d-printers/my-corexy/manual/assembly/02-z-drives-and-idlers.md
+                - Step 03 Build Plate: 3d-printers/my-corexy/manual/assembly/03-build-plate.md
+                - Step 04 A/B Drives and Idlers: 3d-printers/my-corexy/manual/assembly/04-ab-drives-and-idlers.md
+                - Step 05 Gantry: 3d-printers/my-corexy/manual/assembly/05-gantry.md
+                - Step 06 Z-Axis Installation: 3d-printers/my-corexy/manual/assembly/06-z-axis.md
+                - Step 07 A/B Belts: 3d-printers/my-corexy/manual/assembly/07-ab-belts.md
+                - Step 08 Toolhead (EVA Extruder): 3d-printers/my-corexy/manual/assembly/08-toolhead.md
+            - Electronics and Wiring:
+                - Overview: 3d-printers/my-corexy/manual/electronics/index.md
+                - Component Mounting: 3d-printers/my-corexy/manual/electronics/01-component-mounting.md
+                - Controller Board Setup: 3d-printers/my-corexy/manual/electronics/02-controller-setup.md
+                - Mains and PSU Wiring: 3d-printers/my-corexy/manual/electronics/03-mains-wiring.md
+                - Low Voltage & Signal Wiring: 3d-printers/my-corexy/manual/electronics/04-dc-wiring.md
+                - Cable Chain Routing: 3d-printers/my-corexy/manual/electronics/05-cable-chains.md
+            - Final Assembly:
+                - Skirts: 3d-printers/my-corexy/manual/final-assembly/01-skirts.md
+                - Panels and Doors: 3d-printers/my-corexy/manual/final-assembly/02-panels.md
+                - Exhaust Filter: 3d-printers/my-corexy/manual/final-assembly/03-exhaust-filter.md
+                - Spool Holder: 3d-printers/my-corexy/manual/final-assembly/04-spool-holder.md
+            - Initial Setup:
+                - Introduction: 3d-printers/my-corexy/manual/initial-setup/index.md
+                - Printer Overview: 3d-printers/my-corexy/manual/initial-setup/printer-overview.md
+                - First Time Setup: 3d-printers/my-corexy/manual/initial-setup/first-time-setup.md
+                - Klipper Interface Guide: 3d-printers/my-corexy/manual/initial-setup/klipper-interface-guide.md
+                - Loading/Unloading Filament: 3d-printers/my-corexy/manual/initial-setup/loading-unloading-filament.md
+                - Glossary of Terms: 3d-printers/my-corexy/manual/initial-setup/glossary-of-terms.md
+            - First Time Use:
+                - First Time Startup: 3d-printers/my-corexy/manual/first-time-use/first-time-startup.md
+                - Preflight Check: 3d-printers/my-corexy/manual/first-time-use/preflight-check.md
+                - First Print: 3d-printers/my-corexy/manual/first-time-use/first-print.md
+            - Slicer Configuration:
+                - Introduction to Slicing: 3d-printers/my-corexy/slicer/introduction-to-slicing.md
+                - Basic Slicing Workflow: 3d-printers/my-corexy/slicer/basic-slicing-workflow.md
+                - Understanding Print Settings: 3d-printers/my-corexy/slicer/understanding-print-settings.md
+                - PrusaSlicer & SuperSlicer: 3d-printers/my-corexy/slicer/prusa_and_super_slicer.md
+                - PrusaSlicer Installation: 3d-printers/my-corexy/slicer/prusaslicer/installation.md
+                - PrusaSlicer Configuration: 3d-printers/my-corexy/slicer/prusaslicer/configuration.md
+                - OrcaSlicer Installation: 3d-printers/my-corexy/slicer/orcaslicer/installation.md
+                - OrcaSlicer Configuration: 3d-printers/my-corexy/slicer/orcaslicer/configuration.md
+            - Maintenance:
+                - Overview: 3d-printers/my-corexy/maintenance/index.md
+                - Maintenance Schedule: 3d-printers/my-corexy/maintenance/preventive-maintenance/maintenance-schedule.md
+                - Lubrication: 3d-printers/my-corexy/maintenance/preventive-maintenance/lubrication.md
+                - Belt Tensioning: 3d-printers/my-corexy/maintenance/preventive-maintenance/belt-tensioning.md
+                - Cleaning Print Bed: 3d-printers/my-corexy/maintenance/preventive-maintenance/cleaning-print-bed.md
+                - Cleaning Nozzle: 3d-printers/my-corexy/maintenance/preventive-maintenance/cleaning-nozzle.md
+                - Cleaning Extruder: 3d-printers/my-corexy/maintenance/preventive-maintenance/cleaning-extruder.md
+                - Nozzle Replacement: 3d-printers/my-corexy/maintenance/preventive-maintenance/nozzle-replacement.md
+                - Replacing Consumables: 3d-printers/my-corexy/maintenance/preventive-maintenance/replacing-consumables.md
+                - Replacing the Hotend: 3d-printers/my-corexy/maintenance/reactive-maintenance/replacing-the-hotend.md
+                - Replacing Heater/Thermistor: 3d-printers/my-corexy/maintenance/reactive-maintenance/replacing-heater.md
+                - Replacing Fans: 3d-printers/my-corexy/maintenance/reactive-maintenance/replacing-fans.md
+            - Troubleshooting:
+                - Overview: 3d-printers/my-corexy/troubleshooting/index.md
+                - Ghosting (Ringing): 3d-printers/my-corexy/troubleshooting/print-quality-issues/ghosting.md
+                - Layer Adhesion: 3d-printers/my-corexy/troubleshooting/print-quality-issues/layer-adhesion-issues.md
+                - Warping & Stringing: 3d-printers/my-corexy/troubleshooting/print-quality-issues/warping.md
+                - Elephant Foot & Infill: 3d-printers/my-corexy/troubleshooting/print-quality-issues/elephant-foot.md
+                - Extrusion Issues: 3d-printers/my-corexy/troubleshooting/extrusion-issues/extrusion-problems.md
+                - Under/Over Extrusion: 3d-printers/my-corexy/troubleshooting/extrusion-issues/under-extrusion.md
+                - Layer Shifting: 3d-printers/my-corexy/troubleshooting/mechanical-&-movement-issues/layer-shifting.md
+                - Z-Axis & Hardware: 3d-printers/my-corexy/troubleshooting/mechanical-&-movement-issues/z-axis-issues.md
+                - Connectivity & Software: 3d-printers/my-corexy/troubleshooting/system-&-connectivity/software-issues.md
+            - Calibration Tips:
+                - Perfect First Layer: 3d-printers/my-corexy/tips-and-tricks/perfect-first-layer.md
+                - Input Shaping: 3d-printers/my-corexy/tips-and-tricks/hardware-&-calibration/input-shaping.md
+                - Pressure Advance: 3d-printers/my-corexy/tips-and-tricks/hardware-&-calibration/pressure-advance.md
+                - Materials Tips: 3d-printers/my-corexy/tips-and-tricks/printing-&-materials/tips_for_common_materials.md
+            - Bill of Materials:
+                - Printed Parts: 3d-printers/my-corexy/manual/bom/printed-parts.md
+                - Electronics & Frame: 3d-printers/my-corexy/manual/bom/electronics.md
+                - Fasteners & Motion: 3d-printers/my-corexy/manual/bom/fasteners.md
+            - Downloads & Specs:
+                - CAD & STL Files: 3d-printers/my-corexy/downloads/transferencias/cad-files.md
+                - Firmware & Profiles: 3d-printers/my-corexy/downloads/transferencias/firmware-configuration.md
+                - About & Specs: 3d-printers/my-corexy/about/specifications.md
+            - FAQ: faq.md
 
-  - 'Laser Cutters':
-      - 'MY-CO2Laser CNC':
-          - 'Overview & Safety': 'laser-cutters/my-co2-laser/index.md'
-          - 'Assembly Manual': 'laser-cutters/my-co2-laser/assembly.md'
-          - 'Software & Firmware': 'laser-cutters/my-co2-laser/software.md'
-          - 'Maintenance': 'laser-cutters/my-co2-laser/maintenance.md'
-          - 'Troubleshooting & Files': 'laser-cutters/my-co2-laser/troubleshooting.md'
-      - 'MY-Laser CNC':
-          - 'Overview & Safety': 'laser-cutters/my-laser/index.md'
-          - 'Assembly Manual': 'laser-cutters/my-laser/assembly.md'
-          - 'Software & Firmware': 'laser-cutters/my-laser/software.md'
-          - 'Maintenance': 'laser-cutters/my-laser/maintenance.md'
-          - 'Troubleshooting & Files': 'laser-cutters/my-laser/troubleshooting.md'
+        - 'MY-Delta':
+            - 'Overview & Safety': '3d-printers/my-delta/index.md'
+            - 'Assembly Manual': '3d-printers/my-delta/assembly.md'
+            - 'Software & Slicer': '3d-printers/my-delta/software.md'
+            - 'Maintenance': '3d-printers/my-delta/maintenance.md'
+            - 'Troubleshooting & Files': '3d-printers/my-delta/troubleshooting.md'
 
-  - 'CNC Routers':
-      - 'MY-Router CNC':
-          - 'CNC Routers Overview': 'cnc-routers/my-router-cnc/index.md'
-          - 'Assembly Manual': 'cnc-routers/my-router-cnc/assembly.md'
-          - 'Software & CAM': 'cnc-routers/my-router-cnc/software.md'
-          - 'Maintenance': 'cnc-routers/my-router-cnc/maintenance.md'
-          - 'Troubleshooting & Files': 'cnc-routers/my-router-cnc/troubleshooting.md'
-      - 'MY-RouterXL CNC':
-          - 'Overview & Safety': 'cnc-routers/my-router-xl/index.md'
-          - 'Assembly Manual': 'cnc-routers/my-router-xl/assembly.md'
-          - 'Software & CAM': 'cnc-routers/my-router-xl/software.md'
-          - 'Maintenance': 'cnc-routers/my-router-xl/maintenance.md'
-          - 'Troubleshooting & Files': 'cnc-routers/my-router-xl/troubleshooting.md'
-      - 'MY-PCB Mill':
-          - 'Overview & Safety': 'cnc-routers/my-pcb-mill/index.md'
-          - 'Assembly Manual': 'cnc-routers/my-pcb-mill/assembly.md'
-          - 'Software & CAM': 'cnc-routers/my-pcb-mill/software.md'
-          - 'Maintenance': 'cnc-routers/my-pcb-mill/maintenance.md'
-          - 'Troubleshooting & Files': 'cnc-routers/my-pcb-mill/troubleshooting.md'
+        - 'MY-Giga1M3':
+            - 'Overview & Safety': '3d-printers/my-giga1m3/index.md'
+            - 'Assembly Manual': '3d-printers/my-giga1m3/assembly.md'
+            - 'Software & Slicer': '3d-printers/my-giga1m3/software.md'
+            - 'Maintenance': '3d-printers/my-giga1m3/maintenance.md'
+            - 'Troubleshooting & Files': '3d-printers/my-giga1m3/troubleshooting.md'
+
+        - 'MY-Mini':
+            - 'Overview & Safety': '3d-printers/my-mini/index.md'
+            - 'Assembly Manual': '3d-printers/my-mini/assembly.md'
+            - 'Software & Slicer': '3d-printers/my-mini/software.md'
+            - 'Maintenance': '3d-printers/my-mini/maintenance.md'
+            - 'Troubleshooting & Files': '3d-printers/my-mini/troubleshooting.md'
+
+    - 'Laser Cutters':
+        - 'MY-CO2Laser CNC':
+            - 'Overview & Safety': 'laser-cutters/my-co2-laser/index.md'
+            - 'Assembly Manual': 'laser-cutters/my-co2-laser/assembly.md'
+            - 'Software & Firmware': 'laser-cutters/my-co2-laser/software.md'
+            - 'Maintenance': 'laser-cutters/my-co2-laser/maintenance.md'
+            - 'Troubleshooting & Files': 'laser-cutters/my-co2-laser/troubleshooting.md'
+        - 'MY-Laser CNC':
+            - 'Overview & Safety': 'laser-cutters/my-laser/index.md'
+            - 'Assembly Manual': 'laser-cutters/my-laser/assembly.md'
+            - 'Software & Firmware': 'laser-cutters/my-laser/software.md'
+            - 'Maintenance': 'laser-cutters/my-laser/maintenance.md'
+            - 'Troubleshooting & Files': 'laser-cutters/my-laser/troubleshooting.md'
+
+    - 'CNC Routers':
+        - 'MY-Router CNC':
+            - 'CNC Routers Overview': 'cnc-routers/my-router-cnc/index.md'
+            - 'Assembly Manual': 'cnc-routers/my-router-cnc/assembly.md'
+            - 'Software & CAM': 'cnc-routers/my-router-cnc/software.md'
+            - 'Maintenance': 'cnc-routers/my-router-cnc/maintenance.md'
+            - 'Troubleshooting & Files': 'cnc-routers/my-router-cnc/troubleshooting.md'
+        - 'MY-RouterXL CNC':
+            - 'Overview & Safety': 'cnc-routers/my-router-xl/index.md'
+            - 'Assembly Manual': 'cnc-routers/my-router-xl/assembly.md'
+            - 'Software & CAM': 'cnc-routers/my-router-xl/software.md'
+            - 'Maintenance': 'cnc-routers/my-router-xl/maintenance.md'
+            - 'Troubleshooting & Files': 'cnc-routers/my-router-xl/troubleshooting.md'
+        - 'MY-PCB Mill':
+            - 'Overview & Safety': 'cnc-routers/my-pcb-mill/index.md'
+            - 'Assembly Manual': 'cnc-routers/my-pcb-mill/assembly.md'
+            - 'Software & CAM': 'cnc-routers/my-pcb-mill/software.md'
+            - 'Maintenance': 'cnc-routers/my-pcb-mill/maintenance.md'
+            - 'Troubleshooting & Files': 'cnc-routers/my-pcb-mill/troubleshooting.md'
