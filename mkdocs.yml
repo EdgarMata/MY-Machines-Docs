@@ -21,8 +21,8 @@ theme:
   custom_dir: overrides
   features:
     - navigation.tabs          # Menu superior horizontal por famílias de máquinas
-    - navigation.sections      # Agrupa os submenus na barra lateral de forma limpa
-    - navigation.expand        # Mantém as secções expansíveis na lateral
+#   - navigation.sections      # Agrupa os submenus na barra lateral de forma limpa
+#   - navigation.expand        # Mantém as secções expansíveis na lateral
     - navigation.top           # Botão "Voltar ao topo" automático
     - navigation.path
     - navigation.footer
