@@ -4,16 +4,100 @@ site_author: "Edgar Mata"
 
 theme:
   name: 'material'
-  palette:
-    scheme: slate # Tom escuro Maker
-    primary: teal
   features:
-    - navigation.tabs
-    - navigation.top
-    - search.highlight
+    - navigation.tabs          # Menu superior horizontal por famílias de máquinas
+    - navigation.sections      # Agrupa os submenus na barra lateral de forma limpa
+    - navigation.expand        # Mantém as secções expansíveis na lateral
+    - navigation.top           # Botão "Voltar ao topo" automático em páginas longas
+    - search.suggest           # Sugestões automáticas na barra de pesquisa
+    - search.highlight         # Destaca o texto pesquisado nas páginas
 
+  language: en # Mantém em inglês global para a comunidade mundial
+  palette:
+    # Modo Escuro (Dark Mode) por padrão - Tom Maker/Industrial
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Opção Modo Claro
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+plugins:
+  - search        
+
+# ARQUITETURA DE NAVEGAÇÃO DA MY MACHINES
 nav:
   - Home: index.md
-  - MY Delta 3D Printer: my-delta-3d-printer/index.md
-  - MY Cloner 3D Printer: my-cloner-3d-printer/index.md
-  - MY CO2 Laser CNC: my-co2laser-cnc/index.md
+
+  - '3D Printers':
+      - 'MY-Cloner':
+          - 'Overview & Safety': '3d-printers/my-cloner/index.md'
+          - 'Assembly Manual': '3d-printers/my-cloner/assembly.md'
+          - 'Software & Slicer': '3d-printers/my-cloner/software.md'
+          - 'Maintenance': '3d-printers/my-cloner/maintenance.md'
+          - 'Troubleshooting & Files': '3d-printers/my-cloner/troubleshooting.md'
+      - 'MY-Delta':
+          - 'Overview & Safety': '3d-printers/my-delta/index.md'
+          - 'Assembly Manual': '3d-printers/my-delta/assembly.md'
+          - 'Software & Slicer': '3d-printers/my-delta/software.md'
+          - 'Maintenance': '3d-printers/my-delta/maintenance.md'
+          - 'Troubleshooting & Files': '3d-printers/my-delta/troubleshooting.md'
+      - 'MY-CoreXY':
+          - 'Overview & Safety': '3d-printers/my-corexy/index.md'
+          - 'Assembly Manual': '3d-printers/my-corexy/assembly.md'
+          - 'Software & Slicer': '3d-printers/my-corexy/software.md'
+          - 'Maintenance': '3d-printers/my-corexy/maintenance.md'
+          - 'Troubleshooting & Files': '3d-printers/my-corexy/troubleshooting.md'
+      - 'MY-Giga1M3':
+          - 'Overview & Safety': '3d-printers/my-giga1m3/index.md'
+          - 'Assembly Manual': '3d-printers/my-giga1m3/assembly.md'
+          - 'Software & Slicer': '3d-printers/my-giga1m3/software.md'
+          - 'Maintenance': '3d-printers/my-giga1m3/maintenance.md'
+          - 'Troubleshooting & Files': '3d-printers/my-giga1m3/troubleshooting.md'
+      - 'MY-Mini':
+          - 'Overview & Safety': '3d-printers/my-mini/index.md'
+          - 'Assembly Manual': '3d-printers/my-mini/assembly.md'
+          - 'Software & Slicer': '3d-printers/my-mini/software.md'
+          - 'Maintenance': '3d-printers/my-mini/maintenance.md'
+          - 'Troubleshooting & Files': '3d-printers/my-mini/troubleshooting.md'
+
+  - 'Laser Cutters':
+      - 'MY-CO2Laser CNC':
+          - 'Overview & Safety': 'laser-cutters/my-co2-laser/index.md'
+          - 'Assembly Manual': 'laser-cutters/my-co2-laser/assembly.md'
+          - 'Software & Firmware': 'laser-cutters/my-co2-laser/software.md'
+          - 'Maintenance': 'laser-cutters/my-co2-laser/maintenance.md'
+          - 'Troubleshooting & Files': 'laser-cutters/my-co2-laser/troubleshooting.md'
+      - 'MY-Laser CNC':
+          - 'Overview & Safety': 'laser-cutters/my-laser/index.md'
+          - 'Assembly Manual': 'laser-cutters/my-laser/assembly.md'
+          - 'Software & Firmware': 'laser-cutters/my-laser/software.md'
+          - 'Maintenance': 'laser-cutters/my-laser/maintenance.md'
+          - 'Troubleshooting & Files': 'laser-cutters/my-laser/troubleshooting.md'
+
+  - 'CNC Routers':
+      - 'MY-Router CNC':
+          - 'CNC Routers Overview': 'cnc-routers/my-router-cnc/index.md'
+          - 'Assembly Manual': 'cnc-routers/my-router-cnc/assembly.md'
+          - 'Software & CAM': 'cnc-routers/my-router-cnc/software.md'
+          - 'Maintenance': 'cnc-routers/my-router-cnc/maintenance.md'
+          - 'Troubleshooting & Files': 'cnc-routers/my-router-cnc/troubleshooting.md'
+      - 'MY-RouterXL CNC':
+          - 'Overview & Safety': 'cnc-routers/my-router-xl/index.md'
+          - 'Assembly Manual': 'cnc-routers/my-router-xl/assembly.md'
+          - 'Software & CAM': 'cnc-routers/my-router-xl/software.md'
+          - 'Maintenance': 'cnc-routers/my-router-xl/maintenance.md'
+          - 'Troubleshooting & Files': 'cnc-routers/my-router-xl/troubleshooting.md'
+      - 'MY-PCB Mill':
+          - 'Overview & Safety': 'cnc-routers/my-pcb-mill/index.md'
+          - 'Assembly Manual': 'cnc-routers/my-pcb-mill/assembly.md'
+          - 'Software & CAM': 'cnc-routers/my-pcb-mill/software.md'
+          - 'Maintenance': 'cnc-routers/my-pcb-mill/maintenance.md'
+          - 'Troubleshooting & Files': 'cnc-routers/my-pcb-mill/troubleshooting.md'
