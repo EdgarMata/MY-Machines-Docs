@@ -1,8 +1,3 @@
----
-#hide:
-#    - navigation
-#    - toc
----
 # Welcome to My Cloner 3D Printer Documentation
 <figure markdown="span">
   ![My-Cloner](images/MY-Cloner_01.png){ width="1000" }
