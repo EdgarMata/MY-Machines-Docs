@@ -18,8 +18,8 @@ All the basic tools required to build your printer are included in the kit. No e
     * A set of Allen keys
 
 <figure markdown="1">
-  ![Included Tools](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Included Tools](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Completed X-Axis](/images/image-placeholder.png#only-light){ width="610" }
+  ![Completed X-Axis](/images/image-placeholder.png#only-dark){ width="610" }
   <figcaption>The standard tools included with your kit.</figcaption>
 </figure>
 

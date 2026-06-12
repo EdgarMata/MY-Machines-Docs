@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Arrancar MkDocs Nativ",
+      "type": "shell",
+      "command": "mkdocs serve",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      }
+      "problemMatcher": []
+    }
+  ]
+}
