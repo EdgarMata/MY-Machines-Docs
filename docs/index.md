@@ -1,3 +1,9 @@
+---
+#hide:
+    - navigation
+    - toc
+---
+
 # Welcome to My Machines Documentation
 
 Welcome to the central knowledge hub for all My Machines open-source digital fabrication tools. Whether you are building a high-speed 3D printer or a precision laser cutter, you will find detailed, community-backed assembly guides, firmware configurations, and calibration steps here.

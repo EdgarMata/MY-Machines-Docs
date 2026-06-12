@@ -1,6 +1,6 @@
 ---
-hide:
-    - navigation
+#hide:
+#    - navigation
 #    - toc
 ---
 # Welcome to My Cloner 3D Printer Documentation
