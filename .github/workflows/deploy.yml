@@ -6,16 +6,30 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build MkDocs via Docker
-        run: |
-          docker run --rm -v $(pwd):/docs squidfunk/mkdocs-material build
+      - name: Preparar Python (Motor MkDocs)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-      - name: Move files to Web Folder
+      - name: Instalar MkDocs Material
+        run: pip install mkdocs-material
+
+      - name: Compilar Site Estatico
+        run: mkdocs build
+
+      - name: Sincronizar com Servidor Oracle (Deploy)
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_KEY }}
+          SERVER_IP: ${{ secrets.VPS_IP }}
+          SERVER_USER: ${{ secrets.VPS_USER }}
         run: |
-          mkdir -p /var/www/my-machines-docs
-          cp -r site/* /var/www/my-machines-docs/
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
+          rsync -avz --delete site/ $SERVER_USER@$SERVER_IP:/opt/infrastructure/mkdocs/site/
