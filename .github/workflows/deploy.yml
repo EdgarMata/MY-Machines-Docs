@@ -31,5 +31,4 @@ jobs:
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
-          rsync -avz --delete site/ $SERVER_USER@$SERVER_IP:/opt/infrastructure/mkdocs/site/
+          rsync -avz -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" --delete site/ $SERVER_USER@$SERVER_IP:/opt/infrastructure/mkdocs/site/
