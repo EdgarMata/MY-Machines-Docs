@@ -14,14 +14,14 @@ Three distinct test models were developed, taking into account the different den
 
 To further facilitate your journey, you can download the cutting tests from our [downloads] page.
 
-[downloads]: https://gadgetpluskdb.github.io/Carbon-FAQS/transferencias/#arquivos-para-testes-de-corte
+[downloads]: https://my-machinespluskdb.github.io/Neon-FAQS/transferencias/#arquivos-para-testes-de-corte
 
 For a deeper understanding of each test and its specific applications, here is a brief explanation:
 
 <figure markdown="span">
 
-  ![](../images/testes.png){ width="1000" }
-  <figcaption>Figure 1 - Generic Cutting Project</figcaption>
+    ![](images/testes.png){ width="1000" }
+    <figcaption>Figure 1 - Generic Cutting Project</figcaption>
 
 </figure>
 
@@ -31,8 +31,8 @@ This model offers a wide range of parameter variations and is especially effecti
 
 <figure markdown="span">
   
-  ![](../images/teste-generico.png){ width="1000" }
-  <figcaption>Figure 2 - Generic Cutting Project</figcaption>
+    ![](images/teste-generico.png){ width="1000" }
+    <figcaption>Figure 2 - Generic Cutting Project</figcaption>
 
 </figure>
 
@@ -42,11 +42,11 @@ Designed for materials such as MDF (between 3mm and 6mm), thick leather (2mm), p
 
 <figure markdown="span">
 
-  ![](../images/teste-rigido-01.png){ width="700" }
-  <figcaption></figcaption>
+    ![](images/teste-rigido-01.png){ width="700" }
+    <figcaption></figcaption>
 
-  ![](../images/teste-rigido-02.png){ width="700" }
-  <figcaption>Figure 3 - Rigid Cutting Project</figcaption>
+    ![](images/teste-rigido-02.png){ width="700" }
+    <figcaption>Figure 3 - Rigid Cutting Project</figcaption>
 
 </figure>
 
@@ -56,11 +56,11 @@ Indicated for materials such as felt, fabric, and paper up to 180 grams, this te
 
 <figure markdown="span">
 
-  ![](../images/teste-leves-01.png){ width="700" }
-  <figcaption></figcaption>
+    ![](images/teste-leves-01.png){ width="700" }
+    <figcaption></figcaption>
 
-  ![](../images/teste-leves-02.png){ width="700" }
-  <figcaption>Figure 4 - Light Cutting Project</figcaption>
+    ![](images/teste-leves-02.png){ width="700" }
+    <figcaption>Figure 4 - Light Cutting Project</figcaption>
 
 </figure>
 
@@ -70,11 +70,11 @@ This test is used to understand the best parameters for engraving on different t
 
 <figure markdown="span">
 
-  ![](../images/teste-gravacoes-01.png){ width="700" }
-  <figcaption></figcaption>
+    ![](images/teste-gravacoes-01.png){ width="700" }
+    <figcaption></figcaption>
 
-  ![](../images/teste-gravacoes-02.png){ width="700" }
-  <figcaption>Figure 5 - Engraving Project</figcaption>
+    ![](images/teste-gravacoes-02.png){ width="700" }
+    <figcaption>Figure 5 - Engraving Project</figcaption>
 
 </figure>
 
@@ -84,12 +84,12 @@ This test is used to understand the best parameters for engraving on different t
 
 ## How to Execute G-code Files
 
-To use the G-code files we provide, you need to use the preview window of Carbon Studio. The window will not open if nothing is selected, so draw a small square or circle, select it, and click ++"preview"++ to open the window.
+To use the G-code files we provide, you need to use the preview window of Neon Studio. The window will not open if nothing is selected, so draw a small square or circle, select it, and click ++"preview"++ to open the window.
 
 <figure markdown="span">
 
-  ![](../images/abrir-gcode-01.png){ width="529" }
-  <figcaption>Figure 6 - Open Preview Window</figcaption>
+    ![](images/abrir-gcode-01.png){ width="529" }
+    <figcaption>Figure 6 - Open Preview Window</figcaption>
 
 </figure>
 
@@ -97,17 +97,17 @@ With the preview window open, in the upper right corner, you will find an option
 
 <figure markdown="span">
 
-  ![](../images/abrir-gcode-02.png){ width="930" }
-  <figcaption>Figure 7 - Options Button</figcaption>
+    ![](images/abrir-gcode-02.png){ width="930" }
+    <figcaption>Figure 7 - Options Button</figcaption>
 
 </figure>
 
-Click on the ++"Load"++ option, find your G-Code file, it will be loaded into the preview window, and now just click ++"Carbon It"++
+Click on the ++"Load"++ option, find your G-Code file, it will be loaded into the preview window, and now just click ++"Neon It"++
 
 <figure markdown="span">
 
-  ![](../images/abrir-gcode-03.png){ width="930" }
-  <figcaption>Figure 8 - G-code Loaded</figcaption>
+    ![](images/abrir-gcode-03.png){ width="930" }
+    <figcaption>Figure 8 - G-code Loaded</figcaption>
 
 </figure>
 

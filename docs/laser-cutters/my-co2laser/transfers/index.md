@@ -1,17 +1,17 @@
-# Transfers
+# Downloads
 
 ## Software
 
 !!! note ""
 
-    ### Carbon Studio Version 1.5.1
+    ### Neon Studio Version 1.5.1
     Click the button below to download the software.
     
     Learn more details about how to install the software in our [Studio] section.
 
-    [Studio]: https://gadgetpluskdb.github.io/Carbon-FAQS/studio/instalar-software/
+    [Studio]: ../studio/install-software/
 
-    [Download](https://drive.google.com/file/d/1sMmQ-S8c64ZeZL8mtnbAXQutqwtjfCJW/view?usp=sharing){ .md-button target="_blank"}
+    [Download](https://drive.google.com/file/d/1sMmQ-S8c64ZeZL8mtnbAXQutqwtjfCJW/view?usp=sharing){ .md-button .md-button--primary target="_blank"}
 
 ## Drivers
 
@@ -22,7 +22,7 @@
 
     Learn more details about the USB connection [here].
 
-    [here]: https://gadgetpluskdb.github.io/Carbon-FAQS/studio/conex%C3%A3o-computador/#conexao-via-usb
+    [here]: ../studio/connection/
 
     [Download](https://drive.google.com/file/d/10JnDWMeaWblnzpIX60-MD6HoB6qVqJ4M/view?usp=sharing){ .md-button target="_blank"}
     
@@ -30,45 +30,41 @@
 
 !!! note ""
 
-    ### Carbon Manual
-    Click the button below to download the Carbon manual in PDF.
+    ### Neon Manual
+    Click the button below to download the Neon manual in PDF.
     
     You can also read the manual here on this site in the [Manual] section.
 
-    [Manual]: https://gadgetpluskdb.github.io/Carbon-FAQS/manual/
+    [Manual]: ../manual/
 
     [Download](https://drive.google.com/file/d/1BYpAEwMVH_CSKg_psk-4yMmy8Keej1tb/view?usp=sharing){ .md-button target="_blank"}
 
-    ### Carbon Maintenance Manual
-    Click the button below to download the Carbon maintenance manual in PDF.
-    
-    You can also read the manual here on this site in the [Manual] section.
+    ### Neon Maintenance Manual
+    Click the button below to download the Neon maintenance manual in PDF.
 
-    [Manual]: https://egadgetpluskdb.github.io/Carbon-FAQS/manual/
-
-    [Coming Soon](#){ .md-button }
+    [Coming Soon](#){ .md-button disabled }
 
 ## Test Files for Cutting
 
 !!! note ""
 
     ### Cutting Tests for Engraving
-    The following links include the project in SVG and the project in G-CODE for your Carbon.
+    The following links include the project in SVG and the project in G-CODE for your Neon.
 
     [Download](https://drive.google.com/file/d/11eEqIUcx1SF6gMWhjog7JDLEOrdE9dc8/view?usp=sharing){ .md-button target="_blank"}
 
     ### Generic Cutting Tests
-    The following links include the project in SVG and the project in G-CODE for your Carbon.
+    The following links include the project in SVG and the project in G-CODE for your Neon.
 
     [Download](https://drive.google.com/file/d/1TqYL2vwF50MRdcPyGatzLiguYWQMnyKe/view?usp=sharing){ .md-button target="_blank"}
 
     ### Light Material Cutting Tests
-    The following links include the project in SVG and the project in G-CODE for your Carbon.
+    The following links include the project in SVG and the project in G-CODE for your Neon.
 
     [Download](https://drive.google.com/file/d/1MHsutLMgGS1hPpmqIzFYeyYf0WazbsKG/view?usp=sharing){ .md-button target="_blank"}
 
     ### Rigid Material Cutting Tests
-    The following links include the project in SVG and the project in G-CODE for your Carbon.
+    The following links include the project in SVG and the project in G-CODE for your Neon.
 
     [Download](https://drive.google.com/file/d/1YQ8g6jjjvwMGDgkdkSCr4OcjbvWS8gBA/view?usp=sharing){ .md-button target="_blank"} 
 
@@ -81,10 +77,8 @@
 
     [Parameter Table] - [Parameter Test] - [The Influence of Speed and Power]
 
-    [Parameter Table]: https://gadgetpluskdb.github.io/Carbon-FAQS/truques-%26-dicas/tabela-parametros/
-    
-    [Parameter Test]: https://gadgetpluskdb.github.io/Carbon-FAQS/truques-%26-dicas/testes-parametros/
-    
-    [The Influence of Speed and Power]: https://gadgetpluskdb.github.io/Carbon-FAQS/truques-%26-dicas/influ-velocidade-material/
+    [Parameter Table]: ../tips-tricks/parameter-table/
+    [Parameter Test]: ../tips-tricks/parameter-test/
+    [The Influence of Speed and Power]: ../tips-tricks/speed-and-material/
 
     [Download](https://drive.google.com/file/d/1CxQx5le9MeyUz4vuLkVUGNjaVHhfYy4L/view?usp=sharing){ .md-button target="_blank"}
