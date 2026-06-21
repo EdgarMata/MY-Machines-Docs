@@ -1,6 +1,5 @@
 name: deploy-docs
 
-
 on:
   push:
     branches: [ main, master ]
@@ -29,8 +28,24 @@ jobs:
           SERVER_IP: ${{ secrets.VPS_IP }}
           SERVER_USER: ${{ secrets.VPS_USER }}
         run: |
+          # 1. Criar a pasta SSH
           mkdir -p ~/.ssh
+          
+          # 2. Injetar a chave e ajustar permissoes
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
-          rsync -avz --delete site/ $SERVER_USER@$SERVER_IP:/opt/infrastructure/mkdocs/site/
+          
+          # 3. Forcar o protocolo SSH a aceitar a chave da Oracle Cloud
+          cat << EOF > ~/.ssh/config
+          Host oracleserver
+            HostName $SERVER_IP
+            User $SERVER_USER
+            IdentityFile ~/.ssh/id_rsa
+            StrictHostKeyChecking no
+            PubkeyAcceptedAlgorithms +ssh-rsa
+            HostkeyAlgorithms +ssh-rsa
+          EOF
+          chmod 600 ~/.ssh/config
+          
+          # 4. Enviar os ficheiros usando a configuracao blindada
+          rsync -avz -e "ssh" --delete site/ oracleserver:/opt/infrastructure/mkdocs/site/
