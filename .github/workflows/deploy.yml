@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Preparar Python (Motor MkDocs)
+      - name: Preparar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
@@ -22,7 +22,7 @@ jobs:
       - name: Compilar Site Estatico
         run: mkdocs build
 
-      - name: Sincronizar com Servidor Oracle (Deploy)
+      - name: Sincronizar com Servidor Oracle
         env:
           SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_KEY }}
           SERVER_IP: ${{ secrets.VPS_IP }}
@@ -32,4 +32,4 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
-          rsync -avz -e "ssh -o StrictHostKeyChecking=no" --delete site/ $SERVER_USER@$SERVER_IP:/opt/infrastructure/mkdocs/site/
+          rsync -avz --delete site/ $SERVER_USER@$SERVER_IP:/opt/infrastructure/mkdocs/site/
