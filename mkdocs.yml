@@ -151,7 +151,7 @@ nav:
         - 'MY-Cloner':
             - Home: '3d-printers/my-cloner/index.md'
             - Manual:
-                - Overview: '3d-printers/my-cloner/manual/index.md'
+                - Ouverview: '3d-printers/my-cloner/manual/index.md'
                 - Bill of Materials:
                     - Mechanical Parts: '3d-printers/my-cloner/manual/bom/mecanical-parts.md'
                     - Electronic Parts: '3d-printers/my-cloner/manual/bom/eletronic-parts.md'
@@ -375,7 +375,8 @@ nav:
             - 'Troubleshooting & Files': '3d-printers/my-mini/troubleshooting.md'
 
     - 'Laser Cutters':
-        - MY-CO2Laser:  
+        - MY-CO2Laser:
+            - Ouverview: 'laser-cutters/my-co2laser/index.md' 
             - Manual: 'laser-cutters/my-co2laser/manual/index.md'    
             - Getting Started:
                 - Install Neon: laser-cutters/my-co2laser/manual/getting-started/install-neon.md
