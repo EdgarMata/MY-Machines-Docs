@@ -12,7 +12,7 @@ This printer runs on **Klipper**, a powerful firmware that uses a Raspberry Pi f
 Once this section is complete, you will have a fully operational printer, ready for calibration and printing.
 
 <figure markdown="1">
-  ![Klipper Software Architecture Diagram](../../images/image-placeholder.png#only-light){ width="800" }
-  ![Klipper Software Architecture Diagram](../../images/image-placeholder.png#only-dark){ width="800" }
+  ![Klipper Software Architecture Diagram](/images/image-placeholder.png#only-light){ width="800" }
+  ![Klipper Software Architecture Diagram](/images/image-placeholder.png#only-dark){ width="800" }
   <figcaption>A diagram showing the Klipper software architecture: The user's computer communicates via a web browser to the Web Interface (Mainsail/Fluidd), which runs on the Raspberry Pi alongside the Klipper host software. The Pi then sends commands to the printer's main controller board (MCU).</figcaption>
 </figure>

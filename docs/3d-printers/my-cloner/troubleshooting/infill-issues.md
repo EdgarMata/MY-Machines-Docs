@@ -21,7 +21,7 @@ The infill is the internal support structure of your print. Problems with the in
     * **Solution:** For functional parts, use an infill of at least 15-20%. If you need a perfect top surface, a higher infill percentage can help.
 
 <figure markdown="1">
-  ![Infill Issues Example](../images/image-placeholder.png#only-light){ width="600" }
-  ![Infill Issues Example](../images/image-placeholder.png#only-dark){ width="600" }
+  ![Infill Issues Example](/images/image-placeholder.png#only-light){ width="600" }
+  ![Infill Issues Example](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>Illustration of a print with weak or poorly formed infill.</figcaption>
 </figure>

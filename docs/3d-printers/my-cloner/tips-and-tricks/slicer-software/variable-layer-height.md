@@ -19,7 +19,7 @@ Do you have a model that needs fine details on some parts but has large, simple 
 4.  **Re-slice and Print:** Once you are happy with the adjustments, re-slice the model. The new G-code will contain all the instructions for changing the layer height automatically during the print.
 
 <figure markdown="1">
-  ![Variable Layer Height in Slicer](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Variable Layer Height in Slicer](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Variable Layer Height in Slicer](/images/image-placeholder.png#only-light){ width="600" }
+  ![Variable Layer Height in Slicer](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>An image of a model in a slicer's preview window, showing different color bands that represent varying layer heights along the Z-axis.</figcaption>
 </figure>

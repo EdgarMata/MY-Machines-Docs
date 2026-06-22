@@ -17,8 +17,8 @@ Under-extrusion is the opposite of over-extrusion: the printer is not pushing ou
         * **Solution:** Follow the **"Cleaning the Nozzle"** guide. Use the cleaning needle to clear the obstruction. If the problem persists, you may need to perform a "Cold Pull" or replace the nozzle.
 
     <figure markdown="1">
-      ![Cold Pull Result](../images/image-placeholder.png#only-light){ width="610" }
-      ![Cold Pull Result](../images/image-placeholder.png#only-dark){ width="610" }
+      ![Cold Pull Result](/images/image-placeholder.png#only-light){ width="610" }
+      ![Cold Pull Result](/images/image-placeholder.png#only-dark){ width="610" }
       <figcaption>Illustration showing the result of a "Cold Pull": the tip of the removed filament has the exact shape of the nozzle's interior, pulling debris out with it.</figcaption>
     </figure>
 
@@ -39,7 +39,7 @@ Under-extrusion is the opposite of over-extrusion: the printer is not pushing ou
     * **Solution:** Adjust your "Live Adjust Z" to a more negative value.
 
 <figure markdown="1">
-  ![Under-Extrusion Example](../images/image-placeholder.png#only-light){ width="600" }
-  ![Under-Extrusion Example](../images/image-placeholder.png#only-dark){ width="600" }
+  ![Under-Extrusion Example](/images/image-placeholder.png#only-light){ width="600" }
+  ![Under-Extrusion Example](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>Illustration of a print with gaps and missing layers due to under-extrusion.</figcaption>
 </figure>

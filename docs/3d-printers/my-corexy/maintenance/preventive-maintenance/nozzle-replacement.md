@@ -12,8 +12,8 @@ Nozzles are consumable parts. They wear out over time, and this wear can acceler
 3.  **Remove Old Nozzle**: While holding the heater block, use a socket wrench or the correct spanner to unscrew and remove the old nozzle. Remember, it is extremely hot. Place it on a heat-resistant surface.
 
 <figure markdown="1">
-  ![Removing an old nozzle while holding the heater block](../../images/image-placeholder.png#only-light){ width="700" }
-  ![Removing an old nozzle while holding the heater block](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![Removing an old nozzle while holding the heater block](/images/image-placeholder.png#only-light){ width="700" }
+  ![Removing an old nozzle while holding the heater block](/images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>A wrench holding the heater block steady while a socket wrench is used to unscrew the hot nozzle.</figcaption>
 </figure>
 

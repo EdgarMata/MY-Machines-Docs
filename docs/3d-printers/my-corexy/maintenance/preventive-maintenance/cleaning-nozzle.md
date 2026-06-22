@@ -14,8 +14,8 @@ This technique is excellent for removing stubborn bits of burnt plastic or debri
 6.  **Repeat**: Snip off the dirty tip of the filament and repeat the process until the filament comes out clean.
 
 <figure markdown="1">
-  ![Filament tip after a successful cold pull](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Filament tip after a successful cold pull](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Filament tip after a successful cold pull](/images/image-placeholder.png#only-light){ width="600" }
+  ![Filament tip after a successful cold pull](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>The tip of a piece of filament after a successful cold pull, showing the clean impression of the nozzle's interior and a small speck of burnt debris being removed.</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ This method is best for clearing simple clogs located right at the very tip of t
 3.  **Purge**: Manually extrude a small amount of filament to push out any loosened debris.
 
 <figure markdown="1">
-  ![Using a needle to clean a nozzle tip](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Using a needle to clean a nozzle tip](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Using a needle to clean a nozzle tip](/images/image-placeholder.png#only-light){ width="500" }
+  ![Using a needle to clean a nozzle tip](/images/image-placeholder.png#only-dark){ width="500" }
   <figcaption>A hand carefully inserting a fine acupuncture needle into the tip of a heated nozzle to clear a blockage.</figcaption>
 </figure>

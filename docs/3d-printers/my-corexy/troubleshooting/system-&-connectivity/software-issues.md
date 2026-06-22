@@ -4,8 +4,8 @@
     Sometimes the printer's hardware is working perfectly, but the print still fails. These issues stem from the software toolchain: the 3D model (STL), the slicer that generates the G-code, or the firmware running on the printer itself.
 
 <figure markdown="1">
-  ![The 3D printing software toolchain](../../images/image-placeholder.png#only-light){ width="600" }
-  ![The 3D printing software toolchain](../../images/image-placeholder.png#only-dark){ width="600" }
+    ![The 3D printing software toolchain](/images/image-placeholder.png#only-light){ width="600" }
+    ![The 3D printing software toolchain](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>An illustration of the software toolchain in 3D printing, including the 3D model, the slicer software, and the G-code file sent to the printer.</figcaption>
 </figure>
 

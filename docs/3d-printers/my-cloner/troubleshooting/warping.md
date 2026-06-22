@@ -13,8 +13,8 @@ Warping happens because as the plastic cools, it shrinks. The upper layers cool 
         Enabling the **"Brim"** option in your slicing software is the most effective way to combat warping. The Brim creates a series of lines around the base of your part, increasing the surface area that adheres to the bed and helping to hold the corners down. A thicker "Skirt" printed close to the part can also help by creating a warmer microclimate around it.
 
     <figure markdown="1">
-      ![Warping Example](../images/image-placeholder.png#only-light){ width="600" }
-      ![Warping Example](../images/image-placeholder.png#only-dark){ width="600" }
+      ![Warping Example](/images/image-placeholder.png#only-light){ width="600" }
+      ![Warping Example](/images/image-placeholder.png#only-dark){ width="600" }
       <figcaption>Illustration of a print with corners lifting off the print bed.</figcaption>
     </figure>
 

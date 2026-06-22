@@ -19,8 +19,8 @@ To ensure the structural integrity and success of your printer, it is crucial th
 | **Solid Top/Bottom Layers** | 5 | |
 
 <figure markdown="1">
-  ![Printed part quality comparison](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Printed part quality comparison](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Printed part quality comparison](/images/image-placeholder.png#only-light){ width="600" }
+  ![Printed part quality comparison](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>An illustration comparing a well-printed structural part (uniform layers, no defects) with a poorly-printed one (showing layer separation).</figcaption>
 </figure>
 

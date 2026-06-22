@@ -4,8 +4,8 @@
     This guide is a catch-all for general mechanical problems that don't fit into other categories. This includes strange noises, loose frame components, wobbly axes, and other hardware-related failures that can impact print quality and reliability.
 
 <figure markdown="1">
-  ![An overview of a 3D printer's hardware checkpoints](../../images/image-placeholder.png#only-light){ width="600" }
-  ![An overview of a 3D printer's hardware checkpoints](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![An overview of a 3D printer's hardware checkpoints](/images/image-placeholder.png#only-light){ width="600" }
+  ![An overview of a 3D printer's hardware checkpoints](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>An overview of a 3D printer highlighting common hardware checkpoints, including cooling fans, frame bolts, wheels, and wiring connections.</figcaption>
 </figure>
 

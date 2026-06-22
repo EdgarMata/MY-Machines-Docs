@@ -11,8 +11,8 @@ Here is a quick guide on how to correctly load and unload filament from your dir
 5.  **Extrude**: In the web interface, click the "Extrude" button a few times. You should see fresh filament start to flow out of the nozzle. Continue until the color is consistent and the flow is smooth.
 
 <figure markdown="1">
-  ![Feeding filament into the extruder](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Feeding filament into the extruder](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Feeding filament into the extruder](/images/image-placeholder.png#only-light){ width="600" }
+  ![Feeding filament into the extruder](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A close-up illustration of filament being fed into the extruder mechanism on the toolhead while the tensioner arm is held open.</figcaption>
 </figure>
 

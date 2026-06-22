@@ -12,8 +12,8 @@ Proper wire management is not just for looks; it is essential for the long-term 
 3.  Carefully feed the bundle of wires from the toolhead (hotend, fans, probe, extruder motor) through the chain. Leave a small service loop at the toolhead end.
 
 <figure markdown="1">
-  ![X-axis cable chain installation](../../images/image-placeholder.png#only-light){ width="700" }
-  ![X-axis cable chain installation](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![X-axis cable chain installation](/images/image-placeholder.png#only-light){ width="700" }
+  ![X-axis cable chain installation](../../../../images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>The X-axis cable chain shown mounted between the toolhead and the gantry, with the toolhead's wire bundle neatly routed inside.</figcaption>
 </figure>
 
@@ -33,8 +33,8 @@ This is a critical step to prevent wires from breaking at connection points.
 2.  This ensures that the stress of movement is placed on the zip tie and the cable sheath, not on the delicate copper conductors or solder joints.
 
 <figure markdown="1">
-  ![Wire bundle secured with strain relief](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Wire bundle secured with strain relief](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Wire bundle secured with strain relief](../../../../images/image-placeholder.png#only-light){ width="600" }
+  ![Wire bundle secured with strain relief](../../../../images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A close-up showing a wire harness being secured to a printed strain relief point with a zip tie just before it enters a cable chain.</figcaption>
 </figure>
 

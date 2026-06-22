@@ -3,8 +3,8 @@
 To make organizing your prints easier, the project's STL files follow a specific naming convention. Understanding how to decipher it will help you know which color to use and how many copies of each part to print.
 
 <figure markdown="1">
-  ![Diagram of the file naming convention](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Diagram of the file naming convention](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Diagram of the file naming convention](/images/image-placeholder.png#only-light){ width="600" }
+  ![Diagram of the file naming convention](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A diagram illustrating a filename like "[a]z_belt_clip_lower_x4.stl" and pointing to each component: color prefix, part name, and quantity suffix.</figcaption>
 </figure>
 

@@ -7,8 +7,8 @@ Welcome to your new 3D printer! Before you begin your first print, let's get fam
 The diagram below highlights the key components of your printer. Refer to the list to identify each part.
 
 <figure markdown="1">
-  ![MY Cloner 3D Printer Diagram](../../images/image-placeholder.png#only-light){ width="610" }
-  ![MY Cloner 3D Printer Diagram](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![MY Cloner 3D Printer Diagram](/images/image-placeholder.png#only-light){ width="610" }
+  ![MY Cloner 3D Printer Diagram](/images/image-placeholder.png#only-dark){ width="610" }
   <figcaption>Diagram of the MY Cloner 3D Printer.</figcaption>
 </figure>
 

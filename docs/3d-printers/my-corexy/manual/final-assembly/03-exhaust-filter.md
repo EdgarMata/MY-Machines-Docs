@@ -9,8 +9,8 @@ The exhaust filter is an important optional component that helps manage fumes an
 3.  **Adapter**: If you are using a Bowden tube to vent fumes to the outside, prepare the BSPP adapter. Some adapters have a small internal lip that must be carefully drilled out to allow the PTFE tube to pass through.
 
 <figure markdown="1">
-  ![Exploded view of the exhaust filter housing](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Exploded view of the exhaust filter housing](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Exploded view of the exhaust filter housing](/images/image-placeholder.png#only-light){ width="600" }
+  ![Exploded view of the exhaust filter housing](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>An exploded diagram showing the printed housing parts, the 60mm fan, and the filter cartridge.</figcaption>
 </figure>
 
@@ -22,8 +22,8 @@ The filter cartridge can be filled with your choice of filter media. Activated c
 2.  Close the cartridge and place it inside the main exhaust housing.
 
 <figure markdown="1">
-  ![Placing filter media into the cartridge](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Placing filter media into the cartridge](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Placing filter media into the cartridge](/images/image-placeholder.png#only-light){ width="500" }
+  ![Placing filter media into the cartridge](/images/image-placeholder.png#only-dark){ width="500" }
   <figcaption>The printed filter cartridge being filled with activated carbon pellets before being sealed.</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ The entire exhaust assembly mounts to the back panel of the printer.
 3.  Connect the fan's wires to an available fan port on your controller board.
 
 <figure markdown="1">
-  ![Mounting the exhaust filter assembly](../../images/image-placeholder.png#only-light){ width="700" }
-  ![Mounting the exhaust filter assembly](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![Mounting the exhaust filter assembly](/images/image-placeholder.png#only-light){ width="700" }
+  ![Mounting the exhaust filter assembly](/images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>The fully assembled exhaust filter unit being mounted to the rear panel of the printer.</figcaption>
 </figure>

@@ -6,8 +6,8 @@ Klipper is designed with safety as a top priority. When it detects a problem tha
     Unlike other firmwares that show cryptic codes, Klipper gives you a descriptive, human-readable error message in the **Console** tab of your web interface (Mainsail/Fluidd). **Always read the console output first!** After fixing the issue, you will need to click the `FIRMWARE_RESTART` button to clear the shutdown state.
 
 <figure markdown="1">
-  ![Hardware Issues](../images/image-placeholder.png#only-light){ width="600" }
-  ![Hardware Issues](../images/image-placeholder.png#only-dark){ width="600" }
+  ![Hardware Issues](/images/image-placeholder.png#only-light){ width="600" }
+  ![Hardware Issues](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>Illustration of various hardware components like power supply, motors, and sensors.</figcaption>
 </figure>
 

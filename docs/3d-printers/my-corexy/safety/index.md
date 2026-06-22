@@ -14,7 +14,7 @@ This safety section covers the primary risks, but these "Golden Rules" should al
     7.  **Be Prepared.** Have a smoke detector installed above the printer and an appropriate fire extinguisher nearby.
 
 <figure markdown="1">
-  ![A safe and organized printer workspace](../../images/image-placeholder.png#only-light){ width="800" }
-  ![A safe and organized printer workspace](../../images/image-placeholder.png#only-dark){ width="800" }
+  ![A safe and organized printer workspace](/images/image-placeholder.png#only-light){ width="800" }
+  ![A safe and organized printer workspace](/images/image-placeholder.png#only-dark){ width="800" }
   <figcaption>An example of a safe workspace, showing the printer on a stable surface with clear space around it. A smoke detector is on the ceiling above, and a fire extinguisher is mounted on a nearby wall.</figcaption>
 </figure>

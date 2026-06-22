@@ -19,8 +19,8 @@ This standard Klipper procedure is the best way to establish a solid baseline fo
 8.  **Crucially**, type `SAVE_CONFIG` and press enter. This will save the new offset to your `printer.cfg` and restart the firmware.
 
 <figure markdown="1">
-  ![Performing the paper test for Z-Offset calibration](../../images/image-placeholder.png#only-light){ width="700" }
-  ![Performing the paper test for Z-Offset calibration](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![Performing the paper test for Z-Offset calibration](/images/image-placeholder.png#only-light){ width="700" }
+  ![Performing the paper test for Z-Offset calibration](/images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>A hand sliding a piece of paper back and forth under the nozzle during the `PROBE_CALIBRATE` routine to feel for the correct amount of friction.</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ The paper test gets you close, but the ultimate test is to see the plastic on th
 6.  Once the print is finished, note the final Z-offset value displayed in the interface. You can then permanently apply this adjustment in your `printer.cfg` file and run `SAVE_CONFIG` again.
 
 <figure markdown="1">
-  ![A close-up macro shot of a perfect first layer](../../images/image-placeholder.png#only-light){ width="800" }
-  ![A close-up macro shot of a perfect first layer](../../images/image-placeholder.png#only-dark){ width="800" }
+  ![A close-up macro shot of a perfect first layer](/images/image-placeholder.png#only-light){ width="800" }
+  ![A close-up macro shot of a perfect first layer](/images/image-placeholder.png#only-dark){ width="800" }
   <figcaption>A close-up macro shot of a perfect first layer being printed, showing clean, uniform, and well-adhered lines with no gaps.</figcaption>
 </figure>

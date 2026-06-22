@@ -4,8 +4,8 @@
     The print looks fine, but it breaks easily along the layer lines. The individual layers have not fused together correctly, resulting in an extremely weak part. This phenomenon is also called **delamination**.
 
 <figure markdown="1">
-  ![A 3D printed part breaking along its layer lines](../../images/image-placeholder.png#only-light){ width="600" }
-  ![A 3D printed part breaking along its layer lines](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![A 3D printed part breaking along its layer lines](/images/image-placeholder.png#only-light){ width="600" }
+  ![A 3D printed part breaking along its layer lines](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A 3D printed part easily breaking along its layer lines, demonstrating poor layer adhesion or delamination.</figcaption>
 </figure>
 

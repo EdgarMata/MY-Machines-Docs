@@ -5,8 +5,8 @@ This visual guide will help you identify the different screws, nuts, bearings, a
 ### Screws
 
 <figure markdown="1">
-  ![Screws used in the assembly](../../images/image-placeholder.png#only-light){ width="800" }
-  ![Screws used in the assembly](../../images/image-placeholder.png#only-dark){ width="800" }
+  ![Screws used in the assembly](/images/image-placeholder.png#only-light){ width="800" }
+  ![Screws used in the assembly](/images/image-placeholder.png#only-dark){ width="800" }
   <figcaption>A lineup of the five screw types: Button Head (BHCS), Socket Head (SHCS), Flat Head (FHCS), Self-Tapping, and Set Screw (Grub Screw).</figcaption>
 </figure>
 
@@ -19,8 +19,8 @@ This visual guide will help you identify the different screws, nuts, bearings, a
 ### Nuts and Inserts
 
 <figure markdown="1">
-  ![Nuts and inserts used in the assembly](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Nuts and inserts used in the assembly](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Nuts and inserts used in the assembly](/images/image-placeholder.png#only-light){ width="600" }
+  ![Nuts and inserts used in the assembly](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A lineup of the four types of nuts and inserts: Hex Nut, T-Slot Nut (T-Nut), Hammerhead Nut, and Heat-Set Insert.</figcaption>
 </figure>
 
@@ -32,8 +32,8 @@ This visual guide will help you identify the different screws, nuts, bearings, a
 ### Motion Components
 
 <figure markdown="1">
-  ![Motion components used in the assembly](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Motion components used in the assembly](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Motion components used in the assembly](/images/image-placeholder.png#only-light){ width="600" }
+  ![Motion components used in the assembly](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A lineup of motion components: F695 Bearing, 625 Bearing, GT2 Pulley, and GT2 Idler.</figcaption>
 </figure>
 

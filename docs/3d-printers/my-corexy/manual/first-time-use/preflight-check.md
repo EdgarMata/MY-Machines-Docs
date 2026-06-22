@@ -17,8 +17,8 @@ We will test each heater individually at a low temperature.
 2.  **Bed Heater**: Set the heated bed target temperature to 40°C. As before, watch the graph to confirm the temperature rises correctly, then turn it off.
 
 <figure markdown="1">
-  ![Temperature graph showing heater test](../../images/image-placeholder.png#only-light){ width="700" }
-  ![Temperature graph showing heater test](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![Temperature graph showing heater test](/images/image-placeholder.png#only-light){ width="700" }
+  ![Temperature graph showing heater test](/images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>The temperature graph in the web interface showing a smooth curve as a heater correctly warms up to its target temperature.</figcaption>
 </figure>
 
@@ -39,8 +39,8 @@ This is the most important check before homing. We will manually trigger each en
 4.  Release the switch and repeat the process for the **Y-axis** and **Z-axis** endstops, confirming each one reports `triggered` only when pressed.
 
 <figure markdown="1">
-  ![Console output from QUERY_ENDSTOPS command](../../images/image-placeholder.png#only-light){ width="800" }
-  ![Console output from QUERY_ENDSTOPS command](../../images/image-placeholder.png#only-dark){ width="800" }
+  ![Console output from QUERY_ENDSTOPS command](/images/image-placeholder.png#only-light){ width="800" }
+  ![Console output from QUERY_ENDSTOPS command](/images/image-placeholder.png#only-dark){ width="800" }
   <figcaption>The console in the web interface showing the output of the QUERY_ENDSTOPS command, both before and after an endstop is manually triggered.</figcaption>
 </figure>
 

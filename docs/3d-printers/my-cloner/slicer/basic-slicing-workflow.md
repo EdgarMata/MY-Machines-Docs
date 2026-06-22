@@ -3,9 +3,8 @@
 Once Orca Slicer is set up, slicing a model is a simple, repeatable process. Let's walk through the day-to-day workflow.
 
 <figure markdown="1">
-  ![Orca Slicer Interface](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Orca Slicer Interface](../../images/image-placeholder.png#only-dark){ width="610" }
-  <figcaption>The main interface of Orca Slicer, showing the Plater, Settings sidebar, and Preview tab.</figcaption>
+  ![Orca Slicer Interface](/images/image-placeholder.png#only-light){ width="610" }
+  ![Orca Slicer Interface](/images/image-placeholder.png#only-dark){ width="610" }
 </figure>
 
 ---

@@ -4,8 +4,8 @@
     **Elephant's Foot** is a printing defect where the base of the part is visibly wider than the layers above it, as if the model is being "squashed" against the print bed, creating a small lip or rim.
 
 <figure markdown="1">
-  ![The base of a 3D print showing Elephant's Foot](../../images/image-placeholder.png#only-light){ width="600" }
-  ![The base of a 3D print showing Elephant's Foot](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![The base of a 3D print showing Elephant's Foot](/images/image-placeholder.png#only-light){ width="600" }
+  ![The base of a 3D print showing Elephant's Foot](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>The base of a 3D print showing the first few layers bulging outwards, wider than the rest of the model, which is known as Elephant's Foot.</figcaption>
 </figure>
 

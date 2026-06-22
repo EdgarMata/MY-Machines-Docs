@@ -18,8 +18,8 @@ Even after a successful automatic bed leveling (ABL), you might notice that your
 5.  **Accept and Save:** Once you have tuned the mesh to your liking across the entire bed, run the `ACCEPT` command. Finally, run `SAVE_CONFIG` to make the changes permanent.
 
 <figure markdown="1">
-  ![Klipper Bed Mesh Visualizer](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Klipper Bed Mesh Visualizer](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Klipper Bed Mesh Visualizer](/images/image-placeholder.png#only-light){ width="610" }
+  ![Klipper Bed Mesh Visualizer](/images/image-placeholder.png#only-dark){ width="610" }
   <figcaption>An image of the Klipper bed mesh visualizer in Mainsail or Fluidd, showing the grid of probed points and their relative heights.</figcaption>
 </figure>
 

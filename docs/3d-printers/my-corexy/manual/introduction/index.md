@@ -13,8 +13,8 @@ This manual will guide you step-by-step through the entire mechanical and electr
     * **Fire Safety:** Never leave the printer running unattended. Keep an appropriate fire extinguisher nearby.
 
 <figure markdown="1">
-  ![3D Printer Hazard Symbols](../../images/image-placeholder.png#only-light){ width="600" }
-  ![3D Printer Hazard Symbols](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![3D Printer Hazard Symbols](/images/image-placeholder.png#only-light){ width="600" }
+  ![3D Printer Hazard Symbols](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>Illustration showing the three main hazards: risk of electrical shock, hot surfaces, and moving parts.</figcaption>
 </figure>
 

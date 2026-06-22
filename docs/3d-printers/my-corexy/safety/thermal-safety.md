@@ -9,8 +9,8 @@ The hotend nozzle can reach temperatures over 250°C, and the heated bed can exc
 * **Silicone Sock:** Using a silicone sock on your heater block is highly recommended. It helps stabilize temperatures and provides a layer of protection against accidental contact.
 
 <figure markdown="1">
-  ![A hotend with a silicone sock installed](../../images/image-placeholder.png#only-light){ width="400" }
-  ![A hotend with a silicone sock installed](../../images/image-placeholder.png#only-dark){ width="400" }
+  ![A hotend with a silicone sock installed](/images/image-placeholder.png#only-light){ width="400" }
+  ![A hotend with a silicone sock installed](/images/image-placeholder.png#only-dark){ width="400" }
   <figcaption>A close-up of a hotend with a silicone sock fitted snugly around the heater block.</figcaption>
 </figure>
 

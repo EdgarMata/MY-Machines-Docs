@@ -25,8 +25,8 @@ The printed tower will show a clear transition.
 Your goal is to find the height where the corner quality is best—perfectly sharp, but not yet showing gaps.
 
 <figure markdown="1">
-  ![A Pressure Advance calibration tower with measurements](../../images/image-placeholder.png#only-light){ width="600" }
-  ![A Pressure Advance calibration tower with measurements](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![A Pressure Advance calibration tower with measurements](/images/image-placeholder.png#only-light){ width="600" }
+  ![A Pressure Advance calibration tower with measurements](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A Pressure Advance test tower with a pair of digital calipers measuring the height from the bottom of the print to the point with the sharpest, cleanest corners.</figcaption>
 </figure>
 

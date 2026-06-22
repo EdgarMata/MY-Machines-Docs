@@ -13,8 +13,8 @@ The easiest way to get started is by using an operating system image that comes 
 5.  Write the image to the SD card. Once complete, insert the card into your Raspberry Pi and power it on.
 
 <figure markdown="1">
-  ![Raspberry Pi Imager Interface](../../images/image-placeholder.png#only-light){ width="700" }
-  ![Raspberry Pi Imager Interface](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![Raspberry Pi Imager Interface](/images/image-placeholder.png#only-light){ width="700" }
+  ![Raspberry Pi Imager Interface](/images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>The Raspberry Pi Imager software showing MainsailOS being selected as the operating system to be written to the SD card.</figcaption>
 </figure>
 
@@ -29,8 +29,8 @@ Now we need to build the firmware file that will be installed on your printer's 
 5.  Save and exit, then run `make` to build the firmware.
 
 <figure markdown="1">
-  ![Klipper make menuconfig Screen](../../images/image-placeholder.png#only-light){ width="800" }
-  ![Klipper make menuconfig Screen](../../images/image-placeholder.png#only-dark){ width="800" }
+  ![Klipper make menuconfig Screen](/images/image-placeholder.png#only-light){ width="800" }
+  ![Klipper make menuconfig Screen](/images/image-placeholder.png#only-dark){ width="800" }
   <figcaption>The Klipper `menuconfig` interface in the terminal, with options highlighted for a specific controller board like the BTT Octopus.</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Now we need to build the firmware file that will be installed on your printer's 
 5.  Click "Save & Restart". If all goes well, Klipper will now be able to communicate with your printer's controller board.
 
 <figure markdown="1">
-  ![Editing the printer.cfg file](../../images/image-placeholder.png#only-light){ width="800" }
-  ![Editing the printer.cfg file](../../images/image-placeholder.png#only-dark){ width="800" }
+  ![Editing the printer.cfg file](/images/image-placeholder.png#only-light){ width="800" }
+  ![Editing the printer.cfg file](/images/image-placeholder.png#only-dark){ width="800" }
   <figcaption>The `printer.cfg` file open in the web interface editor, with the `[mcu]` section highlighted where the serial ID needs to be pasted.</figcaption>
 </figure>

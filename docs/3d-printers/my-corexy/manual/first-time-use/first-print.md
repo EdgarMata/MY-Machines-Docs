@@ -10,8 +10,8 @@ This is the moment all your hard work has led to. The goal of the first print is
 4.  **Save Configuration**: After the mesh is complete, type `SAVE_CONFIG` in the console and press Enter to save your Z-offset and bed mesh.
 
 <figure markdown="1">
-  ![Bed mesh visualization in the web interface](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Bed mesh visualization in the web interface](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Bed mesh visualization in the web interface](/images/image-placeholder.png#only-light){ width="600" }
+  ![Bed mesh visualization in the web interface](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A 3D visualization of the bed mesh in the web interface, showing the high and low points of the build surface.</figcaption>
 </figure>
 
@@ -34,8 +34,8 @@ This is the moment all your hard work has led to. The goal of the first print is
     * Use the "Babystepping" feature in the web interface to make micro-adjustments to the Z-offset *while the first layer is printing* to get it perfect.
 
 <figure markdown="1">
-  ![Close-up of a perfect first layer](../../images/image-placeholder.png#only-light){ width="700" }
-  ![Close-up of a perfect first layer](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![Close-up of a perfect first layer](/images/image-placeholder.png#only-light){ width="700" }
+  ![Close-up of a perfect first layer](/images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>A macro shot of a perfect first layer being printed, showing clean, uniform, and well-adhered lines.</figcaption>
 </figure>
 
@@ -46,8 +46,8 @@ Once the print is finished, let the bed cool down before removing the cube.
 Inspect your print. It won't be perfect, and that's okay! The goal was to have a complete object without any catastrophic failures like layer shifts or a "spaghetti" monster. This cube is your baseline. It's the starting point for the real tuning process (like Input Shaper and Pressure Advance) which will elevate your print quality from "successful" to "beautiful."
 
 <figure markdown="1">
-  ![The finished calibration cube](../../images/image-placeholder.png#only-light){ width="500" }
-  ![The finished calibration cube](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![The finished calibration cube](/images/image-placeholder.png#only-light){ width="500" }
+  ![The finished calibration cube](/images/image-placeholder.png#only-dark){ width="500" }
   <figcaption>A photo of the completed first calibration cube, looking like a recognizable cube.</figcaption>
 </figure>
 

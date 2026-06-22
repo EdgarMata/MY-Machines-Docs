@@ -14,8 +14,8 @@ The thermistor is the small sensor that reports the hotend's temperature to the 
 3.  **Remove Old Thermistor**: The thermistor is held in place by a very small screw and washer. Carefully loosen and remove this screw, then gently pull the old thermistor's glass bead and wires out of the block.
 
 <figure markdown="1">
-  ![Removing the thermistor from the heater block](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Removing the thermistor from the heater block](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Removing the thermistor from the heater block](/images/image-placeholder.png#only-light){ width="600" }
+  ![Removing the thermistor from the heater block](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A close-up of the heater block showing the small screw and delicate wires of the thermistor being gently removed.</figcaption>
 </figure>
 

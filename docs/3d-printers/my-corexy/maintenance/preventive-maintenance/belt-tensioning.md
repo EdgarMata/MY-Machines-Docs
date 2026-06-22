@@ -16,8 +16,8 @@ The most accurate and repeatable way to set belt tension is by measuring the fre
 4.  **Repeat**: Repeat the exact same process for the **B-belt**. It is crucial that both belts are tensioned to the same frequency.
 
 <figure markdown="1">
-  ![Using a phone app to measure belt tension frequency](../../images/image-placeholder.png#only-light){ width="700" }
-  ![Using a phone app to measure belt tension frequency](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![Using a phone app to measure belt tension frequency](/images/image-placeholder.png#only-light){ width="700" }
+  ![Using a phone app to measure belt tension frequency](/images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>A smartphone with a frequency analyzer app held close to a 3D printer belt that is being plucked by a finger. The app displays a clear frequency peak.</figcaption>
 </figure>
 

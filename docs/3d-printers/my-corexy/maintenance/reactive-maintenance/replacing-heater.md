@@ -14,8 +14,8 @@ The heater cartridge is the component inside the heater block responsible for me
 3.  **Remove Old Heater Cartridge**: Locate the small grub screw on the heater block that clamps the cartridge in place. Loosen this screw. The old cartridge should now slide out. It may be a snug fit and require a gentle pull with pliers.
 
 <figure markdown="1">
-  ![Locating the heater cartridge grub screw](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Locating the heater cartridge grub screw](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Locating the heater cartridge grub screw](/images/image-placeholder.png#only-light){ width="600" }
+  ![Locating the heater cartridge grub screw](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A close-up of the heater block with an arrow pointing to the small grub screw used to secure the heater cartridge.</figcaption>
 </figure>
 

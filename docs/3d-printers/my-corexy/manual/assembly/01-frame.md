@@ -7,8 +7,8 @@ The frame is the foundation of your entire printer. A perfectly square and rigid
 Before you begin, unpack all your aluminum extrusions and sort them by length. This will make finding the correct piece for each step much easier.
 
 <figure markdown="1">
-  ![Aluminum extrusions sorted by length](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Aluminum extrusions sorted by length](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Aluminum extrusions sorted by length](/images/image-placeholder.png#only-light){ width="600" }
+  ![Aluminum extrusions sorted by length](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>All aluminum extrusions laid out and sorted by length, with labels identifying each group (e.g., A, B, C).</figcaption>
 </figure>
 
@@ -17,8 +17,8 @@ Before you begin, unpack all your aluminum extrusions and sort them by length. T
 This frame uses "blind joints" for a clean and strong assembly. To prepare, you will need to pre-thread an M5x16 BHCS screw into the center hole at the end of the extrusions that will form a joint.
 
 <figure markdown="1">
-  ![Preparing an extrusion for a blind joint](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Preparing an extrusion for a blind joint](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Preparing an extrusion for a blind joint](/images/image-placeholder.png#only-light){ width="500" }
+  ![Preparing an extrusion for a blind joint](/images/image-placeholder.png#only-dark){ width="500" }
   <figcaption>Close-up showing an M5x16 BHCS screw being threaded into the end of an aluminum extrusion.</figcaption>
 </figure>
 
@@ -31,13 +31,13 @@ This frame uses "blind joints" for a clean and strong assembly. To prepare, you 
 2.  Once the base is assembled, attach the four vertical upright extrusions.
 
 <figure markdown="1">
-  ![Assembling the base of the frame](../../images/image-placeholder.png#only-light){ width="700" }
-  ![Assembling the base of the frame](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![Assembling the base of the frame](/images/image-placeholder.png#only-light){ width="700" }
+  ![Assembling the base of the frame](/images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>Illustration of the four base extrusions being joined together using blind joints on a flat surface.</figcaption>
 </figure>
 <figure markdown="1">
-  ![Attaching the vertical uprights](../../images/image-placeholder.png#only-light){ width="700" }
-  ![Attaching the vertical uprights](../../images/image-placeholder.png#only-dark){ width="700" }
+  ![Attaching the vertical uprights](/images/image-placeholder.png#only-light){ width="700" }
+  ![Attaching the vertical uprights](/images/image-placeholder.png#only-dark){ width="700" }
   <figcaption>The four vertical extrusions being attached to the completed base square.</figcaption>
 </figure>
 
@@ -46,8 +46,8 @@ This frame uses "blind joints" for a clean and strong assembly. To prepare, you 
 Complete the cube by assembling the top square of the frame onto the vertical uprights. At this point, all the main frame extrusions should be in place.
 
 <figure markdown="1">
-  ![Completing the top of the frame](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Completing the top of the frame](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Completing the top of the frame](/images/image-placeholder.png#only-light){ width="600" }
+  ![Completing the top of the frame](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>The final four extrusions being installed to form the top square of the frame.</figcaption>
 </figure>
 
@@ -58,8 +58,8 @@ Now, install the two inner extrusions at the bottom of the frame that will suppo
 Position these extrusions precisely according to the diagram. The distance between them should be 130mm, and they should be centered relative to the frame.
 
 <figure markdown="1">
-  ![Bed support extrusion positioning diagram](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Bed support extrusion positioning diagram](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Bed support extrusion positioning diagram](/images/image-placeholder.png#only-light){ width="600" }
+  ![Bed support extrusion positioning diagram](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A top-down diagram showing the precise measurements (130mm between, 65mm from center) for positioning the bed support extrusions.</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ This is the most important final step for the frame. You must check that the ent
 3.  The two diagonal measurements for each face should be identical. If they are not, gently rack the frame until they match, then fully tighten all screws.
 
 <figure markdown="1">
-  ![Checking the frame for squareness](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Checking the frame for squareness](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Checking the frame for squareness](/images/image-placeholder.png#only-light){ width="600" }
+  ![Checking the frame for squareness](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>Illustration showing a tape measure being used to measure the diagonals of the frame cube.</figcaption>
 </figure>

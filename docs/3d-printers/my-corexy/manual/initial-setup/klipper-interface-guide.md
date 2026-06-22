@@ -3,8 +3,8 @@
 The web interface (Mainsail or Fluidd) is your command center. It allows you to control every aspect of your printer from a web browser on any device on your network.
 
 <figure markdown="1">
-  ![Annotated Web Interface Dashboard](../../images/image-placeholder.png#only-light){ width="900" }
-  ![Annotated Web Interface Dashboard](../../images/image-placeholder.png#only-dark){ width="900" }
+  ![Annotated Web Interface Dashboard](/images/image-placeholder.png#only-light){ width="900" }
+  ![Annotated Web Interface Dashboard](/images/image-placeholder.png#only-dark){ width="900" }
   <figcaption>The main dashboard of the web interface, with key areas highlighted: Temperature Graphs, Console, G-Code Viewer, Job Status, and Movement Control Buttons.</figcaption>
 </figure>
 

@@ -15,8 +15,8 @@ These are the most common reasons for layer shifting and should be the first thi
     * **Solution:** Check the tension of both belts. They should be taut enough to make a low-pitched "twang" when plucked, but not so tight that they restrict movement. Refer to the `Checking and Adjusting Belt Tension` guide for details.
 
     <figure markdown="1">
-      ![Belt Tension Check](../images/image-placeholder.png#only-light){ width="600" }
-      ![Belt Tension Check](../images/image-placeholder.png#only-dark){ width="600" }
+      ![Belt Tension Check](/images/image-placeholder.png#only-light){ width="600" }
+      ![Belt Tension Check](/images/image-placeholder.png#only-dark){ width="600" }
       <figcaption>Illustration comparing a properly taut belt versus a visibly loose and sagging belt.</figcaption>
     </figure>
 
@@ -25,8 +25,8 @@ These are the most common reasons for layer shifting and should be the first thi
     * **Solution:** Ensure the pulley's grub screw is tightened securely against the **flat side** of the motor shaft. This flat spot ensures the screw has a solid surface to lock onto and cannot slip.
 
     <figure markdown="1">
-      ![Pulley Grub Screw](../images/image-placeholder.png#only-light){ width="600" }
-      ![Pulley Grub Screw](../images/image-placeholder.png#only-dark){ width="600" }
+      ![Pulley Grub Screw](/images/image-placeholder.png#only-light){ width="600" }
+      ![Pulley Grub Screw](/images/image-placeholder.png#only-dark){ width="600" }
       <figcaption>A close-up illustration of a motor shaft with its flat side, and an arrow pointing to the grub screw on the pulley that must be tightened against it.</figcaption>
     </figure>
 
@@ -43,7 +43,7 @@ These are the most common reasons for layer shifting and should be the first thi
         Some printers have a "Crash Detection" feature that can detect skipped steps and attempt to pause or recover. [cite_start]This feature typically only works in "Normal" or "Loud" mode, not in "Stealth" or "Quiet" mode. [cite: 482]
 
 <figure markdown="1">
-  ![Layer Shifting Example](../images/image-placeholder.png#only-light){ width="600" }
-  ![Layer Shifting Example](../images/image-placeholder.png#only-dark){ width="600" }
+  ![Layer Shifting Example](/images/image-placeholder.png#only-light){ width="600" }
+  ![Layer Shifting Example](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>Illustration of a print with misaligned layers.</figcaption>
 </figure>

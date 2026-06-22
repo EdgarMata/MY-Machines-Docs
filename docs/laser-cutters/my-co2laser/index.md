@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
-#   - toc
----
 # HELLO HOW CAN WE HELP?
 
 <figure markdown="span">

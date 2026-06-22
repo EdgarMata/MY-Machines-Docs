@@ -6,9 +6,9 @@ This document lists all the mechanical parts required for the 3D printer. All li
 
 <!--
 <figure markdown="span">
-  ![](../../images/Under_Construction.svg#only-light){ width="610" }
+  ![](/images/Under_Construction.svg#only-light){ width="610" }
   <figcaption></figcaption>
-  ![](../../images/Under_Construction.svg#only-dark){ width="610" }
+  ![](/images/Under_Construction.svg#only-dark){ width="610" }
   <figcaption></figcaption>
 </figure>
 -->

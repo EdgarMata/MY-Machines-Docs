@@ -4,8 +4,8 @@
     **Over-extrusion** is the opposite of under-extrusion: the printer is pushing out more material than is necessary. This results in prints with poor dimensional accuracy, blobby surfaces, loss of fine detail, and stringing.
 
 <figure markdown="1">
-  ![A print showing signs of over-extrusion](../../images/image-placeholder.png#only-light){ width="600" }
-  ![A print showing signs of over-extrusion](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![A print showing signs of over-extrusion](/images/image-placeholder.png#only-light){ width="600" }
+  ![A print showing signs of over-extrusion](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A 3D print showing clear signs of over-extrusion, with blobby corners, messy top surfaces, and a loss of fine detail.</figcaption>
 </figure>
 

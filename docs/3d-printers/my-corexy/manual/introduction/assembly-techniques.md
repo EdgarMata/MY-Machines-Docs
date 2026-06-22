@@ -7,8 +7,8 @@ Throughout this manual, you will encounter a few specific assembly techniques. U
 This printer makes extensive use of brass heat-set inserts to create strong, durable threads in the printed parts. The insert is heated with a soldering iron and pressed into the part, melting the surrounding plastic. As the plastic cools, it solidifies around the knurls of the insert, creating an extremely resilient bond.
 
 <figure markdown="1">
-  ![Installing a heat-set insert](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Installing a heat-set insert](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Installing a heat-set insert](/images/image-placeholder.png#only-light){ width="600" }
+  ![Installing a heat-set insert](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>Illustration showing the tip of a soldering iron gently pressing a heat-set insert into a plastic part.</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ This printer makes extensive use of brass heat-set inserts to create strong, dur
 The aluminum frame of this printer is assembled using "blind joints." This method is both rigid and cost-effective but requires some practice. The technique involves sliding the head of a screw (usually a BHCS) into the center channel of an extrusion and then tightening it through an access hole in a second, perpendicular extrusion, locking the two together.
 
 <figure markdown="1">
-  ![Diagram of a blind joint](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Diagram of a blind joint](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Diagram of a blind joint](/images/image-placeholder.png#only-light){ width="600" }
+  ![Diagram of a blind joint](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>A cross-section diagram showing how a screw, inserted into the channel of one extrusion, is tightened through an access hole in a second, perpendicular extrusion.</figcaption>
 </figure>

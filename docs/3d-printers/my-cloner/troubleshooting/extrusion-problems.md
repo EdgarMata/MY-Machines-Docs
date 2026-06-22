@@ -33,8 +33,8 @@ If filament is still coming out, but it's thin or inconsistent, you likely have 
     4.  Remove the needle and extrude some filament. Repeat until the flow is smooth and consistent.
 
     <figure markdown="1">
-      ![Nozzle Needle Cleaning](../images/image-placeholder.png#only-light){ width="600" }
-      ![Nozzle Needle Cleaning](../images/image-placeholder.png#only-dark){ width="600" }
+      ![Nozzle Needle Cleaning](/images/image-placeholder.png#only-light){ width="600" }
+      ![Nozzle Needle Cleaning](/images/image-placeholder.png#only-dark){ width="600" }
       <figcaption>Illustration of a cleaning needle being inserted into the tip of a hot nozzle.</figcaption>
     </figure>
 
@@ -63,7 +63,7 @@ If you hear grinding noises and see chewed-up filament, the problem is at the ex
 * **Solution:** Follow the reactive maintenance guides for `Replacing the Nozzle` and `Replacing the Hotend PTFE Tube`. This will allow you to fully inspect and clear the filament path.
 
 <figure markdown="1">
-  ![Extrusion Problems](../images/image-placeholder.png#only-light){ width="600" }
-  ![Extrusion Problems](../images/image-placeholder.png#only-dark){ width="600" }
+  ![Extrusion Problems](/images/image-placeholder.png#only-light){ width="600" }
+  ![Extrusion Problems](/images/image-placeholder.png#only-dark){ width="600" }
   <figcaption>Illustration of common extrusion problems like clogs, jams, and grinding.</figcaption>
 </figure>
