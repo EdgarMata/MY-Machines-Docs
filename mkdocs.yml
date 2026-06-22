@@ -375,127 +375,125 @@ nav:
             - 'Troubleshooting & Files': '3d-printers/my-mini/troubleshooting.md'
 
     - 'Laser Cutters':
-        - MY-CO2Laser:
-            - Home: 'laser-cutters/my-co2laser/index.md'
-            - Manual:
-                - Overview: 'laser-cutters/my-co2laser/manual/index.md'    
+        - MY-CO2Laser:  
+            - Manual: 'laser-cutters/my-co2laser/manual/index.md'    
+            - Getting Started:
+                - Install Neon: laser-cutters/my-co2laser/manual/getting-started/install-neon.md
+                - Fill Reservoir: laser-cutters/my-co2laser/manual/getting-started/fill-reservoir.md
+                - Remove Supports: laser-cutters/my-co2laser/manual/getting-started/remove-supports.md
+                - Honeycomb: laser-cutters/my-co2laser/manual/getting-started/honeycomb.md
+                - Rotary Axis: laser-cutters/my-co2laser/manual/getting-started/rotary-axis.md
+                - 4K Camera: laser-cutters/my-co2laser/manual/getting-started/4k-camera.md
+            - First Projects:
+                - Materials: laser-cutters/my-co2laser/manual/first-projects/materials.md
+                - Adjust Focus: laser-cutters/my-co2laser/manual/first-projects/adjust-focus.md
+                - Speed and Power: laser-cutters/my-co2laser/manual/first-projects/speed-power.md
+                - Printer Scissors: laser-cutters/my-co2laser/manual/first-projects/printer-scissors.md
+                - First Cut: laser-cutters/my-co2laser/manual/first-projects/first-cut.md
+                - First Engraving: laser-cutters/my-co2laser/manual/first-projects/first-engraving.md
+            - Maintenance:
+                - Water:
+                    - Water in Neon: laser-cutters/my-co2laser/maintenance/water/water-in-neon.md
+                    - Change Water: laser-cutters/my-co2laser/maintenance/water/change-water.md
+                    - I Have Bubbles: laser-cutters/my-co2laser/maintenance/water/i-have-bubbles.md
+                - Cleaning:
+                    - Cleaning Frequency: laser-cutters/my-co2laser/maintenance/cleaning/cleaning-frequency.md
+                    - Mirror Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/mirror-cleaning.md
+                    - Exhaust Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/exhaust-cleaning.md
+                    - Interior Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/interior-cleaning.md
+                    - Lens Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/lens-cleaning.md
+                    - Tube Lens Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/tube-lens-cleaning.md
+            - Safety:
+                - Safety Instructions: laser-cutters/my-co2laser/safety/safety-instructions.md
+                - Socket Instructions: laser-cutters/my-co2laser/safety/socket-instructions.md
+                - Material Precautions: 
+                    - ABS Cutting: laser-cutters/my-co2laser/safety/material-precautions/abs-cutting.md
+                    - PVC Cutting: laser-cutters/my-co2laser/safety/material-precautions/pvc-cutting.md
+            - Studio:
+                - Install Software: laser-cutters/my-co2laser/studio/install-software.md
+                - Connection: laser-cutters/my-co2laser/studio/connection.md
+                - Software Update: laser-cutters/my-co2laser/studio/software-update.md
+                - Tips & Tricks: laser-cutters/my-co2laser/studio/tips-tricks.md
+                - 4K Camera: laser-cutters/my-co2laser/studio/4k-camera.md
                 - Getting Started:
-                    - Install Neon: laser-cutters/my-co2laser/manual/getting-started/install-neon.md
-                    - Fill Reservoir: laser-cutters/my-co2laser/manual/getting-started/fill-reservoir.md
-                    - Remove Supports: laser-cutters/my-co2laser/manual/getting-started/remove-supports.md
-                    - Honeycomb: laser-cutters/my-co2laser/manual/getting-started/honeycomb.md
-                    - Rotary Axis: laser-cutters/my-co2laser/manual/getting-started/rotary-axis.md
-                    - 4K Camera: laser-cutters/my-co2laser/manual/getting-started/4k-camera.md
-                - First Projects:
-                    - Materials: laser-cutters/my-co2laser/manual/first-projects/materials.md
-                    - Adjust Focus: laser-cutters/my-co2laser/manual/first-projects/adjust-focus.md
-                    - Speed and Power: laser-cutters/my-co2laser/manual/first-projects/speed-power.md
-                    - Printer Scissors: laser-cutters/my-co2laser/manual/first-projects/printer-scissors.md
-                    - First Cut: laser-cutters/my-co2laser/manual/first-projects/first-cut.md
-                    - First Engraving: laser-cutters/my-co2laser/manual/first-projects/first-engraving.md
-                - Maintenance:
-                    - Water:
-                        - Water in Neon: laser-cutters/my-co2laser/maintenance/water/water-in-neon.md
-                        - Change Water: laser-cutters/my-co2laser/maintenance/water/change-water.md
-                        - I Have Bubbles: laser-cutters/my-co2laser/maintenance/water/i-have-bubbles.md
-                    - Cleaning:
-                        - Cleaning Frequency: laser-cutters/my-co2laser/maintenance/cleaning/cleaning-frequency.md
-                        - Mirror Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/mirror-cleaning.md
-                        - Exhaust Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/exhaust-cleaning.md
-                        - Interior Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/interior-cleaning.md
-                        - Lens Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/lens-cleaning.md
-                        - Tube Lens Cleaning: laser-cutters/my-co2laser/maintenance/cleaning/tube-lens-cleaning.md
-                - Safety:
-                    - Safety Instructions: laser-cutters/my-co2laser/safety/safety-instructions.md
-                    - Socket Instructions: laser-cutters/my-co2laser/safety/socket-instructions.md
-                    - Material Precautions: 
-                        - ABS Cutting: laser-cutters/my-co2laser/safety/material-precautions/abs-cutting.md
-                        - PVC Cutting: laser-cutters/my-co2laser/safety/material-precautions/pvc-cutting.md
-                - Studio:
-                    - Install Software: laser-cutters/my-co2laser/studio/install-software.md
-                    - Connection: laser-cutters/my-co2laser/studio/connection.md
-                    - Software Update: laser-cutters/my-co2laser/studio/software-update.md
-                    - Tips & Tricks: laser-cutters/my-co2laser/studio/tips-tricks.md
-                    - 4K Camera: laser-cutters/my-co2laser/studio/4k-camera.md
-                    - Getting Started:
-                        - Layers: laser-cutters/my-co2laser/studio/getting-started/layers.md
-                        - Initial Window: laser-cutters/my-co2laser/studio/getting-started/initial-window.md
-                        - Connection Commands: laser-cutters/my-co2laser/studio/getting-started/connection-commands.md
-                        - Movement Commands: laser-cutters/my-co2laser/studio/getting-started/movement-commands.md
-                        - Preview Function: laser-cutters/my-co2laser/studio/getting-started/preview-function.md
-                        - Symbolic Icons: laser-cutters/my-co2laser/studio/getting-started/symbolic-icons.md
-                        - Camera use: laser-cutters/my-co2laser/studio/getting-started/camera-use.md
-                    - Basic Tutorial:
-                        - Basic Principles: laser-cutters/my-co2laser/studio/basic-tutorial/basic-principles.md
-                        - Shapes: laser-cutters/my-co2laser/studio/basic-tutorial/shapes.md
-                    - Intermediate Tutorial:
-                        - Vectorization: laser-cutters/my-co2laser/studio/intermediate-tutorial/vectorization.md
-                        - Vectorize Pixels: laser-cutters/my-co2laser/studio/intermediate-tutorial/vectorize-pixels.md
-                    - Advanced Tutorial:
-                        - Freehand Drawing: laser-cutters/my-co2laser/studio/advanced-tutorial/freehand-drawing.md
-                        - Calligraphy: laser-cutters/my-co2laser/studio/advanced-tutorial/calligraphy.md
-                        - Interpolation: laser-cutters/my-co2laser/studio/advanced-tutorial/interpolation.md
-                - LightBurn:
-                    - Getting Started: laser-cutters/my-co2laser/lightburn/startedwithLightburn.md
-                    - WiFi Coaster Project: laser-cutters/my-co2laser/lightburn/laserproject.md
-                    - Selection Tools: laser-cutters/my-co2laser/lightburn/selectiontools.md
-                    - Start From Modes: laser-cutters/my-co2laser/lightburn/bootmodes.md
-                    - Numeric Editing Toolbar: laser-cutters/my-co2laser/lightburn/numericeditingtoolbar.md
-                    - Snapping Tool Overview: laser-cutters/my-co2laser/lightburn/snappingtooloverview.md
-                    - Apply Path to Text: laser-cutters/my-co2laser/lightburn/texttutorial.md
-                    - Invert Vector Engraving: laser-cutters/my-co2laser/lightburn/invertavectorrecording.md
-                    - Workspace Customization: laser-cutters/my-co2laser/lightburn/workspacecustomization.md
-                - Troubleshooting:
-                    - Different Cut:
-                        - Adjust Belts: laser-cutters/my-co2laser/troubleshooting/different-cut/adjust-belts.md
-                        - Wrong Drawing: laser-cutters/my-co2laser/troubleshooting/different-cut/wrong-drawing.md
-                        - Adjust Focus: laser-cutters/my-co2laser/troubleshooting/different-cut/adjust-focus.md      
-                    - Not Cutting:
-                        - How the Tube Works: laser-cutters/my-co2laser/troubleshooting/not-cutting/how-tube-works.md
-                        - Not Cutting Material: laser-cutters/my-co2laser/troubleshooting/not-cutting/not-cutting-material.md
-                        - No Laser: laser-cutters/my-co2laser/troubleshooting/not-cutting/no-laser.md
-                        - Weak Laser: laser-cutters/my-co2laser/troubleshooting/not-cutting/weak-laser.md
-                        - Check Mirrors: laser-cutters/my-co2laser/troubleshooting/not-cutting/check-mirrors.md
-                        - Align Mirrors: laser-cutters/my-co2laser/troubleshooting/not-cutting/align-mirrors.md
-                        - Fire During Cut: laser-cutters/my-co2laser/troubleshooting/not-cutting/fire-during-cut.md
-                    - Not Connecting:
-                        - USB Cable: laser-cutters/my-co2laser/troubleshooting/not-connecting/usb-cable.md
-                        - SD Card: laser-cutters/my-co2laser/troubleshooting/not-connecting/sd-card.md
-                        - Neon Wi-Fi: laser-cutters/my-co2laser/troubleshooting/not-connecting/neon-wifi.md
-                        - Local Network Wi-Fi: laser-cutters/my-co2laser/troubleshooting/not-connecting/local-network-wifi.md
-                        - Check Board: laser-cutters/my-co2laser/troubleshooting/not-connecting/check-board.md
-                    - Sensors:
-                        - Water Level Sensor: laser-cutters/my-co2laser/troubleshooting/sensors/water-level-sensor.md
-                        - Door Sensor: laser-cutters/my-co2laser/troubleshooting/sensors/door-sensor.md
-                        - Temperature Sensor: laser-cutters/my-co2laser/troubleshooting/sensors/temperature-sensor.md
-                    - Software:
-                        - Bar Not Opening: laser-cutters/my-co2laser/troubleshooting/software/bar-not-opening.md
-                        - No Preview: laser-cutters/my-co2laser/troubleshooting/software/no-preview.md
-                        - Black Camera picture: laser-cutters/my-co2laser/troubleshooting/software/black-camera-picture.md
-                - Downloads:
-                    - transfers/index.md
-                - Tips & Tricks: 
-                    - Best Practices: laser-cutters/my-co2laser/tips-tricks/best-practices.md
-                    - Budgeting: laser-cutters/my-co2laser/tips-tricks/budgeting.md
-                    - Burnt Finish: laser-cutters/my-co2laser/tips-tricks/burnt-finish.md
-                    - Contour Tips: laser-cutters/my-co2laser/tips-tricks/contour-tips.md
-                    - Cut MDF: laser-cutters/my-co2laser/tips-tricks/cut-mdf.md
-                    - Dashed Lines: laser-cutters/my-co2laser/tips-tricks/dashed-lines.md
-                    - Vectorize Images: laser-cutters/my-co2laser/tips-tricks/vectorize-images.md
-                    - Engrave Photos: laser-cutters/my-co2laser/tips-tricks/engrave-photos.md
-                    - Import: laser-cutters/my-co2laser/tips-tricks/import.md
-                    - Export Silhouette: laser-cutters/my-co2laser/tips-tricks/export-silhouette.md
-                    - Make Signage: laser-cutters/my-co2laser/tips-tricks/make-signage.md
-                    - Make Stamps: laser-cutters/my-co2laser/tips-tricks/make-stamps.md
-                    - Metal Engraving: laser-cutters/my-co2laser/tips-tricks/metal-engraving.md
-                    - Mirrored Acrylic: laser-cutters/my-co2laser/tips-tricks/mirrored-acrylic.md
-                    - Optimize Time: laser-cutters/my-co2laser/tips-tricks/optimize-time.md
-                    - Parameter Table: laser-cutters/my-co2laser/tips-tricks/parameter-table.md
-                    - Parameter Test: laser-cutters/my-co2laser/tips-tricks/parameter-test.md
-                    - Perfect Engraving: laser-cutters/my-co2laser/tips-tricks/perfect-engraving.md
-                    - Printed Material: laser-cutters/my-co2laser/tips-tricks/printed-material.md
-                    - Speed and Material: laser-cutters/my-co2laser/tips-tricks/speed-and-material.md
-                    - Spotifiy Code: laser-cutters/my-co2laser/tips-tricks/spotifiy-code.md
+                    - Layers: laser-cutters/my-co2laser/studio/getting-started/layers.md
+                    - Initial Window: laser-cutters/my-co2laser/studio/getting-started/initial-window.md
+                    - Connection Commands: laser-cutters/my-co2laser/studio/getting-started/connection-commands.md
+                    - Movement Commands: laser-cutters/my-co2laser/studio/getting-started/movement-commands.md
+                    - Preview Function: laser-cutters/my-co2laser/studio/getting-started/preview-function.md
+                    - Symbolic Icons: laser-cutters/my-co2laser/studio/getting-started/symbolic-icons.md
+                    - Camera use: laser-cutters/my-co2laser/studio/getting-started/camera-use.md
+                - Basic Tutorial:
+                    - Basic Principles: laser-cutters/my-co2laser/studio/basic-tutorial/basic-principles.md
+                    - Shapes: laser-cutters/my-co2laser/studio/basic-tutorial/shapes.md
+                - Intermediate Tutorial:
+                    - Vectorization: laser-cutters/my-co2laser/studio/intermediate-tutorial/vectorization.md
+                    - Vectorize Pixels: laser-cutters/my-co2laser/studio/intermediate-tutorial/vectorize-pixels.md
+                - Advanced Tutorial:
+                    - Freehand Drawing: laser-cutters/my-co2laser/studio/advanced-tutorial/freehand-drawing.md
+                    - Calligraphy: laser-cutters/my-co2laser/studio/advanced-tutorial/calligraphy.md
+                    - Interpolation: laser-cutters/my-co2laser/studio/advanced-tutorial/interpolation.md
+            - LightBurn:
+                - Getting Started: laser-cutters/my-co2laser/lightburn/startedwithLightburn.md
+                - WiFi Coaster Project: laser-cutters/my-co2laser/lightburn/laserproject.md
+                - Selection Tools: laser-cutters/my-co2laser/lightburn/selectiontools.md
+                - Start From Modes: laser-cutters/my-co2laser/lightburn/bootmodes.md
+                - Numeric Editing Toolbar: laser-cutters/my-co2laser/lightburn/numericeditingtoolbar.md
+                - Snapping Tool Overview: laser-cutters/my-co2laser/lightburn/snappingtooloverview.md
+                - Apply Path to Text: laser-cutters/my-co2laser/lightburn/texttutorial.md
+                - Invert Vector Engraving: laser-cutters/my-co2laser/lightburn/invertavectorrecording.md
+                - Workspace Customization: laser-cutters/my-co2laser/lightburn/workspacecustomization.md
+            - Troubleshooting:
+                - Different Cut:
+                    - Adjust Belts: laser-cutters/my-co2laser/troubleshooting/different-cut/adjust-belts.md
+                    - Wrong Drawing: laser-cutters/my-co2laser/troubleshooting/different-cut/wrong-drawing.md
+                    - Adjust Focus: laser-cutters/my-co2laser/troubleshooting/different-cut/adjust-focus.md      
+                - Not Cutting:
+                    - How the Tube Works: laser-cutters/my-co2laser/troubleshooting/not-cutting/how-tube-works.md
+                    - Not Cutting Material: laser-cutters/my-co2laser/troubleshooting/not-cutting/not-cutting-material.md
+                    - No Laser: laser-cutters/my-co2laser/troubleshooting/not-cutting/no-laser.md
+                    - Weak Laser: laser-cutters/my-co2laser/troubleshooting/not-cutting/weak-laser.md
+                    - Check Mirrors: laser-cutters/my-co2laser/troubleshooting/not-cutting/check-mirrors.md
+                    - Align Mirrors: laser-cutters/my-co2laser/troubleshooting/not-cutting/align-mirrors.md
+                    - Fire During Cut: laser-cutters/my-co2laser/troubleshooting/not-cutting/fire-during-cut.md
+                - Not Connecting:
+                    - USB Cable: laser-cutters/my-co2laser/troubleshooting/not-connecting/usb-cable.md
+                    - SD Card: laser-cutters/my-co2laser/troubleshooting/not-connecting/sd-card.md
+                    - Neon Wi-Fi: laser-cutters/my-co2laser/troubleshooting/not-connecting/neon-wifi.md
+                    - Local Network Wi-Fi: laser-cutters/my-co2laser/troubleshooting/not-connecting/local-network-wifi.md
+                    - Check Board: laser-cutters/my-co2laser/troubleshooting/not-connecting/check-board.md
+                - Sensors:
+                    - Water Level Sensor: laser-cutters/my-co2laser/troubleshooting/sensors/water-level-sensor.md
+                    - Door Sensor: laser-cutters/my-co2laser/troubleshooting/sensors/door-sensor.md
+                    - Temperature Sensor: laser-cutters/my-co2laser/troubleshooting/sensors/temperature-sensor.md
+                - Software:
+                    - Bar Not Opening: laser-cutters/my-co2laser/troubleshooting/software/bar-not-opening.md
+                    - No Preview: laser-cutters/my-co2laser/troubleshooting/software/no-preview.md
+                    - Black Camera picture: laser-cutters/my-co2laser/troubleshooting/software/black-camera-picture.md
+            - Downloads:
+                - transfers/index.md
+            - Tips & Tricks: 
+                - Best Practices: laser-cutters/my-co2laser/tips-tricks/best-practices.md
+                - Budgeting: laser-cutters/my-co2laser/tips-tricks/budgeting.md
+                - Burnt Finish: laser-cutters/my-co2laser/tips-tricks/burnt-finish.md
+                - Contour Tips: laser-cutters/my-co2laser/tips-tricks/contour-tips.md
+                - Cut MDF: laser-cutters/my-co2laser/tips-tricks/cut-mdf.md
+                - Dashed Lines: laser-cutters/my-co2laser/tips-tricks/dashed-lines.md
+                - Vectorize Images: laser-cutters/my-co2laser/tips-tricks/vectorize-images.md
+                - Engrave Photos: laser-cutters/my-co2laser/tips-tricks/engrave-photos.md
+                - Import: laser-cutters/my-co2laser/tips-tricks/import.md
+                - Export Silhouette: laser-cutters/my-co2laser/tips-tricks/export-silhouette.md
+                - Make Signage: laser-cutters/my-co2laser/tips-tricks/make-signage.md
+                - Make Stamps: laser-cutters/my-co2laser/tips-tricks/make-stamps.md
+                - Metal Engraving: laser-cutters/my-co2laser/tips-tricks/metal-engraving.md
+                - Mirrored Acrylic: laser-cutters/my-co2laser/tips-tricks/mirrored-acrylic.md
+                - Optimize Time: laser-cutters/my-co2laser/tips-tricks/optimize-time.md
+                - Parameter Table: laser-cutters/my-co2laser/tips-tricks/parameter-table.md
+                - Parameter Test: laser-cutters/my-co2laser/tips-tricks/parameter-test.md
+                - Perfect Engraving: laser-cutters/my-co2laser/tips-tricks/perfect-engraving.md
+                - Printed Material: laser-cutters/my-co2laser/tips-tricks/printed-material.md
+                - Speed and Material: laser-cutters/my-co2laser/tips-tricks/speed-and-material.md
+                - Spotifiy Code: laser-cutters/my-co2laser/tips-tricks/spotifiy-code.md
         
         - 'MY-Laser CNC':
             - 'Overview & Safety': 'laser-cutters/my-laser/index.md'
