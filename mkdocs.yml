@@ -10,14 +10,14 @@ repo_url: "https://github.com/EdgarMata/my-machines-docs"
 edit_uri: edit/main/docs/
 
 # Copyright dinâmico
-copyright: '&copy; 2022 - <span id="current-year"></span> <a href="https://my-machines.net/" target="_blank" rel="noopener">My Machines</a> by Edgar Mata'
+copyright: '&copy; 2022 - <span id="current-year"></span> <a href="https://my-machines.com/" target="_blank" rel="noopener">My Machines</a> by Edgar Mata'
 
 # Configuration
 theme:
   name: 'material'
   language: 'en' # Mantém em inglês global para a comunidade mundial
   logo: assets/mylogo.svg
-  favicon: images/f-icon.png
+  favicon: images/favicon.png
   custom_dir: overrides
   features:
     - navigation.tabs          # Menu superior horizontal por famílias de máquinas
