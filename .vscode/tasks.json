@@ -4,14 +4,19 @@
     {
       "label": "Arrancar MkDocs Nativ",
       "type": "shell",
-      "command": "mkdocs serve",
+      "command": "${command:python.interpreterPath}",
+      "args": [
+        "-m",
+        "mkdocs",
+        "serve"
+      ],
       "runOptions": {
         "runOn": "folderOpen"
       },
       "presentation": {
         "reveal": "silent",
         "panel": "shared"
-      }
+      },
       "problemMatcher": []
     }
   ]
