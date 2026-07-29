@@ -83,15 +83,21 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/EdgarMata
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/machines.net/
+      link: https://www.facebook.com/mymachinescom/
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/machines_net/
+      link: https://www.instagram.com/my_machines_com/
     - icon: fontawesome/brands/pinterest
-      link: https://pt.pinterest.com/machines_net
+      link: https://pt.pinterest.com/my_machines_com/
     - icon: fontawesome/brands/tiktok
-      link: https://www.tiktok.com/@machines_net
+      link: https://www.tiktok.com/@my_machines_com
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@my_machines_com
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/my_machines_com/
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/my_machines_com
     - icon: fontawesome/solid/paper-plane
-      link: mailto:geral@my-machines.net
+      link: mailto:info@my-machines.com
   analytics:
     provider: google
     property: G-B2Y6R89EJ9
