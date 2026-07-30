@@ -1,7 +1,7 @@
 nav:
-  - Home: home
+  - Home: ome
   - 3D Printers: 3d-printers
   - Laser Machines: laser-machines
   - CNC Routers: cnc-routers
-  - Other Projects: other-projects
-  - Education: education
+  - Other Projects: other_projects
+  - Education: eeducation
