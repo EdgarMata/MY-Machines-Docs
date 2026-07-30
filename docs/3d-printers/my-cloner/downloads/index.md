@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # Project Downloads
 
 Welcome to the download center for the MY-Cloner 3D Printer. Here you can find all the necessary files to build, configure, and operate your machine.
