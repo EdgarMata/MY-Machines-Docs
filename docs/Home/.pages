@@ -1,7 +1,7 @@
 nav:
-  - Documentation-Hub.md
-  - 3D-Printers.md
-  - Laser-Machines.md
-  - CNC-Routers.md
-  - Other-Projects.md
-  - Education.md
+  - Documentation Hub: documentation-hub.md
+  - 3D Printers: 3d-printers.md
+  - Laser Machines: laser-machines.md
+  - CNC Routers: cnc-routers.md
+  - Other Projects: other-projects.md
+  - Education: education.md
