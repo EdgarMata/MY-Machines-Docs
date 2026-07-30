@@ -18,7 +18,9 @@ jobs:
           python-version: '3.x'
 
       - name: Instalar MkDocs Material
-        run: pip install mkdocs-material
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-awesome-pages-plugin
 
       - name: Compilar Site Estatico
         run: mkdocs build
