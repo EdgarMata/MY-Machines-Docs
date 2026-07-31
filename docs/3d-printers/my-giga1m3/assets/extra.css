@@ -1,0 +1,72 @@
+/* extra.css */
+.md-typeset__table {
+    width: 100%;
+    table-layout: fixed !important;
+  }
+  
+.md-typeset__table th,
+.md-typeset__table td {
+    width: auto !important;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.md-banner {
+  background-color: #ffcc00 !important;
+  color: #000 !important;
+  align-items: flex stretch;
+  height: 40px;
+  /*padding: 0px 0px !important;*/
+  border-radius: 0px; /* Bordas arredondadas */
+  overflow-y: hidden;
+}
+
+.md-banner {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.md-banner div {
+  width: 100%;
+  height: fit-content;
+}
+
+.md-banner__text {
+  background-color: #ffcc00 !important;
+  font-size: 1em; /* Tamanho da fonte */
+  text-align: left !important;
+}
+
+/* --- Estilo de Tabela Flexível (Versão Final e Justificada) --- */
+
+/* Regra geral para a tabela. */
+.md-typeset table {
+  width: 100% !important;
+  table-layout: fixed !important;
+}
+
+/* Estilos para as células */
+.md-typeset th, .md-typeset td {
+  text-align: left !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important; /* Para compatibilidade */
+  padding: 0.5em 1em; /* Adiciona um pouco de espaço interno */
+}
+
+/* Regra para a coluna compacta de largura FIXA */
+.md-typeset table th.col-auto {
+  width: 80px !important;
+}
+
+/* Regra para as colunas largas que ESTICAM */
+.md-typeset table th.col-wide {
+  width: 100% !important;
+}
+
+/* !! NOVA CLASSE DE UTILIDADE !!
+   Força o texto numa coluna a ficar numa única linha, sem quebrar. */
+.md-typeset table .col-nowrap {
+  white-space: nowrap;
+}
+

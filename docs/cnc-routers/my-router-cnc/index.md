@@ -1,10 +1,17 @@
-# MY Cloner 3D Printer Documentation
+# Welcome to MkDocs
 
-Welcome to the official build guide for the MY Cloner 3D Printer. Designed for reliability and easy maintenance, this desktop machine bridges the gap between industrial design and DIY accessibility.
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Quick Start
-* Review the safety instructions before handling the power supply.
-* Download the official FreeCAD files to inspect the 3D model.
-* Check the 3D printed parts requirements before starting assembly.
+## Commands
 
-*Status: Infrastructure Test Page Live.*
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
