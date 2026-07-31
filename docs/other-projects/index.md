@@ -1,6 +1,8 @@
 ## :fontawesome-solid-robot: Other Machines
 Specialized open-source equipment and custom fabrication systems.
 
+--8<-- "under-construction.md"
+
 <div class="grid cards" markdown>
 
 -   ![Nome da Máquina 1](assets/images/nome-da-maquina1.webp)

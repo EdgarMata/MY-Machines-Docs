@@ -3,14 +3,6 @@
 <div class="announcement">
   <p>📢 Check out the latest updates and features of the My Cloner 3D Printer!</p>
 </div>
-<!--
-<figure markdown="span">
-  ![](/images/Under_Construction.svg#only-light){ width="610" }
-  <figcaption></figcaption>
-  ![](/images/Under_Construction.svg#only-dark){ width="610" }
-  <figcaption></figcaption>
-</figure>
--->
 
 The My Cloner 3D Printer manual is a comprehensive guide designed to assist users in setting up, using, and maintaining their 3D printer. This manual is divided into four main sections to provide detailed information on various aspects of the printer.
 

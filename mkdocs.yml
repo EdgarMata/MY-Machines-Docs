@@ -127,7 +127,8 @@ markdown_extensions:
     - pymdownx.highlight:
         anchor_linenums: true
     - pymdownx.inlinehilite
-    - pymdownx.snippets
+    - pymdownx.snippets:
+        base_path: docs/include
     - def_list
     - pymdownx.magiclink
     - pymdownx.tasklist:
