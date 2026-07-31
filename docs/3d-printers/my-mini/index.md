@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
-#    - toc
----
 # Welcome to My Mini 3D Printer Documentation
 <figure markdown="span">
   ![MY-Mini](images/MY-Mini_3D_Printer.png){ width="1000" }

@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # Safety Guidelines
 
 Safety is paramount when operating a 3D printer. This section provides essential guidelines to ensure a safe printing environment.

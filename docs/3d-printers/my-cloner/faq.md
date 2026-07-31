@@ -1,9 +1,3 @@
----
-hide:
-    - navigation
-#    - toc
----
-
 # FAQ's
 
 ## Frequently Asked Questions

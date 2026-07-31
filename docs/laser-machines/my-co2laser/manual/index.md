@@ -1,8 +1,3 @@
----
-title: Online Manual
-# icon: material/chat-question
----
-
 # Online Manual
 
 ## Welcome to the online manual

@@ -1,4 +1,4 @@
-# MY Cloner 3D Printer Documentation
+# MY PCB Mill Documentation
 
 Welcome to the official build guide for the MY Cloner 3D Printer. Designed for reliability and easy maintenance, this desktop machine bridges the gap between industrial design and DIY accessibility.
 

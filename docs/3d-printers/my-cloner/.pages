@@ -1,0 +1,11 @@
+nav:
+  - Introduction: index.md
+  - User Manual: manual
+  - Safety: safety
+  - Maintenance: maintenance
+  - Troubleshooting: troubleshooting
+  - Tips and tricks: tips-and-tricks
+  - Slicer: slicer
+  - Downloads: downloads
+  - About: about
+  - FAQ's: faq.md

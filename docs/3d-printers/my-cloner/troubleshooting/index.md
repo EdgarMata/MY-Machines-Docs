@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # Troubleshooting
 
 Encountering issues with your prints? This section provides a comprehensive guide to diagnosing and solving the most common 3D printing problems.

@@ -1,9 +1,3 @@
----
-hide:
-    - navigation
-#   - toc
----
-
 # Guia de Resolução de Problemas
 
 !!! abstract "Diagnosticar, Aprender e Melhorar"

@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # Slicer Configuration
 
 This section provides comprehensive guides on how to configure your slicer software for optimal results with the MY-Cloner 3D Printer. From initial setup to advanced settings, you'll find everything you need to prepare your models for printing.

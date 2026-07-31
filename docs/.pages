@@ -1,11 +1,6 @@
 nav:
   - Home:
     - Documentation Hub: index.md
-    - 3D Printers: 3d-printers.md
-    - Laser Machines: laser-machines.md
-    - CNC Routers: cnc-routers.md
-    - Other Projects: other-projects.md
-    - Education: education.md
     - About: about.md
     - FAQ's: faq.md
   - 3D Printers: 3d-printers

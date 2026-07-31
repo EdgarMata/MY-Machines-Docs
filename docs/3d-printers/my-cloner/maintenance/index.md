@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # Printer Maintenance
 
 Proper maintenance is key to ensuring the longevity and reliability of your 3D printer. This section covers both preventive and reactive maintenance procedures.

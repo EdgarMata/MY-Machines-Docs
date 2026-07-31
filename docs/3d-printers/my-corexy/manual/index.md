@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # User Manual
 
 <div class="announcement">

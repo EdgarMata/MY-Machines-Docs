@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
-#    - toc
----
 # Welcome to My CoreXY 3D Printer Documentation
 <figure markdown="span">
   ![My-CoreXY](images/MY-Core_XY.png){ width="1000" }

@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # Tips and Tricks
 
 Take your 3D printing skills to the next level. This section is packed with tips and tricks to optimize your printer and improve your results.

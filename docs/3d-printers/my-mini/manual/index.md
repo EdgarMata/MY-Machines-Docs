@@ -1,9 +1,3 @@
----
-hide:
-    - navigation
-#    - toc
----
-
 # User Manual
 
 <div class="announcement">

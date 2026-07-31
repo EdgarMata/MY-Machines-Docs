@@ -1,8 +1,3 @@
----
-hide:
-    - navigation
-#    - toc
----
 # Welcome to MY-Giga1M3 3D Printer Documentation
 <figure markdown="span">
   ![My-Giga1m3](images/MY_Giga_1M3.png){ width="800" }
