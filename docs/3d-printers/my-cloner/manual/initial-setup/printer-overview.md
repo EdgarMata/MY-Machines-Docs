@@ -7,8 +7,8 @@ Welcome to your new 3D printer! Before you begin your first print, let's get fam
 The diagram below highlights the key components of your printer. Refer to the list to identify each part.
 
 <figure markdown="1">
-  ![MY Cloner 3D Printer Diagram](/images/image-placeholder.png#only-light){ width="610" }
-  ![MY Cloner 3D Printer Diagram](/images/image-placeholder.png#only-dark){ width="610" }
+  ![MY Cloner 3D Printer Diagram](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![MY Cloner 3D Printer Diagram](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Diagram of the MY Cloner 3D Printer.</figcaption>
 </figure>
 
@@ -42,3 +42,4 @@ This table provides a quick overview of the printer's capabilities.
 | **Power Supply**        | 24V, 240W (Input: 110V/230V, 50-60 Hz)    |
 | **Machine Dimensions**  | *Enter your machine's dimensions here*    |
 | **Machine Weight**      | *Enter your machine's weight here*        |
+

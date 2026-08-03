@@ -23,8 +23,8 @@ Besides the nozzle, other parts of your printer are considered consumables that 
 6.  **Secure the Fitting:** Pull up gently on the plastic collar of the pneumatic fitting to lock the tube in place. Reassemble any parts you removed.
 
 <figure markdown="1">
-  ![Hotend PTFE Tube](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Hotend PTFE Tube](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Hotend PTFE Tube](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Hotend PTFE Tube](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a hotend cross-section, with an arrow pointing to the internal PTFE liner.</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ Besides the nozzle, other parts of your printer are considered consumables that 
 4.  **Trim and Cure:** Trim any excess material from the edges. Let the new surface sit, or gently heat it, to allow the adhesive to fully bond.
 
 <figure markdown="1">
-  ![Applying new PEI Sheet](../../images/image-placeholder.png#only-light){ width="600" }
-  ![Applying new PEI Sheet](../../images/image-placeholder.png#only-dark){ width="600" }
+  ![Applying new PEI Sheet](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Applying new PEI Sheet](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration showing a new PEI sticker being applied to a spring steel sheet using a squeegee to remove air bubbles.</figcaption>
 </figure>

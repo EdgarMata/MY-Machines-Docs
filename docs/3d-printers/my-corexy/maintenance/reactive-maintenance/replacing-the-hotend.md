@@ -12,8 +12,8 @@ Sometimes, a simple cleaning or part replacement isn't enough. A catastrophic le
 2.  **Disconnect Wiring**: Carefully disconnect the wires for the heater cartridge, thermistor, and the hotend cooling fan. If you have a toolhead PCB, unplug them from the board. Otherwise, disconnect them from their respective connectors in the wiring harness.
 
 <figure markdown="1">
-  ![Accessing the hotend assembly](/images/image-placeholder.png#only-light){ width="700" }
-  ![Accessing the hotend assembly](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Accessing the hotend assembly](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Accessing the hotend assembly](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>The toolhead with its front cover removed, showing the hotend assembly, its mounting screws, and wiring connections.</figcaption>
 </figure>
 

@@ -22,7 +22,7 @@ If direct ventilation to the outside is not possible, a filtration system is the
 * **Activated Carbon Filter:** The exhaust filter system on this printer is designed to pull air from the enclosed chamber through an activated carbon filter. This carbon media absorbs and traps a significant portion of the VOCs, helping to reduce odors and clean the air before it is released into the room. Remember that the carbon will become saturated over time and will need to be replaced periodically for the filter to remain effective.
 
 <figure markdown="1">
-  ![Diagram showing ventilation and filtration options](/images/image-placeholder.png#only-light){ width="900" }
-  ![Diagram showing ventilation and filtration options](/images/image-placeholder.png#only-dark){ width="900" }
+  ![Diagram showing ventilation and filtration options](/assets/images/image-placeholder.webp#only-light){ width="900" }
+  ![Diagram showing ventilation and filtration options](/assets/images/image-placeholder.webp#only-dark){ width="900" }
   <figcaption>A side-by-side comparison showing two options: one printer setup with a duct venting fumes out a window (Ventilation), and another showing fumes being drawn through an internal activated carbon filter system (Filtration).</figcaption>
 </figure>

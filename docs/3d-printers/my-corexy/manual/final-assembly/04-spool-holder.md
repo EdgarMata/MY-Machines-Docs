@@ -16,8 +16,8 @@ The reverse-Bowden tube is crucial for guiding the filament and preventing it fr
 3.  Place a spool of filament onto the holder to complete the assembly.
 
 <figure markdown="1">
-  ![Assembled spool holder mounted on the frame](/images/image-placeholder.png#only-light){ width="700" }
-  ![Assembled spool holder mounted on the frame](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Assembled spool holder mounted on the frame](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Assembled spool holder mounted on the frame](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>The spool holder mounted on the top-rear of the frame, with a filament spool loaded and the PTFE guide tube routed towards the toolhead.</figcaption>
 </figure>
 

@@ -2,15 +2,6 @@
 
 This document lists all the electronic parts required for the 3D printer. All links provided are affiliate links, and purchasing through them helps support this project.
 
-<!--
-<figure markdown="span">
-  ![](/images/Under_Construction.svg#only-light){ width="610" }
-  <figcaption></figcaption>
-  ![](/images/Under_Construction.svg#only-dark){ width="610" }
-  <figcaption></figcaption>
-</figure>
--->
-
 | Qt {.col-auto} | Component {.col-wide .col-nowrap} | Amazon Link {.col-wide .col-nowrap} | AliExpress Link {.col-wide .col-nowrap}               |
 |:--------------:|-----------------------------------|-------------------------------------|-------------------------------------------------------|
 | 1              | 4010 Fan 12V                      | [Amazon](https://amzn.to/4l9BObn) | [Aliexpress](https://s.click.aliexpress.com/e/_oCuAsFy) |

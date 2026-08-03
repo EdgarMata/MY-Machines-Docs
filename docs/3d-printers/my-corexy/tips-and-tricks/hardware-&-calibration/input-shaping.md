@@ -7,8 +7,8 @@ Input Shaping is one of Klipper's most powerful features. It is designed to canc
 To use the automated calibration process, you will need a small, inexpensive sensor called an **ADXL345 accelerometer**. This sensor is temporarily mounted to the toolhead to physically measure the frame's vibrations during a test sequence.
 
 <figure markdown="1">
-  ![An ADXL345 accelerometer ready for installation](/images/image-placeholder.png#only-light){ width="600" }
-  ![An ADXL345 accelerometer ready for installation](/images/image-placeholder.png#only-dark){ width="600" }
+  ![An ADXL345 accelerometer ready for installation](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![An ADXL345 accelerometer ready for installation](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>An ADXL345 accelerometer with its connecting wires, ready to be mounted on the toolhead.</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ To use the automated calibration process, you will need a small, inexpensive sen
 The difference in print quality before and after calibration is dramatic.
 
 <figure markdown="1">
-  ![A before-and-after ringing test print](/images/image-placeholder.png#only-light){ width="700" }
-  ![A before-and-after ringing test print](/images/image-placeholder.png#only-dark){ width="700" }
+  ![A before-and-after ringing test print](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![A before-and-after ringing test print](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>A side-by-side comparison of two ringing test towers. The "before" print shows significant ghosting artifacts after the corners, while the "after" print with Input Shaper is perfectly clean and sharp.</figcaption>
 </figure>

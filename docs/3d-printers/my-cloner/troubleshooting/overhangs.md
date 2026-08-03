@@ -25,7 +25,7 @@ Overhangs are parts of a model that are printed over empty space, without direct
     * **Solution:** For very steep overhangs (greater than 50-60 degrees) or for horizontal overhangs, the only reliable solution is to enable **supports** in your slicing software. The slicer will generate support structures that hold up the overhang and are removed after the print is finished.
 
 <figure markdown="1">
-  ![Overhangs Example](/images/image-placeholder.png#only-light){ width="600" }
-  ![Overhangs Example](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Overhangs Example](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Overhangs Example](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a print with successful and failed overhangs.</figcaption>
 </figure>

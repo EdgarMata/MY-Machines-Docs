@@ -28,8 +28,8 @@ First, let's gather all the parts needed for the LCD module. The bag with the sm
     * The cable with **TWO stripes** must be connected to the port labeled **EXP2**.
 
 <figure markdown="1">
-  ![LCD Cable Check](../../images/image-placeholder.png#only-light){ width="500" }
-  ![LCD Cable Check](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![LCD Cable Check](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![LCD Cable Check](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Illustration showing the back of the LCD with arrows pointing to the EXP1 and EXP2 ports and their corresponding cables.</figcaption>
 </figure>
 

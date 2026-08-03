@@ -22,8 +22,8 @@
     * **Solution:** Dry your filament in a filament dryer or a low-temperature oven before use. Store your spools in sealed bags with desiccant.
 
 <figure markdown="1">
-  ![Stringing Example](/images/image-placeholder.png#only-light){ width="600" }
-  ![Stringing Example](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Stringing Example](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Stringing Example](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a print with fine plastic strings between separate parts.</figcaption>
 </figure>
 

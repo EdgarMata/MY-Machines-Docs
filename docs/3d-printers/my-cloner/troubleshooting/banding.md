@@ -21,7 +21,7 @@
     * **Solution:** Use high-quality filament with a good reputation for diameter consistency.
 
 <figure markdown="1">
-  ![Z-Banding Example](../images/image-placeholder.png#only-light){ width="600" }
-  ![Z-Banding Example](../images/image-placeholder.png#only-dark){ width="600" }
+  ![Z-Banding Example](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Z-Banding Example](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a part with vertical walls that show a pattern of repeating horizontal lines.</figcaption>
 </figure>

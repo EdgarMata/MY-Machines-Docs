@@ -41,8 +41,8 @@ With a Klipper-based printer, there are two main connection points that can caus
     * **Result:** Using the `by-id` path is more reliable and prevents the connection from breaking after a reboot.
 
     <figure markdown="1">
-      ![Connectivity Issues](../images/image-placeholder.png#only-light){ width="600" }
-      ![Connectivity Issues](../images/image-placeholder.png#only-dark){ width="600" }
+      ![Connectivity Issues](/assets/images/image-placeholder.webp#only-light){ width="600" }
+      ![Connectivity Issues](/assets/images/image-placeholder.webp#only-dark){ width="600" }
       <figcaption>Illustration of various connection types (USB, SD card, Wi-Fi).</figcaption>
     </figure>
 

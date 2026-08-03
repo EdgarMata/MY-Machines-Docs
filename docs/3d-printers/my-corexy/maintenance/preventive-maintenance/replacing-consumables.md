@@ -9,8 +9,8 @@ Beyond nozzles, several other components on your printer are considered consumab
 * **How to Replace**: Unload the filament, let the hotend cool completely, and remove the Bowden collet from the top of the hotend. Pull out the old tube. Cut a new piece to the exact same length, ensuring the cut is perfectly square. Insert the new tube fully until it stops.
 
 <figure markdown="1">
-  ![Comparison of old and new PTFE tubes](/images/image-placeholder.png#only-light){ width="600" }
-  ![Comparison of old and new PTFE tubes](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Comparison of old and new PTFE tubes](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Comparison of old and new PTFE tubes](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A side-by-side comparison showing a new, clean white PTFE tube next to an old one that is discolored and deformed at the hot end.</figcaption>
 </figure>
 
@@ -21,8 +21,8 @@ Beyond nozzles, several other components on your printer are considered consumab
 * **How to Replace**: Heat the bed to soften the adhesive, then carefully peel off the old PEI sheet. Use a solvent like IPA or acetone (use caution!) to remove all adhesive residue from the steel plate. Carefully apply the new sheet, starting from one edge and using a credit card or roller to smooth it down and prevent air bubbles.
 
 <figure markdown="1">
-  ![Peeling an old PEI sheet from the build plate](/images/image-placeholder.png#only-light){ width="700" }
-  ![Peeling an old PEI sheet from the build plate](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Peeling an old PEI sheet from the build plate](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Peeling an old PEI sheet from the build plate](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>A hand peeling off an old, worn-out PEI sheet from a flexible steel plate, revealing the adhesive underneath.</figcaption>
 </figure>
 

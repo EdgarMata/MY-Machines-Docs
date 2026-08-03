@@ -13,8 +13,8 @@ Loading and unloading filament is one of the most common tasks you'll perform wi
     * Take the end of your filament spool and use a pair of snips to cut the tip at a sharp 45-degree angle. This pointy tip makes it much easier to guide the filament into the extruder.
 
     <figure markdown="1">
-      ![Cutting Filament Tip](/images/image-placeholder.png#only-light){ width="600" }
-      ![Cutting Filament Tip](/images/image-placeholder.png#only-dark){ width="600" }
+      ![Cutting Filament Tip](/assets/images/image-placeholder.webp#only-light){ width="600" }
+      ![Cutting Filament Tip](/assets/images/image-placeholder.webp#only-dark){ width="600" }
       <figcaption>Illustration showing the end of a filament being cut at a 45-degree angle.</figcaption>
     </figure>
 
@@ -36,3 +36,4 @@ Loading and unloading filament is one of the most common tasks you'll perform wi
     * Once the nozzle is hot, go to the control panel in the web interface and click the **"Retract"** button.
     * The extruder motor will reverse and push the filament back out of the top of the extruder.
     * Gently pull the filament completely out of the printer.
+

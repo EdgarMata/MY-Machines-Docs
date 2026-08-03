@@ -10,8 +10,8 @@ Before installation, a few of the printed skirt parts require some preparation.
 2.  **Remove Built-in Support**: The main front skirt piece is printed with a thin, built-in support for better printability. Carefully remove this highlighted section with flush cutters or a hobby knife.
 
 <figure markdown="1">
-  ![Preparing the front skirt piece](/images/image-placeholder.png#only-light){ width="700" }
-  ![Preparing the front skirt piece](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Preparing the front skirt piece](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Preparing the front skirt piece](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>The front skirt piece, showing the location of the built-in support to be removed and the heat-set inserts to be installed.</figcaption>
 </figure>
 
@@ -24,8 +24,8 @@ The front skirt houses the Mini 12864 display.
 3.  Connect the two flat ribbon cables (EXP1 and EXP2) to the back of the screen. These will be routed to the controller board later.
 
 <figure markdown="1">
-  ![Assembling the LCD screen into the front skirt](/images/image-placeholder.png#only-light){ width="600" }
-  ![Assembling the LCD screen into the front skirt](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Assembling the LCD screen into the front skirt](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Assembling the LCD screen into the front skirt](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>An exploded view showing the Mini 12864 screen, its printed bracket, and the front skirt piece.</figcaption>
 </figure>
 
@@ -37,8 +37,8 @@ Attach the skirt sections around the bottom perimeter of the printer frame using
     The rear skirt piece has cutouts for keystone jacks. You can install blanks or add modules for USB or Ethernet ports, connecting them to your Raspberry Pi for easy access.
 
 <figure markdown="1">
-  ![Installing the side and rear skirts](/images/image-placeholder.png#only-light){ width="800" }
-  ![Installing the side and rear skirts](/images/image-placeholder.png#only-dark){ width="800" }
+  ![Installing the side and rear skirts](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![Installing the side and rear skirts](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>The printer frame with several skirt sections being attached to the bottom extrusions with T-Nuts and screws.</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ One of the side skirts houses a 60mm fan to cool the electronics bay. Mount the 
 2.  **Z-Belt Covers**: To prevent the Z-belts from rubbing against the bottom panel, install the four small, printed Z-belt covers. These attach to the frame with M3 screws and hammerhead nuts.
 
 <figure markdown="1">
-  ![Installing the Z-belt covers](/images/image-placeholder.png#only-light){ width="600" }
-  ![Installing the Z-belt covers](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Installing the Z-belt covers](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Installing the Z-belt covers](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A close-up view showing a Z-belt cover being slid into place over a Z-belt and secured with a hammerhead nut.</figcaption>
 </figure>

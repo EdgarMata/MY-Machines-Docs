@@ -13,8 +13,8 @@ Being prepared for the worst-case scenario is part of responsible printer owners
 2.  **Fire Extinguisher:** Keep an appropriate fire extinguisher easily accessible in the same room as the printer. For fires involving electronics, a **CO2** or **ABC Dry Powder** extinguisher is required.
 
 <figure markdown="1">
-  ![A safe printer setup with a smoke detector and fire extinguisher](/images/image-placeholder.png#only-light){ width="800" }
-  ![A safe printer setup with a smoke detector and fire extinguisher](/images/image-placeholder.png#only-dark){ width="800" }
+  ![A safe printer setup with a smoke detector and fire extinguisher](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![A safe printer setup with a smoke detector and fire extinguisher](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>A 3D printer in a workspace, with a smoke detector clearly visible on the ceiling above it and an appropriate fire extinguisher mounted on a nearby wall.</figcaption>
 </figure>
 

@@ -4,8 +4,8 @@
     **Ghosting** (also known as **ringing** or echoing) is a visual artifact that manifests as ripples on the surface of the print, appearing immediately after corners or sharp details. It's an echo of the printer's vibration.
 
 <figure markdown="1">
-  ![A 3D print showing ghosting artifacts](/images/image-placeholder.png#only-light){ width="600" }
-  ![A 3D print showing ghosting artifacts](/images/image-placeholder.png#only-dark){ width="600" }
+  ![A 3D print showing ghosting artifacts](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![A 3D print showing ghosting artifacts](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A 3D print showing ghosting artifacts, which look like ripples or echoes, appearing after sharp corners or details.</figcaption>
 </figure>
 

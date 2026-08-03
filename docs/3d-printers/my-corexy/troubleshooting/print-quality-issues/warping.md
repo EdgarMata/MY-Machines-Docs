@@ -4,8 +4,8 @@
     **Warping** happens when the corners of a 3D print contract, curl upwards, and detach from the print bed during the process. It's more common with large parts and high-shrinkage materials like ABS.
 
 <figure markdown="1">
-  ![A 3D print with its corners lifting off the print bed](/images/image-placeholder.png#only-light){ width="600" }
-  ![A 3D print with its corners lifting off the print bed](/images/image-placeholder.png#only-dark){ width="600" }
+  ![A 3D print with its corners lifting off the print bed](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![A 3D print with its corners lifting off the print bed](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A 3D print with its corners lifting off the print bed, a clear example of warping.</figcaption>
 </figure>
 

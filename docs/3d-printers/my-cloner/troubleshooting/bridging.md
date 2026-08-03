@@ -25,7 +25,8 @@ Bridging settings are almost entirely controlled by your slicing software. Most 
     * **Solution:** Printing at the lowest possible temperature for your filament will cause it to solidify faster, resulting in cleaner bridges with less sagging.
 
 <figure markdown="1">
-  ![Bridging Example](../images/image-placeholder.png#only-light){ width="600" }
-  ![Bridging Example](../images/image-placeholder.png#only-dark){ width="600" }
+  ![Bridging Example](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Bridging Example](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a print with successful bridging between two pillars.</figcaption>
 </figure>
+

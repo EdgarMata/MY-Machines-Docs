@@ -9,8 +9,8 @@ As you get more experienced, you might want to design your own parts. Keeping a 
 * **Tip:** Whenever possible, use a straight 45-degree angle (a "chamfer") instead. A 45-degree angle is easy for any printer to handle and will result in a much cleaner bottom edge.
 
 <figure markdown="1">
-  ![Fillet vs Chamfer](/images/image-placeholder.png#only-light){ width="600" }
-  ![Fillet vs Chamfer](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Fillet vs Chamfer](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Fillet vs Chamfer](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration comparing a 3D model with a rounded bottom edge (fillet) versus one with a 45-degree angled edge (chamfer).</figcaption>
 </figure>
 

@@ -38,8 +38,8 @@ Gather all the necessary components for this crucial connection.
 * **Final Adjustment:** Before the final tightening, gently bend the two metal ring terminals so they are angled slightly towards each other. This will help them fit inside the cable cover. Now, tighten both screws firmly.
 
 <figure markdown="1">
-  ![Heatbed Wiring Polarity](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Heatbed Wiring Polarity](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Heatbed Wiring Polarity](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![Heatbed Wiring Polarity](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Illustration showing the correct polarity: the black wire connected to GND and the red wire to VCC.</figcaption>
 </figure>
 
@@ -77,8 +77,8 @@ Now we will install the printed cover that protects the solder joints and manage
 * **Action:** Secure the clip with two M3x10 screws, tightening them evenly. This will clamp the textile sleeve and wires firmly in place.
 
 <figure markdown="1">
-  ![Assembled Heatbed Cable Cover](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Assembled Heatbed Cable Cover](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Assembled Heatbed Cable Cover](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Assembled Heatbed Cable Cover](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>The final assembled heatbed cable cover, with the textile sleeve and wires securely clamped.</figcaption>
 </figure>
 
@@ -108,8 +108,8 @@ Now we will mount the prepared heatbed assembly onto the Y-carriage.
     3.  Finally, tighten the **four corner screws**.
 
 <figure markdown="1">
-  ![Heatbed Spacer Placement](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Heatbed Spacer Placement](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Heatbed Spacer Placement](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![Heatbed Spacer Placement](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Illustration showing the placement of the spacers between the Y-carriage and the heatbed.</figcaption>
 </figure>
 
@@ -146,8 +146,8 @@ This is a critical step that requires your full attention. Incorrect wiring here
     * Ensure the bent part of the metal "fork" connectors on the cables is always **facing up**.
 
 <figure markdown="1">
-  ![PSU Terminal Polarity](../../images/image-placeholder.png#only-light){ width="400" }
-  ![PSU Terminal Polarity](../../images/image-placeholder.png#only-dark){ width="400" }
+  ![PSU Terminal Polarity](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![PSU Terminal Polarity](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>A close-up of the PSU terminals, highlighting the correct polarity (+ + - -).</figcaption>
 </figure>
 
@@ -171,8 +171,8 @@ This step involves connecting the two pairs of power cables to the PSU terminals
 * **Action:** Use a Philips screwdriver to **tighten all four screws firmly**. A loose connection here can cause serious problems.
 
 <figure markdown="1">
-  ![PSU Final Wiring](../../images/image-placeholder.png#only-light){ width="500" }
-  ![PSU Final Wiring](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![PSU Final Wiring](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![PSU Final Wiring](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>The final correct wiring on the PSU terminal block.</figcaption>
 </figure>
 

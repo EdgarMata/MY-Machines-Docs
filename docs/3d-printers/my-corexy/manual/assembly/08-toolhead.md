@@ -10,8 +10,8 @@ You must now pause this guide and switch to the official EVA Extruder manual to 
 **[Click here to go to the official Eva Extruder Assembly Manual](https://main.eva-3d.page/)**
 
 <figure markdown="1">
-  ![A fully assembled EVA Extruder toolhead](/images/image-placeholder.png#only-light){ width="600" }
-  ![A fully assembled EVA Extruder toolhead](/images/image-placeholder.png#only-dark){ width="600" }
+  ![A fully assembled EVA Extruder toolhead](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![A fully assembled EVA Extruder toolhead](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A picture of a fully assembled, ready-to-mount EVA Extruder toolhead.</figcaption>
 </figure>
 

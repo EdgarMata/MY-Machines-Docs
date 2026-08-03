@@ -16,7 +16,7 @@ The first step is to visualize the layer manager, located on the right side of N
 
 <figure markdown="span">
 
-  ![](../images/image-placeholder.png){ width="450" }
+  ![](/assets/images/image-placeholder.webp){ width="450" }
   <figcaption>Figure 1 - Layer manager</figcaption>
 
 </figure>
@@ -25,7 +25,7 @@ Now, let's take a closer look at the layer manager to explore its items:
 
 <figure markdown="span">
 
-  ![](../images/image-placeholder.png){ width="450" }
+  ![](/assets/images/image-placeholder.webp){ width="450" }
   <figcaption>Figure 2 - Layer manager</figcaption>
 
 </figure>
@@ -34,7 +34,7 @@ Now, let's take a closer look at the layer manager to explore its items:
 
 <figure markdown="span">
 
-  ![](../images/image-placeholder.png){ width="450" }
+  ![](/assets/images/image-placeholder.webp){ width="450" }
   <figcaption>Figure 3 - Layer manager</figcaption>
 
 </figure>
@@ -43,7 +43,7 @@ Whenever you want to work with filling, you need to select the printer item. Fil
 
 <figure markdown="span">
 
-  ![](../images/image-placeholder.png){ width="450" }
+  ![](/assets/images/image-placeholder.webp){ width="450" }
   <figcaption>Figure 4 - Filling</figcaption>
 
 </figure>
@@ -52,7 +52,7 @@ Whenever you want to work with filling, you need to select the printer item. Fil
 
 <figure markdown="span">
 
-  ![](../images/image-placeholder.png){ width="450" }
+  ![](/assets/images/image-placeholder.webp){ width="450" }
   <figcaption>Figure 5 - Layer manager</figcaption>
 
 </figure>
@@ -61,7 +61,7 @@ If your goal is to work with contouring, you should select the brush item. Conto
 
 <figure markdown="span">
 
-  ![](../images/image-placeholder.png){ width="450" }
+  ![](/assets/images/image-placeholder.webp){ width="450" }
   <figcaption>Figure 6 - Contouring</figcaption>
 
 </figure>
@@ -70,7 +70,7 @@ If your goal is to work with contouring, you should select the brush item. Conto
 
 <figure markdown="span">
 
-  ![](../images/image-placeholder.png){ width="450" }
+  ![](/assets/images/image-placeholder.webp){ width="450" }
   <figcaption>Figure 7 - Layer manager</figcaption>
 
 </figure>
@@ -79,7 +79,7 @@ Whenever you want to work with cuts, select the scissors item. The cut will perf
 
 <figure markdown="span">
 
-  ![](../images/image-placeholder.png){ width="450" }
+  ![](/assets/images/image-placeholder.webp){ width="450" }
   <figcaption>Figure 8 - Cutting</figcaption>
 
 </figure>

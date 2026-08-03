@@ -8,8 +8,8 @@ The primary mechanical hazards are pinch points, where a moving part meets a sta
 * **Gantry Movement:** The toolhead moves rapidly along the X and Y axes, and the entire gantry moves up and down the Z-axis.
 
 <figure markdown="1">
-  ![Diagram of printer pinch points](/images/image-placeholder.png#only-light){ width="700" }
-  ![Diagram of printer pinch points](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Diagram of printer pinch points](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Diagram of printer pinch points](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>An illustration of the printer with key mechanical hazard areas highlighted, including the belts/pulleys and the paths of the moving gantry.</figcaption>
 </figure>
 

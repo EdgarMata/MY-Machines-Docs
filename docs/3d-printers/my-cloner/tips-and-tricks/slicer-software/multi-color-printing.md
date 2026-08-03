@@ -27,7 +27,7 @@ When the printer pauses for the color change, it will typically:
 6.  Return to the original position and resume printing with the new color.
 
 <figure markdown="1">
-  ![Multi-Color Print](/images/image-placeholder.png#only-light){ width="600" }
-  ![Multi-Color Print](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Multi-Color Print](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Multi-Color Print](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a print with a distinct color change at a certain layer, like a logo with two colors.</figcaption>
 </figure>

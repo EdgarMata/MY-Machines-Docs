@@ -77,8 +77,8 @@ Now we will attach the case containing the mainboard to the printer's frame.
 * **Action:** Align the case with the edge of the Z-axis frame and then fully tighten both screws to secure it.
 
 <figure markdown="1">
-  ![Mounting the Mainboard Case](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Mounting the Mainboard Case](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Mounting the Mainboard Case](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![Mounting the Mainboard Case](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Illustration showing the mainboard case being slid onto the mounting screws on the frame.</figcaption>
 </figure>
 
@@ -98,8 +98,8 @@ This is a multi-part process to create one neat cable bundle that runs along the
 6.  **Final Bundle:** Near the top, add the left-side Z-motor cable to the main bundle. Carefully bring the two LCD ribbon cables out from the extrusion channel and join them with the bundle as well. Secure everything together with the final zip ties on this side of the frame.
 
 <figure markdown="1">
-  ![Main Cable Bundle Routing](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Main Cable Bundle Routing](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Main Cable Bundle Routing](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Main Cable Bundle Routing](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>The final, neatly managed cable bundle running along the side of the printer frame.</figcaption>
 </figure>
 
@@ -138,8 +138,8 @@ This is the most critical wiring step of the entire build. Please read all instr
     3.  **Heatbed Cable:** Connect the pair of wires from the Heatbed to the rightmost power terminal.
 
 <figure markdown="1">
-  ![Main Power Wiring](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Main Power Wiring](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Main Power Wiring](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Main Power Wiring](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>The final, correct wiring for the PSU and Heatbed power cables on the mainboard.</figcaption>
 </figure>
 
@@ -187,8 +187,8 @@ Now we will begin connecting the main components to the electronics board.
     * **Action:** Guide the Power Panic cable to its port in the bottom right corner of the board and plug it in.
 
 <figure markdown="1">
-  ![Motor and LCD Connections](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Motor and LCD Connections](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Motor and LCD Connections](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Motor and LCD Connections](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration showing the correct ports for the LCD and motor cables.</figcaption>
 </figure>
 
@@ -223,8 +223,8 @@ This is your last chance to check all connections before closing the case.
     * Are the 3-pin sensor cables (Filament Sensor, Z-Probe) plugged into the correct ports with the correct orientation?
 
 <figure markdown="1">
-  ![Fully Wired Mainboard](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Fully Wired Mainboard](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Fully Wired Mainboard](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Fully Wired Mainboard](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>A diagram of the fully wired mainboard for final comparison.</figcaption>
 </figure>
 
@@ -261,8 +261,8 @@ The final mechanical part to assemble is the spool holder, which will sit on top
     * Then, press downwards and backwards firmly to snap the holder's C-shaped clips onto the frame.
 
 <figure markdown="1">
-  ![Mounting the Spool Holder](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Mounting the Spool Holder](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Mounting the Spool Holder](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![Mounting the Spool Holder](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Illustration showing the "hook and press" motion to mount the spool holder onto the top frame.</figcaption>
 </figure>
 
@@ -285,3 +285,4 @@ Your kit may come with a silver label containing your printer's unique serial nu
     You have just finished the complete mechanical and electrical assembly of your machine. This was a long and challenging process, and you've done a fantastic job!
 
     The final step before you can start printing is to perform the "Pre-Flight Check" and the initial software calibrations.
+

@@ -13,7 +13,7 @@ Regular cleaning ensures your extruder maintains a firm, consistent grip.
 5.  **Inspect**: While you have it open, inspect the gear teeth for any signs of significant wear.
 
 <figure markdown="1">
-  ![Cleaning extruder gears with a brass brush](/images/image-placeholder.png#only-light){ width="700" }
-  ![Cleaning extruder gears with a brass brush](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Cleaning extruder gears with a brass brush](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Cleaning extruder gears with a brass brush](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>A close-up view of an open extruder, with a small brass brush being used to clean filament debris from the teeth of the hobbed drive gears.</figcaption>
 </figure>

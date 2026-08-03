@@ -6,8 +6,8 @@ Having the right tools on hand will not only make the build process easier and f
     A set of good-quality hex drivers (Allen keys) is perhaps the most important investment you can make for this build. Poor-quality drivers can strip the heads of screws, causing enormous headaches later on.
 
 <figure markdown="1">
-  ![Essential tools for assembly](/images/image-placeholder.png#only-light){ width="800" }
-  ![Essential tools for assembly](/images/image-placeholder.png#only-dark){ width="800" }
+  ![Essential tools for assembly](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![Essential tools for assembly](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>A collection of essential tools including hex drivers, digital calipers, a soldering iron, a multimeter, and flush cutters.</figcaption>
 </figure>
 

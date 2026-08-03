@@ -21,7 +21,7 @@ The solutions for pillowing are almost all configured in your slicing software.
     * **Solution:** Printing the top layers more slowly gives the fan more time to cool the plastic, helping to create a smoother surface.
 
 <figure markdown="1">
-  ![Pillowing Example](/images/image-placeholder.png#only-light){ width="600" }
-  ![Pillowing Example](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Pillowing Example](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Pillowing Example](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a print with a bumpy, uneven top surface.</figcaption>
 </figure>

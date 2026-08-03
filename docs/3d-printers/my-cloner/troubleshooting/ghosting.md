@@ -21,7 +21,7 @@
     * **Slicer Solution:** Reduce the `Print Speed`, especially the `Outer Wall/Perimeter Speed`. For more advanced control, reducing the **Acceleration** and **Jerk** values in the slicer will have a significant impact on reducing ghosting.
 
 <figure markdown="1">
-  ![Ghosting Example](/images/image-placeholder.png#only-light){ width="600" }
-  ![Ghosting Example](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Ghosting Example](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Ghosting Example](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a print with faint, repeating patterns on its surface.</figcaption>
 </figure>

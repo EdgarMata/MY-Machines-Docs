@@ -4,8 +4,8 @@
     **Skipped layers** (or missing layers) manifest as a clean, horizontal gap in the print. The printer seems to have stopped printing for one or more layers and then resumed, often causing the print to break into two or more separate pieces.
 
 <figure markdown="1">
-  ![A print that has split due to a missing layer](/images/image-placeholder.png#only-light){ width="600" }
-  ![A print that has split due to a missing layer](/images/image-placeholder.png#only-dark){ width="600" }
+  ![A print that has split due to a missing layer](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![A print that has split due to a missing layer](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A 3D print that has cleanly separated into two pieces due to one or more missing layers, indicating a temporary but complete failure of extrusion or Z-axis movement.</figcaption>
 </figure>
 
@@ -37,3 +37,4 @@ This is a mechanical issue where the Z-axis fails to move up for one or more lay
 - [ ] Inspect the entire filament path for any points where it could snag.
 - [ ] Clean and lubricate your Z-axis lead screw(s).
 - [ ] Manually check the Z-axis for any binding spots.
+

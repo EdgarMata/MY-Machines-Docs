@@ -75,11 +75,12 @@ You should check and adjust the belt tension in the following cases:
 ---
 
 <figure markdown="1">
-  ![Belt Tension Adjustment](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Belt Tension Adjustment](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Belt Tension Adjustment](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Belt Tension Adjustment](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration of belt tension adjustment points.</figcaption>
 </figure>
 
 ---
 
 By following these steps, you can ensure that your **MY-Mini 3D Printer** operates smoothly and produces high-quality prints.
+

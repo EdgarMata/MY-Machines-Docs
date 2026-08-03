@@ -4,8 +4,8 @@
     **Stringing** (or oozing) is the occurrence of thin, web-like strands of plastic that form between different parts of a model as the print head moves over an open space.
 
 <figure markdown="1">
-    ![A 3D print covered in thin, web-like strands of plastic](/images/image-placeholder.png#only-light){ width="600" }
-    ![A 3D print covered in thin, web-like strands of plastic](/images/image-placeholder.png#only-dark){ width="600" }
+    ![A 3D print covered in thin, web-like strands of plastic](/assets/images/image-placeholder.webp#only-light){ width="600" }
+    ![A 3D print covered in thin, web-like strands of plastic](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A 3D print covered in thin, web-like strands of plastic, a classic example of stringing or oozing.</figcaption>
 </figure>
 

@@ -1,8 +1,6 @@
 # Welcome to My Cloner 3D Printer Documentation
-<figure markdown="span">
-  ![My-Cloner](images/MY-Cloner_01.png){ width="1000" }
-  <figcaption></figcaption>
-</figure>
+
+  ![My-Cloner](/assets/images/cloner/my-cloner_01.webp){ width="1000" }
 
 ## Welcome to the official documentation for the My Cloner 3D Printer.
 Here you will find all the information you need to set up, use, and troubleshoot your 3D printer.

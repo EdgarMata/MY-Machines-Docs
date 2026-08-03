@@ -4,15 +4,6 @@
 
 This document lists all the mechanical parts required for the 3D printer. All links provided are affiliate links, and purchasing through them helps support this project.
 
-<!--
-<figure markdown="span">
-  ![](/images/Under_Construction.svg#only-light){ width="610" }
-  <figcaption></figcaption>
-  ![](/images/Under_Construction.svg#only-dark){ width="610" }
-  <figcaption></figcaption>
-</figure>
--->
-
 | Qt {.col-auto} | Definition Name {.col-wide}    | Amazon Link {.col-wide .col-nowrap} | AliExpress Link {.col-wide .col-nowrap}                 |
 |:--------------:|:-------------------------------|:------------------------------------|:--------------------------------------------------------|
 | 1              | Extruder Heatsink              | [Amazon](https://amzn.to/408mB26)   | [AliExpress](https://s.click.aliexpress.com/e/_oEtt5mA) |

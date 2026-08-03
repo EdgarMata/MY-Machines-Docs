@@ -3,8 +3,8 @@
 In this chapter, we will build and install the entire Z-axis motion system. This includes the four Z-drives which house the motors, the four Z-idlers, the linear rails for the gantry to move on, and the electronics deck panel.
 
 <figure markdown="1">
-  ![Overview of Z-axis components](/images/image-placeholder.png#only-light){ width="700" }
-  ![Overview of Z-axis components](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Overview of Z-axis components](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Overview of Z-axis components](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>An overview graphic showing the fully assembled frame with the key components of this chapter highlighted: Z-drives, Z-idlers, Z-linear rails, and the deck panel.</figcaption>
 </figure>
 
@@ -23,8 +23,8 @@ The linear rails guide the Z-axis movement and must be prepared and installed co
     * Once installed, use a piece of tape to secure the carriage so it does not fall off in later steps.
 
 <figure markdown="1">
-  ![Installing a Z-axis linear rail with an alignment tool](/images/image-placeholder.png#only-light){ width="600" }
-  ![Installing a Z-axis linear rail with an alignment tool](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Installing a Z-axis linear rail with an alignment tool](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Installing a Z-axis linear rail with an alignment tool](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A close-up showing a printed MGN9 alignment guide being used to position the linear rail in the center of the vertical extrusion before tightening the screws.</figcaption>
 </figure>
 
@@ -37,8 +37,8 @@ The deck panel serves as the mounting surface for your electronics.
 3.  **Install DIN Rails**: Mount the two metal DIN rails onto the deck panel. These will hold your power supplies and other electronics.
 
 <figure markdown="1">
-  ![Installing the deck panel and DIN rails](/images/image-placeholder.png#only-light){ width="700" }
-  ![Installing the deck panel and DIN rails](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Installing the deck panel and DIN rails](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Installing the deck panel and DIN rails](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>The printer frame shown upside down, with the deck panel and the two DIN rails being mounted.</figcaption>
 </figure>
 
@@ -53,8 +53,8 @@ This is a detailed sub-assembly. We will build four of these units.
 5.  **Motor Assembly**: Attach the GT2 16T pulley to the NEMA17 motor shaft. Note the specific 10.7mm distance shown in the diagram. Mount the motor to its printed bracket.
 
 <figure markdown="1">
-  ![Exploded view of the Z-drive assembly](/images/image-placeholder.png#only-light){ width="800" }
-  ![Exploded view of the Z-drive assembly](/images/image-placeholder.png#only-dark){ width="800" }
+  ![Exploded view of the Z-drive assembly](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![Exploded view of the Z-drive assembly](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>An exploded diagram showing all the individual components of the Z-drive: motor, pulleys, bearings, shaft, and printed parts.</figcaption>
 </figure>
 
@@ -71,8 +71,8 @@ With the printer still upside down, install the four Z-drive assemblies onto the
 7.  Repeat this process for the other three corners, noting that some printed parts are mirrored.
 
 <figure markdown="1">
-  ![Installing a Z-drive assembly onto the frame](/images/image-placeholder.png#only-light){ width="700" }
-  ![Installing a Z-drive assembly onto the frame](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Installing a Z-drive assembly onto the frame](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Installing a Z-drive assembly onto the frame](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>Illustration of a completed Z-drive unit being slid into place on a corner of the upside-down frame.</figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ The Z-idlers guide the belts at the top of the printer.
 3.  **Orientation**: Ensure the idler is oriented to align with the pulley in the Z-drive directly below it. Press the idler firmly into the corner before tightening.
 
 <figure markdown="1">
-  ![Installing a Z-idler assembly](/images/image-placeholder.png#only-light){ width="600" }
-  ![Installing a Z-idler assembly](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Installing a Z-idler assembly](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Installing a Z-idler assembly](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A Z-idler assembly being mounted in a top corner of the frame with M5 T-nuts and screws.</figcaption>
 </figure>

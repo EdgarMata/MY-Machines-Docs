@@ -6,8 +6,8 @@ This chapter focuses on installing the two belts that drive the CoreXY motion sy
     CoreXY systems use two long belts, typically named A and B. The combined movement of these two belts is what allows the toolhead to move to any XY coordinate. For this to work correctly, both belts must have equal tension. A good trick is to run the first belt, cut it to the perfect length, and then cut the second belt to the exact same length before installing it.
 
 <figure markdown="1">
-  ![Overview of the A and B belt paths](/images/image-placeholder.png#only-light){ width="800" }
-  ![Overview of the A and B belt paths](/images/image-placeholder.png#only-dark){ width="800" }
+  ![Overview of the A and B belt paths](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![Overview of the A and B belt paths](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>Two separate diagrams, one showing the complete path of the 'A' belt and another showing the path of the 'B' belt.</figcaption>
 </figure>
 
@@ -19,8 +19,8 @@ The X-carriage not only holds the toolhead but also serves as the anchor point f
 2.  Loosely assemble the two main pieces of the X-carriage onto the MGN12 linear rail. This will clamp the belts in later steps.
 
 <figure markdown="1">
-  ![Assembling the X-carriage parts](/images/image-placeholder.png#only-light){ width="600" }
-  ![Assembling the X-carriage parts](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Assembling the X-carriage parts](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Assembling the X-carriage parts](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>The printed parts of the X-carriage being assembled onto the MGN12 linear rail on the X-axis.</figcaption>
 </figure>
 
@@ -33,8 +33,8 @@ Routing the belts can be tricky. Use tweezers to help guide the belt around the 
 3.  **Route the B-Belt**: In the same manner, route the B-belt from the X-carriage, around the B-drive pulley, across the back to the A-idler, and back to the X-carriage.
 
 <figure markdown="1">
-  ![Routing a belt around a drive pulley and idler](/images/image-placeholder.png#only-light){ width="700" }
-  ![Routing a belt around a drive pulley and idler](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Routing a belt around a drive pulley and idler](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Routing a belt around a drive pulley and idler](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>A close-up diagram showing the path of a belt as it makes its way around the bearings of a drive or idler assembly.</figcaption>
 </figure>
 
@@ -47,8 +47,8 @@ Routing the belts can be tricky. Use tweezers to help guide the belt around the 
 5.  Repeat for the second belt, trying to match the tension of the first one as closely as possible. You can pluck the belts like a guitar string to compare their frequency.
 
 <figure markdown="1">
-  ![Tensioning and securing the belts at the X-carriage](/images/image-placeholder.png#only-light){ width="700" }
-  ![Tensioning and securing the belts at the X-carriage](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Tensioning and securing the belts at the X-carriage](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Tensioning and securing the belts at the X-carriage](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>Illustration showing pliers pulling a belt tight at the X-carriage before the final screws are tightened to clamp it down.</figcaption>
 </figure>
 

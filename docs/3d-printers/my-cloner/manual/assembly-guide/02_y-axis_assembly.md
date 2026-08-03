@@ -88,8 +88,8 @@ This is the final quality check for the frame's integrity.
 * **Note:** A very minor wobble (less than 2mm) is often acceptable, but a perfectly square and stable frame is the ideal foundation for your printer.
 
 <figure markdown="1">
-  ![Frame Geometry Check](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Frame Geometry Check](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Frame Geometry Check](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Frame Geometry Check](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration showing a hand pressing down on the frame on a flat surface to check for any wobble.</figcaption>
 </figure>
 
@@ -189,8 +189,8 @@ This preparatory step makes it easier to install the bearings.
 * **Action:** Loosely attach this clip to one of the three bearing locations on the Y-carriage plate. Tighten the screws only a few turns for now.
 
 <figure markdown="1">
-  ![Loosely Attached Bearing Clip](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Loosely Attached Bearing Clip](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Loosely Attached Bearing Clip](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![Loosely Attached Bearing Clip](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Illustration showing a bearing clip loosely attached to the Y-carriage, ready for a bearing to be inserted.</figcaption>
 </figure>
 
@@ -206,8 +206,8 @@ Now we will place the linear bearings into the loosely attached clips on the Y-c
         Linear bearings have internal rows of ball bearings. [cite_start]You must orient the bearings so that these rows run parallel to the direction of movement (along the sides)[cite: 167]. [cite_start]**Do not** orient a bearing so that a single row of balls is at the very bottom, as this will quickly wear a groove into your smooth rods and ruin them[cite: 170, 171].
 
     <figure markdown="1">
-      ![Bearing Orientation](../../images/image-placeholder.png#only-light){ width="610" }
-      ![Bearing Orientation](../../images/image-placeholder.png#only-dark){ width="610" }
+      ![Bearing Orientation](/assets/images/image-placeholder.webp#only-light){ width="610" }
+      ![Bearing Orientation](/assets/images/image-placeholder.webp#only-dark){ width="610" }
       <figcaption>A diagram showing the correct bearing orientation (rows of balls on the sides) versus the incorrect orientation (single row of balls at the bottom).</figcaption>
     </figure>
 
@@ -282,8 +282,8 @@ This is a critical alignment step for ensuring smooth, low-friction movement.
     [cite_start]One of the small grub screws in the pulley **must be tightened against the flat part of the motor shaft**[cite: 209]. This provides a secure lock and prevents the pulley from slipping. [cite_start]Also, leave a small gap between the pulley and the motor housing so it can rotate freely[cite: 208]. [cite_start]Slightly tighten both grub screws for now[cite: 210, 211].
 
 <figure markdown="1">
-  ![Motor Pulley Alignment](../../images/image-placeholder.png#only-light){ width="400" }
-  ![Motor Pulley Alignment](../../images/image-placeholder.png#only-dark){ width="400" }
+  ![Motor Pulley Alignment](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![Motor Pulley Alignment](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>A close-up showing the flat part of the motor shaft and a grub screw being tightened against it.</figcaption>
 </figure>
 
@@ -341,8 +341,8 @@ Before tensioning, it's critical to ensure the belt is running straight.
 * **To Adjust:** If the belt is not parallel, slightly loosen the grub screws on the motor pulley. Slide the pulley left or right on the motor shaft until the belt is straight, then retighten the grub screws firmly against the flat part of the shaft.
 
 <figure markdown="1">
-  ![Belt Alignment](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Belt Alignment](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Belt Alignment](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![Belt Alignment](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Illustration showing a top-down view of a straight, parallel belt path.</figcaption>
 </figure>
 

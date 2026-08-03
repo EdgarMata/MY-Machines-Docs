@@ -11,8 +11,8 @@ For routine cleaning, Isopropyl Alcohol (IPA) is your best friend.
 3.  Wipe the entire PEI surface thoroughly to remove any dust or oils.
 
 <figure markdown="1">
-  ![Wiping a PEI build plate with IPA](/images/image-placeholder.png#only-light){ width="600" }
-  ![Wiping a PEI build plate with IPA](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Wiping a PEI build plate with IPA](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Wiping a PEI build plate with IPA](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A hand in a nitrile glove wiping a PEI build plate with a cloth dampened with Isopropyl Alcohol.</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ If your PEI sheet is old, shiny, and has lost its grip even after a deep clean, 
 4.  After scuffing, clean the plate thoroughly with IPA one last time to remove any fine dust particles.
 
 <figure markdown="1">
-  ![Restoring a PEI sheet with steel wool](/images/image-placeholder.png#only-light){ width="600" }
-  ![Restoring a PEI sheet with steel wool](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Restoring a PEI sheet with steel wool](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Restoring a PEI sheet with steel wool](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A hand gently scuffing the surface of a PEI sheet with a pad of very fine steel wool.</figcaption>
 </figure>

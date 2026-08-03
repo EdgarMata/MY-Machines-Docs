@@ -13,8 +13,8 @@ Removing support material and cleaning up a print often involves sharp tools.
 * **Use a Stable Surface:** Brace the part on a workbench or cutting mat instead of holding it in your hand. This prevents the tool from slipping and cutting you if the part suddenly gives way.
 
 <figure markdown="1" >
-  ![Safe use of a deburring tool on a 3D print](/images/image-placeholder.png#only-light){ width="700" }
-  ![Safe use of a deburring tool on a 3D print](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Safe use of a deburring tool on a 3D print](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Safe use of a deburring tool on a 3D print](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>A person wearing safety glasses and gloves carefully using a deburring tool to clean up a 3D print. The cutting motion is directed away from their body, and the part is held in a vise.</figcaption>
 </figure>
 
@@ -27,8 +27,8 @@ Sanding printed parts produces fine plastic dust that should not be inhaled.
 * **Work in a Ventilated Area:** Sanding in a well-ventilated area or outdoors helps to disperse the airborne dust.
 
 <figure markdown="1">
-  ![Sanding a 3D print with proper PPE](/images/image-placeholder.png#only-light){ width="700" }
-  ![Sanding a 3D print with proper PPE](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Sanding a 3D print with proper PPE](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Sanding a 3D print with proper PPE](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>A person wearing a proper N95 dust mask and safety glasses while sanding a 3D printed part.</figcaption>
 </figure>
 

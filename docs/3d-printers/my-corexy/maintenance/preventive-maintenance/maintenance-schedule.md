@@ -5,8 +5,8 @@ A regular maintenance schedule is the best way to ensure the long-term reliabili
 This guide is broken down into intervals based on typical usage.
 
 <figure markdown="1">
-  ![A maintenance checklist graphic](/images/image-placeholder.png#only-light){ width="800" }
-  ![A maintenance checklist graphic](/images/image-placeholder.png#only-dark){ width="800" }
+  ![A maintenance checklist graphic](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![A maintenance checklist graphic](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>A graphic representing a maintenance checklist, showing different time intervals (Daily, Weekly, Monthly) and their associated tasks.</figcaption>
 </figure>
 

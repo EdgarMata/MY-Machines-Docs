@@ -15,8 +15,8 @@ IPA is an excellent solvent for cleaning your PEI build plate, but it must be re
 * **Use Personal Protective Equipment (PPE).** Wear safety glasses to protect against splashes and consider wearing nitrile gloves, as IPA can dry out your skin.
 
 <figure markdown="1">
-  ![Safety symbols for Isopropyl Alcohol use](/images/image-placeholder.png#only-light){ width="800" }
-  ![Safety symbols for Isopropyl Alcohol use](/images/image-placeholder.png#only-dark){ width="800" }
+  ![Safety symbols for Isopropyl Alcohol use](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![Safety symbols for Isopropyl Alcohol use](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>An illustration showing a bottle of IPA next to safety icons representing 'flammable', 'well-ventilated area', and 'wear gloves/goggles'. A large 'not allowed' symbol is shown over a picture of a hot printer.</figcaption>
 </figure>
 
@@ -34,8 +34,8 @@ Acetone can be used to smooth the surface of ABS or ASA prints, but it is an ext
 * **Material Damage:** Acetone will dissolve many common plastics, including parts of your printer. Handle it carefully and keep it away from any surface you do not want to damage.
 
 <figure markdown="1">
-  ![Warning symbols for Acetone vapor smoothing](/images/image-placeholder.png#only-light){ width="800" }
-  ![Warning symbols for Acetone vapor smoothing](/images/image-placeholder.png#only-dark){ width="800" }
+  ![Warning symbols for Acetone vapor smoothing](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![Warning symbols for Acetone vapor smoothing](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>A graphic illustrating the extreme danger of heating acetone, surrounded by large warning symbols for 'highly flammable', 'explosive risk', and 'respiratory hazard'.</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ If you must use an aerosol adhesive, you **must** follow these safety steps with
 6.  **Let it Dry Completely**: Allow the hairspray to dry fully before returning the build plate to the printer.
 
 <figure markdown="1">
-  ![Safe vs. Unsafe application of aerosol adhesive](/images/image-placeholder.png#only-light){ width="900" }
-  ![Safe vs. Unsafe application of aerosol adhesive](/images/image-placeholder.png#only-dark){ width="900" }
+  ![Safe vs. Unsafe application of aerosol adhesive](/assets/images/image-placeholder.webp#only-light){ width="900" }
+  ![Safe vs. Unsafe application of aerosol adhesive](/assets/images/image-placeholder.webp#only-dark){ width="900" }
   <figcaption>A "Do and Don't" diagram. The "Don't" side shows a person spraying an aerosol can directly at a hot, assembled printer, with a large red 'X' over it. The "Do" side shows a person spraying a cool, removed build plate inside a cardboard box, outdoors.</figcaption>
 </figure>

@@ -11,8 +11,8 @@ The four Z-axis joints are the interface between the gantry and the Z-axis linea
 3.  Repeat for all four Z-joint assemblies.
 
 <figure markdown="1">
-  ![Assembling a Z-axis joint with the belt](/images/image-placeholder.png#only-light){ width="600" }
-  ![Assembling a Z-axis joint with the belt](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Assembling a Z-axis joint with the belt](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Assembling a Z-axis joint with the belt](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A close-up view of a 9mm GT2 belt being clamped into the printed Z-axis joint block.</figcaption>
 </figure>
 
@@ -25,8 +25,8 @@ The four Z-axis joints are the interface between the gantry and the Z-axis linea
 2.  **Temporarily Secure**: Use long zip ties or clamps to temporarily hold the gantry's weight, suspending it roughly in the middle of the frame. This frees up your hands for the next step.
 
 <figure markdown="1">
-  ![Lowering the gantry into the main frame](/images/image-placeholder.png#only-light){ width="700" }
-  ![Lowering the gantry into the main frame](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Lowering the gantry into the main frame](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Lowering the gantry into the main frame](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>Illustration of the gantry assembly being carefully lowered into the main printer frame, with zip ties shown for temporary support.</figcaption>
 </figure>
 
@@ -35,8 +35,8 @@ The four Z-axis joints are the interface between the gantry and the Z-axis linea
 Attach the four Z-joint assemblies (with belts installed) to the MGN9 carriages on the vertical linear rails. This officially connects your gantry to the Z-axis.
 
 <figure markdown="1">
-  ![Attaching the gantry to the Z-rail carriages](/images/image-placeholder.png#only-light){ width="600" }
-  ![Attaching the gantry to the Z-rail carriages](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Attaching the gantry to the Z-rail carriages](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Attaching the gantry to the Z-rail carriages](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A close-up showing a Z-joint being bolted to an MGN9 linear rail carriage.</figcaption>
 </figure>
 
@@ -50,8 +50,8 @@ The Z-belts transmit motion from the motors at the bottom to the gantry.
 4.  Repeat for all four corners. Your gantry should now be fully supported by the belts. You can remove the temporary zip ties.
 
 <figure markdown="1">
-  ![Diagram of the Z-axis belt path](/images/image-placeholder.png#only-light){ width="700" }
-  ![Diagram of the Z-axis belt path](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Diagram of the Z-axis belt path](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Diagram of the Z-axis belt path](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>A clear diagram showing the correct routing path for a single Z-axis belt, from the drive at the bottom, to the idler at the top, and connecting to the gantry.</figcaption>
 </figure>
 

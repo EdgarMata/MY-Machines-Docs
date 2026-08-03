@@ -20,8 +20,8 @@ Before plugging anything in, perform one last visual inspection of the electroni
 3.  On your computer, navigate to the web interface (Mainsail, Fluidd, etc.). The interface should load, but it will likely show an error stating that it cannot connect to the MCU. This is normal and expected, as the main controller board is still off.
 
 <figure markdown="1">
-  ![Web interface showing MCU connection error](/images/image-placeholder.png#only-light){ width="800" }
-  ![Web interface showing MCU connection error](/images/image-placeholder.png#only-dark){ width="800" }
+  ![Web interface showing MCU connection error](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![Web interface showing MCU connection error](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>The web interface showing a "Klippy host is not connected" or similar error message before the main 24V power is turned on.</figcaption>
 </figure>
 
@@ -43,9 +43,10 @@ If the smoke test was successful, your printer is now fully powered.
 2.  After a few moments, the error message should disappear. The interface will now show live temperature readings from your hotend and heated bed thermistors.
 
 <figure markdown="1">
-  ![Web interface successfully connected to the MCU](/images/image-placeholder.png#only-light){ width="800" }
-  ![Web interface successfully connected to the MCU](/images/image-placeholder.png#only-dark){ width="800" }
+  ![Web interface successfully connected to the MCU](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![Web interface successfully connected to the MCU](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>The web interface now successfully connected, displaying ambient temperature readings for the hotend and bed.</figcaption>
 </figure>
 
 Congratulations! You have successfully and safely powered on your printer for the first time. In the next chapter, we will perform pre-flight checks before attempting any movement.
+

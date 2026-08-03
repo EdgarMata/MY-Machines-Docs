@@ -4,8 +4,8 @@
     This guide addresses the fundamental problem where filament is not coming out of the nozzle at all, or is extruding very inconsistently. You might hear a clicking or grinding sound from the extruder, or the printer might be moving and "printing" in mid-air.
 
 <figure markdown="1">
-  ![Common extrusion failure points](/images/image-placeholder.png#only-light){ width="600" }
-  ![Common extrusion failure points](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Common extrusion failure points](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Common extrusion failure points](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>An illustration of common extrusion failure points: a clogged nozzle, heat creep in the heatbreak, and a grinding extruder gear.</figcaption>
 </figure>
 

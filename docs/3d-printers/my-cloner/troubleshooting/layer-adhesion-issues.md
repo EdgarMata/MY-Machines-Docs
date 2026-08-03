@@ -10,8 +10,8 @@ In most cases, lack of adhesion is due to the nozzle being too far from the prin
 * **Solution:** You need to decrease the distance between the nozzle and the bed. While the first layer is printing, go to the `Tune` menu and adjust the **"Live Adjust Z"** value to a more negative number (e.g., from -0.600 to -0.650). Continue adjusting until the plastic line is slightly "squished" onto the bed, with a flat appearance and well-bonded to the adjacent lines.
 
 <figure markdown="1">
-  ![Layer Adhesion Example](/images/image-placeholder.png#only-light){ width="600" }
-  ![Layer Adhesion Example](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Layer Adhesion Example](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Layer Adhesion Example](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a print with layers that are not properly bonded together.</figcaption>
 </figure>
 

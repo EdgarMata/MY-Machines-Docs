@@ -17,8 +17,8 @@ This fan is critical. Its job is to cool the heatsink to prevent "heat creep" an
         The hotend fan **MUST** blow air **INTO** the heatsink. Most fans have small arrows on the plastic casing indicating the direction of rotation and the direction of airflow. Confirm this before tightening the screws.
 
 <figure markdown="1">
-  ![Checking airflow direction on a new fan](/images/image-placeholder.png#only-light){ width="500" }
-  ![Checking airflow direction on a new fan](/images/image-placeholder.png#only-dark){ width="500" }
+  ![Checking airflow direction on a new fan](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![Checking airflow direction on a new fan](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>A cooling fan with small arrows embossed on its side, indicating the direction of blade rotation and the direction of airflow.</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ This fan cools the plastic as it is being extruded, which is essential for overh
 3.  **Check Orientation**: Ensure the new fan is oriented correctly so that its output is aimed at the printed part, just below the nozzle.
 
 <figure markdown="1">
-  ![Mounting a part cooling fan](/images/image-placeholder.png#only-light){ width="600" }
-  ![Mounting a part cooling fan](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Mounting a part cooling fan](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Mounting a part cooling fan](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A blower-style part cooling fan being mounted onto the side of a toolhead shroud.</figcaption>
 </figure>

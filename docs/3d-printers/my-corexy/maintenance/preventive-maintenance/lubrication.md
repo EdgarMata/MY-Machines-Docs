@@ -19,8 +19,8 @@ If a quality grease was applied during the initial assembly, the rails should on
 4.  **Wipe Excess:** Use a clean, lint-free cloth to wipe off any excess grease from the rail. Excess grease only serves to attract dust and dirt.
 
 <figure markdown="1">
-  ![Applying grease to a linear rail](/images/image-placeholder.png#only-light){ width="700" }
-  ![Applying grease to a linear rail](/images/image-placeholder.png#only-dark){ width="700" }
+  ![Applying grease to a linear rail](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![Applying grease to a linear rail](/assets/images/image-placeholder.webp#only-dark){ width="700" }
   <figcaption>A hand in a nitrile glove applying a small, precise bead of grease from a tube onto an MGN linear rail.</figcaption>
 </figure>
 

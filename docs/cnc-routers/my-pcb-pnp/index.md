@@ -1,5 +1,7 @@
 # Welcome to My PCB pnp Documentation
 
+--8<-- "under-construction.md"
+
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands

@@ -11,8 +11,8 @@ Grounding is a critical, non-negotiable safety feature. It provides a safe path 
 * The **Protective Earth (PE)** wire from your mains inlet must be securely connected to the metal frame of the printer, the metal casing of your power supply unit(s), and the ground screw on your heated bed.
 
 <figure markdown="1">
-  ![Diagram showing proper grounding path](/images/image-placeholder.png#only-light){ width="800" }
-  ![Diagram showing proper grounding path](/images/image-placeholder.png#only-dark){ width="800" }
+  ![Diagram showing proper grounding path](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![Diagram showing proper grounding path](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>A wiring diagram highlighting the path of the Protective Earth (ground) wire from the mains inlet to the printer's frame, PSU casing, and heated bed.</figcaption>
 </figure>
 
@@ -21,8 +21,8 @@ Loose high-voltage connections can create arcs and are a major fire hazard.
 * **Use Ferrules:** For connecting stranded wire to screw terminals (like on a PSU), always use crimped wire ferrules. Tinning the wire ends with solder is not a safe alternative, as the solder can deform ("creep") over time, causing the connection to become loose.
 
 <figure markdown="1">
-  ![Comparison of a tinned wire vs a crimped ferrule](/images/image-placeholder.png#only-light){ width="600" }
-  ![Comparison of a tinned wire vs a crimped ferrule](/images/image-placeholder.png#only-dark){ width="600" }
+  ![Comparison of a tinned wire vs a crimped ferrule](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Comparison of a tinned wire vs a crimped ferrule](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A side-by-side comparison showing a poorly-tinned wire end next to a stranded wire that has been properly terminated with a crimped ferrule, ready for a screw terminal.</figcaption>
 </figure>
 

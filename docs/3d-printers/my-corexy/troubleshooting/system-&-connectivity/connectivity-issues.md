@@ -4,8 +4,8 @@
     You can't get G-code files to your printer, or the connection drops mid-print. These problems relate to the communication link between your computer/host and the printer, whether it's a physical SD card, a USB cable, or a wireless network.
 
 <figure markdown="1">
-    ![Common connection methods for a 3D printer](/images/image-placeholder.png#only-light){ width="600" }
-    ![Common connection methods for a 3D printer](/images/image-placeholder.png#only-dark){ width="600" }
+    ![Common connection methods for a 3D printer](/assets/images/image-placeholder.webp#only-light){ width="600" }
+    ![Common connection methods for a 3D printer](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>An illustration of the common ways to connect to a 3D printer: via a USB cable, an SD card, or a Wi-Fi connection.</figcaption>
 </figure>
 
@@ -51,3 +51,4 @@
 - [ ] If USB fails, use a different, high-quality data cable.
 - [ ] Install the correct USB-to-serial drivers for your printer board.
 - [ ] Ensure your host computer (Raspberry Pi) has a sufficient, dedicated power supply.
+

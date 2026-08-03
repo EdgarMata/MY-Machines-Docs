@@ -26,8 +26,8 @@ This procedure sets a rough, safe starting distance between your Z-probe and the
     This simple trick sets the probe to be slightly higher than the nozzle tip (by the thickness of a zip tie). This is a safe starting distance that prevents the nozzle from crashing into the bed during the first automated calibration sequence. The firmware will calculate the precise offset later.
 
 <figure markdown="1">
-  ![Z-Probe Adjustment with Zip Tie](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Z-Probe Adjustment with Zip Tie](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Z-Probe Adjustment with Zip Tie](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![Z-Probe Adjustment with Zip Tie](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Illustration showing a zip tie placed under the Z-probe to set the initial height relative to the nozzle.</figcaption>
 </figure>
 
@@ -71,3 +71,4 @@ If you encounter any problems during calibration or printing, we are here to hel
     You have successfully completed the entire assembly process. You've built a complex machine from scratch, and you should be very proud of your work.
 
     You are now ready to power on your printer
+

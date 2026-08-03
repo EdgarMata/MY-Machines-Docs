@@ -14,7 +14,7 @@ When you receive your Neon, you probably noticed the presence of a protective su
 
 <figure markdown="span">
 
-  ![](/images/image-placeholder.png){ width="450" }
+  ![](/assets/images/image-placeholder.webp){ width="450" }
   <figcaption>Figure 1 - Protective support</figcaption>
 
 </figure>

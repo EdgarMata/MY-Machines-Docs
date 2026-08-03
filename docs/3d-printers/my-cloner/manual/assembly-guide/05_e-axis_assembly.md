@@ -47,8 +47,8 @@ This step is critical for the filament sensor to work correctly.
     The two magnets (one in the lever, one in the body) **must repel each other**. When correctly installed, the magnets will push the lever to the side. If they attract each other and the lever is pulled inwards, you have installed one of the magnets incorrectly. Flip one of them over and try again. An incorrect installation will cause the filament sensor to fail.
 
 <figure markdown="1">
-  ![Correct Magnet Repulsion](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Correct Magnet Repulsion](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Correct Magnet Repulsion](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Correct Magnet Repulsion](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration comparing the correct lever position (pushed out by repelling magnets) vs. the incorrect position (pulled in by attracting magnets).</figcaption>
 </figure>
 
@@ -86,8 +86,8 @@ This alignment is crucial to prevent filament grinding.
     * **Action:** Once you are satisfied with the alignment, firmly tighten the grub screw against the flat part of the motor shaft. Be careful not to strip the small screw.
 
 <figure markdown="1">
-  ![Bondtech Gear Alignment](../../images/image-placeholder.png#only-light){ width="400" }
-  ![Bondtech Gear Alignment](../../images/image-placeholder.png#only-dark){ width="400" }
+  ![Bondtech Gear Alignment](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![Bondtech Gear Alignment](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Illustration showing a piece of filament being used to align the groove in the drive gear with the filament path.</figcaption>
 </figure>
 
@@ -144,8 +144,8 @@ In this step, we will mount the prepared `X-carriage` to the back of the main ex
 * **Action:** Secure the two parts together using two M3x10 screws. **Do not fully tighten the screws yet**, as we still need to adjust the sensor cable length.
 
 <figure markdown="1">
-  ![Attaching X-Carriage](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Attaching X-Carriage](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Attaching X-Carriage](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Attaching X-Carriage](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration showing the X-carriage being mounted to the rear of the extruder assembly, with careful cable routing.</figcaption>
 </figure>
 
@@ -201,8 +201,8 @@ This step involves careful cable management to ensure nothing gets pinched or re
     Before securing the fan, double-check the entire path of the cable. Make sure it is neatly tucked into its channels and is not being pinched between any plastic parts. A damaged fan cable will cause extrusion problems.
 
 <figure markdown="1">
-  ![Hotend Fan Cable Routing](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Hotend Fan Cable Routing](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Hotend Fan Cable Routing](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Hotend Fan Cable Routing](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration showing the correct path for the hotend fan cable through the extruder body and into the X-carriage channel.</figcaption>
 </figure>
 
@@ -257,8 +257,8 @@ This is a critical final check to ensure the two filament-driving gears are perf
 * **Action:** Once you are satisfied, **firmly tighten the grub screw** on the motor's drive gear. Remember to tighten it against the flat part of the motor shaft. Finally, remove the piece of filament.
 
 <figure markdown="1">
-  ![Filament Path Alignment Check](../../images/image-placeholder.png#only-light){ width="500" }
-  ![Filament Path Alignment Check](../../images/image-placeholder.png#only-dark){ width="500" }
+  ![Filament Path Alignment Check](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![Filament Path Alignment Check](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Illustration showing a piece of filament passing straight between the two Bondtech gears (drive and idler) to verify alignment.</figcaption>
 </figure>
 
@@ -296,8 +296,8 @@ This step is crucial for ensuring the extruder has the correct amount of grip on
     A good starting point for the idler tension is to tighten the screw until the **head of the screw is approximately flush with the plastic surface** of the extruder body. This tension can be adjusted later if you experience any filament grinding (too tight) or slipping (too loose).
 
 <figure markdown="1">
-  ![Idler Tension Screw](../../images/image-placeholder.png#only-light){ width="400" }
-  ![Idler Tension Screw](../../images/image-placeholder.png#only-dark){ width="400" }
+  ![Idler Tension Screw](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![Idler Tension Screw](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Illustration showing the head of the idler tension screw flush with the extruder body for correct starting tension.</figcaption>
 </figure>
 
@@ -380,8 +380,8 @@ This is the major step where we attach the entire completed extruder assembly to
 * **Action:** Use the two zip ties to firmly secure the extruder assembly to the `X-carriage`. The zip ties pass through slots in the carriage and wrap around the bearings. Tighten them securely and trim the excess with pliers.
 
 <figure markdown="1">
-  ![Mounting Extruder to X-Axis](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Mounting Extruder to X-Axis](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Mounting Extruder to X-Axis](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Mounting Extruder to X-Axis](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration showing the extruder assembly being mounted onto the X-axis rods and secured with zip ties.</figcaption>
 </figure>
 
@@ -409,8 +409,8 @@ Now we will install the belt that drives the X-axis.
     6.  Insert the final flat end of the belt into the other slot on the `X-carriage`.
 
 <figure markdown="1">
-  ![X-Axis Belt Path](../../images/image-placeholder.png#only-light){ width="610" }
-  ![X-Axis Belt Path](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![X-Axis Belt Path](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![X-Axis Belt Path](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration showing the complete routing path for the X-axis belt.</figcaption>
 </figure>
 
@@ -496,8 +496,8 @@ This step involves routing all the extruder cables through the back cover.
 * **Action:** Secure the back cover with four M3x10 screws. As you tighten, double-check that no wires are being pinched between the parts.
 
 <figure markdown="1">
-  ![Back Cover Cable Routing](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Back Cover Cable Routing](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Back Cover Cable Routing](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Back Cover Cable Routing](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration showing the correct path for the cables through the back cover.</figcaption>
 </figure>
 

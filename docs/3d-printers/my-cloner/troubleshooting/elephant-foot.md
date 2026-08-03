@@ -16,10 +16,11 @@ The solution is simple and direct: increase the distance between the nozzle and 
 * **Objective:** The goal is to find the point where the first layer adheres perfectly without being excessively squashed.
 
 <figure markdown="1">
-  ![Elephant Foot Example](../images/image-placeholder.png#only-light){ width="600" }
-  ![Elephant Foot Example](../images/image-placeholder.png#only-dark){ width="600" }
+  ![Elephant Foot Example](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![Elephant Foot Example](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>Illustration of a print with a widened first layer, resembling an elephant's foot.</figcaption>
 </figure>
 
 !!! tip "Small Adjustments Make a Big Difference"
     When adjusting the "Live Adjust Z," do it in small increments (0.02 to 0.05 mm) and observe the result in real-time.
+

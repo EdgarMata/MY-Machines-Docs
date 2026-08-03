@@ -4,8 +4,8 @@
     **Layer shifting** is a dramatic printing failure where the layers of a print become misaligned along the X or Y axis. The printer loses its intended coordinates, resulting in a distinct "stair-step" effect that ruins the part.
 
 <figure markdown="1">
-  ![A 3D print showing a severe layer shift](/images/image-placeholder.png#only-light){ width="600" }
-  ![A 3D print showing a severe layer shift](/images/image-placeholder.png#only-dark){ width="600" }
+  ![A 3D print showing a severe layer shift](/assets/images/image-placeholder.webp#only-light){ width="600" }
+  ![A 3D print showing a severe layer shift](/assets/images/image-placeholder.webp#only-dark){ width="600" }
   <figcaption>A 3D print exhibiting a severe layer shift, where the upper layers have been abruptly misaligned from the bottom layers along the X or Y axis.</figcaption>
 </figure>
 
@@ -45,3 +45,4 @@ The small driver chips on the mainboard that control the motors can overheat, es
 - [ ] Reduce print speed and acceleration settings in your slicer.
 - [ ] Manually move the axes to check for any binding or obstructions.
 - [ ] Verify that the mainboard cooling fan is operational.
+

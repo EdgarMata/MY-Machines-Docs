@@ -12,8 +12,8 @@
 Check the side of your main 24V PSU for a small, recessed switch. Make sure it is set to the correct voltage for your region (e.g., 115V or 230V).
 
 <figure markdown="1">
-  ![PSU input voltage switch](../../../../images/image-placeholder.png#only-light){ width="400" }
-  ![PSU input voltage switch](../../../../images/image-placeholder.png#only-dark){ width="400" }
+  ![PSU input voltage switch](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![PSU input voltage switch](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>A close-up of the input voltage selection switch on the 24V power supply.</figcaption>
 </figure>
 
@@ -25,8 +25,8 @@ Check the side of your main 24V PSU for a small, recessed switch. Make sure it i
 4.  **Grounding**: Run a Protective Earth (PE) wire from the mains inlet to the earth connection on the 24V PSU, the 5V PSU, the metal frame of the printer, and the ground screw on your heated bed.
 
 <figure markdown="1">
-  ![AC mains wiring diagram](../../../../images/image-placeholder.png#only-light){ width="800" }
-  ![AC mains wiring diagram](../../../../images/image-placeholder.png#only-dark){ width="800" }
+  ![AC mains wiring diagram](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![AC mains wiring diagram](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>A clear wiring diagram showing connections from the inlet to the switch, PSUs, and SSR. Protective Earth connections are highlighted and shown connecting to all major components.</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ Check the side of your main 24V PSU for a small, recessed switch. Make sure it i
 3.  **SSR Control**: Run a pair of wires from a heater output on your controller board (e.g., `BED_OUT`) to the DC control terminals (+ and -) on the SSR.
 
 <figure markdown="1">
-  ![DC power distribution diagram](../../../../images/image-placeholder.png#only-light){ width="800" }
-  ![DC power distribution diagram](../../../../images/image-placeholder.png#only-dark){ width="800" }
+  ![DC power distribution diagram](/assets/images/image-placeholder.webp#only-light){ width="800" }
+  ![DC power distribution diagram](/assets/images/image-placeholder.webp#only-dark){ width="800" }
   <figcaption>Wiring diagram showing the DC outputs from the PSUs connecting to the controller board's power inputs and the Raspberry Pi's GPIO pins.</figcaption>
 </figure>

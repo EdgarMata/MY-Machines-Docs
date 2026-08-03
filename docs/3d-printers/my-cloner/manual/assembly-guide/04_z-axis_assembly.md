@@ -71,8 +71,8 @@ This is a major step where the main parts of the printer come together.
 * **Action:** Gently insert these two smooth rods from the top, guiding them down through the linear bearings on the X-axis gantry and seating them fully into the `Z-axis-bottom` printed parts at the base of the frame.
 
 <figure markdown="1">
-  ![Mounting X-Axis Gantry](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Mounting X-Axis Gantry](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Mounting X-Axis Gantry](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Mounting X-Axis Gantry](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>Illustration showing the X-axis gantry being lowered onto the Z-axis lead screws.</figcaption>
 </figure>
 

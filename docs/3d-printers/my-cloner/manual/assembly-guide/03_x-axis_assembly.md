@@ -45,8 +45,8 @@ The first assembly action is to press the linear bearings into the two main plas
     For smoother movement and less wear on the rods, try to orient the two bearings in each part so their internal ball tracks are offset by 45 degrees from each other. This distributes the load more evenly across the smooth rods.
 
 <figure markdown="1">
-  ![Bearing 45-degree offset](../../images/image-placeholder.png#only-light){ width="400" }
-  ![Bearing 45-degree offset](../../images/image-placeholder.png#only-dark){ width="400" }
+  ![Bearing 45-degree offset](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![Bearing 45-degree offset](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Illustration showing two bearings with their internal ball tracks rotated 45 degrees relative to each other.</figcaption>
 </figure>
 
@@ -117,8 +117,8 @@ This step is critical for ensuring the motor can reliably drive the belt without
 * **Action:** Do not press the pulley all the way against the motor's body. Leave a small gap (about 1mm) to ensure it can rotate freely without rubbing.
 
 <figure markdown="1">
-  ![Motor Pulley Alignment](../../images/image-placeholder.png#only-light){ width="400" }
-  ![Motor Pulley Alignment](../../images/image-placeholder.png#only-dark){ width="400" }
+  ![Motor Pulley Alignment](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![Motor Pulley Alignment](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>A close-up showing the flat part of the motor shaft and a grub screw being tightened against it.</figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ The X-axis gantry is now fully assembled!
     With the X-axis done, it's time to build the Z-axis, which will lift this entire assembly up and down.
 
 <figure markdown="1">
-  ![Completed X-Axis](../../images/image-placeholder.png#only-light){ width="610" }
-  ![Completed X-Axis](../../images/image-placeholder.png#only-dark){ width="610" }
+  ![Completed X-Axis](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Completed X-Axis](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>The fully assembled X-axis, ready for the next chapter.</figcaption>
 </figure>

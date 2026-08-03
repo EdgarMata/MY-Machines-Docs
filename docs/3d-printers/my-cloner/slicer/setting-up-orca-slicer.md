@@ -41,7 +41,8 @@ This feature allows you to control your printer directly from Orca Slicer.
 You should now see your printer's web interface (Mainsail/Fluidd) appear directly within Orca Slicer. You can now upload files and start prints without leaving the application!
 
 <figure markdown="1">
-  ![Orca Slicer Device Tab](/images/image-placeholder.png#only-light){ width="610" }
-  ![Orca Slicer Device Tab](/images/image-placeholder.png#only-dark){ width="610" }
+  ![Orca Slicer Device Tab](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Orca Slicer Device Tab](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>The network connection dialog in Orca Slicer's "Device" tab where you add your printer's IP address.</figcaption>
 </figure>
+

@@ -3,8 +3,8 @@
 Your printer runs Klipper firmware, which means you control it through a powerful web interface like **Mainsail** or **Fluidd**. This interface is your primary control center for all printing operations. This guide covers the main sections.
 
 <figure markdown="1">
-  ![Klipper Web Interface Dashboard](/images/image-placeholder.png#only-light){ width="610" }
-  ![Klipper Web Interface Dashboard](/images/image-placeholder.png#only-dark){ width="610" }
+  ![Klipper Web Interface Dashboard](/assets/images/image-placeholder.webp#only-light){ width="610" }
+  ![Klipper Web Interface Dashboard](/assets/images/image-placeholder.webp#only-dark){ width="610" }
   <figcaption>An overview of a typical Klipper web interface (Mainsail shown).</figcaption>
 </figure>
 
@@ -26,3 +26,4 @@ Your printer runs Klipper firmware, which means you control it through a powerfu
 1.  **Upload G-Code:** Drag and drop your sliced `.gcode` file into the "G-Code Files" panel.
 2.  **Preheat (Optional but Recommended):** Manually set the hotend and bed temperatures and wait for them to stabilize.
 3.  **Select and Print:** Click on the file you just uploaded and then click the "Print" button.
+
