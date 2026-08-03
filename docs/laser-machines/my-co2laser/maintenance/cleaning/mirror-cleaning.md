@@ -24,8 +24,8 @@ To clean the mirrors effectively, you will need:
 * Warm water
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Figure 1: Required Cleaning Materials (Coming Soon)</figcaption>
 </figure>
 
@@ -37,8 +37,8 @@ To clean the mirrors effectively, you will need:
 2.  **Side Mirrors:** These two mirrors are located on the left side of the machine, fixed to the motion gantry.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Figure 2: Mirror Locations (Coming Soon)</figcaption>
 </figure>
 
@@ -56,8 +56,8 @@ Follow these steps carefully to avoid scratching the reflective surface:
 Repeat this process for all mirrors in the machine.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Video: Step-by-Step Mirror Cleaning (Coming Soon)</figcaption>
 </figure>
 

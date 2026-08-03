@@ -24,8 +24,8 @@ Once the effect is added, you can fine-tune the appearance of the dashes using t
 * **Use Segments:** When enabled, the software calculates the number of dashes per individual segment of the path (e.g., each side of a square) rather than treating the entire object as a single continuous line. This helps maintain symmetry in geometric shapes.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Adjusting dashed stroke parameters in the Path Effects panel (Coming Soon)</figcaption>
 </figure>
 

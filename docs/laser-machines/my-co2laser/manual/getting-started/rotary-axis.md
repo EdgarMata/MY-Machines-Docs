@@ -9,16 +9,16 @@ This guide will walk you through setting up and operating the rotary axis using 
 To begin, place the rotary axis inside the front section of your machine. 
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Inserting the rotary axis (Coming Soon)</figcaption>
 </figure>
 
 Ensure the connection cable is properly plugged in and screwed into the specific port (indicated by the signal input).
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 2: Locating the connection port (Coming Soon)</figcaption>
 </figure>
 
@@ -34,8 +34,8 @@ Once the hardware is installed, all movement controls and engraving parameters a
 * **Glass Engraving:** Ensure the surface is thoroughly cleaned with alcohol. Since glass is sensitive to temperature changes, using low power is crucial to prevent cracking.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Visual Guide: Proper settings and results (Coming Soon)</figcaption>
 </figure>
 

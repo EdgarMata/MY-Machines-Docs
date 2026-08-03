@@ -15,7 +15,7 @@ Regardless of whether the design was created within Neon Studio or imported from
 
 <figure markdown="span">
 
-  ![](../images/posicionamento.png){ width="628" }
+  ![](/assets/images/co2laser/posicionamento.png){ width="628" }
   <figcaption>Figure 1 - Designs in random location</figcaption>
 
 </figure>
@@ -24,7 +24,7 @@ Regardless of whether the design was created within Neon Studio or imported from
 
 <figure markdown="span">
 
-  ![](../images/posicionamento_0x0.png){ width="486" }
+  ![](/assets/images/co2laser/posicionamento_0x0.png){ width="486" }
   <figcaption>Figure 2 - Designs at zero position</figcaption>
 
 </figure>
@@ -39,7 +39,7 @@ To let the machine know where to start the cut, it is necessary to set the start
 
 <figure markdown="span">
 
-  ![](../images/ferramenta-mov-01.png){ width="443" }
+  ![](/assets/images/co2laser/ferramenta-mov-01.png){ width="443" }
   <figcaption>Figure 3 - Laser head movement arrows</figcaption>
 
 </figure>
@@ -48,7 +48,7 @@ To let the machine know where to start the cut, it is necessary to set the start
 
 <figure markdown="span">
 
-  ![](../images/foto-interior-01.png){ width="800" }
+  ![](/assets/images/co2laser/foto-interior-01.png){ width="800" }
   <figcaption>Figure 4 - Positioning the head on the material</figcaption>
 
 </figure>
@@ -57,7 +57,7 @@ To let the machine know where to start the cut, it is necessary to set the start
 
 <figure markdown="span">
 
-  ![](../images/ferramenta-mov-02.png){ width="265" }
+  ![](/assets/images/co2laser/ferramenta-mov-02.png){ width="265" }
   <figcaption>Figure 5 - Set start</figcaption>
 
 </figure>
@@ -76,7 +76,7 @@ To ensure the best use of the workspace, it is important to know the space the d
 
 <figure markdown="span">
 
-  ![](../images/preview-frame.png){ width="583" }
+  ![](/assets/images/co2laser/preview-frame.png){ width="583" }
   <figcaption>Figure 6 - Preview > Frame</figcaption>
 
 </figure>
@@ -85,7 +85,7 @@ To ensure the best use of the workspace, it is important to know the space the d
 
 <figure markdown="span">
 
-  ![](../images/foto-interior-02.png){ width="800" }
+  ![](/assets/images/co2laser/foto-interior-02.png){ width="800" }
   <figcaption>Figure 7 - Use of scraps</figcaption>
 
 </figure>

@@ -32,8 +32,8 @@ Remember: for a stamp to read correctly when pressed onto paper, the design on t
 2.  Click the **Horizontal Flip (Mirror)** icon in the top toolbar. Your text will now appear backward—this is correct!
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Flipping the design horizontally for correct stamping (Coming Soon)</figcaption>
 </figure>
 

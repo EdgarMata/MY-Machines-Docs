@@ -3,7 +3,7 @@ Built for speed, precision, and the Maker community.
 
 <div class="grid cards" markdown>
 
--   ![MY-CoreXY](assets/images/my-corexy.webp)
+-   ![MY-CoreXY](/assets/images/corexy.webp)
 
     ---
 
@@ -14,7 +14,7 @@ Built for speed, precision, and the Maker community.
     - [:fontawesome-solid-list: Bill of Materials](3d-printers/my-corexy/manual/bom/fasteners.md)
     - [:fontawesome-solid-download: Firmware & STL](3d-printers/my-corexy/downloads/index.md)
 
--   ![MY-Cloner](assets/images/my-cloner.webp)
+-   ![MY-Cloner](/assets/images/cloner.webp)
 
     ---
 
@@ -25,7 +25,7 @@ Built for speed, precision, and the Maker community.
     - [:fontawesome-solid-list: Bill of Materials](3d-printers/my-cloner/manual/bom/mechanical-parts.md)
     - [:fontawesome-solid-download: Firmware & STL](3d-printers/my-cloner/downloads/index.md)
 
--   ![MY-Giga1M3](assets/images/my-giga1m3.webp)
+-   ![MY-Giga1M3](/assets/images/giga.webp)
 
     ---
 
@@ -35,7 +35,7 @@ Built for speed, precision, and the Maker community.
     - [:fontawesome-solid-book-open: Assembly Guide](3d-printers/my-giga1m3/assembly.md)
     - [:fontawesome-solid-wrench: Troubleshooting](3d-printers/my-giga1m3/troubleshooting.md)
 
--   ![MY-Mini](assets/images/my-mini.webp)
+-   ![MY-Mini](/assets/images/mini.webp)
 
     ---
 

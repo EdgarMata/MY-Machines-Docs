@@ -9,8 +9,8 @@ Keeping your **Due Flow** clean is vital for the machine's longevity and the qua
 To help you remember the cleaning cycles, follow this general guideline:
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="500" }
-  ![](../images/construcao-dark.png#only-dark){ width="500" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="500" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="500" }
   <figcaption>Summary: Cleaning Periodicity Diagram (Coming Soon)</figcaption>
 </figure>
 
@@ -32,8 +32,8 @@ Most cleaning procedures should be done once a week. We recommend dedicating one
 * **Radiator:** Check for dust buildup on the radiator fins to ensure proper cooling.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Video: Overview of Maintenance Frequency (Coming Soon)</figcaption>
 </figure>
 

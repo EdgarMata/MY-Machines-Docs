@@ -31,8 +31,8 @@ To ensure perfect alignment, always set your **Engraving layers** to execute bef
 * **The Solution:** By engraving while the piece is still firmly attached to the main material sheet, you guarantee 100% precision.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Example: Misaligned engraving (cut first) vs. Perfect alignment (engraved first) (Coming Soon)</figcaption>
 </figure>
 

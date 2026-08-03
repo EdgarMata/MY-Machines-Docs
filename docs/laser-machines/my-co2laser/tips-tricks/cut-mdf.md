@@ -15,8 +15,8 @@ MDF is manufactured using wood fibers—typically either **Pinus** (Pine) or **E
 Visually, Pinus MDF is noticeably lighter (pale cream/yellow), while Eucalyptus MDF has a darker, brownish tone. Always confirm the fiber source with your material supplier.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Comparison between Eucalyptus (darker) and Pinus (lighter) MDF (Coming Soon)</figcaption>
 </figure>
 

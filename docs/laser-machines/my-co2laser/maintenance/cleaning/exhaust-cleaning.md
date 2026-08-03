@@ -27,8 +27,8 @@ This fan is located on the central carriage, right next to the laser head. It is
 4.  **Dry and Reassemble:** If necessary, use a dry swab to remove excess moisture. Reattach the base and **don't forget to reconnect the red wire**.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Cleaning the Laser Head Cooler (Coming Soon)</figcaption>
 </figure>
 
@@ -44,8 +44,8 @@ Located at the back-right of the machine, this fan extracts the gases produced d
 2.  **Wipe the Blades:** Use a soft brush or a damp cloth to thoroughly clean the exhaust fan blades. Ensure all accumulated dust is removed.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Figure 2: Exhaust Fan Maintenance (Coming Soon)</figcaption>
 </figure>
 

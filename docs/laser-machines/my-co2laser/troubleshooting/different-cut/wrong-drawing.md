@@ -12,8 +12,8 @@ If a curved line appears jagged or straightens out unexpectedly, your vector lik
 To ensure fluid movement and high fidelity to your original design, you can manually increase the node count within the editor.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Video: Optimizing Node Density for Smooth Curves (Coming Soon)</figcaption>
 </figure>
 
@@ -32,8 +32,8 @@ The laser follows the **centerline** of your vector. A thick visual stroke in th
 * **Precision Tip:** Always set your stroke thickness to the minimum (e.g., 0.1mm). A thick 3mm stroke will cause the laser to cut significantly inside or outside the intended dimension, leading to a smaller or larger part than expected.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Comparison between Stroke Thickness and Actual Cut Path (Coming Soon)</figcaption>
 </figure>
 
@@ -47,8 +47,8 @@ If your engraving shifts out of alignment with the final cut, it is rarely a har
 2.  **The Solution:** Lock the motors via the **Control Bar** in Due Studio. Use the "Sensors and Actuators" toggle to keep the axes engaged throughout the entire multi-stage process.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 2: Engaging Motor Locks in Due Studio (Coming Soon)</figcaption>
 </figure>
 
@@ -69,8 +69,8 @@ There is a significant technical difference in how vectors are processed:
 Use the **Node Editor** to verify if your lines are single paths or closed loops.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 3: Identifying Single Paths vs. Outlined Paths (Coming Soon)</figcaption>
 </figure>
 

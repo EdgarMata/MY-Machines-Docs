@@ -24,8 +24,8 @@ When cutting materials, residues naturally fall to the bottom of the machine. Th
 4.  **Reassemble:** Place the protection plate and the blades or honeycomb back into position.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Video: Cleaning the Work Area Base (Coming Soon)</figcaption>
 </figure>
 
@@ -54,8 +54,8 @@ The motion rails are the aluminum tubular structures that allow the rollers to m
 Gently wipe all the motion rails with the damp cloth. Pay close attention to the tracks where the rollers glide and ensure all corners are free of accumulated dirt.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Video: Cleaning the Laser Tube and Motion Rails (Coming Soon)</figcaption>
 </figure>
 

@@ -38,8 +38,8 @@ To prevent this issue from recurring, grant the application administrative right
 4.  Repeat these same steps for the **inkscape.exe** file located in the same folder.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Setting administrative privileges for the Neon control files (Coming Soon)</figcaption>
 </figure>
 

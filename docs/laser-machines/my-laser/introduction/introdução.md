@@ -1,9 +1,9 @@
-## MY-Laser-CNC
-### What is ME-Laser CNC?
+## My-Laser-CNC
+### What is My-Laser CNC?
 This project started out as a solution to solve a problem at the company where I work at the moment and has since evolved into something that I will share here...
 
-I present to you my  ME - Laser CNC:
-![ME - Laser CNC](https://lirp.cdn-website.com/da108bf1/dms3rep/multi/opt/ME+-+Laser+CNC+001-1920w.jpg)
+I present to you my  My - Laser CNC:
+![My - Laser CNC](https://lirp.cdn-website.com/da108bf1/dms3rep/multi/opt/ME+-+Laser+CNC+001-1920w.jpg)
 
 ### Specifications
 * Work Area 500 x 350 mm
@@ -30,11 +30,11 @@ For more information about this board you can consult the official page [Makerba
 If you want to buy this board please use my affiliate link, it helps my project a lot - Link to [AliExpress](https://s.click.aliexpress.com/e/_A4qTA1 "affiliate link")
 
 ### 3D model and Bill of materials
-If you're thinking about building your own ME - Laser CNC you can find everything you need here on [this](https://www.ifixgadget.pt/me-laser-cnc) page, I'll leave the link to the 3D model I made in Sketchup as well as the BOM of all materials and parts for 3D printing.
+If you're thinking about building your own My - Laser CNC you can find everything you need here on [this](https://my-machines.com/my-diode-laser-cnc) page, I'll leave the link to the 3D model I made in Sketchup as well as the BOM of all materials and parts for 3D printing.
 If you don't have a 3D printer you can use your favorite 3D printing service or I also provide a 3D printing service which also helps a lot with my projects, you can use the links on this site to contact me.
 
-Complete 3D Sketchup Model: [iFixGadge Store](https://www.ifixgadget.pt/loja/ME-Laser-CNC-3D-sketchp-Model-p414581071) or [Etsy Store](https://www.etsy.com/listing/1102710278/me-laser-cnc-3d-sketchup-model?ref=shop_home_active_2)
-3D Printing Service: [iFixGadge Store](https://www.ifixgadget.pt/loja) 
+Complete 3D Sketchup Model: [My Machines Shop](https://my-machines.com/shop/myd-000000-dlc-complete-cad-project-my-diode-laser-3d-cad-files-552) or [Etsy Store](https://www.etsy.com/listing/1102710278/me-laser-cnc-3d-sketchup-model?ref=shop_home_active_2)
+3D Printing Service: [My Machines Shop](https://my-machines.com/shop) 
 
 ### Electronics
 
@@ -131,7 +131,7 @@ If you like my work please consider sending me a beer :)
 All content of the ME-Laser CNC project is licensed in accordance with the license **Creative Commons-Attribution-NonCommercial-ShareAlike**
 CC BY-NC-SA
 
-Projeto: **ME - Laser CNC**
+Projeto: **My - Laser CNC**
 Autor: **Edgar Mata**
 
 [License Summary](https://creativecommons.org/licenses/by-nc-sa/4.0) | [See Legal Text](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)

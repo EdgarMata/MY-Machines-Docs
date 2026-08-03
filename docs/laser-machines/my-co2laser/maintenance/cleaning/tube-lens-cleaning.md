@@ -9,8 +9,8 @@ In this guide, we will cover how to clean the laser tube lens. This specific len
 The laser tube lens is slightly hidden at the output end of the glass tube. You don't need to remove the side panels to reach it; a bent cotton swab is usually enough to access the area from behind the tube.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Figure 1: Locating the Laser Tube Lens (Coming Soon)</figcaption>
 </figure>
 
@@ -45,8 +45,8 @@ Since the lens is hard to see directly, you must be thorough and ensure the swab
 4.  **Inspection:** Ensure the lens is dry and clear before turning the machine back on.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Video: How to clean the Laser Tube Lens (Coming Soon)</figcaption>
 </figure>
 

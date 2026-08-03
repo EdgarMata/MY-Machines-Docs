@@ -22,8 +22,8 @@ Since ABS releases potentially harmful gases, maintaining an efficient exhaust s
 Ensure your exhaust fan is always clean. Efficient extraction significantly reduces smoke residue and odors in your workspace.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Video: Preventive Maintenance - Cleaning the Exhaust Fan (Coming Soon)</figcaption>
 </figure>
 
@@ -31,8 +31,8 @@ Ensure your exhaust fan is always clean. Efficient extraction significantly redu
 To allow smoke to exit as easily as possible, keep the exhaust hose straight. Avoid unnecessary bends or kinks that could restrict airflow.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Figure 1: Correct Exhaust Hose Positioning (Coming Soon)</figcaption>
 </figure>
 

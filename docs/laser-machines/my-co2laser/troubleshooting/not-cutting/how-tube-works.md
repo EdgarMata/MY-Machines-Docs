@@ -17,8 +17,8 @@ To transform scattered light into a concentrated beam, the tube acts as a resona
 * **Output Coupler (B):** A partially transparent mirror at the left end. It allows only perfectly parallel light beams to escape as the functional laser beam while reflecting misaligned particles back for further stimulation.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Internal Optical Dynamics of the Neon Laser Tube (Coming Soon)</figcaption>
 </figure>
 

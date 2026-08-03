@@ -3,14 +3,14 @@
 ## Welcome to the online manual
 
 We are immensely pleased to congratulate you on the purchase of this product.
-This is the Instruction Guide for the Neon Laser Cutting and Engraving Machine, an innovative creation by [My-machines](https://my-machines.net/).
+This is the Instruction Guide for the Neon Laser Cutting and Engraving Machine, an innovative creation by [My-machines](https://my-machines.com/).
 
 Neon is a machine that combines convenience, precision, and efficiency in a single device, representing an affordable solution without compromising excellence.
 
 Here you will find all the essential information for users to make the most of the resources and possibilities of this product, from initial setup to advanced operation tips.
 
 We are excited to have you on board this journey of discovery and achievement with the Neon Laser Cutting and Engraving Machine.
-On behalf of the entire [My-machines](https://my-machines.net/) team, we wish you incredible experiences and impressive results.
+On behalf of the entire [My-machines](https://my-machines.com/) team, we wish you incredible experiences and impressive results.
 
 Welcome to the future of laser cutting and engraving technology!
 
@@ -18,7 +18,7 @@ Welcome to the future of laser cutting and engraving technology!
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_01.png){ width="700" }
+  ![](/assets/images/co2laser/ImgManual_01.png){ width="700" }
 
   <figcaption></figcaption>
 </figure>
@@ -42,7 +42,7 @@ To ensure safe and risk-free operation, Neon is equipped with intelligent sensor
 
 Regularly clean the lenses and optical mirrors to maintain cutting quality.
 
-![](../images/ImgManual_02.png){ align=left }
+![](/assets/images/co2laser/ImgManual_02.png){ align=left }
 
 Use damp cotton swabs to clean, always very gently, in circular motions, and change the cotton swab until it comes out completely clean.
 
@@ -54,7 +54,7 @@ Use distilled or demineralized water in the cooling system to prevent the format
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_03.png){ width="180" }
+  ![](/assets/images/co2laser/ImgManual_03.png){ width="180" }
 
   <figcaption></figcaption>
 </figure>
@@ -63,7 +63,7 @@ Use distilled or demineralized water in the cooling system to prevent the format
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_04.png){ width="750" }
+  ![](/assets/images/co2laser/ImgManual_04.png){ width="750" }
   <figcaption></figcaption>
 
 </figure>
@@ -74,7 +74,7 @@ Use distilled or demineralized water in the cooling system to prevent the format
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_05.png){ width="750" }
+  ![](/assets/images/co2laser/ImgManual_05.png){ width="750" }
   <figcaption></figcaption>
 
 </figure>
@@ -85,7 +85,7 @@ Use distilled or demineralized water in the cooling system to prevent the format
 
 <figure markdown="span">
   
-  ![](../images/ImgManual_06.png){ width="750" }
+  ![](/assets/images/co2laser/ImgManual_06.png){ width="750" }
   <figcaption></figcaption>
   
 </figure>
@@ -99,10 +99,10 @@ Use distilled or demineralized water in the cooling system to prevent the format
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_07.png#only-light){ width="500" }
+  ![](/assets/images/co2laser/ImgManual_07.png#only-light){ width="500" }
   <figcaption></figcaption>
 
-  ![](../images/ImgManual_09.png#only-dark){ width="500" }
+  ![](/assets/images/co2laser/ImgManual_09.png#only-dark){ width="500" }
   <figcaption></figcaption>
 
 </figure>
@@ -123,10 +123,10 @@ F. USB Cable Connection
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_08.png#only-light){ width="500" }
+  ![](/assets/images/co2laser/ImgManual_08.png#only-light){ width="500" }
   <figcaption></figcaption>
 
-  ![](../images/ImgManual_10.png#only-dark){ width="500" }
+  ![](/assets/images/co2laser/ImgManual_10.png#only-dark){ width="500" }
   <figcaption></figcaption>
 
 </figure>
@@ -163,10 +163,10 @@ E. On/Off Button
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_11.png){ width="750" }
+  ![](/assets/images/co2laser/ImgManual_11.png){ width="750" }
   <figcaption></figcaption>
   
-  ![](../images/ImgManual_12.png){ width="750" }
+  ![](/assets/images/co2laser/ImgManual_12.png){ width="750" }
   <figcaption></figcaption>
   
 </figure>
@@ -183,10 +183,10 @@ Now, to proceed with the next steps of configuring the machine, we will need to 
 
 ## Software Installation
 
-1. Download Neon Studio from our website: https://my-machines.net/
+1. Download Neon Studio from our website: https://my-machines.com/
 2. With the program open, connect via Wifi or USB cable. See below how each type of connection works:
 
-![](../images/setup01.png){ align=left }
+![](/assets/images/co2laser/setup01.png){ align=left }
 
 After the water circulates internally through the machine hoses, check the internal reservoir again and add the remaining demineralized water.
 
@@ -214,20 +214,20 @@ There you can find operating instructions, safety tips, usage tips, and possible
 You can also get the latest versions of the guides and software.
 If you have additional questions, our support team is available to assist you.
 
-[support@my-machines.net]
+[support@my-machines.com]
 
-[support@my-machines.net]: mailto:support@my-machines.net
+[support@my-machines.com]: mailto:support@my-machines.net
 
 ## Warranty
 
-This product is manufactured under the strict quality control system of [my-machines](https://my-machines.net/) Lda.
+This product is manufactured under the strict quality control system of [my-machines](https://my-machines.com/) Lda.
 
-If the product fails within three (3) years from the date of purchase, under normal use conditions, [my-machines](https://my-machines.net/) Lda will repair or replace the product free of charge in the following ways:
+If the product fails within three (3) years from the date of purchase, under normal use conditions, [my-machines](https://my-machines.com/) Lda will repair or replace the product free of charge in the following ways:
 
 * Using new or refurbished replacement parts.
 * Exchanging the product for a new product or one that has been manufactured with new or usable used parts, with performance at least equivalent to the original product.
 
-Proof of the purchase date must be confirmed and sent along with a copy of the original purchase document. The warranty is valid under normal use conditions. The warranty covers failure in the [my-machines](https://my-machines.net/) product that could be related to material and/or manufacturing errors. The warranty is valid only in the country of purchase.
+Proof of the purchase date must be confirmed and sent along with a copy of the original purchase document. The warranty is valid under normal use conditions. The warranty covers failure in the [my-machines](https://my-machines.com/) product that could be related to material and/or manufacturing errors. The warranty is valid only in the country of purchase.
 
 The warranty is not valid in the following cases:
 
@@ -238,10 +238,10 @@ The warranty is not valid in the following cases:
 * If the product has been modified, repaired, or disassembled by unauthorized personnel.
 * In these cases, the costs of shipping, repairing parts, and/or replacement are not included in the warranty.
 
-[www.my-machines.net]
+[my-machines.com]
 
-[www.my-machines.net]: https://my-machines.net/
+[my-machines.com]: https://my-machines.net/
 
-[support@my-machines.net]
+[support@my-machines.com]
 
-[support@my-machines.net]: mailto:support@my-machines.net
+[support@my-machines.com]: mailto:support@my-machines.net

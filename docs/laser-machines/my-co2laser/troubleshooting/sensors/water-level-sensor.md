@@ -12,8 +12,8 @@ The first step in troubleshooting circulation issues is verifying the reservoir.
 * **Solution:** If the level is low, fill the reservoir until it is completely full.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Checking Water Level Status (Coming Soon)</figcaption>
 </figure>
 
@@ -42,8 +42,8 @@ If you have verified that the pump is working and hoses are clear, but the flow 
 4.  Adjust the **Flow Multiplier** incrementally until the reading reaches 10 (do not exceed this value).
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 2: Accessing Advanced Sensor Settings (Coming Soon)</figcaption>
 </figure>
 

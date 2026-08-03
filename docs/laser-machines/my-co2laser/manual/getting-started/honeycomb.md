@@ -17,7 +17,7 @@ and you can check more details in the demonstration video.
 
 <figure markdown="span">
 
-  ![](../images/foto-interior-colmeia.png){ width="800" }
+  ![](/assets/images/co2laser/foto-interior-colmeia.png){ width="800" }
   <figcaption>Figure 1 - Honeycomb positioned at the bottom of the machine</figcaption>
 
 </figure>
@@ -28,14 +28,14 @@ Important: Make sure there are no material remnants or dirt under the Honeycomb.
 
 <figure markdown="span">
 
-  ![](../images/foto-colmeia-pes.png){ width="800" }
+  ![](/assets/images/co2laser/foto-colmeia-pes.png){ width="800" }
   <figcaption>Figure 2 - Honeycomb with feet</figcaption>
 
 </figure>
 
 <figure markdown="span">
 
-  ![](../images/foto-colmeia.png){ width="800" }
+  ![](/assets/images/co2laser/foto-colmeia.png){ width="800" }
   <figcaption>Figure 3 - Honeycomb without feet</figcaption>
 
 </figure>

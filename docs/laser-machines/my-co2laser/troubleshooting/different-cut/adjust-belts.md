@@ -9,8 +9,8 @@ Proper belt tension is essential for your machine to execute designs with precis
 Belts are responsible for transmitting movement from the motors to the carriages. If they are not correctly calibrated, the quality of your cuts and engravings will be compromised.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Left Y-axis belt passing through the motor (Coming Soon)</figcaption>
 </figure>
 
@@ -30,8 +30,8 @@ The tension of the belts should be similar to a guitar string:
 The best way to verify belt tension is by cutting a circle. Run a circle in "Outline" mode with a high speed (80 or more) to test the machine's limits.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 2: Example of a distorted circle due to loose belts (Coming Soon)</figcaption>
 </figure>
 
@@ -44,8 +44,8 @@ To adjust the tension, you will need:
 * Needle-nose pliers to pull the belt to the correct tension.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 3: Required tools for belt tensioning (Coming Soon)</figcaption>
 </figure>
 
@@ -57,8 +57,8 @@ To adjust the tension, you will need:
 If your machine has a central carriage cover, you will need to remove it first to access the belt mechanism.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Video: Removing the central carriage plate (Coming Soon)</figcaption>
 </figure>
 
@@ -66,8 +66,8 @@ If your machine has a central carriage cover, you will need to remove it first t
 The Y-axis belts run along the sides of the machine. Ensure both the left and right belts have the same tension to avoid "racking" or misaligned movements.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Video: Adjusting the X and Y axis belts (Coming Soon)</figcaption>
 </figure>
 

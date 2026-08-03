@@ -9,8 +9,8 @@ The laser beam travels from the tube and is redirected by three strategic mirror
 If you notice that the **Neon** loses cutting efficiency on the right side of the machine, the mirrors likely require recalibration. Over time or after transportation, these components may shift slightly, causing the beam to diverge from its intended path.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Diagram of the Neon Optical Path (Coming Soon)</figcaption>
 </figure>
 
@@ -30,8 +30,8 @@ This test determines if the first and second mirrors are projecting the beam par
 4.  **Right-Side Pulse:** Move the carriage to the far **right** of the machine. Fire a second short pulse.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Video: Testing Mirror Convergence (Coming Soon)</figcaption>
 </figure>
 
@@ -53,8 +53,8 @@ If the lateral alignment is perfect but the cut quality is still poor, the third
     The pulse must be perfectly centered. If the mark is near the edge, the laser is losing energy through thermal dissipation against the nozzle walls, significantly reducing cutting power.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 2: Centered vs. Off-center Beam Comparison (Coming Soon)</figcaption>
 </figure>
 

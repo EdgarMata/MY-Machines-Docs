@@ -1,3 +1,3 @@
 # Printed Parts
 
-This page is under construction.
+--8<-- "under-construction.md"

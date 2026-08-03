@@ -30,8 +30,8 @@ Ensure your **Neon's** Air Assist is functioning correctly. A strong flow of air
 ---
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Comparison: Cut without masking (left) vs. Cut with masking (right) (Coming Soon)</figcaption>
 </figure>
 

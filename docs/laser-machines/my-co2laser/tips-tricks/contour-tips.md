@@ -30,8 +30,8 @@ Once your design is converted to a path, you can generate the instructions for t
 Unlike heavy cutting, contouring (often used for marking or light outlines) usually requires only **one pass**. Increasing the passes on a contour job may overburn the material and reduce detail.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Setting the number of passes in the Neon extension (Coming Soon)</figcaption>
 </figure>
 

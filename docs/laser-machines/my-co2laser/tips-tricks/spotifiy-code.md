@@ -28,8 +28,8 @@ Now, let's prepare the file for engraving:
 5.  **Settings:** Move the code to an **Engraving Layer**.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Spotify Code aligned on a keychain template in Neon Studio (Coming Soon)</figcaption>
 </figure>
 

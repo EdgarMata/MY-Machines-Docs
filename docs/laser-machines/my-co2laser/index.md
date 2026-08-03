@@ -2,7 +2,7 @@
 
 <figure markdown="span">
 
-  ![Neon](images/GadgetCARBON.PNG){ width="1000" }
+  ![Neon](/assets/images/co2laser/neon.png){ width="1000" }
   <figcaption></figcaption>
 
 </figure>

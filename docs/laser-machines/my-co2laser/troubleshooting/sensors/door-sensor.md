@@ -23,8 +23,8 @@ If one of these parts has shifted, become detached, or fallen off, the software 
 This part is fixed to the main body of the machine. Check its alignment to ensure it hasn't been bumped or pushed inward.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Locating the chassis-mounted sensor (Coming Soon)</figcaption>
 </figure>
 
@@ -32,8 +32,8 @@ This part is fixed to the main body of the machine. Check its alignment to ensur
 This is the magnetic piece attached to the moving lid. Over time or due to sudden movements, the adhesive may fail, causing the magnet to fall.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 2: Identifying the magnet position on the lid (Coming Soon)</figcaption>
 </figure>
 
@@ -48,8 +48,8 @@ This is the magnetic piece attached to the moving lid. Over time or due to sudde
 ---
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Video: Aligning and Fixing the Neon Lid Sensor (Coming Soon)</figcaption>
 </figure>
 

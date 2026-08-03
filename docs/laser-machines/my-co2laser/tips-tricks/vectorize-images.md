@@ -34,8 +34,8 @@ After clicking Apply, the software creates a vector version on top of your origi
 3.  **Verify:** Your new file is now a vector! You can change its size without losing quality and move it to a Cutting or Engraving layer.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Original pixel image vs. the new clean vector path (Coming Soon)</figcaption>
 </figure>
 

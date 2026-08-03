@@ -19,10 +19,10 @@ Finding this balance is essential to achieving consistent and satisfactory resul
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_20.png#only-light){ width="220" }
+  ![](/assets/images/co2laser/ImgManual_20.png#only-light){ width="220" }
   <figcaption></figcaption>
 
-  ![](../images/ImgManual_21.png#only-dark){ width="220" }
+  ![](/assets/images/co2laser/ImgManual_21.png#only-dark){ width="220" }
   <figcaption></figcaption>
 
 </figure>
@@ -39,7 +39,7 @@ The parameters are adjusted according to the layer selected in the software, ava
 
 <figure markdown="span">
 
-  ![FrenteMaq](../images/ImgManual_22.png){ width="431" }
+  ![FrenteMaq](/assets/images/co2laser/ImgManual_22.png){ width="431" }
   <figcaption>Figure 2 - Parameter definition</figcaption>
 
 </figure>

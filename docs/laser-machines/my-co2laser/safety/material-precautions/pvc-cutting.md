@@ -35,8 +35,8 @@ Screws, spacers, and bearings near the work area will develop a rusted appearanc
 The corrosive smoke attacks electrical circuits. Components like the **laser head cooler** and the **red pointer** are usually the first to fail due to their proximity to the cutting area.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Figure 1: Examples of electronic component corrosion (Coming Soon)</figcaption>
 </figure>
 
@@ -47,8 +47,8 @@ The exhaust fan pulls the toxic smoke through its blades and motor, leading to p
 In cases of prolonged use, HCl can reach the **Controller Board** and the **Laser Power Supply**. You may notice oxidation on the USB ports or the selector switches. This can lead to total loss of communication or laser firing failure.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Figure 2: Corroded USB ports and power supply switches (Coming Soon)</figcaption>
 </figure>
 

@@ -30,8 +30,8 @@ This method uses a boundary box to align the material visually using the **Neon'
 7.  **Cut:** Once aligned, disable the layer with the boundary box (so you don't cut it) and press **Neon It!** to cut the internal contours.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Using the red dot pointer to frame the printed boundary box (Coming Soon)</figcaption>
 </figure>
 

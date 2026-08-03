@@ -32,8 +32,8 @@ For mirrored materials, the detail is everything.
 * **Important:** This setting resets to "Medium" whenever you restart the software, so remember to check it before every mirrored project.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Switching to High Resolution for detailed acrylic work (Coming Soon)</figcaption>
 </figure>
 

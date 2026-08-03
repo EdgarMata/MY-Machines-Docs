@@ -23,7 +23,7 @@ Or, if you prefer, follow the steps below:
 
 <figure markdown="span">
 
-   ![](../images/googledrive-alerta.png){ width="504" }
+   ![](/assets/images/co2laser/googledrive-alerta.png){ width="504" }
    <figcaption>Fig 1: Google Drive Alert.</figcaption>
 
 </figure>
@@ -37,7 +37,7 @@ Or, if you prefer, follow the steps below:
 
 <figure markdown="span">
 
-   ![](../images/windows-difender.png){ width="800" }
+   ![](/assets/images/co2laser/windows-difender.png){ width="800" }
    <figcaption>Fig 2: Windows Security Alert.</figcaption>
 
 </figure>
@@ -48,7 +48,7 @@ Or, if you prefer, follow the steps below:
 
 <figure markdown="span">
 
-   ![](../images/permissão-admin.png){ width="480" }
+   ![](/assets/images/co2laser/permissão-admin.png){ width="480" }
    <figcaption>Fig 3: Administrator Permission.</figcaption>
 
 </figure>
@@ -59,19 +59,19 @@ Or, if you prefer, follow the steps below:
 
 <figure markdown="span">
 
-   ![](../images/setup01.png){ width="380" }
+   ![](/assets/images/co2laser/setup01.png){ width="380" }
    <figcaption>Fig 4: Install</figcaption>
   
-   ![](../images/setup02.png){ width="625" }
+   ![](/assets/images/co2laser/setup02.png){ width="625" }
    <figcaption>Fig 5: Install</figcaption>
 
-   ![](../images/setup03.png){ width="625" }
+   ![](/assets/images/co2laser/setup03.png){ width="625" }
    <figcaption>Fig 6: Install</figcaption>
 
-   ![](../images/setup04.png){ width="625" }
+   ![](/assets/images/co2laser/setup04.png){ width="625" }
    <figcaption>Fig 7: Install</figcaption>
 
-   ![](../images/setup05.png){ width="625" }
+   ![](/assets/images/co2laser/setup05.png){ width="625" }
    <figcaption>Fig 8: Install</figcaption>
   
 </figure>

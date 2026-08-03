@@ -22,8 +22,8 @@ For maximum efficiency, you can force the **Neon** to follow a specific sequence
 3.  **Result:** The machine will strictly follow your numerical order, eliminating unnecessary diagonal travel across the workbed.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 1: Using numbered layers to dictate a precise laser path (Coming Soon)</figcaption>
 </figure>
 

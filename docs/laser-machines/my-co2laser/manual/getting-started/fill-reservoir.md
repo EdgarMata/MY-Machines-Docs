@@ -21,7 +21,7 @@ You can watch the video below on how to fill the machine's reservoir:
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_18.png){ width="400" }
+  ![](/assets/images/co2laser/ImgManual_18.png){ width="400" }
   <figcaption></figcaption>
 
 </figure>
@@ -35,7 +35,7 @@ This procedure should be performed with the machine powered on.
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_19.png){ width="694" }
+  ![](/assets/images/co2laser/ImgManual_19.png){ width="694" }
   <figcaption></figcaption>
 
 </figure>
@@ -59,7 +59,7 @@ Tip:
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_23.png){ width="563" }
+  ![](/assets/images/co2laser/ImgManual_23.png){ width="563" }
   <figcaption></figcaption>
 
 </figure>

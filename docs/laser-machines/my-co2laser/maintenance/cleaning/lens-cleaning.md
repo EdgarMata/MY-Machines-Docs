@@ -22,8 +22,8 @@ To perform a safe cleaning without scratching the lens, you will need:
 * Warm water
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Figure 1: Cleaning Kit (Coming Soon)</figcaption>
 </figure>
 
@@ -40,8 +40,8 @@ Follow these steps with care and patience:
     * **Important:** Inspect the lens closely to ensure there are no streaks, lint, or water spots left behind. The lens must be perfectly transparent.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Video: How to clean the Due Flow Lens (Coming Soon)</figcaption>
 </figure>
 

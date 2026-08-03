@@ -22,13 +22,13 @@ Remove only the packing seals, preferably with wire cutters; a sharp pair of sci
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_04.png){ width="750" }
+  ![](/assets/images/co2laser/ImgManual_04.png){ width="750" }
   <figcaption></figcaption>
   
-  ![](../images/ImgManual_05.png){ width="750" }
+  ![](/assets/images/co2laser/ImgManual_05.png){ width="750" }
   <figcaption></figcaption>
 
-  ![](../images/ImgManual_06.png){ width="750" }
+  ![](/assets/images/co2laser/ImgManual_06.png){ width="750" }
   <figcaption>Figure 1 - Items included with the Neon</figcaption>
 
 </figure>
@@ -48,7 +48,7 @@ Remove only the packing seals, preferably with wire cutters; a sharp pair of sci
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_14.png){ width="400" }
+  ![](/assets/images/co2laser/ImgManual_14.png){ width="400" }
   <figcaption></figcaption>
 
 </figure>
@@ -61,7 +61,7 @@ Remove only the packing seals, preferably with wire cutters; a sharp pair of sci
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_15.png){ width="400" }
+  ![](/assets/images/co2laser/ImgManual_15.png){ width="400" }
   <figcaption></figcaption>
 
 </figure>
@@ -75,7 +75,7 @@ Remove only the packing seals, preferably with wire cutters; a sharp pair of sci
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_16.png){ width="400" }
+  ![](/assets/images/co2laser/ImgManual_16.png){ width="400" }
   <figcaption></figcaption>
 
 </figure>
@@ -90,7 +90,7 @@ Remove only the packing seals, preferably with wire cutters; a sharp pair of sci
 
 <figure markdown="span">
 
-  ![](../images/ImgManual_17.png){ width="400" }
+  ![](/assets/images/co2laser/ImgManual_17.png){ width="400" }
   <figcaption></figcaption>
 
 </figure>

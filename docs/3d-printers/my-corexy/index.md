@@ -1,6 +1,6 @@
 # Welcome to My CoreXY 3D Printer Documentation
 <figure markdown="span">
-  ![My-CoreXY](images/MY-Core_XY.png){ width="1000" }
+  ![My-CoreXY](/assets/images/my-core_xy.webp){ width="1000" }
   <figcaption></figcaption>
 </figure>
 

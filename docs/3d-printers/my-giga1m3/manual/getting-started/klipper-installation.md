@@ -1,11 +1,6 @@
 # Klipper Installation
 
-<figure markdown="span">
-  ![](../../images/Under_Construction.svg#only-light){ width="610" }
-  <figcaption></figcaption>
-  ![](../../images/Under_Construction.svg#only-dark){ width="610" }
-  <figcaption></figcaption>
-</figure>
+--8<-- "under-construction.md"
 
 Welcome to the complete guide for installing and configuring Klipper.
 
@@ -13,12 +8,7 @@ This manual was created to help you set up a dedicated Klipper machine from scra
 
 ---
 
-<figure markdown="span">
-  ![](images/Under_Construction.svg#only-light){ width="610" }
-  <figcaption></figcaption>
-  ![](images/Under_Construction.svg#only-dark){ width="610" }
-  <figcaption></figcaption>
-</figure>
+--8<-- "under-construction.md"
 
 ---
 
@@ -272,9 +262,4 @@ Since you selected the option to install the SSH server during OS installation, 
       ```
 
       
-<figure markdown="span">
-  ![](images/Under_Construction.svg#only-light){ width="610" }
-  <figcaption></figcaption>
-  ![](images/Under_Construction.svg#only-dark){ width="610" }
-  <figcaption></figcaption>
-</figure>
+--8<-- "under-construction.md"

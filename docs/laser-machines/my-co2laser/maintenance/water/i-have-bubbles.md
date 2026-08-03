@@ -8,8 +8,8 @@ A common issue when starting the water cooling system is the appearance of air b
 Check out this short video for a quick demonstration of the techniques used to clear the system:
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Video Guide: Removing Air Bubbles (Coming Soon)</figcaption>
 </figure>
 
@@ -25,8 +25,8 @@ Turn off the machine entirely and wait at least **10 seconds** before switching 
 Gently squeeze and release the water hose several times to encourage the bubble to move. This is most effective when done on the **left side** of the hose.
 
 <figure markdown="span">
-  ![](../images/construcao-light.png#only-light){ width="400" }
-  ![](../images/construcao-dark.png#only-dark){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-light){ width="400" }
+  ![](/assets/images/image-placeholder.webp#only-dark){ width="400" }
   <figcaption>Reference: Where to apply pressure on the hose (Coming Soon)</figcaption>
 </figure>
 

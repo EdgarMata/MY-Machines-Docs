@@ -5,7 +5,7 @@ Simply put, the grounding system involves a rod driven into the ground, connecte
 
 <figure markdown="span">
 
-  ![](../images/barra_aterramento.png){ width="500" }
+  ![](/assets/images/co2laser/barra_aterramento.png){ width="500" }
   <figcaption>Figure 1: Outlet grounding</figcaption>
 
 </figure>
@@ -30,7 +30,7 @@ In the case of your Neon, grounding is not just a safety issue but also influenc
 
 <figure markdown="span">
 
-  ![](../images/tomada_terra.webp){ width="500" }
+  ![](/assets/images/co2laser/tomada_terra.webp){ width="500" }
   <figcaption>Figure 3: Example of an outlet with three grounding</figcaption>
   
 </figure>
