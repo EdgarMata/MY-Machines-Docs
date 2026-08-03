@@ -17,7 +17,7 @@ theme:
   name: 'material'
   language: 'en' # Mantém em inglês global para a comunidade mundial
   logo: assets/mylogo.svg
-  favicon: images/favicon.png
+  favicon: assets/images/favicon.ico
   custom_dir: overrides
   features:
     - navigation.tabs          # Menu superior horizontal por famílias de máquinas
