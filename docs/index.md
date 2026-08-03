@@ -17,7 +17,7 @@ Precision-driven open-source 3D printers designed for rapid prototyping and reli
 
     - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-filamente-extruder/index.md)
 
--   ![My HeatBed Controller](assets/images/Image-placeholder.webp)
+-   ![My HeatBed Controller](assets/images/image-placeholder.webp)
 
     ---
 
