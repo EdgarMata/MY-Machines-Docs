@@ -8,55 +8,59 @@ Precision-driven open-source 3D printers designed for rapid prototyping and reli
 
 <div class="grid cards" markdown>
 
--   ![My Cloner](assets/images/cloner.webp)
+-   ![My Filamente Extruder](assets/images/image-placeholder.webp)
 
     ---
 
-    ### **My Cloner 3D Printer**
+    ### **My Filamente Extruder**
     The accessible Cartesian workhorse. A reliable and straightforward platform ideal for everyday maker education and rapid prototyping.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/maquina1/assembly.md)
-    - [:fontawesome-solid-gear: Documentation](other-machines/maquina1/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-filamente-extruder/index.md)
 
--   ![My CoreXY](assets/images/corexy.webp)
+-   ![My HeatBed Controller](assets/images/Image-placeholder.webp)
 
     ---
 
-    ### **My CoreXY 3D Printer**
+    ### **My HeatBed Controller**
     Delivers a robust CoreXY motion system for superior stability and speed. Perfect for makers demanding high precision and consistency.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/maquina2/assembly.md)
-    - [:fontawesome-solid-gear: Documentation](other-machines/maquina2/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-heatbed-controller/index.md)
 
--   ![My Giga](assets/images/giga.webp)
+-   ![My Injection Moldind](assets/images/image-placeholder.webp)
 
     ---
 
-    ### **My Giga 1m3 3D Printer**
+    ### **My Injection Molding**
     Offers a massive 1-cubic-meter build volume for large prototypes or batch DIY projects. Industrial scale meets user-friendly reliability.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/maquina2/assembly.md)
-    - [:fontawesome-solid-gear: Documentation](other-machines/maquina2/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-injection-molding/index.md)
 
--   ![My Mini](assets/images/mini.webp)
+-   ![My MMU Addon](assets/images/image-placeholder.webp)
 
     ---
 
-    ### **My Mini 3D Printer**
+    ### **My MMU Addon**
     A compact, open-source inspired powerhouse. Perfect for small workspaces, beginner maker education, or as a reliable secondary DIY machine.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/maquina2/assembly.md)
-    - [:fontawesome-solid-gear: Documentation](other-machines/maquina2/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-mmu-addon/index.md)
     
--   ![My Delta](assets/images/coming_soon.webp)
+-   ![My PET Extruder](assets/images/image-placeholder.webp)
 
     ---
 
-    ### **My Delta 3D Printer**
+    ### **My PET Extruder**
     Engineered for blistering speed and tall prints. This upcoming open-source design brings rapid, precise digital fabrication to your workspace.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/maquina2/assembly.md)
-    - [:fontawesome-solid-gear: Documentation](other-machines/maquina2/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-pet-extruder/index.md)
+
+-   ![My Vacuum Forming](assets/images/image-placeholder.webp)
+
+    ---
+
+    ### **My Vacuum Forming**
+    Engineered for blistering speed and tall prints. This upcoming open-source design brings rapid, precise digital fabrication to your workspace.
+
+    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-vacuum-forming/index.md)
 
 </div>
 
