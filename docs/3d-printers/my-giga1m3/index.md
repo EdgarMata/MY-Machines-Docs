@@ -22,35 +22,35 @@ Here you will find everything you need to set up, use, maintain, and troubleshoo
     ---
     Find preventive and corrective maintenance procedures to keep your MY-Giga1M3 running at its best. Includes cleaning routines, lubrication, part replacement, and troubleshooting for common wear issues—essential for long-term reliability.
     
-    [:octicons-arrow-right-24: Maintenance Help](maintenance/)
+    [:octicons-arrow-right-24: Maintenance Help](maintenance\corrective\fan-replacement.md)
 
 -   :fontawesome-brands-app-store:{ .lg .middle } __Slicer Software & Print Profiles__
 
     ---
     Learn how to configure your favorite slicer software, import ready-to-use profiles, and optimize print settings for the best results. From beginner basics to advanced tuning, this section helps you get the most out of your MY-Giga1M3.
 
-    [:octicons-arrow-right-24: Slicer Guides](slicer/)
+    [:octicons-arrow-right-24: Slicer Guides](slicer/introduction.md)
 
 -   :fontawesome-solid-triangle-exclamation:{ .lg .middle } __Troubleshooting & Problem Solving__
 
     ---
     Facing issues with your printer? Find step-by-step solutions for common problems, error messages, and print quality issues. This section is your first stop for quick fixes and in-depth troubleshooting.
 
-    [:octicons-arrow-right-24: Troubleshooting Center](troubleshooting/)
+    [:octicons-arrow-right-24: Troubleshooting Center](troubleshooting/connectivity-issues.md)
 
 -   :fontawesome-solid-helmet-safety:{ .lg .middle } __Safety Guidelines & Best Practices__
 
     ---
     Stay safe while operating your MY-Giga1M3. Here you'll find essential safety information, electrical and thermal precautions, and best practices for a secure printing environment.
 
-    [:octicons-arrow-right-24: Safety Information](safety/)
+    [:octicons-arrow-right-24: Safety Information](safety/safe-usage.md)
 
 -   :fontawesome-solid-wand-magic-sparkles:{ .lg .middle } __Tips, Tricks & Advanced Techniques__
 
     ---
     Discover expert tips, advanced calibration tricks, and creative solutions to get the most out of your printer. Perfect for users who want to push the limits and achieve professional-quality results.
 
-    [:octicons-arrow-right-24: Tips and Tricks](tips-and-tricks/)
+    [:octicons-arrow-right-24: Tips and Tricks](tips-and-tricks/index.md)
 
 </div>
 

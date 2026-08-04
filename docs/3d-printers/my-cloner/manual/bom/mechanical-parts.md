@@ -59,12 +59,12 @@ Below you will find the main frame components of the printer, with links to purc
 
 | Qt {.col-auto} | Definition Name {.col-wide}       | By From Link {.col-wide .col-nowrap}          | DXF Link {.col-wide .col-nowrap} |
 |:--------------:|:----------------------------------|:----------------------------------------------|:---------------------------------|
-| 1              | Main Frame                        | [My-Store](https://www.my-machines.net/store) |                                  |
-| 1              | Back Frame Plate                  | [My-Store](https://www.my-machines.net/store) |                                  |
-| 1              | Front Frame Plate                 | [My-Store](https://www.my-machines.net/store) |                                  |
-| 1              | Y Carriage Plate                  | [My-Store](https://www.my-machines.net/store) |                                  |
+| 1              | Main Frame                        | [My-Store](https://my-machines.com/shop) |                                  |
+| 1              | Back Frame Plate                  | [My-Store](https://my-machines.com/shop) |                                  |
+| 1              | Front Frame Plate                 | [My-Store](https://my-machines.com/shop) |                                  |
+| 1              | Y Carriage Plate                  | [My-Store](https://my-machines.com/shop) |                                  |
 
 
-You can download the tables in XLS format from [this link](https://example.com/download-xls).
+You can download the tables in XLS format from [this link](/assets/downloads/cloner/my-cloner_bom.xlsx).
 
 

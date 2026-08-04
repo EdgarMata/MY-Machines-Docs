@@ -22,8 +22,7 @@ Siga estas instruções para sincronizar o seu hardware com o **Due Studio**:
 Abra a lista de redes sem fios no seu computador. Procure por um SSID identificado como **Neon + [Número de Série]**. 
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 1: Localizar o SSID da Neon na lista de redes (Brevemente)</figcaption>
 </figure>
 
@@ -31,8 +30,7 @@ Abra a lista de redes sem fios no seu computador. Procure por um SSID identifica
 Selecione a rede e insira a chave de segurança predefinida: `due-laser`. 
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 2: Inserir as credenciais da rede (Brevemente)</figcaption>
 </figure>
 
@@ -40,8 +38,7 @@ Selecione a rede e insira a chave de segurança predefinida: `due-laser`.
 Assim que o sistema operativo confirmar a ligação Wi-Fi, abra o **Due Studio**. Verifique o indicador de "Estado de Conexão" na interface do software. Se o ícone estiver verde, o "handshake" entre o computador e o controlador da **Neon** foi bem-sucedido.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 3: Indicador de estado de conexão no Due Studio (Brevemente)</figcaption>
 </figure>
 

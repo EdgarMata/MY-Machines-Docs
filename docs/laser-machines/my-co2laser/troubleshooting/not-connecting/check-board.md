@@ -24,8 +24,7 @@ To inspect the controller, you must access the machine's lateral compartment.
     Ensure the machine is powered down before opening any protective panels. Use the Allen key provided in your technical support kit to remove the side cover.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Video: Opening the Neon Electronics Compartment (Coming Soon)</figcaption>
 </figure>
 
@@ -44,8 +43,7 @@ Next to the power indicator, you should observe a **flashing Yellow LED**. This 
 * **If the LED is OFF or Solid:** The communication has failed, likely due to a corrupted SD card. In this case, the card must be reflashed. Please refer to our guide on **SD Card Recovery and Reflashing**.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Video: Identifying Board Status LEDs (Coming Soon)</figcaption>
 </figure>
 

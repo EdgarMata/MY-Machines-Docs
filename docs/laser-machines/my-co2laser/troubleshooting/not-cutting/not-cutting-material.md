@@ -24,8 +24,7 @@ Preventive maintenance is vital. Dirty lenses and mirrors absorb laser energy (c
     * **Important:** Do not forget the output lens of the laser tube itself, which can also accumulate dust or film.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 1: Identifying Contamination on Optical Lenses (Coming Soon)</figcaption>
 </figure>
 
@@ -57,8 +56,7 @@ In rare cases, penetration failure is caused by a physical issue with the tube h
 * **Inspection:** With the **Neon unplugged**, visually check if the metal coupler at the left end of the tube is firmly attached. Any play or gap will cause the beam to exit divergently.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 2: Inspecting the Laser Tube Output Head (Coming Soon)</figcaption>
 </figure>
 

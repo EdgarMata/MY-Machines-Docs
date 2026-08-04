@@ -9,9 +9,9 @@
     
     Learn more details about how to install the software in our [Studio] section.
 
-    [Studio]: ../studio/install-software/
+    [Studio]: ../studio/install-software.md
 
-    [Download](https://drive.google.com/file/d/1sMmQ-S8c64ZeZL8mtnbAXQutqwtjfCJW/view?usp=sharing){ .md-button .md-button--primary target="_blank"}
+    [Coming Soon](#){ .md-button .md-button--primary target="_blank"}
 
 ## Drivers
 
@@ -22,9 +22,9 @@
 
     Learn more details about the USB connection [here].
 
-    [here]: ../studio/connection/
+    [here]: ../studio/connection.md
 
-    [Download](https://drive.google.com/file/d/10JnDWMeaWblnzpIX60-MD6HoB6qVqJ4M/view?usp=sharing){ .md-button target="_blank"}
+    [Download](/assets/downloads/co2laser/USBdriverCH341SER.exe){ .md-button target="_blank"}
     
 ## Manuals
 
@@ -37,7 +37,7 @@
 
     [Manual]: ../manual/index.md
 
-    [Download](https://drive.google.com/file/d/1BYpAEwMVH_CSKg_psk-4yMmy8Keej1tb/view?usp=sharing){ .md-button target="_blank"}
+    [Download](/assets/downloads/co2laser/neon_instruction_manual.pdf){ .md-button target="_blank"}
 
     ### Neon Maintenance Manual
     Click the button below to download the Neon maintenance manual in PDF.
@@ -51,22 +51,22 @@
     ### Cutting Tests for Engraving
     The following links include the project in SVG and the project in G-CODE for your Neon.
 
-    [Download](https://drive.google.com/file/d/11eEqIUcx1SF6gMWhjog7JDLEOrdE9dc8/view?usp=sharing){ .md-button target="_blank"}
+    [Download](/assets/downloads/co2laser/engraving_materials.zip){ .md-button target="_blank"}
 
     ### Generic Cutting Tests
     The following links include the project in SVG and the project in G-CODE for your Neon.
 
-    [Download](https://drive.google.com/file/d/1TqYL2vwF50MRdcPyGatzLiguYWQMnyKe/view?usp=sharing){ .md-button target="_blank"}
+    [Download](/assets/downloads/co2laser/generic_materials.zip){ .md-button target="_blank"}
 
     ### Light Material Cutting Tests
     The following links include the project in SVG and the project in G-CODE for your Neon.
 
-    [Download](https://drive.google.com/file/d/1MHsutLMgGS1hPpmqIzFYeyYf0WazbsKG/view?usp=sharing){ .md-button target="_blank"}
+    [Download](/assets/downloads/co2laser/lightweight_materials.zip){ .md-button target="_blank"}
 
     ### Rigid Material Cutting Tests
     The following links include the project in SVG and the project in G-CODE for your Neon.
 
-    [Download](https://drive.google.com/file/d/1YQ8g6jjjvwMGDgkdkSCr4OcjbvWS8gBA/view?usp=sharing){ .md-button target="_blank"} 
+    [Download](/assets/downloads/co2laser/rigid_materials.zip){ .md-button target="_blank"} 
 
 ## Parameter Table PDF
 
@@ -77,8 +77,8 @@
 
     [Parameter Table] - [Parameter Test] - [The Influence of Speed and Power]
 
-    [Parameter Table]: ../tips-tricks/parameter-table/
-    [Parameter Test]: ../tips-tricks/parameter-test/
-    [The Influence of Speed and Power]: ../tips-tricks/speed-and-material/
+    [Parameter Table]: ../tips-tricks/parameter-table.md
+    [Parameter Test]: ../tips-tricks/parameter-test.md
+    [The Influence of Speed and Power]: ../tips-tricks/speed-and-material.md
 
-    [Download](https://drive.google.com/file/d/1CxQx5le9MeyUz4vuLkVUGNjaVHhfYy4L/view?usp=sharing){ .md-button target="_blank"}
+    [Download](/assets/downloads/co2laser/laser_parameters_table.pdf){ .md-button target="_blank"}

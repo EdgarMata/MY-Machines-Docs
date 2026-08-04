@@ -21,8 +21,7 @@ The software provides feedback based on the following thermal states:
 You can monitor the thermal status directly in the **Due Studio** control panel.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 1: Locating the temperature readout in Due Studio (Coming Soon)</figcaption>
 </figure>
 

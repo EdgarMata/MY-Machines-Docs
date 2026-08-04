@@ -5,7 +5,7 @@ This document lists all the printed parts required for the 3D printer. All links
 ## Download STL files
 Check out our GitHub to access STL files for all the printed parts. All files are provided in the correct orientation for printing on a standard FDM 3D printer. Generally, the printed parts are quite forgiving, but they are also quite large. If you experience drafts and/or poor bed adhesion, you may need to use brims/rafts for some parts to prevent warping.
 
-[:material-file-excel: Download XLS](https://github.com/EdgarMata/MY-Cloner-3D-Printer/tree/main/docs/manual/bom){ .md-button target="_blank" }
+[:material-file-excel: Download XLS](/assets/downloads/cloner/my-cloner_bom.xlsx){ .md-button target="_blank" }
 
 ### Printing Instructions
 The following table shows the recommended print settings when printing any of the provided parts.
@@ -58,4 +58,4 @@ All parts should be printed with the following settings:
 | 1              | Z Axis Top (R)                    | Blue                          | No                               |
 | 1              | Z motor Mount (L)                 | Blue                          | No                               |
 
-You can download all STL files for the printed parts from [this link.](https://github.com/EdgarMata/MY-Cloner-3D-Printer/tree/main/STL's)
+You can download all STL files for the printed parts from thingiverce [here.](https://www.thingiverse.com/thing:5199582)

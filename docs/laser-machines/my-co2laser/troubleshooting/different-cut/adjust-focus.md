@@ -9,8 +9,7 @@ Calibrating the focus is a fundamental step to ensure the success of your laser 
 Before the laser reaches your material, it passes through a specialized lens that concentrates the energy into a single, high-intensity point. For the **Due Flow** to achieve a clean and efficient cut, the distance between this lens and the material surface must be perfectly set. This is known as the ideal focal point.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 1: Visualizing the Focal Point (Coming Soon)</figcaption>
 </figure>
 
@@ -25,8 +24,7 @@ Adjusting the focal height is a quick and vital procedure:
 3.  **Lock the Position:** Tighten the laser head back into place to secure the new focal height.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Video: Focus Calibration Walkthrough (Coming Soon)</figcaption>
 </figure>
 
@@ -54,8 +52,7 @@ The most reliable indicator of a focus issue is the width of the "kerf" (the cut
 * **Correct Focus:** The cut line will be razor-thin and sharp.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 2: Comparing Focused vs. Unfocused Cuts (Coming Soon)</figcaption>
 </figure>
 

@@ -22,8 +22,7 @@ Follow these steps within **Due Studio** to bridge the machine to your local net
 On the Due Studio Control Bar, locate and click the **Settings** (gear) icon to open the configuration panel.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 1: Navigating to System Settings (Coming Soon)</figcaption>
 </figure>
 
@@ -31,8 +30,7 @@ On the Due Studio Control Bar, locate and click the **Settings** (gear) icon to 
 Navigate to the **Wi-Fi** tab and click **Refresh**. The software will scan the environment and list all available SSIDs detected by the **Neon**.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 2: Viewing available local networks (Coming Soon)</figcaption>
 </figure>
 
@@ -40,8 +38,7 @@ Navigate to the **Wi-Fi** tab and click **Refresh**. The software will scan the 
 Select your preferred workplace network and click **Connect**. If the network is secured, enter your credentials and click **Apply**. 
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 3: Entering network credentials for integration (Coming Soon)</figcaption>
 </figure>
 

@@ -16,4 +16,4 @@ This document lists all the electronic parts required for the 3D printer. All li
 | 1              | P.I.N.D.A. probe                  | [Amazon](https://amzn.to/4n7H29s) | [Aliexpress](https://s.click.aliexpress.com/e/_omTpVJA) |
 | 1              | Filament Sensor                   | [Amazon](https://amzn.to/4jYzFhV) | [Aliexpress](https://s.click.aliexpress.com/e/_oBvssJ8) |
 
-You can download the tables in XLS format from [this link](https://example.com/download-xls).
+You can download the tables in XLS format from [this link](/assets/downloads/cloner/my-cloner_bom.xlsx).

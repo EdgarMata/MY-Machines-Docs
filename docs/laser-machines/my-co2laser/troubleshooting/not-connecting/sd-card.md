@@ -25,8 +25,7 @@ To write the firmware image to the SD card, we recommend using **BalenaEtcher**,
 3.  **Initialization:** Open the application once the installation is complete.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 1: Preparing the Flashing Environment (Coming Soon)</figcaption>
 </figure>
 
@@ -61,8 +60,7 @@ You will need the Allen key and the SD adapter provided in your **Neon Technical
 4.  **Validation:** Wait for the software to finish the "Validating" stage to ensure the firmware was written without errors.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 2: Flashing Process in BalenaEtcher (Coming Soon)</figcaption>
 </figure>
 

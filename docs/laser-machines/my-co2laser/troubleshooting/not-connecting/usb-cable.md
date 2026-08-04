@@ -30,8 +30,7 @@ Sometimes the Due Studio communication bridge becomes unresponsive.
 * **Action:** Fully close Due Studio. Ensure the background process is terminated (check Task Manager if necessary) and relaunch the software to refresh the connection icon.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Video: Correctly restarting Due Studio communication (Coming Soon)</figcaption>
 </figure>
 
@@ -49,8 +48,7 @@ USB ports can suffer from "pin fatigue" or debris buildup, which allows peripher
     * Plug your USB cable **directly into the controller board port**.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 1: Direct connection to the Neon controller board (Coming Soon)</figcaption>
 </figure>
 

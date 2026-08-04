@@ -23,8 +23,7 @@ One of the most reliable ways to check the health of the **Neon's** laser is by 
 * **Depleted/End of Life:** As the CO2 gas degrades, the discharge shifts toward a **pale white or yellowish** hue.
 
 <figure markdown="span">
-  ![](/assets/images/construcao-light.png#only-light){ width="400" }
-  ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
+--8<-- "image-placeholder.md"
   <figcaption>Figure 1: Comparison of healthy vs. depleted plasma discharge (Coming Soon)</figcaption>
 </figure>
 
