@@ -4,8 +4,7 @@
     **Under-extrusion** occurs when the printer fails to extrude the correct amount of material. It's extruding, but not enough. This results in prints that are weak, flimsy, and have characteristic gaps between layers and walls, or even entire missing layers.
 
 <figure markdown="1">
-  ![A print showing signs of under-extrusion](/assets/images/image-placeholder.webp#only-light){ width="600" }
-  ![A print showing signs of under-extrusion](/assets/images/image-placeholder.webp#only-dark){ width="600" }
+--8<-- "image-placeholder.md"
   <figcaption>A 3D print, like a calibration cube, showing classic signs of under-extrusion: gaps between walls, holes in the top surface, and an overall flimsy appearance.</figcaption>
 </figure>
 

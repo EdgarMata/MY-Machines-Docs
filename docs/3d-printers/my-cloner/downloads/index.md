@@ -12,7 +12,7 @@ Welcome to the download center for the MY-Cloner 3D Printer. Here you can find a
 
     Download all the necessary STL files in a single ZIP archive. All parts are pre-oriented for easy printing.
 
-    [:octicons-arrow-right-24: Go to Download](transferencias/stl-files.md)
+    [:octicons-arrow-right-24: Go to Download](stl-files.md)
 
 -   :material-cog-outline:{ .lg .middle } __Slicer Profiles__
 
@@ -20,7 +20,7 @@ Welcome to the download center for the MY-Cloner 3D Printer. Here you can find a
 
     Get started quickly with our pre-configured profiles for Orca Slicer and PrusaSlicer.
 
-    [:octicons-arrow-right-24: Go to Download](transferencias/slicer-profiles.md)
+    [:octicons-arrow-right-24: Go to Download](slicer-profiles.md)
 
 -   :material-chip:{ .lg .middle } __Firmware Configuration__
 
@@ -28,7 +28,7 @@ Welcome to the download center for the MY-Cloner 3D Printer. Here you can find a
 
     Download the recommended `printer.cfg` file for Klipper, containing all hardware settings.
 
-    [:octicons-arrow-right-24: Go to Download](transferencias/firmware-configuration.md)
+    [:octicons-arrow-right-24: Go to Download](firmware-configuration.md)
 
 -   :material-file-cad:{ .lg .middle } __CAD Source Files (STEP & DXF)__
 
@@ -36,7 +36,7 @@ Welcome to the download center for the MY-Cloner 3D Printer. Here you can find a
 
     For advanced users, download the complete project in STEP format and DXF files for the frame.
 
-    [:octicons-arrow-right-24: Go to Download](transferencias/cad-files.md)
+    [:octicons-arrow-right-24: Go to Download](cad-files.md)
 
 -   :material-file-excel:{ .lg .middle } __Bill of Materials (BOM)__
 
@@ -44,7 +44,7 @@ Welcome to the download center for the MY-Cloner 3D Printer. Here you can find a
 
     Download the complete Bill of Materials in XLSX and CSV formats to help you source all components.
 
-    [:octicons-arrow-right-24: Go to Download](transferencias/bom-files.md)
+    [:octicons-arrow-right-24: Go to Download](bom-files.md)
 
 -   :material-book-open-page-variant-outline:{ .lg .middle } __Offline Manual (PDF)__
 
@@ -52,6 +52,6 @@ Welcome to the download center for the MY-Cloner 3D Printer. Here you can find a
 
     Download a complete version of the user manual in PDF format for offline viewing.
 
-    [:octicons-arrow-right-24: Go to Download](transferencias/offline-manual.md)
+    [:octicons-arrow-right-24: Go to Download](offline-manual.md)
 
 </div>

@@ -4,8 +4,7 @@
     The infill of the part is weak, crumbly, has gaps, or does not connect properly to the perimeters (walls) of the print. While not visible from the outside, poor infill drastically compromises the part's strength.
 
 <figure markdown="1">
-  ![A print with sparse, broken, or disconnected infill](/assets/images/image-placeholder.webp#only-light){ width="600" }
-  ![A print with sparse, broken, or disconnected infill](/assets/images/image-placeholder.webp#only-dark){ width="600" }
+--8<-- "image-placeholder.md"
   <figcaption>The internal infill structure of a print looking sparse, broken, or disconnected from the outer walls.</figcaption>
 </figure>
 

@@ -4,8 +4,7 @@
     **Bridging** is the printer's ability to print over an empty space between two points, creating a horizontal "bridge." The problem occurs when the bridge's lines sag, look messy, or fail to connect properly, instead of forming a straight, smooth surface.
 
 <figure markdown="1">
-  ![A comparison showing poor bridging next to a clean bridge](/assets/images/image-placeholder.webp#only-light){ width="600" }
-  ![A comparison showing poor bridging next to a clean bridge](/assets/images/image-placeholder.webp#only-dark){ width="600" }
+--8<-- "image-placeholder.md"
   <figcaption>A comparison showing a poor bridge with sagging, drooping strands of filament next to a clean, straight bridge.</figcaption>
 </figure>
 

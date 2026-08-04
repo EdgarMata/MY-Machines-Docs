@@ -1,6 +1,6 @@
 # Welcome to MY-Giga1M3 3D Printer Documentation
 <figure markdown="span">
-  ![My-Giga1m3](assets/images/giga1m3/my_giga_1m3.webp){ width="800" }
+  ![My-Giga1m3](/assets/images/giga1m3/my_giga_1m3.webp){ width="800" }
   <figcaption></figcaption>
 </figure>
 

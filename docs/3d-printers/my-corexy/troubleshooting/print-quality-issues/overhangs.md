@@ -4,8 +4,7 @@
     An **overhang** is any part of the print that is printed at an angle to the vertical, without direct support underneath. The problem occurs when these sections have a very poor finish, with drooping lines, upward curling, or improper adhesion.
 
 <figure markdown="1">
-  ![A close-up of a messy overhang on a 3D print](/assets/images/image-placeholder.webp#only-light){ width="600" }
-  ![A close-up of a messy overhang on a 3D print](/assets/images/image-placeholder.webp#only-dark){ width="600" }
+--8<-- "image-placeholder.md"
   <figcaption>A close-up of an angled overhang on a 3D print showing drooping loops and a rough, messy surface finish due to poor cooling.</figcaption>
 </figure>
 

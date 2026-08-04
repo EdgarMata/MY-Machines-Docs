@@ -4,8 +4,7 @@
     **Pillowing** occurs when the top solid layer of a print does not form correctly over the infill structure. Instead of a smooth, flat surface, you get a lumpy surface with gaps, holes, or a "pillow-like" appearance.
 
 <figure markdown="1">
-  ![The top surface of a 3D print showing pillowing](/assets/images/image-placeholder.webp#only-light){ width="600" }
-  ![The top surface of a 3D print showing pillowing](/assets/images/image-placeholder.webp#only-dark){ width="600" }
+--8<-- "image-placeholder.md"
   <figcaption>The top solid surface of a 3D print showing bumps, gaps, and an uneven finish, a defect known as pillowing.</figcaption>
 </figure>
 

@@ -4,8 +4,7 @@
     **Warping** happens when the corners of a 3D print contract, curl upwards, and detach from the print bed during the process. It's more common with large parts and high-shrinkage materials like ABS.
 
 <figure markdown="1">
-  ![A 3D print with its corners lifting off the print bed](/assets/images/image-placeholder.webp#only-light){ width="600" }
-  ![A 3D print with its corners lifting off the print bed](/assets/images/image-placeholder.webp#only-dark){ width="600" }
+--8<-- "image-placeholder.md"
   <figcaption>A 3D print with its corners lifting off the print bed, a clear example of warping.</figcaption>
 </figure>
 
@@ -18,7 +17,7 @@ Warping is a problem of **thermal contraction**. As hot plastic cools, it shrink
 If the first layer isn't perfectly stuck, any small contraction force will be enough to lift it.
 
 * **Fix 1: Cleanliness:** The most common cause of poor adhesion is a dirty bed. Clean it with Isopropyl Alcohol (IPA >90%) before every print to remove grease and dust.
-* **Fix 2: Leveling and Z-Offset:** Ensure your [first layer is perfect](./perfect-first-layer.md). The nozzle must be close enough to the bed to slightly "squish" the filament, maximizing contact.
+* **Fix 2: Leveling and Z-Offset:** Ensure your [first layer is perfect](../../tips-and-tricks/perfect-first-layer.md). The nozzle must be close enough to the bed to slightly "squish" the filament, maximizing contact.
 * **Fix 3: Bed Temperature:** Use the recommended bed temperature for your material (60°C for PLA, 70-85°C for PETG, 100-110°C for ABS). This keeps the bottom layers of plastic above their "glass transition temperature," making them less prone to shrinking.
 
 ### 2. Rapid and Uneven Cooling

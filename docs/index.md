@@ -15,7 +15,7 @@ Precision-driven open-source 3D printers designed for rapid prototyping and reli
     ### **My Filamente Extruder**
     The accessible Cartesian workhorse. A reliable and straightforward platform ideal for everyday maker education and rapid prototyping.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-filamente-extruder/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-projects/my-filament-extruder/index.md)
 
 -   ![My HeatBed Controller](assets/images/image-placeholder.webp)
 
@@ -24,7 +24,7 @@ Precision-driven open-source 3D printers designed for rapid prototyping and reli
     ### **My HeatBed Controller**
     Delivers a robust CoreXY motion system for superior stability and speed. Perfect for makers demanding high precision and consistency.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-heatbed-controller/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-projects/my-heatbed-controller/index.md)
 
 -   ![My Injection Moldind](assets/images/image-placeholder.webp)
 
@@ -33,7 +33,7 @@ Precision-driven open-source 3D printers designed for rapid prototyping and reli
     ### **My Injection Molding**
     Offers a massive 1-cubic-meter build volume for large prototypes or batch DIY projects. Industrial scale meets user-friendly reliability.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-injection-molding/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-projects/my-injection-molding/index.md)
 
 -   ![My MMU Addon](assets/images/image-placeholder.webp)
 
@@ -42,7 +42,7 @@ Precision-driven open-source 3D printers designed for rapid prototyping and reli
     ### **My MMU Addon**
     A compact, open-source inspired powerhouse. Perfect for small workspaces, beginner maker education, or as a reliable secondary DIY machine.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-mmu-addon/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-projects/my-mmu-addon/index.md)
     
 -   ![My PET Extruder](assets/images/image-placeholder.webp)
 
@@ -51,7 +51,7 @@ Precision-driven open-source 3D printers designed for rapid prototyping and reli
     ### **My PET Extruder**
     Engineered for blistering speed and tall prints. This upcoming open-source design brings rapid, precise digital fabrication to your workspace.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-pet-extruder/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-projects/my-pet-extruder/index.md)
 
 -   ![My Vacuum Forming](assets/images/image-placeholder.webp)
 
@@ -60,7 +60,7 @@ Precision-driven open-source 3D printers designed for rapid prototyping and reli
     ### **My Vacuum Forming**
     Engineered for blistering speed and tall prints. This upcoming open-source design brings rapid, precise digital fabrication to your workspace.
 
-    - [:fontawesome-solid-book-open: Assembly Manual](other-machines/my-vacuum-forming/index.md)
+    - [:fontawesome-solid-book-open: Assembly Manual](other-projects/my-vacuum-forming/index.md)
 
 </div>
 

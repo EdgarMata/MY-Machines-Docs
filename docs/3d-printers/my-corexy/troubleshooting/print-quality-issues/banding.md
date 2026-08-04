@@ -4,8 +4,7 @@
     **Z-Banding** manifests as a pattern of protruding or indented horizontal lines on the surface of the print. Unlike normal layer lines, these bands are inconsistent or have a visible repeating pattern.
 
 <figure markdown="1">
-  ![A close-up of a print's vertical surface showing Z-axis banding](/assets/images/image-placeholder.webp#only-light){ width="600" }
-  ![A close-up of a print's vertical surface showing Z-axis banding](/assets/images/image-placeholder.webp#only-dark){ width="600" }
+--8<-- "image-placeholder.md"
   <figcaption>A close-up of a print's vertical surface showing a pattern of inconsistent, repeating horizontal lines, which is characteristic of Z-axis banding.</figcaption>
 </figure>
 

@@ -4,8 +4,7 @@
     Z-axis issues are a category of mechanical problems related to the printer's vertical movement. Symptoms often include visible **Z-banding** (consistent patterns on walls), inconsistent layer heights, or grinding noises during Z movement.
 
 <figure markdown="1">
-  ![A close-up of a 3D printer's Z-axis assembly](/assets/images/image-placeholder.webp#only-light){ width="600" }
-  ![A close-up of a 3D printer's Z-axis assembly](/assets/images/image-placeholder.webp#only-dark){ width="600" }
+--8<-- "image-placeholder.md"
   <figcaption>A close-up of a 3D printer's Z-axis assembly, highlighting the motor, the coupler, the lead screw, and the brass nut on the X-gantry as key areas to inspect.</figcaption>
 </figure>
 

@@ -4,8 +4,7 @@
     **Layer shifting** is a dramatic printing failure where the layers of a print become misaligned along the X or Y axis. The printer loses its intended coordinates, resulting in a distinct "stair-step" effect that ruins the part.
 
 <figure markdown="1">
-  ![A 3D print showing a severe layer shift](/assets/images/image-placeholder.webp#only-light){ width="600" }
-  ![A 3D print showing a severe layer shift](/assets/images/image-placeholder.webp#only-dark){ width="600" }
+--8<-- "image-placeholder.md"
   <figcaption>A 3D print exhibiting a severe layer shift, where the upper layers have been abruptly misaligned from the bottom layers along the X or Y axis.</figcaption>
 </figure>
 

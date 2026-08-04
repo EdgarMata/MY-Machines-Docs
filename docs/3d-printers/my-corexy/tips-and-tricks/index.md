@@ -36,6 +36,6 @@ Browse the guides below to find the solution you need.
     
     Master the most popular filaments. Printing, storage, and troubleshooting tips for PLA, PETG, ABS, ASA, and TPU.
 
-    [:octicons-arrow-right-24: View guide](tips_for_common_materials.md)
+    [:octicons-arrow-right-24: View guide](printing-&-materials/tips_for_common_materials.md)
 
 </div>

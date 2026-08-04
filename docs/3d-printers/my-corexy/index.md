@@ -39,7 +39,7 @@ Here you will find all the information you need to set up, use, and troubleshoot
 
     Do you have any problems with your machine? Find here some simple solutions that can help you a lot.
 
-    [:octicons-arrow-right-24: Find out more](troubleshooting/layer-adhesion-issues.md)
+    [:octicons-arrow-right-24: Find out more](troubleshooting/print-quality-issues/layer-adhesion-issues.md)
 
 -   :fontawesome-solid-helmet-safety:{ .lg .middle } __Help with saftey__
 
