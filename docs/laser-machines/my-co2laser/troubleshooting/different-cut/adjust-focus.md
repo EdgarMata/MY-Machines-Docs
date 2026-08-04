@@ -54,7 +54,7 @@ The most reliable indicator of a focus issue is the width of the "kerf" (the cut
 * **Correct Focus:** The cut line will be razor-thin and sharp.
 
 <figure markdown="span">
-  ![](/asstes/images/construcao-light.png#only-light){ width="400" }
+  ![](/assets/images/construcao-light.png#only-light){ width="400" }
   ![](/assets/images/construcao-dark.png#only-dark){ width="400" }
   <figcaption>Figure 2: Comparing Focused vs. Unfocused Cuts (Coming Soon)</figcaption>
 </figure>

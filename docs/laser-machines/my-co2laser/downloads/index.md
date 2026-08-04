@@ -35,7 +35,7 @@
     
     You can also read the manual here on this site in the [Manual] section.
 
-    [Manual]: ../manual/
+    [Manual]: ../manual/index.md
 
     [Download](https://drive.google.com/file/d/1BYpAEwMVH_CSKg_psk-4yMmy8Keej1tb/view?usp=sharing){ .md-button target="_blank"}
 

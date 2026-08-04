@@ -1,0 +1,53 @@
+﻿Error,URL,Anchor Text,Linked From
+429 Too Many Requests,https://api.whatsapp.com/send?1=pt_pt&phone=351924244819,Whatsapp,https://docs.my-machines.com/3d-printers/my-cloner/
+404 Not Found,https://example.com/download-xls,this link,https://docs.my-machines.com/3d-printers/my-cloner/manual/bom/electronic-parts/
+404 Not Found,https://github.com/EdgarMata/MY-Cloner-3D-Printer/tree/main/docs/manual/bom,Download XLS,https://docs.my-machines.com/3d-printers/my-cloner/manual/bom/printed-parts/
+404 Not Found,https://github.com/EdgarMata/MY-Cloner-3D-Printer/tree/main/STL's,this link.,https://docs.my-machines.com/3d-printers/my-cloner/manual/bom/printed-parts/
+404 Not Found,https://my-machines.com/store,My-Store [301 from https://www.my-machines.net/store],https://docs.my-machines.com/3d-printers/my-cloner/manual/bom/mechanical-parts/
+404 Not Found,https://www.youtube.com/@mymachinesnet/,YouTube,https://docs.my-machines.com/3d-printers/my-cloner/faq/
+-1 Not found: The server name or address could not be resolved,https://www.ifixgadget.pt/loja/ME-Mini-3D-sketchp-Model-p414594756,iFixGadget Store,https://docs.my-machines.com/3d-printers/my-mini/downloads/
+403 Forbidden,https://www.etsy.com/listing/1109453640/me-mini-printer-3d-sketchup-model?ref=shop_home_active_1,Etsy Store,https://docs.my-machines.com/3d-printers/my-mini/downloads/
+-1 Not found: The server name or address could not be resolved,https://www.ifixgadget.pt/loja,iFixGadget Store,https://docs.my-machines.com/3d-printers/my-mini/downloads/
+403 Forbidden,https://docs.my-machines.com/3d-printers/my-giga1m3/manual/,Explore the Manual,https://docs.my-machines.com/3d-printers/my-giga1m3/
+403 Forbidden,https://docs.my-machines.com/3d-printers/my-giga1m3/maintenance/,Maintenance Help,https://docs.my-machines.com/3d-printers/my-giga1m3/
+403 Forbidden,https://docs.my-machines.com/3d-printers/my-giga1m3/slicer/,Slicer Guides,https://docs.my-machines.com/3d-printers/my-giga1m3/
+403 Forbidden,https://docs.my-machines.com/3d-printers/my-giga1m3/troubleshooting/,Troubleshooting Center,https://docs.my-machines.com/3d-printers/my-giga1m3/
+403 Forbidden,https://docs.my-machines.com/3d-printers/my-giga1m3/safety/,Safety Information,https://docs.my-machines.com/3d-printers/my-giga1m3/
+404 Not Found,https://docs.my-machines.com/3d-printers/my-giga1m3/tips-and-tricks/,Tips and Tricks,https://docs.my-machines.com/3d-printers/my-giga1m3/
+404 Not Found,https://edgarmata.github.io/MY-CO2Laser-CNC/manual/,Learn More,https://docs.my-machines.com/laser-machines/my-co2laser/
+-1 Invalid URL,http://127.0.0.1:8000/MY-CO2Laser/maintenance/water/water-in-neon/,Learn More,https://docs.my-machines.com/laser-machines/my-co2laser/
+404 Not Found,https://edgarmata.github.io/MY-CO2Laser-CNC/studio/install-software/,Learn More,https://docs.my-machines.com/laser-machines/my-co2laser/
+404 Not Found,https://edgarmata.github.io/MY-CO2Laser-CNC/troubleshooting/different-cut/adjust-belts/,Learn More,https://docs.my-machines.com/laser-machines/my-co2laser/
+404 Not Found,https://edgarmata.github.io/MY-CO2Laser-CNC/safety/safety-instructions/,Learn More,https://docs.my-machines.com/laser-machines/my-co2laser/
+404 Not Found,https://edgarmata.github.io/MY-CO2Laser-CNC/tips-tricks/best-practices/,Learn More,https://docs.my-machines.com/laser-machines/my-co2laser/
+404 Not Found,https://www.youtube.com/@machines_net,YouTube,https://docs.my-machines.com/laser-machines/my-co2laser/
+404 Not Found,https://drive.google.com/file/d/1sMmQ-S8c64ZeZL8mtnbAXQutqwtjfCJW/view?usp=sharing,Download,https://docs.my-machines.com/laser-machines/my-co2laser/donwloads/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/maintenance/water/remove-bubbles/,remove the bubbles,https://docs.my-machines.com/laser-machines/my-co2laser/manual/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/troubleshooting/different-cut/adjust-belts/,Troubleshooting,https://docs.my-machines.com/laser-machines/my-co2laser/manual/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/manual/primeiros-trabalhos/material/,material,https://docs.my-machines.com/laser-machines/my-co2laser/manual/first-projects/adjust-focus/
+404 Not Found,https://docs.my-machines.com/assets/images/co2laser/laser-cabeÃ§ote-light.png,img/src,https://docs.my-machines.com/laser-machines/my-co2laser/manual/first-projects/adjust-focus/
+404 Not Found,https://docs.my-machines.com/assets/images/co2laser/laser-cabeÃ§ote-dark.png,img/src,https://docs.my-machines.com/laser-machines/my-co2laser/manual/first-projects/adjust-focus/
+404 Not Found,https://docs.my-machines.com/assets/images/co2laser/difrenÃ§as-foco.png,img/src,https://docs.my-machines.com/laser-machines/my-co2laser/manual/first-projects/adjust-focus/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/studio/primeiros-passos/comando-movimento/,Studio,https://docs.my-machines.com/laser-machines/my-co2laser/manual/first-projects/materials/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/manual/primeiros-trabalhos/velocidade-potencia/,speed and power,https://docs.my-machines.com/laser-machines/my-co2laser/manual/first-projects/materials/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/truques-%26-dicas/testes-parametros/,tests to determine the most suitable settings,https://docs.my-machines.com/laser-machines/my-co2laser/manual/first-projects/speed-power/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/transferencias/,provide,https://docs.my-machines.com/laser-machines/my-co2laser/manual/first-projects/speed-power/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/maintenance/water/water-in-neon/,Water in Neon,https://docs.my-machines.com/laser-machines/my-co2laser/manual/getting-started/fill-reservoir/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/maintenance/water/have-bubbles/,I Have Bubbles,https://docs.my-machines.com/laser-machines/my-co2laser/manual/getting-started/fill-reservoir/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/manual/getting-started/install-Neon/,Getting Started,https://docs.my-machines.com/laser-machines/my-co2laser/manual/getting-started/fill-reservoir/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/transfers/,here,https://docs.my-machines.com/laser-machines/my-co2laser/manual/getting-started/install-carbon/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/manual/getting-started/honeycomb/,honeycomb,https://docs.my-machines.com/laser-machines/my-co2laser/manual/getting-started/install-carbon/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/safety/socket-instructions/,safety,https://docs.my-machines.com/laser-machines/my-co2laser/manual/getting-started/install-carbon/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/manual/getting-started/fill-reservoir/,Fill Reservoir,https://docs.my-machines.com/laser-machines/my-co2laser/manual/getting-started/install-carbon/
+404 Not Found,https://edgarmata.github.io/Neon-FAQS/studio/conexão-computador/,USB Cable,https://docs.my-machines.com/laser-machines/my-co2laser/studio/connection/
+404 Not Found,https://edgarmata.github.io/Neon-FAQS/transferencias/,downloads,https://docs.my-machines.com/laser-machines/my-co2laser/studio/install-software/
+404 Not Found,https://edgarmata.github.io/Neon-FAQS/studio/altualização-software/,Here,https://docs.my-machines.com/laser-machines/my-co2laser/studio/install-software/
+404 Not Found,https://docs.my-machines.com/assets/images/co2laser/permissÃ£o-admin.png,img/src,https://docs.my-machines.com/laser-machines/my-co2laser/studio/install-software/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/manual/primeiros-trabalhos/ajustar-foco/,proper focus adjustment,https://docs.my-machines.com/laser-machines/my-co2laser/tips-tricks/speed-and-material/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/manutenção/água/agua-na-neon/,preventive maintenance,https://docs.my-machines.com/laser-machines/my-co2laser/tips-tricks/speed-and-material/
+404 Not Found,https://my-machinespluskdb.github.io/-FAQS/truques-%26-dicas/testes-parametros/,article,https://docs.my-machines.com/laser-machines/my-co2laser/tips-tricks/parameter-table/
+404 Not Found,https://my-machinespluskdb.github.io/Neon-FAQS/truques-%26-dicas/influ-velocidade-material/,"""The influence of speed and power for the same material""",https://docs.my-machines.com/laser-machines/my-co2laser/tips-tricks/parameter-table/
+404 Not Found,https://docs.my-machines.com/assets/images/co2laserteste-rigido-02.png,img/src,https://docs.my-machines.com/laser-machines/my-co2laser/tips-tricks/parameter-test/
+404 Not Found,https://docs.my-machines.com/asstes/images/construcao-light.png,img/src,https://docs.my-machines.com/laser-machines/my-co2laser/troubleshooting/different-cut/adjust-focus/
+403 Forbidden,https://www.etsy.com/listing/1102710278/me-laser-cnc-3d-sketchup-model?ref=shop_home_active_2,Etsy Store,https://docs.my-machines.com/laser-machines/my-laser/introduction/introdução/
+404 Not Found,https://docs.my-machines.com/laser-machines/my-laser/introduction/introdução/www.thingiverse.com/thing:5021795,Thingiverse,https://docs.my-machines.com/laser-machines/my-laser/introduction/introdução/

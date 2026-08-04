@@ -15,7 +15,7 @@ Here you will find everything you need to set up, use, maintain, and troubleshoo
     ---
     Access all assembly instructions, setup guides, and detailed user manuals for your MY-Giga1M3. Whether you are building your printer for the first time or need a quick reference, this section has you covered with step-by-step documentation and downloadable resources.
 
-    [:octicons-arrow-right-24: Explore the Manual](manual/)
+    [:octicons-arrow-right-24: Explore the Manual](manual/overview.md)
 
 -   :fontawesome-solid-screwdriver-wrench:{ .lg .middle } __Maintenance & Guides__
 
