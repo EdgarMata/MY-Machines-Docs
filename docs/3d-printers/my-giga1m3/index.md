@@ -22,7 +22,7 @@ Here you will find everything you need to set up, use, maintain, and troubleshoo
     ---
     Find preventive and corrective maintenance procedures to keep your MY-Giga1M3 running at its best. Includes cleaning routines, lubrication, part replacement, and troubleshooting for common wear issues—essential for long-term reliability.
     
-    [:octicons-arrow-right-24: Maintenance Help](maintenance\corrective\fan-replacement.md)
+    [:octicons-arrow-right-24: Maintenance Help](maintenance/corrective/fan-replacement.md)
 
 -   :fontawesome-brands-app-store:{ .lg .middle } __Slicer Software & Print Profiles__
 

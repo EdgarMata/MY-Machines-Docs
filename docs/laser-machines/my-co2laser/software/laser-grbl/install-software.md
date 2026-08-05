@@ -19,7 +19,7 @@ Or, if you prefer, follow the steps below:
 * Choose the link of Neon Studio compatible with your Neon.
 * You will be redirected to a page on Google Drive. Click on ==Download== > ==Download anyway== to start the download. ==Fig 1:==
 
-[downloads]: https://edgarmata.github.io/Neon-FAQS/transferencias/
+[downloads]: ../../downloads/index.md
 
 <figure markdown="span">
 
@@ -78,8 +78,8 @@ Or, if you prefer, follow the steps below:
 
 * Done, Neon Studio is installed on your system!
 
-Want to learn more about how to use the software? Keep following our series of articles about Neon Studio [Here].
+Want to learn more about how to use the software? Keep following our series of articles about Lightburn [Here].
 
-[Here]: https://edgarmata.github.io/Neon-FAQS/studio/altualiza%C3%A7%C3%A3o-software/
+[Here]: ../lightburn/started-with-lightburn.md
 
 You have learned how to install the necessary software to control your Neon on Windows 10 or later versions. Now, the next step is to connect your Neon to the computer.

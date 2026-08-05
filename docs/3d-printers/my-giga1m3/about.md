@@ -1,19 +1,13 @@
-# Overview
+# About
 
 --8<-- "under-construction.md"
 
-# Box Contents
+## Overview
 
---8<-- "under-construction.md"
+## Box Contents
 
-# Features
+## Features
 
---8<-- "under-construction.md"
+## Specifications
 
-# Specifications
-
---8<-- "under-construction.md"
-
-# Warranty
-
---8<-- "under-construction.md"
+## Warranty
