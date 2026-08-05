@@ -1,4 +1,4 @@
-# Calibrating Input Shaper
+# Calibrating Input Shaper 
 
 Input Shaping is one of Klipper's most powerful features. It is designed to cancel out the vibrations (resonant frequencies) of your printer's frame, which eliminates the "ringing" or "ghosting" artifacts that appear after corners and sharp details in your prints. Correctly calibrating Input Shaper is the key to printing at high speeds without sacrificing quality.
 

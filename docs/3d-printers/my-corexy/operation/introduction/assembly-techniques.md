@@ -1,6 +1,6 @@
 # Core Assembly Techniques
 
-Throughout this manual, you will encounter a few specific assembly techniques. Understanding them from the start will make the process much smoother.
+Throughout this manual, you will encounter a few specific assembly techniques. Understanding them from the start will make the process much smoother. 
 
 ### Heat-Set Inserts
 

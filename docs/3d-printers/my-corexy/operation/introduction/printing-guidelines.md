@@ -1,4 +1,4 @@
-# Part Printing Guidelines
+# Part Printing Guidelines 
 
 To ensure the structural integrity and success of your printer, it is crucial that the plastic parts are printed with the correct materials and settings. The recommendations below have been community-tested and are your best bet for a reliable machine.
 

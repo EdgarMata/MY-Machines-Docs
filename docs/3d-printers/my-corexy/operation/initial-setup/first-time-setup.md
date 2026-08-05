@@ -1,6 +1,6 @@
 # First Time Software Setup
 
-This guide will walk you through installing the Klipper firmware on your Raspberry Pi and controller board (MCU).
+This guide will walk you through installing the Klipper firmware on your Raspberry Pi and controller board (MCU). 
 
 ### Step 1: Flash the Raspberry Pi SD Card
 

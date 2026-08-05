@@ -43,3 +43,4 @@ This table provides a quick overview of the printer's capabilities.
 | **Machine Dimensions**  | *Enter your machine's dimensions here*    |
 | **Machine Weight**      | *Enter your machine's weight here*        |
 
+

@@ -1,4 +1,4 @@
-# Fine-Tuning the First Layer with Bed Mesh Correction
+# Fine-Tuning the First Layer with Bed Mesh Correction 
 
 Even after a successful automatic bed leveling (ABL), you might notice that your first layer is ever-so-slightly more "squished" on one side of the bed than the other. For perfectionists, Klipper offers a powerful tool to make micro-adjustments to the generated bed mesh.
 

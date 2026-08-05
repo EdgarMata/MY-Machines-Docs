@@ -29,7 +29,7 @@ The filter cartridge can be filled with your choice of filter media. Activated c
 
 ### Step 3: Mount to Printer
 
-The entire exhaust assembly mounts to the back panel of the printer.
+The entire exhaust assembly mounts to the back panel of the printer. 
 
 1.  Use VHB double-sided tape to initially position the assembly on the outside of the rear polycarbonate panel.
 2.  Secure it from the inside using M3 screws and the inner grill piece.

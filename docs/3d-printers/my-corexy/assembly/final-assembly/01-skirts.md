@@ -49,7 +49,7 @@ One of the side skirts houses a 60mm fan to cool the electronics bay. Mount the 
 ### Step 5: Bottom Panel and Z-Belt Covers
 
 1.  **Bottom Panel**: Attach the bottom electronics panel using strips of VHB double-sided tape. This seals the electronics bay.
-2.  **Z-Belt Covers**: To prevent the Z-belts from rubbing against the bottom panel, install the four small, printed Z-belt covers. These attach to the frame with M3 screws and hammerhead nuts.
+2.  **Z-Belt Covers**: To prevent the Z-belts from rubbing against the bottom panel, install the four small, printed Z-belt covers. These attach to the frame with M3 screws and hammerhead nuts. 
 
 <figure markdown="1">
   ![Installing the Z-belt covers](/assets/images/image-placeholder.webp#only-light){ width="600" }

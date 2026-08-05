@@ -1,4 +1,4 @@
-# Welcome to the Assembly Manual
+# Welcome to the Assembly Manual 
 
 Welcome to the assembly guide for your CoreXY printer! This project is designed with the philosophy of creating a high-performance 3D printer, inspired by top-tier designs like the Voron. Our motto is: **"We build space shuttles with gardening tools, so anyone can have a space shuttle of their own."**
 

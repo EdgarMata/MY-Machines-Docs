@@ -1,6 +1,6 @@
 # Loading and Unloading Filament
 
-Here is a quick guide on how to correctly load and unload filament from your direct-drive toolhead.
+Here is a quick guide on how to correctly load and unload filament from your direct-drive toolhead. 
 
 ### Loading Filament
 

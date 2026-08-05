@@ -25,5 +25,5 @@ Your printer runs Klipper firmware, which means you control it through a powerfu
 
 1.  **Upload G-Code:** Drag and drop your sliced `.gcode` file into the "G-Code Files" panel.
 2.  **Preheat (Optional but Recommended):** Manually set the hotend and bed temperatures and wait for them to stabilize.
-3.  **Select and Print:** Click on the file you just uploaded and then click the "Print" button.
+3.  **Select and Print:** Click on the file you just uploaded and then click the "Print" button. 
 

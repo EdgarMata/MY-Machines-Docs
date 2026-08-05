@@ -1,4 +1,4 @@
-# Using Variable Layer Height for Faster, Detailed Prints
+# Using Variable Layer Height for Faster, Detailed Prints 
 
 Do you have a model that needs fine details on some parts but has large, simple vertical sections on others? Using the "Variable Layer Height" feature in your slicer is a powerful trick to optimize both print time and quality.
 

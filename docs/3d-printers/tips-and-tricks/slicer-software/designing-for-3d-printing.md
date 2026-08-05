@@ -1,4 +1,4 @@
-# Tips for Designing Your Own 3D Models
+# Tips for Designing Your Own 3D Models 
 
 As you get more experienced, you might want to design your own parts. Keeping a few simple rules in mind during the design process will make your models much easier to print successfully.
 

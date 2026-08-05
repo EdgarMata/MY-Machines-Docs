@@ -13,7 +13,7 @@ The reverse-Bowden tube is crucial for guiding the filament and preventing it fr
 
 1.  Insert one end of the long PTFE tube into the spool holder assembly.
 2.  Route the other end through the opening in the top panel and down towards the toolhead.
-3.  Place a spool of filament onto the holder to complete the assembly.
+3.  Place a spool of filament onto the holder to complete the assembly. 
 
 <figure markdown="1">
   ![Assembled spool holder mounted on the frame](/assets/images/image-placeholder.webp#only-light){ width="700" }

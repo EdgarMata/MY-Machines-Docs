@@ -1,6 +1,6 @@
 # Glossary of Terms
 
-The world of 3D printing and Klipper is full of specific terminology. This page serves as a quick reference for some of the common terms you will encounter.
+The world of 3D printing and Klipper is full of specific terminology. This page serves as a quick reference for some of the common terms you will encounter. 
 
 * **Klipper**: The high-performance 3D printer firmware that runs on your machine. It uses a powerful host computer (like a Raspberry Pi) paired with a simple microcontroller (MCU).
 * **MCU (Micro-controller Unit)**: The main electronics board in your printer (e.g., BTT Octopus). It receives commands from the Klipper host and controls the motors, heaters, and sensors.

@@ -1,6 +1,6 @@
 # File Naming Convention
 
-To make organizing your prints easier, the project's STL files follow a specific naming convention. Understanding how to decipher it will help you know which color to use and how many copies of each part to print.
+To make organizing your prints easier, the project's STL files follow a specific naming convention. Understanding how to decipher it will help you know which color to use and how many copies of each part to print. 
 
 <figure markdown="1">
   ![Diagram of the file naming convention](/assets/images/image-placeholder.webp#only-light){ width="600" }

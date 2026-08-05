@@ -41,7 +41,7 @@ This is the moment all your hard work has led to. The goal of the first print is
 
 ### Step 4: Evaluating Your Print
 
-Once the print is finished, let the bed cool down before removing the cube.
+Once the print is finished, let the bed cool down before removing the cube. 
 
 Inspect your print. It won't be perfect, and that's okay! The goal was to have a complete object without any catastrophic failures like layer shifts or a "spaghetti" monster. This cube is your baseline. It's the starting point for the real tuning process (like Input Shaper and Pressure Advance) which will elevate your print quality from "successful" to "beautiful."
 

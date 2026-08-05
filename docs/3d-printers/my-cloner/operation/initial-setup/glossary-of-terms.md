@@ -18,4 +18,4 @@ This glossary provides simple definitions for some of the common terms you will 
 * **Slicer:** A piece of software on your computer (e.g., PrusaSlicer, Cura) that converts a 3D model file (`.stl`) into a `.gcode` file that the printer can understand.
 * **STL (`.stl`):** The most common file format for 3D models that you download from the internet or create yourself.
 * **Stringing:** A print defect where fine, hair-like strands of plastic are left between different parts of a model.
-* **Warping:** A print defect where the corners of a model lift off the print bed due to thermal contraction.
+* **Warping:** A print defect where the corners of a model lift off the print bed due to thermal contraction. 

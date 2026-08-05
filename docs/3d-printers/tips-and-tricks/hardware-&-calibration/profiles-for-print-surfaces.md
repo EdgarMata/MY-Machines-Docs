@@ -1,4 +1,4 @@
-# Using Profiles for Different Print Surfaces
+# Using Profiles for Different Print Surfaces 
 
 If you frequently switch between different print surfaces (e.g., a smooth sheet for PLA and a textured sheet for PETG), you know that each one requires a slightly different Z-offset to get a perfect first layer. Re-calibrating this every time is tedious.
 

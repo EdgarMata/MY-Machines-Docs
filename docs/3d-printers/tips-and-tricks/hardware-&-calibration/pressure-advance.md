@@ -1,4 +1,4 @@
-# Calibrating Pressure Advance
+# Calibrating Pressure Advance 
 
 Pressure Advance (PA) is a Klipper firmware feature that compensates for the pressure dynamics inside the hotend's meltzone. When the toolhead slows down for a corner, filament pressure can cause a small blob or bulge to form. PA counteracts this by reducing the extrusion slightly before the corner. It's the key to achieving perfectly sharp corners on your prints.
 

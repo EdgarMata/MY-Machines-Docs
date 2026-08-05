@@ -48,5 +48,5 @@ If the smoke test was successful, your printer is now fully powered.
   <figcaption>The web interface now successfully connected, displaying ambient temperature readings for the hotend and bed.</figcaption>
 </figure>
 
-Congratulations! You have successfully and safely powered on your printer for the first time. In the next chapter, we will perform pre-flight checks before attempting any movement.
+Congratulations! You have successfully and safely powered on your printer for the first time. In the next chapter, we will perform pre-flight checks before attempting any movement. 
 

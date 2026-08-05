@@ -1,4 +1,4 @@
-# Quick Tips for Common Materials
+# Quick Tips for Common Materials 
 
 Every 3D printing filament has its own unique personality. Here are some quick tips for handling some of the most common materials to get better results.
 

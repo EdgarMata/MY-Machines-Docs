@@ -1,4 +1,4 @@
-# Multi-Color Printing on a Single Extruder
+# Multi-Color Printing on a Single Extruder 
 
 You don't need a complex multi-material unit to create prints with multiple colors. By using a simple command in your slicer, you can program the printer to pause at a specific height, allowing you to manually change the filament.
 

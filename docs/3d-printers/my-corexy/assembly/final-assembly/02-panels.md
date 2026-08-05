@@ -35,7 +35,7 @@ The front doors complete the enclosure.
 
 1.  **Assemble Handles**: Press the magnets into the printed door handles. Ensure you check the polarity of the magnets before gluing them in place, so they attract the magnets on the frame.
 2.  **Attach Hinges**: Screw the hinges to the doors and then mount the entire door assembly to the front frame extrusions.
-3.  **Magnetic Catch**: Apply VHB tape to the frame where the door handles will make contact to provide a soft-close surface for the magnetic catch.
+3.  **Magnetic Catch**: Apply VHB tape to the frame where the door handles will make contact to provide a soft-close surface for the magnetic catch. 
 
 <figure markdown="1">
   ![Assembling and mounting the front doors](/assets/images/image-placeholder.webp#only-light){ width="700" }

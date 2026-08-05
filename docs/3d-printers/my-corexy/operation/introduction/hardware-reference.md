@@ -1,6 +1,6 @@
 # Hardware Reference
 
-This visual guide will help you identify the different screws, nuts, bearings, and other parts used throughout the assembly. Keep this page handy to avoid confusion.
+This visual guide will help you identify the different screws, nuts, bearings, and other parts used throughout the assembly. Keep this page handy to avoid confusion. 
 
 ### Screws
 

@@ -35,5 +35,5 @@ Loading and unloading filament is one of the most common tasks you'll perform wi
 2.  **Retract the Filament**
     * Once the nozzle is hot, go to the control panel in the web interface and click the **"Retract"** button.
     * The extruder motor will reverse and push the filament back out of the top of the extruder.
-    * Gently pull the filament completely out of the printer.
+    * Gently pull the filament completely out of the printer. 
 

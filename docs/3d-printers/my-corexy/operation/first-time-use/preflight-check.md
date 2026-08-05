@@ -44,5 +44,5 @@ This is the most important check before homing. We will manually trigger each en
   <figcaption>The console in the web interface showing the output of the QUERY_ENDSTOPS command, both before and after an endstop is manually triggered.</figcaption>
 </figure>
 
-Once all heaters, fans, and endstops have passed these checks, your printer is ready for its first movements.
+Once all heaters, fans, and endstops have passed these checks, your printer is ready for its first movements. 
 

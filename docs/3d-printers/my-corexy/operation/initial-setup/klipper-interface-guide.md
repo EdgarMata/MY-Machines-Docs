@@ -1,6 +1,6 @@
 # Klipper Interface Guide
 
-The web interface (Mainsail or Fluidd) is your command center. It allows you to control every aspect of your printer from a web browser on any device on your network.
+The web interface (Mainsail or Fluidd) is your command center. It allows you to control every aspect of your printer from a web browser on any device on your network. 
 
 <figure markdown="1">
   ![Annotated Web Interface Dashboard](/assets/images/image-placeholder.webp#only-light){ width="900" }

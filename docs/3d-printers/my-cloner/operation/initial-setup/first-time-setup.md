@@ -52,4 +52,4 @@ This process uses the probe to measure a grid of points across your print bed, c
 4.  When it's finished, run `SAVE_CONFIG` to store the mesh data.
 
 !!! success "Setup Complete!"
-    Your printer is now calibrated. The final step is to start your first print and fine-tune the first layer live, as the `PROBE_CALIBRATE` value can sometimes need minor adjustments. While the first layer is printing, use the Z-Offset controls in the web interface to get that perfect "squish."
+    Your printer is now calibrated. The final step is to start your first print and fine-tune the first layer live, as the `PROBE_CALIBRATE` value can sometimes need minor adjustments. While the first layer is printing, use the Z-Offset controls in the web interface to get that perfect "squish." 

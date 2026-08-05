@@ -1,4 +1,4 @@
-# Online Manual
+# Online Manual 
 
 ## Welcome to the online manual
 

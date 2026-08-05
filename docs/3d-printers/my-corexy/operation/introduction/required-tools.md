@@ -1,4 +1,4 @@
-# Required Tools
+# Required Tools 
 
 Having the right tools on hand will not only make the build process easier and faster, but also safer and more precise. Below is a list of essential and recommended tools.
 

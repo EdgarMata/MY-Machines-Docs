@@ -1,6 +1,6 @@
 # Initial Setup: Introduction
 
-Congratulations on completing the physical assembly of your printer! The hard part is over. This section of the manual will guide you through the next critical phase: installing and configuring the software that runs your machine.
+Congratulations on completing the physical assembly of your printer! The hard part is over. This section of the manual will guide you through the next critical phase: installing and configuring the software that runs your machine. 
 
 This printer runs on **Klipper**, a powerful firmware that uses a Raspberry Pi for heavy processing, resulting in higher print speeds and quality. The setup process involves:
 
