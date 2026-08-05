@@ -3,7 +3,7 @@
 ## Frequently Asked Questions
 
 1. ### How do I calibrate the printer?
-    - Refer to the [User Manual](manual/index.md#user-manual) for detailed steps.
+    - Refer to the [User Manual](operation/index.md) for detailed steps.
 
 2. ### What materials can I use with My Cloner 3D Printer?
     - You can use PLA, ABS, PETG, and other common 3D printing materials.

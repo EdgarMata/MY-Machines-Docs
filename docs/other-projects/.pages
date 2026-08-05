@@ -1,0 +1,9 @@
+nav:
+  - Overview: index.md
+  - My Filamente Extruder: my-filament-extruder
+  - My Heatbed-Controller: my-heatbed-controller
+  - My Injection Molding: my-injection-molding
+  - My MMU Addon: my-mmu-addon
+  - My PET Extruder: my-pet-extruder
+  - My Vacuum Forming: my-vacuum-forming
+  - Tips and Tricks: tips-and-tricks

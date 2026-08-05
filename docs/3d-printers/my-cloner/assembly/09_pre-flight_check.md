@@ -37,7 +37,7 @@ This procedure sets a rough, safe starting distance between your Z-probe and the
 Your physical assembly is now **100% complete**. The next stage involves software calibration and your very first prints.
 
 * **Action:** To proceed, please move on to the next guide in our documentation:
-    * **➡️ [Chapter 2: First Time Setup & Calibration Guide](../initial-setup/first-time-setup.md)**
+    * **➡️ [Chapter 2: First Time Setup & Calibration Guide](../operation/initial-setup/first-time-setup.md)**
 
 !!! warning
     Please follow the calibration steps in the next guide exactly. Skipping steps can result in failed prints or, in the worst case, damage to your print surface.
@@ -61,7 +61,7 @@ When you are ready to find more models, we recommend these popular community sit
 
 If you encounter any problems during calibration or printing, we are here to help.
 
-* First, check out our comprehensive **[Troubleshooting Section](../../troubleshooting/layer-adhesion-issues.md)**.
+* First, check out our comprehensive **[Troubleshooting Section](../troubleshooting/layer-adhesion-issues.md)**.
 * Join our community on [Facebook](https://www.facebook.com/mymachinesnet/) to ask questions and share your creations with other users.
 
 ---

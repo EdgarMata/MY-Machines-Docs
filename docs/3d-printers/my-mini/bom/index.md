@@ -15,7 +15,7 @@ Below is the detailed list of components needed to assemble the MY-Mini-3D-Print
 - Compatible with Prusa Mini slicer profiles.
 
 - [Electronics](electronics.md) — Board, drivers, sensors, display, power supply, etc.
-- [Mechanical Parts](mecanical-parts.md) — Frame, screws, bearings, belts, etc.
+- [Mechanical Parts](mechanical-parts.md) — Frame, screws, bearings, belts, etc.
 - [3D Printed Parts](printed-parts.md) — All required printed parts.
 
 ---
@@ -23,7 +23,7 @@ Below is the detailed list of components needed to assemble the MY-Mini-3D-Print
 ## Prusa Mini Inspiration
 The MY-Mini-3D-Printer follows the Prusa Mini philosophy: simplicity, modularity, and quality. Many parts and solutions are compatible with or inspired by the Prusa Mini, making upgrades and maintenance easier.
 
-> Also see the [Prusa Mini Inspiration](../../about/prusa-mini-inspiration.md) section for more on similarities and differences.
+> Also see the [Prusa Mini Inspiration](../about/prusa-mini-inspiration.md) section for more on similarities and differences.
 
 ---
 

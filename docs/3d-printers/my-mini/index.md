@@ -15,7 +15,7 @@ Here you will find all the information you need to set up, use, and troubleshoot
 
     In this section you will find everything you need about MY-Mini manuals as well as how to download them.
 
-    [:octicons-arrow-right-24: Find out more](manual/index.md)
+    [:octicons-arrow-right-24: Find out more](assembly/index.md)
 
 -   :fontawesome-solid-screwdriver-wrench:{ .lg .middle } __Help with maintenance__
 
@@ -31,7 +31,7 @@ Here you will find all the information you need to set up, use, and troubleshoot
 
     From the first steps with Slicer, to advanced help, here you will find several articles to help you learn about the software.
 
-    [:octicons-arrow-right-24: Find out more](slicer/index.md)
+    [:octicons-arrow-right-24: Find out more](software/index.md)
 
 -   :fontawesome-solid-triangle-exclamation:{ .lg .middle } __Troubleshooting__
 
@@ -55,7 +55,7 @@ Here you will find all the information you need to set up, use, and troubleshoot
 
     Want to learn just a little more? So here it is...
 
-    [:octicons-arrow-right-24: Find out more](tips-and-tricks/index.md)
+    [:octicons-arrow-right-24: Find out more](../tips-and-tricks/index.md)
 
 </div>
 

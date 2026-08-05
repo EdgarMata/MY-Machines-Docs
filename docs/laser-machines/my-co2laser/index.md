@@ -17,7 +17,7 @@
 
     In this section, you will find everything you need about the Neon manuals and how to download them.
 
-    [:octicons-arrow-right-24: Learn More](manual/index.md)
+    [:octicons-arrow-right-24: Learn More](operation/index.md)
 
 -   :fontawesome-solid-screwdriver-wrench:{ .lg .middle } __Maintenance Help__
 
@@ -33,7 +33,7 @@
 
     From the first steps with Neon Studio to advanced help, here you will find various articles for your training with the software.
 
-    [:octicons-arrow-right-24: Learn More](studio/install-software.md)
+    [:octicons-arrow-right-24: Learn More](software/laser-grbl/install-software.md)
 
 -   :fontawesome-solid-triangle-exclamation:{ .lg .middle } __Troubleshooting__
 
@@ -57,7 +57,7 @@
 
     Want to learn just a little more? Then this is the place...
 
-    [:octicons-arrow-right-24: Learn More](tips-tricks/best-practices.md)          
+    [:octicons-arrow-right-24: Learn More](../tips-and-tricks/best-practices.md)
 
 </div>
 

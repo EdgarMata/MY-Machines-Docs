@@ -1,0 +1,7 @@
+nav:
+  - Overview: index.md
+  - My PCB Mill: my-pcb-mill
+  - My Router CNC: my-router-cnc
+  - My Router XL: my-router-xl
+  - My PCB PNP: my-pcb-pnp
+  - Tips and Tricks: tips-and-tricks

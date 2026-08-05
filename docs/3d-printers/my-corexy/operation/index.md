@@ -32,7 +32,7 @@ Each section is designed to be user-friendly, with clear instructions and helpfu
 
     Detailed, step-by-step instructions for the complete mechanical build, from the frame to the final enclosure parts.
 
-    [:octicons-arrow-right-24: Assembly Guide](assembly/01-frame.md)
+    [:octicons-arrow-right-24: Assembly Guide](../assembly/01-frame.md)
 
 -   :material-format-font:{ .lg .middle } __Electronics & Wiring__
 
@@ -40,7 +40,7 @@ Each section is designed to be user-friendly, with clear instructions and helpfu
 
     A comprehensive guide to mounting and wiring all electronic components, with a strong focus on safety.
 
-    [:octicons-arrow-right-24: Electronics & Wiring](electronics/index.md)
+    [:octicons-arrow-right-24: Electronics & Wiring](../wiring/index.md)
 
 -   :material-rocket-launch-outline:{ .lg .middle } __Initial Setup & First Use__
 
@@ -56,6 +56,6 @@ Each section is designed to be user-friendly, with clear instructions and helpfu
 
     A complete list of all required fasteners, electronics, and mechanical parts needed for the build.
 
-    [:octicons-arrow-right-24: Bill of Materials](bom/printed-parts.md)
+    [:octicons-arrow-right-24: Bill of Materials](../bom/printed-parts.md)
 
 </div>

@@ -93,6 +93,6 @@ In this article, we learned the ways Neon can communicate with the computer and 
 
 Had any problems connecting? How about checking out these troubleshooting articles divided by connection type.
 
-* Troubleshooting - [USB Cable](../troubleshooting/not-connecting/usb-cable.md)
-* Troubleshooting - [Neon Wi-Fi Network](../troubleshooting/not-connecting/neon-wifi.md)
-* Troubleshooting - [Workplace Wi-Fi Network](../troubleshooting/not-connecting/local-network-wifi.md)
+* Troubleshooting - [USB Cable](../../troubleshooting/not-connecting/usb-cable.md)
+* Troubleshooting - [Neon Wi-Fi Network](../../troubleshooting/not-connecting/neon-wifi.md)
+* Troubleshooting - [Workplace Wi-Fi Network](../../troubleshooting/not-connecting/local-network-wifi.md)

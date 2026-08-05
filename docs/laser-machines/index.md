@@ -13,9 +13,9 @@ Whether you are slicing through thick acrylics with a CO2 laser, marking industr
     ### **[My-CO2 Laser](my-co2laser/index.md)**
     Industrial cutting power and deep engraving capabilities for wood, acrylic, leather, and non-metals.
 
-    - [:fontawesome-solid-book-open: User Manual & First Projects](my-co2laser/manual/index.md)
+    - [:fontawesome-solid-book-open: User Manual & First Projects](my-co2laser/operation/index.md)
     - [:fontawesome-solid-shield-halved: Safety Guidelines](my-co2laser/safety/safety-instructions.md)
-    - [:fontawesome-solid-laptop-code: Software & LightBurn](my-co2laser/studio/install-software.md)
+    - [:fontawesome-solid-laptop-code: Software & LightBurn](my-co2laser/software/laser-grbl/install-software.md)
 
 -   ![My-Fiber Laser](/assets/images/image-placeholder.webp)
 

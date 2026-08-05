@@ -13,9 +13,9 @@ Our open-source CNC routers are engineered for exceptional rigidity and precisio
     ### **[My-Router XL](my-router-xl/index.md)**
     Large-format routing engineered for furniture making, heavy sheet materials, and high-torque subtractive manufacturing.
 
-    - [:fontawesome-solid-book-open: Assembly Guide](my-router-xl/assembly.md)
-    - [:fontawesome-solid-laptop-code: Software & CAM](my-router-xl/software.md)
-    - [:fontawesome-solid-wrench: Maintenance & Troubleshooting](my-router-xl/troubleshooting.md)
+    - [:fontawesome-solid-book-open: Assembly Guide](my-router-xl/assembly/assembly.md)
+    - [:fontawesome-solid-laptop-code: Software & CAM](my-router-xl/software/software.md)
+    - [:fontawesome-solid-wrench: Maintenance & Troubleshooting](my-router-xl/troubleshooting/troubleshooting.md)
 
 -   ![My-Router CNC](/assets/images/image-placeholder.webp)
 
@@ -24,9 +24,9 @@ Our open-source CNC routers are engineered for exceptional rigidity and precisio
     ### **[My-Router CNC](my-router-cnc/index.md)**
     The standard, highly rigid desktop powerhouse perfectly balanced for aluminum, hardwoods, and complex 3D carving.
 
-    - [:fontawesome-solid-book-open: Assembly Guide](my-router-cnc/assembly.md)
-    - [:fontawesome-solid-laptop-code: Software Configuration](my-router-cnc/software.md)
-    - [:fontawesome-solid-wrench: Maintenance](my-router-cnc/maintenance.md)
+    - [:fontawesome-solid-book-open: Assembly Guide](my-router-cnc/assembly/assembly.md)
+    - [:fontawesome-solid-laptop-code: Software Configuration](my-router-cnc/software/software.md)
+    - [:fontawesome-solid-wrench: Maintenance](my-router-cnc/maintenance/maintenance.md)
 
 -   ![My-PCB Mill](/assets/images/image-placeholder.webp)
 
@@ -35,9 +35,9 @@ Our open-source CNC routers are engineered for exceptional rigidity and precisio
     ### **[My-PCB Mill](my-pcb-mill/index.md)**
     High-precision micro-milling designed specifically for isolation routing and custom electronic circuit board fabrication.
 
-    - [:fontawesome-solid-book-open: Assembly Guide](my-pcb-mill/assembly.md)
-    - [:fontawesome-solid-laptop-code: Software Setup](my-pcb-mill/software.md)
-    - [:fontawesome-solid-wrench: Troubleshooting](my-pcb-mill/troubleshooting.md)
+    - [:fontawesome-solid-book-open: Assembly Guide](my-pcb-mill/assembly/assembly.md)
+    - [:fontawesome-solid-laptop-code: Software Setup](my-pcb-mill/software/software.md)
+    - [:fontawesome-solid-wrench: Troubleshooting](my-pcb-mill/troubleshooting/troubleshooting.md)
 
 -   ![My-PCB PnP](/assets/images/image-placeholder.webp)
 
@@ -46,8 +46,8 @@ Our open-source CNC routers are engineered for exceptional rigidity and precisio
     ### **[My-PCB PnP](my-pcb-pnp/index.md)**
     Automated Pick and Place (PnP) system for rapid, precision electronic component assembly and surface-mount technology (SMT).
 
-    - [:fontawesome-solid-book-open: Assembly Guide](my-pcb-pnp/assembly.md)
-    - [:fontawesome-solid-laptop-code: Vision & Software](my-pcb-pnp/software.md)
-    - [:fontawesome-solid-wrench: Maintenance](my-pcb-pnp/maintenance.md)
+    - [:fontawesome-solid-book-open: Assembly Guide](my-pcb-pnp/assembly/assembly.md)
+    - [:fontawesome-solid-laptop-code: Vision & Software](my-pcb-pnp/software/software.md)
+    - [:fontawesome-solid-wrench: Maintenance](my-pcb-pnp/maintenance/maintenance.md)
 
 </div>

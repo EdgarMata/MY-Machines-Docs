@@ -19,7 +19,7 @@ Navigate through the sections below to start building, configuring, and operatin
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-bullseye: **[Introduction & Overview](introduction/introduction.md)**
+-   :fontawesome-solid-bullseye: **[Introduction & Overview](operation/introduction.md)**
     
     ---
     Get to know the machine, its capabilities, and the essential tools you will need before starting the build.

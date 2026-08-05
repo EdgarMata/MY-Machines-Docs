@@ -15,7 +15,7 @@ Here you will find everything you need to set up, use, maintain, and troubleshoo
     ---
     Access all assembly instructions, setup guides, and detailed user manuals for your MY-Giga1M3. Whether you are building your printer for the first time or need a quick reference, this section has you covered with step-by-step documentation and downloadable resources.
 
-    [:octicons-arrow-right-24: Explore the Manual](manual/overview.md)
+    [:octicons-arrow-right-24: Explore the Manual](operation/overview.md)
 
 -   :fontawesome-solid-screwdriver-wrench:{ .lg .middle } __Maintenance & Guides__
 
@@ -29,7 +29,7 @@ Here you will find everything you need to set up, use, maintain, and troubleshoo
     ---
     Learn how to configure your favorite slicer software, import ready-to-use profiles, and optimize print settings for the best results. From beginner basics to advanced tuning, this section helps you get the most out of your MY-Giga1M3.
 
-    [:octicons-arrow-right-24: Slicer Guides](slicer/introduction.md)
+    [:octicons-arrow-right-24: Slicer Guides](software/introduction.md)
 
 -   :fontawesome-solid-triangle-exclamation:{ .lg .middle } __Troubleshooting & Problem Solving__
 
@@ -50,7 +50,7 @@ Here you will find everything you need to set up, use, maintain, and troubleshoo
     ---
     Discover expert tips, advanced calibration tricks, and creative solutions to get the most out of your printer. Perfect for users who want to push the limits and achieve professional-quality results.
 
-    [:octicons-arrow-right-24: Tips and Tricks](tips-and-tricks/index.md)
+    [:octicons-arrow-right-24: Tips and Tricks](../tips-and-tricks/index.md)
 
 </div>
 

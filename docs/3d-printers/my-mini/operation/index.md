@@ -23,7 +23,7 @@ Each section is designed to be user-friendly, with clear instructions and helpfu
 
     Lists all the components required for the printer, including printed parts, electronic parts, and mechanical parts, with links to purchase them.
 
-    [:octicons-arrow-right-24: BOM (Bill of Materials)](bom/mecanical-parts.md)
+    [:octicons-arrow-right-24: BOM (Bill of Materials)](../bom/mechanical-parts.md)
 
 -   :fontawesome-brands-markdown:{ .lg .middle } __Assembly Guide__
 
@@ -31,7 +31,7 @@ Each section is designed to be user-friendly, with clear instructions and helpfu
 
     Offers step-by-step instructions for assembling the printer, ensuring that all parts are correctly installed.
 
-    [:octicons-arrow-right-24: Assembly Guide](assembly-guide/start-assembly.md)
+    [:octicons-arrow-right-24: Assembly Guide](../assembly/start-assembly.md)
 
 -   :material-format-font:{ .lg .middle } __Wiring Diagram__
 
@@ -39,7 +39,7 @@ Each section is designed to be user-friendly, with clear instructions and helpfu
 
     Provides detailed diagrams for connecting all the electronic components, including the power supply, mainboard, display, motors, extruder, endstops, and fans.
 
-    [:octicons-arrow-right-24: Wiring Diagram](wiring-diagram/power-supply.md)
+    [:octicons-arrow-right-24: Wiring Diagram](../wiring/power-supply.md)
 
 -   :material-scale-balance:{ .lg .middle } __Initial Setup__
 
@@ -47,6 +47,6 @@ Each section is designed to be user-friendly, with clear instructions and helpfu
 
     Covers the essential steps to get your printer up and running, including updating firmware, configuring the display, bed leveling, Z-axis and motor calibration, and extruder calibration.
 
-    [:octicons-arrow-right-24: Initial Setup](inicial-setup/updating-firmware.md)
+    [:octicons-arrow-right-24: Initial Setup](initial-setup/updating-firmware.md)
 
 </div>
