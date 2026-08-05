@@ -48,7 +48,7 @@ Or, if you prefer, follow the steps below:
 
 <figure markdown="span">
 
-   ![](/assets/images/co2laser/permissão-admin.png){ width="480" }
+   ![](/assets/images/co2laser/admin-permission.png){ width="480" }
    <figcaption>Fig 3: Administrator Permission.</figcaption>
 
 </figure>

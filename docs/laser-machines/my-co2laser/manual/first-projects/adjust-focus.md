@@ -10,10 +10,10 @@ To understand the relevance of this procedure, it is essential to comprehend tha
 
 <figure markdown="span">
 
-  ![](/assets/images/co2laser/laser-cabeçote-light.png#only-light){ width="800" }
+  ![](/assets/images/co2laser/laser-head-light.png#only-light){ width="800" }
   <figcaption></figcaption>
 
-  ![](/assets/images/co2laser/laser-cabeçote-dark.png#only-dark){ width="800" }
+  ![](/assets/images/co2laser/laser-head-dark.png#only-dark){ width="800" }
   <figcaption></figcaption>
 
 </figure>
@@ -28,7 +28,7 @@ The focus adjustment process is simple:
 
 <figure markdown="span">
 
-  ![](/assets/images/co2laser/ajuste-foco.png){ width="600" }
+  ![](/assets/images/co2laser/focus-adjustment.png){ width="600" }
   <figcaption>Figure 2 - Adjust Focus</figcaption>
 
 </figure>
@@ -54,7 +54,7 @@ The best way to notice when the focus is not adjusted is to observe the thicknes
 
 <figure markdown="span">
 
-  ![](/assets/images/co2laser/difrenças-foco.png){ width="600" }
+  ![](/assets/images/co2laser/focus-differences.png){ width="600" }
   <figcaption>Figure 3 - Examples of poorly adjusted focus</figcaption>
 
 </figure>

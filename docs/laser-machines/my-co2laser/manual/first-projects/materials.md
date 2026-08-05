@@ -39,7 +39,7 @@ To let the machine know where to start the cut, it is necessary to set the start
 
 <figure markdown="span">
 
-  ![](/assets/images/co2laser/ferramenta-mov-01.png){ width="443" }
+  ![](/assets/images/co2laser/move-tool-01.png){ width="443" }
   <figcaption>Figure 3 - Laser head movement arrows</figcaption>
 
 </figure>
@@ -48,7 +48,7 @@ To let the machine know where to start the cut, it is necessary to set the start
 
 <figure markdown="span">
 
-  ![](/assets/images/co2laser/foto-interior-01.png){ width="800" }
+  ![](/assets/images/co2laser/interior-photo-01.png){ width="800" }
   <figcaption>Figure 4 - Positioning the head on the material</figcaption>
 
 </figure>
@@ -57,7 +57,7 @@ To let the machine know where to start the cut, it is necessary to set the start
 
 <figure markdown="span">
 
-  ![](/assets/images/co2laser/ferramenta-mov-02.png){ width="265" }
+  ![](/assets/images/co2laser/move-tool-02.png){ width="265" }
   <figcaption>Figure 5 - Set start</figcaption>
 
 </figure>
@@ -85,7 +85,7 @@ To ensure the best use of the workspace, it is important to know the space the d
 
 <figure markdown="span">
 
-  ![](/assets/images/co2laser/foto-interior-02.png){ width="800" }
+  ![](/assets/images/co2laser/interior-photo-02.png){ width="800" }
   <figcaption>Figure 7 - Use of scraps</figcaption>
 
 </figure>
