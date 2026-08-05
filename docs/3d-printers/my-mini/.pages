@@ -1,10 +1,13 @@
 nav:
-  - Introduction: index.md
-  - User Manual: manual
+  - Overview: index.md
   - Safety: safety
+  - Bill of Materials: bom
+  - Assembly Guide: assembly
+  - Wiring & Electronics: wiring
+  - Software & Slicer: software
+  - Operation & Use: operation
   - Maintenance: maintenance
   - Troubleshooting: troubleshooting
-  - Tips and tricks: tips-and-tricks
-  - Slicer: slicer
   - Downloads: downloads
-  - About: about
+  - FAQ's: faq.md
+  - About: about.md

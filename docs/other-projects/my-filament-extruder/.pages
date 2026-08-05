@@ -1,10 +1,10 @@
 nav:
   - Overview: index.md
-  - Safety: safety
+  - Safety First: safety
   - Bill of Materials: bom
   - Assembly Guide: assembly
   - Wiring & Electronics: wiring
-  - Software & Slicer: software
+  - Software: software
   - Operation & Use: operation
   - Maintenance: maintenance
   - Troubleshooting: troubleshooting

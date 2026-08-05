@@ -1,0 +1,6 @@
+nav:
+  - Overview: index.md
+  - My Diode Laser: my-laser
+  - My CO2 Laser: my-co2laser
+  - My Fiber Laser: my-fiberlaser
+  - Tips and Tricks: tips-and-tricks
