@@ -1,0 +1,13 @@
+nav:
+  - Overview: index.md
+  - Safety First: safety
+  - Bill of Materials: bom
+  - Assembly Guide: assembly
+  - Wiring & Electronics: wiring
+  - Software: software
+  - Operation & Use: operation
+  - Maintenance: maintenance
+  - Troubleshooting: troubleshooting
+  - Downloads: downloads
+  - FAQ's: faq.md
+  - About: about.md

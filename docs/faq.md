@@ -59,3 +59,11 @@ Welcome to the My Machines general FAQ. Here you will find quick answers to the 
 
 ??? question "How can I contact the creator or the core team?"
     For business inquiries, official kit support, or partnership opportunities, you can reach out directly through the contact form on our official website: [my-machines.com/contacts](https://my-machines.com/contacts). For technical discussions and documentation suggestions, GitHub is the best platform.
+
+
+If you didn't find a solution to your problem, join our community and ask for help on our social networks:<br>
+[Facebook](https://www.facebook.com/mymachinescom/) |
+[Instagram](https://www.instagram.com/my_machines_com/) |
+[YouTube](https://www.youtube.com/@my_machines_com/) |
+[Pinterest](https://pintrest.com/my_machines_com/) |
+[TikTok](https://tiktok.com/@my_machines_com/)    
