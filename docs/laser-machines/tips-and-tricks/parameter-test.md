@@ -14,7 +14,7 @@ Three distinct test models were developed, taking into account the different den
 
 To further facilitate your journey, you can download the cutting tests from our [downloads] page.
 
-[downloads]: https://my-machinespluskdb.github.io/Neon-FAQS/transferencias/#arquivos-para-testes-de-corte
+[downloads]: ../my-co2laser/downloads/index.md#test-files-for-cutting
 
 For a deeper understanding of each test and its specific applications, here is a brief explanation:
 
