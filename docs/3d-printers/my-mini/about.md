@@ -53,7 +53,7 @@ This project is clearly inspired by the famous Prusa Mini, I decided to move for
 - Supported materials: PLA, PETG, ABS, ASA, TPU, Nylon, PC
 - Connectivity: USB, SD card
 
-# Prusa Mini Inspiration
+## Prusa Mini Inspiration
 
 The MY-Mini-3D-Printer is heavily inspired by the Prusa Mini, a compact and reliable 3D printer designed by Prusa Research. The Prusa Mini is known for its:
 

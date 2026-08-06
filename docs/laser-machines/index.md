@@ -24,9 +24,9 @@ Whether you are slicing through thick acrylics with a CO2 laser, marking industr
     ### **[My-Fiber Laser](my-fiberlaser/index.md)**
     High-speed, permanent precision marking and engraving exclusively engineered for metallic parts and industrial polymers.
 
-    - [:fontawesome-solid-book-open: Assembly Guide](my-fiberlaser/assembly.md)
-    - [:fontawesome-solid-laptop-code: Software Configuration](my-fiberlaser/software.md)
-    - [:fontawesome-solid-wrench: Troubleshooting](my-fiberlaser/troubleshooting.md)
+    - [:fontawesome-solid-book-open: Assembly Guide](my-fiberlaser/assembly/index.md)
+    - [:fontawesome-solid-laptop-code: Software Configuration](my-fiberlaser/software/index.md)
+    - [:fontawesome-solid-wrench: Troubleshooting](my-fiberlaser/troubleshooting/index.md)
 
 -   ![My-Laser (Diode)](/assets/images/image-placeholder.webp)
 
