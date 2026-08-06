@@ -19,22 +19,22 @@ I present to you my  My - Laser CNC:
 ### Controller Board
 I use the Makerbase MKS DLC32 board as a controller, which is an offline engraving master control kit designed for desktop engraving machines. The hardware is equipped with a 32-bit high-speed ESP32 module, has built-in WIFI function, and directly drives a 3.5-inch touch-sensitive color dislpay.
 It can perform fast engraving and also has a WEB page as a control interface.
-This board can also be controlled by a mobile APP with various functions, as well as can be used with [LaserGRBL](https://lasergrbl.com/) and [LightBurn](https://lightburnsoftware.com/) PC software.
+This board can also be controlled by a mobile APP with various functions, as well as can be used with [LaserGRBL](https://lasergrbl.com/){ target="_blank" rel="noopener" } and [LightBurn](https://lightburnsoftware.com/){ target="_blank" rel="noopener" } PC software.
 
 ![MKS DLC32 board 001](https://lirp.cdn-website.com/da108bf1/dms3rep/multi/opt/1863638398-807966274-1920w.jpg)
 ![MKS DLC32 board 002](https://lirp.cdn-website.com/da108bf1/dms3rep/multi/opt/10772418951689463713-1920w.jpg)
 ![MKS DLC32 board 003](https://lirp.cdn-website.com/da108bf1/dms3rep/multi/opt/140004821104248758-1920w.jpg)
 
-For more information about this board you can consult the official page [Makerbase](https://makerbase.com.cn/en/ "makerbase.com") as well as the [GitHub](https://github.com/makerbase-mks) page.
+For more information about this board you can consult the official page [Makerbase](https://makerbase.com.cn/en/ "makerbase.com"){ target="_blank" rel="noopener" } as well as the [GitHub](https://github.com/makerbase-mks){ target="_blank" rel="noopener" } page.
 
-If you want to buy this board please use my affiliate link, it helps my project a lot - Link to [AliExpress](https://s.click.aliexpress.com/e/_A4qTA1 "affiliate link")
+If you want to buy this board please use my affiliate link, it helps my project a lot - Link to [AliExpress](https://s.click.aliexpress.com/e/_A4qTA1 "affiliate link"){ target="_blank" rel="noopener" }
 
 ### 3D model and Bill of materials
-If you're thinking about building your own My - Laser CNC you can find everything you need here on [this](https://my-machines.com/my-diode-laser-cnc) page, I'll leave the link to the 3D model I made in Sketchup as well as the BOM of all materials and parts for 3D printing.
+If you're thinking about building your own My - Laser CNC you can find everything you need here on [this](https://my-machines.com/my-diode-laser-cnc){ target="_blank" rel="noopener" } page, I'll leave the link to the 3D model I made in Sketchup as well as the BOM of all materials and parts for 3D printing.
 If you don't have a 3D printer you can use your favorite 3D printing service or I also provide a 3D printing service which also helps a lot with my projects, you can use the links on this site to contact me.
 
-Complete 3D Sketchup Model: [My Machines Shop](https://my-machines.com/shop/myd-000000-dlc-complete-cad-project-my-diode-laser-3d-cad-files-552) or [Etsy Store](https://www.etsy.com/listing/1102710278/me-laser-cnc-3d-sketchup-model?ref=shop_home_active_2)
-3D Printing Service: [My Machines Shop](https://my-machines.com/shop) 
+Complete 3D Sketchup Model: [My Machines Shop](https://my-machines.com/shop/myd-000000-dlc-complete-cad-project-my-diode-laser-3d-cad-files-552){ target="_blank" rel="noopener" } or [Etsy Store](https://www.etsy.com/pt/listing/1102710278/my-laser-cnc-3d-sketchup-model){ target="_blank" rel="noopener" }
+3D Printing Service: [My Machines Shop](https://my-machines.com/shop){ target="_blank" rel="noopener" } 
 
 ### Electronics
 
@@ -108,12 +108,12 @@ Complete 3D Sketchup Model: [My Machines Shop](https://my-machines.com/shop/myd-
 |1	|X EndStop Collider				|Blue						|
 |1	|Y EndStop Collider				|Blue						|
 
-To download the STL files go to [Thingiverse](https://www.thingiverse.com/thing:5021795) or [Prusa Printers](https://www.prusaprinters.org/prints/84024-me-laser-cnc)
+To download the STL files go to [Thingiverse](https://www.thingiverse.com/thing:5021795){ target="_blank" rel="noopener" } or [Prusa Printers](https://www.prusaprinters.org/prints/84024-me-laser-cnc){ target="_blank" rel="noopener" }
 
 **_Warning_**, Note that all the content here is work that is still in development and can be changed without prior notice, so proceed at your own risk...
 
 If you like my work please consider sending me a beer :)
-[Send Beer](https://www.paypal.com/paypalme/iFixGadget)
+[Send Beer](https://www.paypal.com/paypalme/iFixGadget){ target="_blank" rel="noopener" }
 
 ### Road Map
 * Improve 3D drawing
@@ -134,4 +134,4 @@ CC BY-NC-SA
 Projeto: **My - Laser CNC**
 Autor: **Edgar Mata**
 
-[License Summary](https://creativecommons.org/licenses/by-nc-sa/4.0) | [See Legal Text](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+[License Summary](https://creativecommons.org/licenses/by-nc-sa/4.0){ target="_blank" rel="noopener" } | [See Legal Text](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode){ target="_blank" rel="noopener" }

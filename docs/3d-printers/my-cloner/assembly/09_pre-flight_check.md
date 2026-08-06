@@ -62,7 +62,7 @@ When you are ready to find more models, we recommend these popular community sit
 If you encounter any problems during calibration or printing, we are here to help.
 
 * First, check out our comprehensive **[Troubleshooting Section](../troubleshooting/layer-adhesion-issues.md)**.
-* Join our community on [Facebook](https://www.facebook.com/mymachinesnet/) to ask questions and share your creations with other users.
+* Join our community on [Facebook](https://www.facebook.com/mymachinescom/) to ask questions and share your creations with other users.
 
 ---
 ### Step 5: You've Finished the Build!
