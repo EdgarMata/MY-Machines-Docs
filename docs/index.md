@@ -1,4 +1,4 @@
-# Welcome to My Machines Knowledge Hub
+# Welcome to My Machines Knowledge Hub 
 
 Empowering the maker community with **open-source digital fabrication**. Here you will find comprehensive assembly manuals, strictly organized Bill of Materials (BOMs), and high-level educational resources. We believe that building your own industrial-grade equipment should be a seamless, frustration-free experience.
 
