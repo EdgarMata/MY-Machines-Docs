@@ -6,13 +6,9 @@ Since the laser essentially "burns" the material to perform the cut or engraving
 
 Even within the category of papers, there may be variations in the finish depending on the parameters used. Some papers may present a better finish with certain adjustments, while others may require a series of tests to find the ideal setting.
 
-To ensure both the quality of the finish and the feasibility of cutting a particular material, it is essential to conduct practical tests. We have developed an [article] where we provide tests with different parameter settings, allowing you to determine the best options for your specific materials and applications.
+To ensure both the quality of the finish and the feasibility of cutting a particular material, it is essential to conduct practical tests. We have developed an [article](parameter-test.md) where we provide tests with different parameter settings, allowing you to determine the best options for your specific materials and applications.
 
-[article]: https://my-machinespluskdb.github.io/-FAQS/truques-%26-dicas/testes-parametros/
-
-The values presented in the table below are an initial reference and a starting point for configuring the cutting parameters. However, it is important to note that these values may vary depending on the composition of the material, the depth of the engraving, and other specific factors. We suggest reading the article ["The influence of speed and power for the same material"] to better understand these nuances and create your own personalized table.
-
-["The influence of speed and power for the same material"]: https://my-machinespluskdb.github.io/Neon-FAQS/truques-%26-dicas/influ-velocidade-material/
+The values presented in the table below are an initial reference and a starting point for configuring the cutting parameters. However, it is important to note that these values may vary depending on the composition of the material, the depth of the engraving, and other specific factors. We suggest reading the article ["The influence of speed and power for the same material"](speed-and-material.md) to better understand these nuances and create your own personalized table.
 
 ### Table
 
@@ -93,4 +89,4 @@ The values presented in the table below are an initial reference and a starting 
 
 You can download a PDF version of this table [here].
 
-[here]: https://my-machinespluskdb.github.io/Neon-FAQS/transferencias/#tabela-de-parametros-pdf
+[here]: /assets/downloads/co2laser/laser_parameters_table.pdf

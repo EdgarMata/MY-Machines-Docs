@@ -2,11 +2,9 @@
 
 Here we will explore an essential step to ensure the success of our cuts:
 
-Positioning the design on the material. For this, it is crucial to understand the operation of the control panel in Neon Studio. How about taking a look at this article from our series on [Studio]?
+Positioning the design on the material. For this, it is crucial to understand the operation of the control panel in Neon Studio. How about taking a look at this article from our series on [laser-grbl](../../software/laser-grbl/getting-started/movement-commands.md)?
 
 Already feel comfortable operating the machine? Then let's move on to the next step!
-
-[Studio]: https://my-machinespluskdb.github.io/Neon-FAQS/studio/primeiros-passos/comando-movimento/
 
 Adjusting the design in the Neon Studio workspace
 Regardless of whether the design was created within Neon Studio or imported from another software, it is necessary to position it at zero within the software.
@@ -94,6 +92,4 @@ To ensure the best use of the workspace, it is important to know the space the d
 
 It is crucial to remember that the size of the object cannot exceed the machine's workspace, which is 600mm in length by 400mm in width. If this happens, your work will not be executed correctly and/or the laser head will start hitting the sides of the machine, emitting a noise indicating that it is forcing the motor. Therefore, always check the design size in the workspace using the "frame" feature.
 
-In this article, we explored how to position the design on the material to optimize our work! Join us in the next article, where we will explain how to set the [speed and power] of the machine.
-
-[speed and power]: https://my-machinespluskdb.github.io/Neon-FAQS/manual/primeiros-trabalhos/velocidade-potencia/
+In this article, we explored how to position the design on the material to optimize our work! Join us in the next article, where we will explain how to set the [speed and power](speed-power.md) of the machine.

@@ -199,48 +199,16 @@ Done! Now your laser machine is ready to start cutting and engraving.
     Ensure that there are no air bubbles in the hose through which the demineralized water passes.
     These air bubbles are extremely dangerous to the CO2 laser.
 
-    If there are, check our knowledge base for the procedure to [remove the bubbles].
-
-[remove the bubbles]: https://my-machinespluskdb.github.io/Neon-FAQS/maintenance/water/remove-bubbles/
+    If there are, check our knowledge base for the procedure to [remove the bubbles](../maintenance/water/remove-bubbles.md).
     
 
 ## Troubleshooting
 
-Consult the online knowledge base in the [Troubleshooting] section for more detailed information.
-
-[Troubleshooting]: https://my-machinespluskdb.github.io/Neon-FAQS/troubleshooting/different-cut/adjust-belts/
+Consult the online knowledge base in the [Troubleshooting](../troubleshooting/different-cut/adjust-belts.md) section for more detailed information.
 
 There you can find operating instructions, safety tips, usage tips, and possible problem-solving.
 You can also get the latest versions of the guides and software.
 If you have additional questions, our support team is available to assist you.
-
-[support@my-machines.com]
-
-[support@my-machines.com]: mailto:support@my-machines.net
-
-## Warranty
-
-This product is manufactured under the strict quality control system of [my-machines](https://my-machines.com/) Lda.
-
-If the product fails within three (3) years from the date of purchase, under normal use conditions, [my-machines](https://my-machines.com/) Lda will repair or replace the product free of charge in the following ways:
-
-* Using new or refurbished replacement parts.
-* Exchanging the product for a new product or one that has been manufactured with new or usable used parts, with performance at least equivalent to the original product.
-
-Proof of the purchase date must be confirmed and sent along with a copy of the original purchase document. The warranty is valid under normal use conditions. The warranty covers failure in the [my-machines](https://my-machines.com/) product that could be related to material and/or manufacturing errors. The warranty is valid only in the country of purchase.
-
-The warranty is not valid in the following cases:
-
-* If the user uses prohibited materials.
-* If the user leaves the machine working unattended.
-* If the product is broken due to improper handling or incorrect operation.
-* If the product has been exposed to extreme temperatures, calamity, or high voltage shock.
-* If the product has been modified, repaired, or disassembled by unauthorized personnel.
-* In these cases, the costs of shipping, repairing parts, and/or replacement are not included in the warranty.
-
-[my-machines.com]
-
-[my-machines.com]: https://my-machines.net/
 
 [support@my-machines.com]
 

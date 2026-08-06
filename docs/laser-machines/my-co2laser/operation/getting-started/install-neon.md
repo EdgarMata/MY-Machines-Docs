@@ -2,9 +2,7 @@
 
 Your Neon has just arrived and now it's time to start the installation!
 
-To make this process easier, our team has prepared a complete installation guide with all the necessary information. You can download it [here] or find it on our support page.
-
-[here]: https://my-machinespluskdb.github.io/Neon-FAQS/transfers/#manuals
+To make this process easier, our team has prepared a complete installation guide with all the necessary information. You can download it [here](../../downloads/index.md#manuals) or find it on our support page.
 
 In this article, we will address the topic more comprehensively, offering some helpful tips.
 
@@ -82,9 +80,7 @@ Remove only the packing seals, preferably with wire cutters; a sharp pair of sci
 
 * Open the Neon lid.
 * Remove the honeycomb attachment tape.
-* Position it at the bottom of the machine, ensuring the black side faces up. You can find more detailed information in the [honeycomb] section.
-
-[honeycomb]: https://my-machinespluskdb.github.io/Neon-FAQS/manual/getting-started/honeycomb/
+* Position it at the bottom of the machine, ensuring the black side faces up. You can find more detailed information in the [honeycomb](honeycomb.md) section.
 
 ## Connecting to the Power Supply
 
@@ -96,9 +92,7 @@ Remove only the packing seals, preferably with wire cutters; a sharp pair of sci
 </figure>
 
 * Connect the power cable from the machine's rear inlet to a standard 10A mains outlet with the voltage indicated on your machine (220V).
-* Proper grounding is essential. The Neon can malfunction or suffer component damage if connected to an ungrounded electrical installation. See our [safety] section "Socket Instructions" for more information.
-
-[safety]: https://my-machinespluskdb.github.io/Neon-FAQS/safety/socket-instructions/
+* Proper grounding is essential. The Neon can malfunction or suffer component damage if connected to an ungrounded electrical installation. See our [safety](../../safety/safety-instructions.md) section "Socket Instructions" for more information.
 
 * Power on the Neon.
 
@@ -110,6 +104,4 @@ Two‑pin outlets do not provide grounding. Do not use adapters to connect your 
 
 In this article we covered how to install all the components of your Neon. The next step is to prepare it for use by filling the water reservoir.
 
-Don't miss the next article in this series: [Fill Reservoir].
-
-[Fill Reservoir]: https://my-machinespluskdb.github.io/Neon-FAQS/manual/getting-started/fill-reservoir/
+Don't miss the next article in this series: [Fill Reservoir](fill-reservoir.md).

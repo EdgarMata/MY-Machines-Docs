@@ -9,7 +9,7 @@
     
     Learn more details about how to install the software in our [Studio] section.
 
-    [Studio]: ../studio/install-software.md
+    [Studio]: ../software/laser-grbl/install-software.md
 
     [Coming Soon](#){ .md-button .md-button--primary target="_blank"}
 
@@ -22,7 +22,7 @@
 
     Learn more details about the USB connection [here].
 
-    [here]: ../studio/connection.md
+    [here]: ../software/laser-grbl/connection.md
 
     [Download](/assets/downloads/co2laser/USBdriverCH341SER.exe){ .md-button target="_blank"}
     
@@ -35,7 +35,7 @@
     
     You can also read the manual here on this site in the [Manual] section.
 
-    [Manual]: ../manual/index.md
+    [Manual]: ../operation/index.md
 
     [Download](/assets/downloads/co2laser/neon_instruction_manual.pdf){ .md-button target="_blank"}
 
@@ -77,8 +77,8 @@
 
     [Parameter Table] - [Parameter Test] - [The Influence of Speed and Power]
 
-    [Parameter Table]: ../tips-tricks/parameter-table.md
-    [Parameter Test]: ../tips-tricks/parameter-test.md
-    [The Influence of Speed and Power]: ../tips-tricks/speed-and-material.md
+    [Parameter Table]: ../../tips-and-tricks/parameter-table.md
+    [Parameter Test]: ../../tips-and-tricks/parameter-test.md
+    [The Influence of Speed and Power]: ../../tips-and-tricks/speed-and-material.md
 
     [Download](/assets/downloads/co2laser/laser_parameters_table.pdf){ .md-button target="_blank"}

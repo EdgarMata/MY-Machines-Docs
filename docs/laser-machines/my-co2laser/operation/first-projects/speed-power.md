@@ -48,14 +48,10 @@ The parameters are adjusted according to the layer selected in the software, ava
 
 ### Identifying the ideal parameters requires a practical and experimental approach.
 
-Due to the variety of materials and their specific characteristics, it is important to perform [tests to determine the most suitable settings].
-
-[tests to determine the most suitable settings]: https://my-machinespluskdb.github.io/Neon-FAQS/truques-%26-dicas/testes-parametros/
+Due to the variety of materials and their specific characteristics, it is important to perform [tests to determine the most suitable settings](../../../tips-and-tricks/parameter-test.md).
 
 ### To facilitate this process, we have developed cutting templates!
 
-These templates allow you to test various parameter combinations, helping to identify the optimal setting for each type of material. Additionally, we [provide] some files in Neon Studio to simplify this testing and adjustment process.
-
-[provide]: https://my-machinespluskdb.github.io/Neon-FAQS/transferencias/#arquivos-para-testes-de-parametros
+These templates allow you to test various parameter combinations, helping to identify the optimal setting for each type of material. Additionally, we [provide](/laser-machines/my-co2laser/downloads/#test-files-for-cutting) some files in Neon Studio to simplify this testing and adjustment process.
 
 In this article, we deepened our understanding of speed and power parameters, explored how to configure them in Neon Studio, and recognized the importance of practical tests to determine the ideal adjustments. This information is fundamental to ensuring consistent and high-quality results in the laser cutting process.

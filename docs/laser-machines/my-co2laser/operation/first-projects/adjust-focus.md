@@ -54,13 +54,11 @@ The best way to notice when the focus is not adjusted is to observe the thicknes
 
 <figure markdown="span">
 
-  ![](/assets/images/co2laser/focus-differences.png){ width="600" }
+  ![](/assets/images/co2laser/focus-differences.webp){ width="600" }
   <figcaption>Figure 3 - Examples of poorly adjusted focus</figcaption>
 
 </figure>
 
 In this article, we learned about the importance of adjusting the focus and how easy it is to do it! Now, just stay alert and do not forget to perform this procedure whenever you change the material.
 
-Follow our series of first steps articles to learn how to position the [material] on the Neon.
-
-[material]: https://my-machinespluskdb.github.io/Neon-FAQS/manual/primeiros-trabalhos/material/
+Follow our series of first steps articles to learn how to position the [material](materials.md) on the Neon.
