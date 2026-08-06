@@ -125,6 +125,9 @@ extra_css:
 extra_javascript:
   - assets/javascripts/extra.js
 
+exclude_docs: |
+  **/*.ini
+
 markdown_extensions:
     - tables
     - pymdownx.highlight:
