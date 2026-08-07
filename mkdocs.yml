@@ -5,8 +5,8 @@ site_author: "Edgar Mata"
 site_description: "My Machines knowledge base"
 
 # Repository global
-repo_name: "EdgarMata/my-machines-docs"
-repo_url: "https://github.com/EdgarMata/my-machines-docs"
+repo_name: "EdgarMata/My-Machines-Docs"
+repo_url: "https://github.com/EdgarMata/My-Machines-Docs"
 edit_uri: edit/main/docs/
 
 # Copyright dinâmico
