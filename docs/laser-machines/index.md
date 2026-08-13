@@ -6,7 +6,7 @@ Whether you are slicing through thick acrylics with a CO2 laser, marking industr
 
 <div class="grid cards" markdown>
 
--   ![My-CO2 Laser](/assets/images/image-placeholder.webp)
+-   ![My-CO2 Laser](/assets/images/neon.webp)
 
     ---
 

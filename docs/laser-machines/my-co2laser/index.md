@@ -1,13 +1,11 @@
-# HELLO HOW CAN WE HELP?
+# Welcom to My-NEON-Co2 Laser machine
 
 <figure markdown="span">
 
-  ![Neon](/assets/images/co2laser/neon.png){ width="1000" }
+  ![Neon](../../assets/images/co2laser/my-neon_co2_02.png){ width="1000" }
   <figcaption></figcaption>
 
 </figure>
-
-## Welcome to the Neon knowledge center
 
 !!! warning "Work In Progress (WIP) - Active Development"
     **The MY-CO2 Laser is currently undergoing active iteration.**
@@ -15,6 +13,10 @@
     Building a reliable CO2 laser requires precise optical alignment, safe high-voltage tube mounting, and robust fume extraction. The current CAD models, enclosure designs, and Bill of Materials (BOM) are still being refined for the safest and most efficient DIY build. 
     
     *Want to start cutting and engraving right away?* Sourcing high-voltage components and optical mirrors independently can lead to frustrating alignment and safety issues as the design evolves. To guarantee compatibility and support our Open Source R&D, we highly recommend getting your verified hardware and optics directly from the [MY-Machines Official Store](https://www.my-machines.com).
+
+## Key Features
+
+
 
 <div class="grid cards" markdown>
 
