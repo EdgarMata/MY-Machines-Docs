@@ -2,7 +2,7 @@
 
 <figure markdown="span">
 
-  ![Neon](../../assets/images/co2laser/my-neon_co2_02.png){ width="1000" }
+  ![Neon](../../assets/images/co2laser/my-neon_co2_02.webp){ width="1000" }
   <figcaption></figcaption>
 
 </figure>

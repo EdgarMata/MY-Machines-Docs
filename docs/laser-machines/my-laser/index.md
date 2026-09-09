@@ -1,5 +1,12 @@
 # My-Laser (Diode CNC)
 
+<figure markdown="span">
+
+  ![Neon](../../assets/images/diode/my-diode-laser_00.webp){ width="1000" }
+  <figcaption></figcaption>
+
+</figure>
+
 Welcome to the **My-Laser** documentation hub. This machine is our versatile and highly accessible entry point into digital fabrication and laser engraving. Designed with the true DIY maker in mind, it combines accessible diode laser technology with 3D-printable components, making it the perfect project to start your laser CNC journey.
 
 !!! warning "Work In Progress (WIP) - Active Development"
