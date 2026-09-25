@@ -1,0 +1,5 @@
+nav:
+  - Overview: index.md
+  - Mechanical Parts: mechanical-parts.md
+  - Electronic Parts: electronic-parts.md
+  - Printed Parts: printed-parts.md

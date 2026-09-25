@@ -1,0 +1,12 @@
+title: Wiring & Electronics
+
+nav:
+  - Overview: index.md
+  - System Overview: system-overview.md
+  - Power Distribution: power-distribution.md
+  - Controller Board: controller-board.md
+  - I/O Map: io-map.md
+  - Motors & Homing: motors-and-homing.md
+  - Heaters & Temperature Sensors: heaters-and-temperature-sensors.md
+  - Fans: fans.md
+  - Display & Filament Sensor: display-and-filament-sensor.md

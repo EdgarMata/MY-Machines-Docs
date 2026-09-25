@@ -1,46 +1,106 @@
-# Printer Overview & Specifications
+# My-Cloner Printer Overview
 
-Welcome to your new 3D printer! Before you begin your first print, let's get familiar with the main components of the machine and its technical capabilities.
+Welcome to the **My-Cloner** initial setup guide.
 
-### Printer Diagram
+This page introduces the main parts of the printer and explains the basic machine architecture before you begin the first setup and calibration procedures.
 
-The diagram below highlights the key components of your printer. Refer to the list to identify each part.
-
-<figure markdown="1">
-  ![MY Cloner 3D Printer Diagram](/assets/images/image-placeholder.webp#only-light){ width="610" }
-  ![MY Cloner 3D Printer Diagram](/assets/images/image-placeholder.webp#only-dark){ width="610" }
-  <figcaption>Diagram of the MY Cloner 3D Printer.</figcaption>
-</figure>
-
-1.  **Frame:** The main structure that holds all components.
-2.  **Extruder:** The entire assembly that feeds and melts the filament, including the motor, gears, and hotend.
-3.  **Hotend:** The lower part of the extruder that heats up to melt the plastic. It consists of the heater block, nozzle, and heatsink.
-4.  **Nozzle:** The small brass tip where molten plastic is extruded.
-5.  **Print Bed (Heatbed):** The heated surface where your parts are printed.
-6.  **X-Axis:** Controls the left-to-right movement of the extruder.
-7.  **Y-Axis:** Controls the front-to-back movement of the print bed.
-8.  **Z-Axis:** Controls the vertical movement of the X-axis gantry.
-9.  **Klipper Host:** The small computer (e.g., a Raspberry Pi) that runs the main Klipper software.
-10. **Mainboard (MCU):** The printer's primary electronics board, located inside the electronics case.
-11. **Power Supply (PSU):** Converts AC wall power to DC power for the printer.
-12. **Spool Holder:** Holds the spool of filament.
+!!! info "Hardware Revision"
+    This documentation refers to **My-Cloner Rev A**.
 
 ---
-### Technical Specifications
 
-This table provides a quick overview of the printer's capabilities.
+## About the My-Cloner
 
-| Feature                 | Specification                             |
-| ----------------------- | ----------------------------------------- |
-| **Build Volume**        | 250 x 210 x 220 mm (X - Y - Z)            |
-| **Firmware**            | Klipper                                   |
-| **Filament Diameter**   | 1.75 mm                                   |
-| **Standard Nozzle Size**| 0.4 mm                                    |
-| **Max Hotend Temp**     | ~300 °C                                   |
-| **Max Bed Temp**        | ~120 °C                                   |
-| **Print Surface**       | Removable Magnetic Steel Sheet            |
-| **Power Supply**        | 24V, 240W (Input: 110V/230V, 50-60 Hz)    |
-| **Machine Dimensions**  | *Enter your machine's dimensions here*    |
-| **Machine Weight**      | *Enter your machine's weight here*        |
+The My-Cloner is an open-source Cartesian FDM 3D printer developed by **MyMachines**.
 
+The current Rev A machine uses:
 
+- 24 V electrical architecture
+- Klipper firmware
+- MKS Robin Nano V3 mainboard
+- Raspberry Pi Zero 2 W as the Klipper host
+- Mainsail as the main control interface
+- OrcaSlicer as the recommended slicer
+
+---
+
+## Main Printer Components
+
+The main parts of the My-Cloner are:
+
+- Frame
+- X-axis
+- Y-axis
+- Dual-motor Z-axis
+- Direct-drive extruder
+- V6-style hotend
+- Heated bed
+- Smooth PEI spring steel sheet
+- P.I.N.D.A. probe
+- Filament sensor
+- MKS Robin Nano V3 mainboard
+- Raspberry Pi Zero 2 W
+- MKS TS35 V2.0 display
+- Mean Well LRS-350-24 power supply
+
+<figure markdown="1">
+  ![My-Cloner Printer Overview](/assets/images/image-placeholder.webp#only-light){ width="700" }
+  ![My-Cloner Printer Overview](/assets/images/image-placeholder.webp#only-dark){ width="700" }
+  <figcaption>Main components of the My-Cloner Rev A.</figcaption>
+</figure>
+
+---
+
+## Axis Movement
+
+| Axis | Movement |
+|---|---|
+| **X** | Extruder moves left and right |
+| **Y** | Print bed moves forwards and backwards |
+| **Z** | X-axis gantry moves up and down |
+| **E** | Extruder feeds or retracts filament |
+
+Understanding these directions is important before performing the first homing procedure.
+
+---
+
+## Key Specifications
+
+| Feature | Specification |
+|---|---|
+| **Hardware Revision** | Rev A |
+| **Build Volume** | 230 × 230 × 220 mm |
+| **Filament Diameter** | 1.75 mm |
+| **Standard Nozzle** | 0.4 mm |
+| **Maximum Hotend Temperature** | 300 °C |
+| **Heatbed Size** | 230 × 230 mm |
+| **Electrical System** | 24 V DC |
+| **Firmware** | Klipper |
+| **Main Interface** | Mainsail |
+| **Recommended Slicer** | OrcaSlicer |
+
+---
+
+## Control Architecture
+
+The My-Cloner uses Klipper's host-and-MCU architecture.
+
+The **Raspberry Pi Zero 2 W** runs the Klipper host software and Mainsail.
+
+The **MKS Robin Nano V3** acts as the printer MCU and controls the motors, heaters, fans, sensors and probe.
+
+---
+
+## Next Steps
+
+Before powering on the printer for the first time, complete the pre-power checks:
+
+[Before First Power-On](before-first-power-on.md)
+
+After the checks are complete:
+
+[First Power-On](first-power-on.md)
+
+Then continue with:
+
+[First Time Setup & Calibration](first-time-setup.md)

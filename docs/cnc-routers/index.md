@@ -6,7 +6,7 @@ Our open-source CNC routers are engineered for exceptional rigidity and precisio
 
 <div class="grid cards" markdown>
 
--   ![My-Router XL](/assets/images/image-placeholder.webp)
+-   ![My-Router XL](/assets/images/routerxl/my-router-xl-01.webp)
 
     ---
 
@@ -17,7 +17,7 @@ Our open-source CNC routers are engineered for exceptional rigidity and precisio
     - [:fontawesome-solid-laptop-code: Software & CAM](my-router-xl/software/software.md)
     - [:fontawesome-solid-wrench: Maintenance & Troubleshooting](my-router-xl/troubleshooting/troubleshooting.md)
 
--   ![My-Router CNC](/assets/images/image-placeholder.webp)
+-   ![My-Router CNC](/assets/images/router/my_router_01.webp)
 
     ---
 
@@ -28,7 +28,7 @@ Our open-source CNC routers are engineered for exceptional rigidity and precisio
     - [:fontawesome-solid-laptop-code: Software Configuration](my-router-cnc/software/software.md)
     - [:fontawesome-solid-wrench: Maintenance](my-router-cnc/maintenance/maintenance.md)
 
--   ![My-PCB Mill](/assets/images/image-placeholder.webp)
+-   ![My-PCB Mill](/assets/images/pcb-mill/my-pcb-mill-01.webp)
 
     ---
 

@@ -1,0 +1,10 @@
+title: Downloads
+
+nav:
+  - Overview: index.md
+  - Bill of Materials: bom-files.md
+  - STL Files: stl-files.md
+  - CAD Files: cad-files.md
+  - Firmware Configuration: firmware-configuration.md
+  - Slicer Profiles: slicer-profiles.md
+  - Offline Manual: offline-manual.md

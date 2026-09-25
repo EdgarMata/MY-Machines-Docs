@@ -49,7 +49,7 @@ Discover our lineup of open-source 3D printers, built for uncompromising precisi
 
 ### Laser Machines
 
-![My Machines Laser Cutters](assets/images/image-placeholder.webp)
+![My Machines Laser Cutters](assets/images/laser_machines.webp)
 
 Step into advanced digital fabrication with our laser cutting and engraving systems. Whether you are cutting rigid materials with a CO2 laser, marking metals with Fiber technology, or starting out with a Diode setup, our documentation ensures a safe, reliable, and highly accurate workspace.
 
@@ -76,7 +76,7 @@ Step into advanced digital fabrication with our laser cutting and engraving syst
 
 ### CNC Routers
 
-![My Machines CNC Routers](assets/images/image-placeholder.webp)
+![My Machines CNC Routers](assets/images/cnc-routers.webp)
 
 Bring accessible subtractive manufacturing to your workshop. Our robust desktop CNC routers are engineered to handle everything from intricate custom PCB milling to heavy-duty wood and aluminum routing, complete with open-source control software guidelines.
 

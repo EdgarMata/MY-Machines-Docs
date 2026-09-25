@@ -1,0 +1,10 @@
+title: Initial Setup
+
+nav:
+  - Printer Overview: printer-overview.md
+  - Before First Power-On: before-first-power-on.md
+  - First Power-On: first-power-on.md
+  - First Time Setup & Calibration: first-time-setup.md
+  - Klipper Interface Guide: klipper-interface-guide.md
+  - Loading and Unloading Filament: loading-unloading-filament.md
+  - Glossary of Common Terms: glossary-of-terms.md

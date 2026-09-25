@@ -1,39 +1,211 @@
-# How to Load and Unload Filament
+# Loading and Unloading Filament
 
-Loading and unloading filament is one of the most common tasks you'll perform with your 3D printer. Following these simple steps will ensure a smooth process and help prevent jams.
+This guide explains how to load and unload filament on the **My-Cloner Rev A**.
 
----
-### How to Load Filament
+The My-Cloner uses a direct-drive extruder and an MK3-style IR filament sensor.
 
-1.  **Preheat the Nozzle**
-    * In the Klipper web interface, go to the Temperature Control section and set the hotend temperature to the correct value for your filament (e.g., 215°C for PLA).
-    * Wait for the nozzle to reach the target temperature.
+!!! warning "Heat the Hotend First"
+    Never force filament through a cold hotend.
 
-2.  **Prepare the Filament Tip**
-    * Take the end of your filament spool and use a pair of snips to cut the tip at a sharp 45-degree angle. This pointy tip makes it much easier to guide the filament into the extruder.
-
-    <figure markdown="1">
-      ![Cutting Filament Tip](/assets/images/image-placeholder.webp#only-light){ width="600" }
-      ![Cutting Filament Tip](/assets/images/image-placeholder.webp#only-dark){ width="600" }
-      <figcaption>Illustration showing the end of a filament being cut at a 45-degree angle.</figcaption>
-    </figure>
-
-3.  **Insert the Filament**
-    * Gently guide the pointed end of the filament into the opening at the top of your extruder assembly.
-    * Push it in until you feel some resistance, which means it has reached the drive gears.
-
-4.  **Extrude Using the Interface**
-    * In the web interface's control panel, click the **"Extrude"** button. The extruder gears will now grab the filament and begin feeding it into the hotend.
-    * Keep clicking "Extrude" until you see the new plastic coming out of the nozzle tip. Ensure the flow is smooth and the color is consistent (if you are changing colors).
+    The nozzle must be heated to a suitable temperature before loading or unloading filament.
 
 ---
-### How to Unload Filament
 
-1.  **Preheat the Nozzle**
-    * Just like with loading, you must heat the nozzle to the filament's printing temperature to allow it to be removed. Set the temperature in the web interface.
+## Before You Start
 
-2.  **Retract the Filament**
-    * Once the nozzle is hot, go to the control panel in the web interface and click the **"Retract"** button.
-    * The extruder motor will reverse and push the filament back out of the top of the extruder.
-    * Gently pull the filament completely out of the printer. 
+Make sure:
 
+- The printer is powered on.
+- Klipper is connected and ready.
+- Mainsail is accessible.
+- The hotend temperature reading is normal.
+- The filament path is clear.
+- The spool can rotate freely.
+
+---
+
+## Preparing the Filament
+
+Before inserting filament:
+
+1. Remove any damaged or deformed section from the filament end.
+2. Cut the filament at approximately a 45° angle.
+3. Make sure the tip is clean and straight.
+
+A clean angled tip makes it easier to guide the filament through the extruder.
+
+---
+
+## Loading Filament
+
+### 1. Heat the Hotend
+
+Set the hotend to a suitable loading temperature for the filament.
+
+Typical examples:
+
+| Material | Typical Loading Temperature |
+|---|---|
+| PLA | 200–215 °C |
+| PETG | 230–245 °C |
+| ABS / ASA | 240–255 °C |
+
+These values are general starting points.
+
+Always follow the filament manufacturer's recommended temperature range.
+
+---
+
+### 2. Insert the Filament
+
+Guide the filament into the extruder input.
+
+Push it gently until it reaches the drive gears.
+
+Do not force the filament if you feel unusual resistance.
+
+Check that:
+
+- The filament enters straight.
+- The spool rotates freely.
+- The filament does not catch on the sensor mechanism.
+
+---
+
+### 3. Feed the Filament
+
+Once the hotend reaches the target temperature, use the extruder controls in Mainsail.
+
+Extrude a small amount of filament at a time.
+
+Continue until material starts flowing from the nozzle.
+
+---
+
+### 4. Purge the Nozzle
+
+Continue extruding until:
+
+- Filament flows continuously.
+- The extrusion looks smooth.
+- Any previous material or colour has been removed.
+
+A short purge helps make sure the nozzle is fully loaded before printing.
+
+---
+
+## Verify the Filament Sensor
+
+If the filament sensor is enabled in Klipper, confirm that it detects the inserted filament.
+
+The reported state should change when filament is:
+
+- Inserted
+- Removed
+
+If the sensor does not respond correctly, do not rely on filament runout detection until the sensor has been adjusted or configured.
+
+---
+
+## Unloading Filament
+
+### 1. Heat the Hotend
+
+Heat the nozzle to the normal printing temperature for the loaded material.
+
+Do not attempt to pull cold filament from the hotend.
+
+---
+
+### 2. Retract the Filament
+
+Use the Mainsail extruder controls to retract the filament.
+
+Retract enough filament to release it from the hotend and extruder path.
+
+---
+
+### 3. Remove the Filament
+
+Gently pull the filament out of the extruder.
+
+Do not use excessive force.
+
+If the filament does not release:
+
+- Make sure the hotend is hot enough.
+- Extrude a small amount first.
+- Try retracting again.
+
+---
+
+## Changing Filament
+
+When changing from one filament to another:
+
+1. Heat the hotend for the currently loaded material.
+2. Unload the old filament.
+3. Prepare the new filament.
+4. Insert the new filament.
+5. Extrude until the new material flows cleanly from the nozzle.
+
+When changing colours or materials, purge enough filament to remove the previous material from the hotend.
+
+---
+
+## Filament Storage
+
+For reliable printing, keep filament clean and dry.
+
+Recommended practices:
+
+- Store filament in a dry location.
+- Keep unused spools in sealed bags or containers.
+- Use desiccant where appropriate.
+- Keep dust and debris away from the filament path.
+
+Moist filament can cause:
+
+- Poor surface finish
+- Stringing
+- Popping sounds
+- Inconsistent extrusion
+- Weak prints
+
+---
+
+## If Filament Does Not Feed
+
+If the extruder motor turns but filament does not move, check:
+
+- Hotend temperature
+- Filament path
+- Drive gear tension
+- Drive gear cleanliness
+- Nozzle blockage
+- Filament deformation
+- Spool movement
+
+Do not increase extruder force without identifying the cause.
+
+---
+
+## If Filament Is Stuck
+
+If filament cannot be removed:
+
+1. Heat the hotend to the correct temperature.
+2. Extrude a small amount.
+3. Retract the filament again.
+4. Gently pull it from the extruder.
+
+If the filament remains stuck, refer to the troubleshooting and maintenance documentation before disassembling the hotend.
+
+---
+
+!!! success "Filament Ready"
+    Once filament flows smoothly from the nozzle and the filament sensor reports the correct state, the printer is ready for extrusion and printing tests.
+
+For normal printer control, see:
+
+[Klipper Interface Guide](klipper-interface-guide.md)

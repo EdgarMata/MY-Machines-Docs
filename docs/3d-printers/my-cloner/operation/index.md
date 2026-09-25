@@ -1,52 +1,86 @@
-# User Manual
+# Using the My-Cloner
 
 <div class="announcement">
-  <p>📢 Check out the latest updates and features of the My Cloner 3D Printer!</p>
+  <p>📢 Learn how to prepare, configure and operate your My-Cloner safely and correctly.</p>
 </div>
 
-The My Cloner 3D Printer manual is a comprehensive guide designed to assist users in setting up, using, and maintaining their 3D printer. This manual is divided into four main sections to provide detailed information on various aspects of the printer.
+This section covers the essential procedures required to prepare and operate the **My-Cloner**.
 
-- The BOM (Bill of Materials) section lists all the components required for the printer, including printed parts, electronic parts, and mechanical parts, with links to purchase them.
-- The Assembly Guide offers step-by-step instructions for assembling the printer, ensuring that all parts are correctly installed.
-- The Wiring Diagram section provides detailed diagrams for connecting all the electronic components, including the power supply, mainboard, display, motors, extruder, endstops, and fans.
-- The Initial Setup section covers the essential steps to get your printer up and running, including updating firmware, configuring the display, bed leveling, Z-axis and motor calibration, and extruder calibration.
+It guides you through the first startup, initial calibration, Mainsail interface, filament handling and the basic concepts required for normal printer operation.
 
-Each section is designed to be user-friendly, with clear instructions and helpful tips to ensure a smooth experience. Explore the links below to access each section of the manual.
+If this is your first time using the printer, follow the pages in the recommended order shown below.
 
 ## Sections
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __BOM (Bill of Materials)__
+-   :material-printer-3d:{ .lg .middle } __Printer Overview__
 
     ---
 
-    Lists all the components required for the printer, including printed parts, electronic parts, and mechanical parts, with links to purchase them.
+    Learn the main parts of the My-Cloner, how the axes move and how the Klipper-based control system is organised.
 
-    [:octicons-arrow-right-24: BOM (Bill of Materials)](../bom/mechanical-parts.md)
+    [:octicons-arrow-right-24: Printer Overview](initial-setup/printer-overview.md)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __Assembly Guide__
-
-    ---
-
-    Offers step-by-step instructions for assembling the printer, ensuring that all parts are correctly installed.
-
-    [:octicons-arrow-right-24: Assembly Guide](../assembly/01_introduction.md)
-
--   :material-format-font:{ .lg .middle } __Wiring Diagram__
+-   :material-clipboard-check-outline:{ .lg .middle } __Before First Power-On__
 
     ---
 
-    Provides detailed diagrams for connecting all the electronic components, including the power supply, mainboard, display, motors, extruder, endstops, and fans.
+    Complete the mechanical, electrical and safety checks required before connecting the printer to mains power for the first time.
 
-    [:octicons-arrow-right-24: Wiring Diagram](../wiring/power-supply.md)
+    [:octicons-arrow-right-24: Before First Power-On](initial-setup/before-first-power-on.md)
 
--   :material-scale-balance:{ .lg .middle } __Initial Setup__
+-   :material-power:{ .lg .middle } __First Power-On__
 
     ---
 
-    Covers the essential steps to get your printer up and running, including updating firmware, configuring the display, bed leveling, Z-axis and motor calibration, and extruder calibration.
+    Perform the first controlled startup and verify the power system, Klipper connection, sensors, temperatures and fans.
 
-    [:octicons-arrow-right-24: Initial Setup](initial-setup/printer-overview.md)
+    [:octicons-arrow-right-24: First Power-On](initial-setup/first-power-on.md)
+
+-   :material-tune-variant:{ .lg .middle } __First Time Setup & Calibration__
+
+    ---
+
+    Verify axis movement, homing, probe operation, PID tuning, Z offset, bed mesh and extrusion before the first print.
+
+    [:octicons-arrow-right-24: First Time Setup & Calibration](initial-setup/first-time-setup.md)
+
+-   :material-monitor-dashboard:{ .lg .middle } __Klipper Interface Guide__
+
+    ---
+
+    Learn how to use Mainsail to control movement, temperatures, files, calibration commands and print operations.
+
+    [:octicons-arrow-right-24: Klipper Interface Guide](initial-setup/klipper-interface-guide.md)
+
+-   :material-printer-3d-nozzle:{ .lg .middle } __Loading and Unloading Filament__
+
+    ---
+
+    Learn how to safely load, unload and change filament using the direct-drive extruder and Mainsail controls.
+
+    [:octicons-arrow-right-24: Loading and Unloading Filament](initial-setup/loading-unloading-filament.md)
+
+-   :material-book-open-page-variant:{ .lg .middle } __Glossary of Common Terms__
+
+    ---
+
+    Find simple explanations for the most common My-Cloner, Klipper and 3D printing terms used throughout the documentation.
+
+    [:octicons-arrow-right-24: Glossary of Common Terms](initial-setup/glossary-of-terms.md)
 
 </div>
+
+## Recommended First-Time Workflow
+
+For a new My-Cloner build, follow the initial setup documentation in this order:
+
+1. [Printer Overview](initial-setup/printer-overview.md)
+2. [Before First Power-On](initial-setup/before-first-power-on.md)
+3. [First Power-On](initial-setup/first-power-on.md)
+4. [First Time Setup & Calibration](initial-setup/first-time-setup.md)
+5. [Klipper Interface Guide](initial-setup/klipper-interface-guide.md)
+6. [Loading and Unloading Filament](initial-setup/loading-unloading-filament.md)
+
+The [Glossary of Common Terms](initial-setup/glossary-of-terms.md) can be used at any time if you encounter unfamiliar terminology.

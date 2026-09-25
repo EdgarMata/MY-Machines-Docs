@@ -1,27 +1,47 @@
-# Offline Manuals
+# Offline Manual
 
-Download complete, offline versions of our manuals in PDF format. This is useful for easy access to all documentation without an internet connection.
+A printable offline version of the **My-Cloner Rev A documentation** will be available here.
 
----
+The offline manual is intended for users who want to:
 
-### User Manual
+- Keep a local copy of the documentation
+- Print the documentation for workshop use
+- Access the instructions without an internet connection
+- Archive the documentation together with a specific hardware revision
 
-A complete guide covering assembly, setup, and daily operation of the MY-Cloner 3D Printer.
+## Complete Manual
 
-[:octicons-download-24: User Manual (PDF)](#){ .md-button } <!-- Replace # with your OneDrive link -->
+The primary offline document will contain the complete My-Cloner Rev A documentation, including:
 
----
+- Safety
+- Bill of Materials
+- Assembly
+- Wiring & Electronics
+- Software & Slicer
+- Operation & Use
+- Maintenance
+- Troubleshooting
+- FAQ
+- Project and download references
 
-### Maintenance Manual
+!!! info "Not Yet Available"
+    The complete My-Cloner Rev A offline manual is **not yet available for download**.
 
-Detailed instructions for preventive and reactive maintenance to keep your printer in top shape.
+    The PDF will be generated from the same documentation used on this website to keep the online and offline versions consistent.
 
-[:octicons-download-24: Maintenance Manual (PDF)](#){ .md-button } <!-- Replace # with your OneDrive link -->
+## Printable Section Manuals
 
----
+Additional smaller PDF manuals may also be provided for easier workshop printing, such as:
 
-### Electrical Schematics
+- Assembly Manual
+- Wiring & Electronics Manual
+- Operation & Software Manual
+- Maintenance & Safety Manual
 
-Complete wiring diagrams for all electronic components of the printer.
+These documents will use the same source documentation as the complete manual.
 
-[:octicons-download-24: Electrical Schematics (PDF)](#){ .md-button } <!-- Replace # with your OneDrive link -->
+## Documentation Version
+
+Offline manuals will be identified by the corresponding My-Cloner hardware revision and documentation version.
+
+Always use documentation that matches the hardware revision of your printer.
