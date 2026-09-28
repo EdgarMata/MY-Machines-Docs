@@ -2,14 +2,14 @@
 
 Beyond thermal and electrical hazards, day-to-day safe usage involves the operating environment, machine supervision, and interaction with its mechanical parts.
 
-### Operating Environment
+## Operating Environment
 
 !!! info "Create a Safe Printing Environment"
     * **Indoor Use Only:** The printer is designed for indoor use only, in a dry, clean environment.
     * **Stable Surface:** Place the printer on a flat, stable surface where there is no risk of it falling or tipping over.
     * **Proper Ventilation:** The melting of plastic can produce odors and release particulates. Always operate the printer in a well-ventilated area.
 
-### Safety During Operation
+## Safety During Operation
 
 !!! danger "Hazard from Moving Parts"
     Never place your hands or any objects inside the printing area while the machine is in operation. The moving parts can cause injury.
@@ -20,7 +20,7 @@ Beyond thermal and electrical hazards, day-to-day safe usage involves the operat
 !!! info "Be Careful with Tools"
     When removing prints from the print bed, use a spatula with care, always pushing away from your body to avoid cuts. Consider using safety glasses when cutting, sanding, or post-processing parts.
 
-### Supervision and Access
+## Supervision and Access
 
 !!! warning "Keep Children and Pets Away"
     Even when not printing, the printer is not a toy. Prevent unsupervised access by children and pets.
