@@ -5,6 +5,8 @@ In this chapter, we will mechanically assemble and mount the **MKS TS35 V2.0** d
 **Mainsail is the primary user interface for the My-Cloner Rev A.** The TS35 is the local display hardware, but its final electrical and Klipper integration is still under validation.
 
 ---
+## Assembly Procedure
+
 ### Step 1: Tools and Parts Preparation
 
 First, let's gather all the parts needed for the display module. The bag with the small fasteners is often taped directly to the LCD screen itself.
