@@ -119,12 +119,15 @@ Now we will mount the prepared heatbed assembly onto the Y-carriage.
 It's time to prepare the Power Supply Unit (PSU), the component that powers the entire printer.
 
 * **Parts needed:**
-    * 24V Power Supply Unit (PSU) (1x)
-    * Power Panic cable (1x)
-    * PSU power cables (2x pairs)
+    * Mean Well LRS-350-24 power supply (1x)
+    * Required 24 V DC power cables
     * M4x10r screw (2x)
     * M3x10 screw (2x)
-* **Note:** The PSU is designed to work worldwide and automatically switches to the correct local voltage.
+
+!!! warning "Input Voltage Selector"
+    The Mean Well LRS-350-24 uses a selectable AC input range.
+
+    For the standard My-Cloner Rev A configuration, verify that the selector is set correctly for **230 V AC** before connecting mains power.
 
 ---
 ### Step 9: Mounting the PSU to the Frame
@@ -135,59 +138,57 @@ It's time to prepare the Power Supply Unit (PSU), the component that powers the 
 * **Action:** Before the final tightening, ensure the PSU is pressed firmly against both the bottom extrusion and the vertical frame. Once everything is aligned, fully tighten all the mounting screws (both the M3 and M4 screws).
 
 ---
-### Step 10: Connecting Power Cables to the PSU (CRITICAL)
+### Step 10: Verify the PSU Electrical Connections
 
-This is a critical step that requires your full attention. Incorrect wiring here can damage the printer.
+!!! danger "Mains Voltage"
+    Do not make or modify AC mains connections while the printer is connected to the power outlet.
 
-!!! danger "CRITICAL: High Voltage - Check All Connections"
-    * **Triple-check** that you are connecting the wires correctly.
-    * The terminals on the PSU are clearly marked for positive `(+)` and negative `(-)` polarity.
-    * The layout is: `+`, `+`, `-`, `-`.
-    * Ensure the bent part of the metal "fork" connectors on the cables is always **facing up**.
+    The Mean Well LRS-350-24 includes dedicated AC input terminals and 24 V DC output terminals. Their exact functions must be identified from the markings on the installed PSU and the current My-Cloner electrical schematic.
 
-<figure markdown="1">
-  ![PSU Terminal Polarity](/assets/images/image-placeholder.webp#only-light){ width="400" }
-  ![PSU Terminal Polarity](/assets/images/image-placeholder.webp#only-dark){ width="400" }
-  <figcaption>A close-up of the PSU terminals, highlighting the correct polarity (+ + - -).</figcaption>
-</figure>
+Before connecting any conductor:
 
----
-### Step 11: Connecting the Main Power Cables
+1. Verify the PSU model is **Mean Well LRS-350-24**.
+2. Verify the input-voltage selector is set for the intended **230 V AC** supply.
+3. Identify the AC **L**, **N** and protective-earth terminals.
+4. Identify the 24 V DC positive and negative output terminals.
+5. Check every cable destination against the current [Power Distribution](../wiring/power-distribution.md) page and the QElectroTech schematic.
+6. Do not rely on terminal order copied from an older printer or PSU.
 
-This step involves connecting the two pairs of power cables to the PSU terminals. These cables will power your mainboard and your heated bed.
-
-!!! danger "CRITICAL: Double-Check Your Wiring"
-    This is the most critical wiring step of the entire build. Incorrect connections here can damage your electronics. **The polarity on the PSU is (+, +, -, -)**.
-    * Ensure the bent part of the cable's fork connector is facing **up**, away from the PSU casing.
-    * The steel washer must be **above** the fork connector when you insert the screw.
-
-* **First Cable Pair:**
-    1.  Connect the **RED** wire to the **FIRST** `(+)` terminal from the left.
-    2.  Connect the **BLACK** wire from the same cable to the **THIRD** `(-)` terminal from the left.
-* **Second Cable Pair:**
-    1.  Connect the **RED** wire to the **SECOND** `(+)` terminal from the left.
-    2.  Connect the **BLACK** wire from the same cable to the **FOURTH** `(-)` terminal from the left.
-
-* **Action:** Use a Philips screwdriver to **tighten all four screws firmly**. A loose connection here can cause serious problems.
-
-<figure markdown="1">
-  ![PSU Final Wiring](/assets/images/image-placeholder.webp#only-light){ width="500" }
-  ![PSU Final Wiring](/assets/images/image-placeholder.webp#only-dark){ width="500" }
-  <figcaption>The final correct wiring on the PSU terminal block.</figcaption>
-</figure>
+!!! important "Protective Earth"
+    Protective earth is a safety connection and must be installed according to the approved Rev A electrical design.
 
 ---
-### Step 12: Connecting the Power Panic Cable
 
-The Power Panic feature allows your printer to recover from a sudden loss of power.
+### Step 11: Connect the 24 V DC Distribution
 
-* **Action:** Take the Power Panic cable and connect it to its dedicated two-pin port on the PSU.
-* **Action:** Gently bend the cable and route it along with the main power cables towards the other side of the printer, where the electronics housing will be.
+The PSU provides the main 24 V DC rail for the My-Cloner Rev A.
 
-!!! warning "Handle with Care"
-    The connector on the Power Panic board is small and can be fragile. Avoid pulling or straining this cable until the printer is fully assembled.
+The 24 V distribution supplies:
+
+- MKS Robin Nano V3
+- Heater outputs
+- Stepper drivers and motors
+- 24 V cooling fans
+- LM2596 converter input
+
+Use correctly sized conductors and secure terminations. Verify polarity with a multimeter before connecting sensitive electronics.
+
+The detailed distribution architecture and current validation status are maintained in:
+
+[Power Distribution](../wiring/power-distribution.md)
 
 ---
+
+### Step 12: Power-Loss Recovery
+
+**Power Panic is not implemented in the My-Cloner Rev A.**
+
+Do not install a Power Panic cable or assume that a legacy power-loss-recovery board is part of the current electrical architecture.
+
+Any future power-loss-recovery feature must be documented as a separate validated revision before it is added to the assembly procedure.
+
+---
+
 ### Step 13: Heatbed and PSU are Finished!
 
 The main power systems of your printer are now fully assembled and mounted.
