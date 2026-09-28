@@ -5,13 +5,13 @@ A clogged nozzle can bring a print to a complete halt. Cleaning can be done exte
 !!! danger "Severe Burn Hazard"
     All internal nozzle cleaning must be done with the **nozzle preheated** to the temperature of the material that caused the clog. Be extremely careful not to burn yourself.
 
-### External Cleaning
+## External Cleaning
 
 Over time, burnt plastic can accumulate on the outside of the nozzle.
 
 * **Procedure:** While the nozzle is hot, use a **wire or brass brush** to carefully scrub the outside of the nozzle, removing all the old plastic residue.
 
-### Internal Cleaning - Partial Clog
+## Internal Cleaning - Partial Clog
 
 **Symptom:** Filament comes out of the nozzle, but it's very thin, inconsistent, or curls up immediately.
 
@@ -20,7 +20,7 @@ Over time, burnt plastic can accumulate on the outside of the nozzle.
 3.  **Extrude:** Try to extrude a small amount of filament.
 4.  **Repeat:** Repeat the process of inserting the needle and extruding a few times until the filament begins to flow out smoothly, straight, and consistently.
 
-### Internal Cleaning - Full Clog
+## Internal Cleaning - Full Clog
 
 **Symptom:** The printer is trying to extrude, but absolutely no filament is coming out of the nozzle.
 
