@@ -3,7 +3,7 @@
 Operating a 3D printer can involve handling chemicals for cleaning and post-processing. It's also important to be prepared for the very low, but not zero, risk of fire associated with any high-power electrical appliance.
 
 ---
-### Chemical Safety
+## Chemical Safety
 
 !!! info "Commonly Used Chemicals"
     Tasks like cleaning the print bed or smoothing parts may involve using chemicals like **Isopropyl Alcohol (IPA)** and **Acetone**. These substances require careful handling.
@@ -15,12 +15,12 @@ Operating a 3D printer can involve handling chemicals for cleaning and post-proc
     * **Disposal:** Dispose of used chemicals and any cloths or paper towels soaked in them according to your local regulations. Do not pour them down the drain.
 
 ---
-### Fire Safety
+## Fire Safety
 
 !!! danger "Fire Risk and Prevention"
     The single most important fire prevention step is to **never leave your printer operating completely unattended**. While safety features exist, any electrical device that generates heat carries a potential fire risk.
 
-### In Case of Fire
+## In Case of Fire
 
 Being prepared can prevent a small problem from becoming a disaster.
 
