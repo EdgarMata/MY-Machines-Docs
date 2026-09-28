@@ -2,11 +2,11 @@
 
 When we talk about "cleaning the extruder," we are usually referring to cleaning the mechanism that pushes the filament, known as the **drive gear**. A dirty drive gear is one of the most common causes of under-extrusion (prints with gaps or missing layers).
 
-### Why is Cleaning Necessary?
+## Why is Cleaning Necessary?
 
 Through normal use, the toothed gear that grips the filament can accumulate small plastic shavings. When the teeth get clogged with this debris, the gear loses its ability to grip and push the filament consistently.
 
-### Cleaning Procedure
+## Cleaning Procedure
 
 1.  **Unload the Filament:** First, remove any filament currently loaded in the printer.
 2.  **Access the Gear:** Most printers have a small access window on the extruder body that allows you to see and access the drive gear.
