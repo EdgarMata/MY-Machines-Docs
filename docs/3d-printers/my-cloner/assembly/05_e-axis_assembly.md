@@ -9,6 +9,8 @@ Welcome to the heart of your 3D printer: the E-axis, or Extruder. This complex a
     * **Cable Management is Key:** Follow the cable routing instructions precisely. A pinched wire can be very difficult to fix later without disassembling the entire extruder.
 
 ---
+## Assembly Procedure
+
 ### Step 1: Tools Necessary for This Chapter
 * **Tools needed:**
     * Needle-nose pliers
