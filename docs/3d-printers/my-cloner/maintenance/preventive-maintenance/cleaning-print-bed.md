@@ -2,7 +2,7 @@
 
 A clean print bed is the number one secret to achieving a perfect first layer and preventing your prints from detaching mid-print.
 
-### Regular Cleaning
+## Regular Cleaning
 
 This procedure should be done regularly to remove dust, plastic residue, and most importantly, grease from fingerprints.
 
@@ -13,7 +13,7 @@ This procedure should be done regularly to remove dust, plastic residue, and mos
 !!! tip
     Try to never touch the printing surface with your bare hands.
 
-### Surface Rejuvenation (for Smooth PEI Sheets)
+## Surface Rejuvenation (for Smooth PEI Sheets)
 
 After hundreds of hours of use, a smooth PEI surface may begin to lose its adhesion.
 
