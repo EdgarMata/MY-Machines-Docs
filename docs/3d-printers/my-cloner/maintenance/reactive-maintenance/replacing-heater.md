@@ -7,7 +7,7 @@ The heater cartridge is the metal cylinder responsible for heating the hotend bl
 
 ---
 
-### General Replacement Procedure
+## General Replacement Procedure
 
 1.  **Disconnect from Mainboard**
     Open the electronics case. Locate the extruder heater wires (usually the thickest wires coming from the hotend) and disconnect them from the mainboard.
@@ -29,7 +29,7 @@ The heater cartridge is the metal cylinder responsible for heating the hotend bl
 5.  **Connect to Mainboard**
     Route the new wires and connect them to the correct port on the mainboard.
 
-### Finalization and Calibrations
+## Finalization and Calibrations
 
 !!! success "Mandatory Calibrations :arrows_counterclockwise:"
     Just like with the thermistor, replacing the heater changes the heating dynamics of the system.
