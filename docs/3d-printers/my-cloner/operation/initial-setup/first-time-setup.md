@@ -365,8 +365,8 @@ Before the first print, confirm:
 - [ ] X-axis direction verified.
 - [ ] Y-axis direction verified.
 - [ ] Z-axis direction verified.
-- [ ] X endstop verified.
-- [ ] Y endstop verified.
+- [ ] X TMC2209 UART / DIAG and sensorless homing verified.
+- [ ] Y TMC2209 UART / DIAG and sensorless homing verified.
 - [ ] P.I.N.D.A. probe verified.
 - [ ] X and Y homing completed successfully.
 - [ ] Z homing completed successfully.
