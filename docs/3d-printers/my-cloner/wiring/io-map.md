@@ -165,7 +165,7 @@ The My-Cloner Rev A uses a **P.I.N.D.A. inductive probe** for Z referencing and 
 
 | Function | Device | Board Input | MCU Pin | Status |
 |---|---|---|---:|---|
-| Z Probe | P.I.N.D.A. | Z probe / endstop input | TBD | Pending wiring validation |
+| Z Probe | P.I.N.D.A. | Z probe / endstop input | Pending validation | Pending validation |
 
 The Robin Nano V3 provides several possible probe-related inputs, including the Z endstop input and a dedicated BLTouch interface.
 
@@ -260,8 +260,8 @@ The Robin Nano V3 provides two controllable fan outputs.
 
 | Function | Board Output | MCU Pin | My-Cloner Device | Status |
 |---|---|---:|---|---|
-| Fan 1 | FAN1 | `PC14` | TBD | Source confirmed / Assignment pending |
-| Fan 2 | FAN2 | `PB1` | TBD | Source confirmed / Assignment pending |
+| Fan 1 | FAN1 | `PC14` | Pending assignment | Source confirmed / assignment pending |
+| Fan 2 | FAN2 | `PB1` | Pending assignment | Source confirmed / assignment pending |
 
 The My-Cloner uses:
 
@@ -401,11 +401,11 @@ These signals remain available for future development.
 | Hotend Thermistor | TH1 | `PC1` | `[extruder]` | Source confirmed |
 | Heated Bed | H-BED | `PA0` | `[heater_bed]` | Source confirmed |
 | Bed Thermistor | TB | `PC0` | `[heater_bed]` | Source confirmed |
-| Fan 1 | FAN1 | `PC14` | TBD | Function pending |
-| Fan 2 | FAN2 | `PB1` | TBD | Function pending |
-| P.I.N.D.A. | TBD | TBD | `[probe]` | Wiring pending |
-| Filament Sensor | MT_DET1 / TBD | `PA4` / TBD | `[filament_switch_sensor]` | Pending validation |
-| Display | EXP / TBD | TBD | TBD | Under validation |
+| Fan 1 | FAN1 | `PC14` | Pending assignment | Function pending |
+| Fan 2 | FAN2 | `PB1` | Pending assignment | Function pending |
+| P.I.N.D.A. | Pending validation | Pending validation | `[probe]` | Pending validation |
+| Filament Sensor | MT_DET1 / MT_DET2 | `PA4` / `PE6` | `[filament_switch_sensor]` | Final assignment pending validation |
+| Display | EXP1 / EXP2 | See header mapping | Pending integration | Pending validation |
 
 ---
 
