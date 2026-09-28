@@ -21,4 +21,4 @@ Over-extrusion occurs when the printer pushes out more plastic than necessary, r
     Ensure that the filament diameter configured in your slicing software matches the actual diameter of the filament you are using (usually 1.75 mm). If the slicer thinks it's using a thinner filament, it will push out more material.
 
 3.  **Over-extrusion on the First Layer**
-    If the problem only occurs on the first layer (similar to "Elephant Foot"), the cause is likely a nozzle that is too close to the bed. Adjust your "Live Adjust Z" to a less negative value.
+    If the problem only occurs on the first layer (similar to "Elephant Foot"), the cause is likely a nozzle that is too close to the bed. Recalibrate the P.I.N.D.A. Z offset so the nozzle is not excessively close to the print surface.
