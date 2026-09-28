@@ -2,7 +2,7 @@
 
 Correct tension on the X and Y-axis belts is fundamental to the accuracy and quality of your prints. Loose belts can cause "layer shifting" and distorted shapes, like circles that look like ovals.
 
-### How to Check Tension
+## How to Check Tension
 
 There are several methods to check if your belts are properly tensioned:
 
@@ -13,7 +13,7 @@ There are several methods to check if your belts are properly tensioned:
         Some printers have a diagnostic function in the menu that provides a numerical value for belt tension.
         If your printer has this feature, check the ideal value range recommended by the manufacturer.
 
-### Belt Locations
+## Belt Locations
 
 * **Y-Axis Belt:** Located underneath the print bed (heatbed).
 * **X-Axis Belt:** The belt that moves the extruder assembly from left to right.
