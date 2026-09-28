@@ -3,6 +3,8 @@
 The physical assembly is complete! This final chapter covers the last crucial physical adjustment needed before you power on the printer for the first time and move on to the software calibration.
 
 ---
+## Assembly Procedure
+
 ### Step 1: Setting the Initial Z-Probe Height
 
 This procedure sets a rough, safe starting distance between your Z-probe and the nozzle tip. It is the most important step in this chapter.
