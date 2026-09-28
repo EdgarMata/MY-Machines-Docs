@@ -3,6 +3,8 @@
 In this chapter, we will bring the frame and the X-axis gantry together. We will install the motors and rods that control the vertical movement of the printer, allowing your models to grow layer by layer.
 
 ---
+## Assembly Procedure
+
 ### Step 1: Tools Necessary for This Chapter
 
 * **Tools needed:**
