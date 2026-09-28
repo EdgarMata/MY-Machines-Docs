@@ -3,6 +3,8 @@
 In this chapter, we will build the X-axis. This is the gantry that moves from left to right across the printer, and it will eventually carry the extruder and hotend assembly. A precise and rigid X-axis is key for accurate prints.
 
 ---
+## Assembly Procedure
+
 ### Step 1: Tools Necessary for This Chapter
 
 Before you begin, gather the tools you will need for this section of the build.
