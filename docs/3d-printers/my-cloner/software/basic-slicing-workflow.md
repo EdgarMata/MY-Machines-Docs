@@ -1,6 +1,9 @@
 # Your First Slice: A Basic Workflow
 
-Once Orca Slicer is set up, slicing a model is a simple, repeatable process. Let's walk through the day-to-day workflow.
+Once OrcaSlicer is configured with a **validated My-Cloner Rev A profile**, slicing a model follows a simple, repeatable workflow.
+
+!!! warning "Rev A Profile Status"
+    The final public Rev A profile package is not yet available. Do not use an unvalidated legacy profile for machine operation.
 
 <figure markdown="1">
   ![Orca Slicer Interface](/assets/images/image-placeholder.webp#only-light){ width="610" }
@@ -16,7 +19,7 @@ First, get your 3D model file (`.stl`, `.step`, `.3mf`, etc.). You can either dr
 
 ### Select Your Printer Profile
 
-On the left-hand settings sidebar, ensure that the **"MY Cloner 3D Printer"** is selected in the "Printer" dropdown menu. This loads all the machine-specific settings.
+On the left-hand settings sidebar, ensure that the **"My-Cloner Rev A"** is selected in the "Printer" dropdown menu. This loads all the machine-specific settings.
 
 ### Select Your Filament Profile
 

@@ -1,31 +1,45 @@
-# Using PrusaSlicer & SuperSlicer Profiles
+# PrusaSlicer & SuperSlicer
 
-While we recommend Orca Slicer for its excellent Klipper integration, we understand that you may be more comfortable with or prefer to use **PrusaSlicer** or **SuperSlicer**. We provide optimized profiles for these slicers as well.
+The recommended slicer for the **My-Cloner Rev A** is **OrcaSlicer**.
 
----
-## How to Import the Profiles
+PrusaSlicer and SuperSlicer can be configured for a Klipper printer, but **official validated My-Cloner Rev A profile bundles for these slicers are not currently published**.
 
-The process is simple and very similar to the Orca Slicer setup.
+## Current Project Position
 
-1.  Open PrusaSlicer or SuperSlicer.
-2.  Go to the top menu: `File -> Import -> Import Config Bundle...`.
-3.  Navigate to and select the `.ini` profile bundle file provided for your chosen slicer.
-4.  The slicer will confirm the profiles to be imported. Ensure the "MY Cloner" printer profile, along with the associated filament and print profiles, are selected.
-5.  Click "Import."
+The Rev A release work is focused on:
 
-You should now see the "MY Cloner 3D Printer" as a selectable option in the printer dropdown menu.
+- A validated My-Cloner machine definition
+- OrcaSlicer printer settings
+- Tested filament and process profiles
+- Klipper / Mainsail workflow
 
-!!! info "The Basic Workflow is the Same"
-    Once the profiles are loaded, the day-to-day slicing workflow is nearly identical to the one described in the `Basic Slicing Workflow` guide. You will still:
-    
-    1.  Add a model.
-    2.  Select the Printer, Filament, and Quality profiles.
-    3.  Slice the model and preview the result.
+Do not import profile bundles from older My-Cloner prototypes or unrelated MK3/MK3S configurations and assume that they are compatible.
 
----
-## Key Difference: Uploading to Klipper
+## Using Another Slicer
 
-The main difference when using PrusaSlicer or SuperSlicer is the lack of a built-in "Device" tab for direct Klipper communication.
+If you choose to configure PrusaSlicer or SuperSlicer manually, the machine definition must agree with the validated My-Cloner Rev A configuration, including:
 
-* After you click "Slice," you will need to use the **"Export G-code"** button to save the file to your computer.
-* You must then open your printer's web interface (Mainsail/Fluidd) in your browser and upload the G-code file manually to the "G-Code Files" section before you can start the print.
+- Build volume: 230 × 230 × 220 mm
+- 0.4 mm standard nozzle
+- Klipper-compatible G-code workflow
+- Current motion limits
+- Current start/end G-code or macros
+- Validated material settings
+
+Motion limits, machine G-code and other firmware-dependent values must not be copied from a legacy printer profile before the final Rev A Klipper configuration has been validated.
+
+## G-Code Transfer
+
+Generated G-code can be exported from the slicer and uploaded to **Mainsail**.
+
+Always review the sliced file before printing and never run G-code prepared for a different machine unless its compatibility has been verified.
+
+## Related Documentation
+
+For the recommended slicer:
+
+[Setting Up OrcaSlicer](setting-up-orca-slicer.md)
+
+For the current public-profile status:
+
+[Slicer Profiles](../downloads/slicer-profiles.md)

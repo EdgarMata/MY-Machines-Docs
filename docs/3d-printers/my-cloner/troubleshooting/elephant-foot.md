@@ -12,7 +12,7 @@ This problem is almost always caused by a single thing: the extruder nozzle is t
 
 The solution is simple and direct: increase the distance between the nozzle and the bed.
 
-* **Adjust the "Live Adjust Z":** While the first layer is printing, go to the `Tune` menu and adjust the **"Live Adjust Z"** value to a **less negative** number (e.g., from -0.800 to -0.750). This slightly raises the nozzle.
+* **Recheck the Z offset:** If the nozzle is too close to the print surface, recalibrate the P.I.N.D.A. Z offset using the validated Klipper procedure. Make small changes and verify the first layer after each adjustment.
 * **Objective:** The goal is to find the point where the first layer adheres perfectly without being excessively squashed.
 
 <figure markdown="1">
@@ -22,5 +22,5 @@ The solution is simple and direct: increase the distance between the nozzle and 
 </figure>
 
 !!! tip "Small Adjustments Make a Big Difference"
-    When adjusting the "Live Adjust Z," do it in small increments (0.02 to 0.05 mm) and observe the result in real-time.
+    When fine-tuning the Z offset, use small controlled increments and verify the result carefully. Save only a value that has been confirmed on the physical machine.
 

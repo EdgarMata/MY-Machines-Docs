@@ -9,7 +9,9 @@ Welcome to the heart of your 3D printer: the E-axis, or Extruder. This complex a
     * **Cable Management is Key:** Follow the cable routing instructions precisely. A pinched wire can be very difficult to fix later without disassembling the entire extruder.
 
 ---
-## Step 1: Tools Necessary for This Chapter
+## Assembly Procedure
+
+### Step 1: Tools Necessary for This Chapter
 * **Tools needed:**
     * Needle-nose pliers
     * 2.5mm Allen key
@@ -17,7 +19,7 @@ Welcome to the heart of your 3D printer: the E-axis, or Extruder. This complex a
     * 1.5mm Allen key
 
 ---
-## Step 2: Preparing the Extruder Body Parts
+### Step 2: Preparing the Extruder Body Parts
 Let's begin by gathering the main printed parts and the necessary hardware. This combines the first few parts-gathering steps of the reference manual.
 
 * **Parts needed:**
@@ -30,14 +32,14 @@ Let's begin by gathering the main printed parts and the necessary hardware. This
     * Magnet 20x6x2mm (1x, the larger one)
 
 ---
-## Step 3: Assembling the Extruder Body
+### Step 3: Assembling the Extruder Body
 In this step, we will insert the nuts and one of the magnets into the main body parts.
 
 * **Action:** Take the `Extruder-body` printed part and insert the various M3n and M3nS nuts into their respective hexagonal slots. Use the "screw pulling technique" if a nut is too tight to press in by hand.
 * **Action:** Take the `FS-lever` part and carefully insert the **smaller magnet** (10x6x2mm) into its designated slot.
 
 ---
-## Step 4: Assembling the Filament Sensor Lever
+### Step 4: Assembling the Filament Sensor Lever
 This step is critical for the filament sensor to work correctly.
 
 * **Action:** Insert the `FS-lever` (with its magnet) into the `Extruder-body`. Secure it with an M3x18 screw. The lever must be able to move freely after the screw is tightened.
@@ -53,14 +55,14 @@ This step is critical for the filament sensor to work correctly.
 </figure>
 
 ---
-## Step 5: Assembling the Steel Ball Mechanism
+### Step 5: Assembling the Steel Ball Mechanism
 This mechanism helps guide the filament smoothly.
 
 * **Action:** Take the `Adapter-printer` part and insert the steel ball into its socket. Roll the ball around to ensure it moves smoothly.
 * **Action:** Place this `Adapter-printer` sub-assembly into the main `Extruder-body`. It should fit snugly into a groove. Do not use a screw to secure it yet.
 
 ---
-## Step 6: Preparing the Extruder Motor and Gears
+### Step 6: Preparing the Extruder Motor and Gears
 Now let's prepare the motor and the famous Bondtech gears that grip the filament.
 
 * **Parts needed:**
@@ -71,13 +73,13 @@ Now let's prepare the motor and the famous Bondtech gears that grip the filament
     * M3x10 screws (2x)
 
 ---
-## Step 7: Assembling the Bondtech Drive Gear
+### Step 7: Assembling the Bondtech Drive Gear
 * **Action:** Attach the `Extruder-motor-plate` to the extruder motor using two M3x10 screws. Use the motor's cable as a guide for the correct orientation.
 * **Action:** Rotate the motor's shaft so the flat part is facing outwards.
 * **Action:** Slide the Bondtech drive gear (the one with the grub screw) onto the shaft. The grub screw must be facing the flat part of the shaft. Tighten the screw slightly for now.
 
 ---
-## Step 8: Aligning the Bondtech Drive Gear
+### Step 8: Aligning the Bondtech Drive Gear
 This alignment is crucial to prevent filament grinding.
 
 !!! tip "Use a Piece of Filament for Alignment"
@@ -92,7 +94,7 @@ This alignment is crucial to prevent filament grinding.
 </figure>
 
 ---
-## Step 9: Preparing the Extruder Cover
+### Step 9: Preparing the Extruder Cover
 
 This is a quick preparatory step for the part that will close up the main extruder assembly.
 
@@ -102,7 +104,7 @@ This is a quick preparatory step for the part that will close up the main extrud
 * **Action:** Take the `Extruder-cover` and insert the M3nS square nut all the way into its slot. Use an Allen key to ensure it is properly aligned.
 
 ---
-## Step 10: Joining the Main Extruder Body
+### Step 10: Joining the Main Extruder Body
 
 This is a major step where we will join the two halves of the extruder into a single "sandwich."
 
@@ -119,7 +121,7 @@ This is a major step where we will join the two halves of the extruder into a si
 * **Action:** Insert the two long M3x40 screws through all three parts and tighten them to secure the entire assembly.
 
 ---
-## Step 11: Preparing the X-Carriage
+### Step 11: Preparing the X-Carriage
 
 Now we will prepare the `X-carriage`, which is the printed part that will mount this entire extruder assembly onto the X-axis rods.
 
@@ -132,7 +134,7 @@ Now we will prepare the `X-carriage`, which is the printed part that will mount 
 * **Action:** Take the IR-sensor cable and route it through the designated channel in the `X-carriage`. Leave a small amount of slack with the connector as shown in the reference images.
 
 ---
-## Step 12: Attaching the X-Carriage to the Extruder
+### Step 12: Attaching the X-Carriage to the Extruder
 
 In this step, we will mount the prepared `X-carriage` to the back of the main extruder assembly. This step requires careful cable management.
 
@@ -150,7 +152,7 @@ In this step, we will mount the prepared `X-carriage` to the back of the main ex
 </figure>
 
 ---
-## Step 13: Assembling the IR Filament Sensor
+### Step 13: Assembling the IR Filament Sensor
 
 Now we will install the sensor that detects the presence of filament.
 
@@ -169,7 +171,7 @@ Now we will install the sensor that detects the presence of filament.
 * **Action:** Finish the sensor assembly by inserting the long M3x40 screw from the top, which passes through the `Extruder-cover` and secures it to the `X-carriage`.
 
 ---
-## Step 14: Preparing to Mount the Hotend Fan
+### Step 14: Preparing to Mount the Hotend Fan
 
 The hotend fan is critical for preventing "heat creep" and ensuring reliable extrusion. It constantly cools the heatsink to keep the filament solid until it reaches the melt zone.
 
@@ -177,7 +179,7 @@ The hotend fan is critical for preventing "heat creep" and ensuring reliable ext
     Your kit may come with different versions of the hotend fan. The primary difference is often in the cabling (e.g., one version may have a black protective sleeve, another may have loose colored wires) and the length of the mounting screws. The following instructions are for the version with a **black sleeve on its cable bundle**.
 
 ---
-## Step 15: Preparing the Hotend Fan (Version A)
+### Step 15: Preparing the Hotend Fan (Version A)
 
 Let's gather the parts for this specific fan version.
 
@@ -186,7 +188,7 @@ Let's gather the parts for this specific fan version.
     * M3x14 screw (3x)
 
 ---
-## Step 16: Assembling the Hotend Fan
+### Step 16: Assembling the Hotend Fan
 
 This step involves careful cable management to ensure nothing gets pinched or restricts movement.
 
@@ -207,7 +209,7 @@ This step involves careful cable management to ensure nothing gets pinched or re
 </figure>
 
 ---
-## Step 17: Securing the Hotend Fan
+### Step 17: Securing the Hotend Fan
 
 Now, let's fasten the fan in place.
 
@@ -216,7 +218,7 @@ Now, let's fasten the fan in place.
 * **Note:** One of the four screw holes on the fan will be left empty for now. It will be used in a later step.
 
 ---
-## Step 18: Preparing the Extruder Idler Assembly
+### Step 18: Preparing the Extruder Idler Assembly
 
 Now we will build the idler door, which works together with the motor's drive gear to grip and push the filament.
 
@@ -230,7 +232,7 @@ Now we will build the idler door, which works together with the motor's drive ge
     * Idler spring (1x)
 
 ---
-## Step 19: Assembling the Idler Gear and Door
+### Step 19: Assembling the Idler Gear and Door
 
 Let's assemble the moving parts of the idler mechanism.
 
@@ -243,7 +245,7 @@ Let's assemble the moving parts of the idler mechanism.
     Place your finger on the gear and ensure it can spin freely on its shaft without any wobble or resistance.
 
 ---
-## Step 20: Final Filament Path Alignment Check
+### Step 20: Final Filament Path Alignment Check
 
 This is a critical final check to ensure the two filament-driving gears are perfectly aligned with each other.
 
@@ -263,7 +265,7 @@ This is a critical final check to ensure the two filament-driving gears are perf
 </figure>
 
 ---
-## Step 21: Mounting the Extruder Idler Door
+### Step 21: Mounting the Extruder Idler Door
 
 Now we will permanently attach the idler door to the main extruder body.
 
@@ -272,7 +274,7 @@ Now we will permanently attach the idler door to the main extruder body.
 * **Important:** Do not overtighten this screw. The idler door must be able to pivot freely. Check its movement after tightening.
 
 ---
-## Step 22: Assembling the Filament Sensor Cover
+### Step 22: Assembling the Filament Sensor Cover
 
 Now we will install the cover that protects the filament sensor mechanism.
 
@@ -284,7 +286,7 @@ Now we will install the cover that protects the filament sensor mechanism.
 * **Pro-Tip:** If you have trouble reaching the nut inside, you can use a small Allen key to help align it with the screw.
 
 ---
-## Step 23: Applying Tension to the Extruder Idler
+### Step 23: Applying Tension to the Extruder Idler
 
 This step is crucial for ensuring the extruder has the correct amount of grip on the filament.
 
@@ -302,7 +304,7 @@ This step is crucial for ensuring the extruder has the correct amount of grip on
 </figure>
 
 ---
-## Step 24: Preparing the Print Fan Support
+### Step 24: Preparing the Print Fan Support
 
 The next steps involve installing the part cooling fan. First, let's prepare its support bracket.
 
@@ -312,7 +314,7 @@ The next steps involve installing the part cooling fan. First, let's prepare its
     * M3n nut (1x)
 
 ---
-## Step 25: Assembling the Print Fan Support
+### Step 25: Assembling the Print Fan Support
 
 First, we will assemble the bracket that will hold the main part cooling fan.
 
@@ -321,7 +323,7 @@ First, we will assemble the bracket that will hold the main part cooling fan.
 * **Action:** Secure the support using an M3x10 screw.
 
 ---
-## Step 26: Assembling the Fan Shroud
+### Step 26: Assembling the Fan Shroud
 
 The fan shroud directs the airflow from the fan onto the printed part.
 
@@ -337,7 +339,7 @@ The fan shroud directs the airflow from the fan onto the printed part.
 * **Action:** Secure it using the correct screw for your version. Do not overtighten.
 
 ---
-## Step 27: Assembling the Part Cooling Fan
+### Step 27: Assembling the Part Cooling Fan
 
 Now we'll install the main fan that cools your prints.
 
@@ -353,12 +355,12 @@ Now we'll install the main fan that cools your prints.
     5.  Neatly guide the fan's cable into the designated channel on the extruder body.
 
 ---
-## Step 28: Assembling the Z-Probe Sensor
+### Step 28: Assembling the Z-Probe Sensor
 
-This sensor is used for automatic bed leveling.
+The P.I.N.D.A. probe is used for Z referencing and bed probing.
 
 * **Parts needed:**
-    * Z-Probe Sensor (e.g., SuperPINDA or similar) (1x)
+    * P.I.N.D.A. probe (1x)
 * **Action:** Insert the probe into its cylindrical holder on the extruder assembly.
 * **Action:** Lightly tighten the M3 screw on the holder to keep the probe from falling out.
 
@@ -368,7 +370,7 @@ This sensor is used for automatic bed leveling.
 * **Action:** Route the probe's cable into the channel alongside the other fan cable.
 
 ---
-## Step 29: Mounting the Extruder to the X-Axis
+### Step 29: Mounting the Extruder to the X-Axis
 
 This is the major step where we attach the entire completed extruder assembly to the X-axis gantry you built earlier.
 
@@ -386,7 +388,7 @@ This is the major step where we attach the entire completed extruder assembly to
 </figure>
 
 ---
-## Step 30: Final Extruder Cable Management
+### Step 30: Final Extruder Cable Management
 
 This is a final tidying step to ensure no wires get caught during printing.
 
@@ -394,7 +396,7 @@ This is a final tidying step to ensure no wires get caught during printing.
 * **Action:** Neatly guide these cables over the lower smooth rod and push them back into the cable channel on the `X-carriage`. This keeps them secure and out of the way of the print area.
 
 ---
-## Step 31: Installing the X-Axis Belt
+### Step 31: Installing the X-Axis Belt
 
 Now we will install the belt that drives the X-axis.
 
@@ -415,7 +417,7 @@ Now we will install the belt that drives the X-axis.
 </figure>
 
 ---
-## Step 32: Coarse Tensioning of the X-Axis Belt
+### Step 32: Coarse Tensioning of the X-Axis Belt
 
 This is the initial tensioning step. We will do fine-tuning later.
 
@@ -424,7 +426,7 @@ This is the initial tensioning step. We will do fine-tuning later.
 * **How it should feel:** The belt should now be straight and not sagging. You should be able to press the top and bottom parts of the belt together with your fingers with only a small amount of force.
 
 ---
-## Step 33: Aligning and Testing the Belt
+### Step 33: Aligning and Testing the Belt
 
 Before final tensioning, let's ensure the belt is aligned and the tension is reasonable.
 
@@ -432,7 +434,7 @@ Before final tensioning, let's ensure the belt is aligned and the tension is rea
 * **Tension Test:** Hold the motor shaft firmly with a pair of pliers so it cannot turn. Now, gently try to move the extruder assembly by hand. If the tension is correct, you should feel solid resistance. If the belt is too loose, it will deform and "skip" over the teeth on the pulley. If this happens, you will need to go back to Step 31 and re-seat the belt with one less tooth to make it shorter.
 
 ---
-## Step 34: Fine-Tuning the Belt Tension
+### Step 34: Fine-Tuning the Belt Tension
 
 This final step uses the tensioning screw we installed earlier for precise adjustments.
 
@@ -446,7 +448,7 @@ This final step uses the tensioning screw we installed earlier for precise adjus
     * Make small adjustments and re-test the tension until you are satisfied.
 
 ---
-## Step 35: Preparing the Cable Bundle Stiffener
+### Step 35: Preparing the Cable Bundle Stiffener
 
 The main cable bundle that goes to the extruder needs a stiffener to prevent it from sagging and getting caught on the frame during printing. We will use a piece of nylon filament for this.
 
@@ -460,7 +462,7 @@ The main cable bundle that goes to the extruder needs a stiffener to prevent it 
 * **Action:** Using your pliers, cut one end of the filament at a sharp angle to create a point. This will make it much easier to insert into the cable sleeve in a later chapter.
 
 ---
-## Step 36: Installing the Cable Stiffener
+### Step 36: Installing the Cable Stiffener
 
 Now we will insert the nylon filament guide that you prepared earlier. This acts as a stiff backbone for the main cable bundle.
 
@@ -472,7 +474,7 @@ Now we will insert the nylon filament guide that you prepared earlier. This acts
 * **Action:** Push it in until it is securely seated. A gentle pull should be met with strong resistance.
 
 ---
-## Step 37: Assembling the Back Cover and Cable Holder
+### Step 37: Assembling the Back Cover and Cable Holder
 
 Let's assemble the back cover which will enclose the extruder assembly and manage the main cable bundle.
 
@@ -485,7 +487,7 @@ Let's assemble the back cover which will enclose the extruder assembly and manag
 * **Action:** Attach the `Cable-holder` part to the `X-carriage-back` using the long M3x40 screw. Ensure the U-shaped slots on both parts are aligned.
 
 ---
-## Step 38: Mounting the Back Cover
+### Step 38: Mounting the Back Cover
 
 This step involves routing all the extruder cables through the back cover.
 
@@ -502,7 +504,7 @@ This step involves routing all the extruder cables through the back cover.
 </figure>
 
 ---
-## Step 39: Wrapping the Main Cable Bundle
+### Step 39: Wrapping the Main Cable Bundle
 
 This is the final and most important cable management step. A neat and secure cable bundle is essential for reliable operation.
 
@@ -519,7 +521,7 @@ This is the final and most important cable management step. A neat and secure ca
     7.  Finally, continue wrapping the textile sleeve around the entire bundle of cables, including the newly added hotend wires.
 
 ---
-## Step 40: E-Axis is Finished!
+### Step 40: E-Axis is Finished!
 
 !!! success "Congratulations! The Hardest Part is Over!"
     You have just completed the most complex chapter of the entire build. The E-axis assembly is finished! Take a moment to admire your work. Check that all cables are secure and that nothing is pinched. You're getting very close to the finish line now.

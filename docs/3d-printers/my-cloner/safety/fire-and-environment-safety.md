@@ -616,3 +616,13 @@ The goal is to prevent a single failure from developing into a dangerous event.
 - [Fans](../wiring/fans.md) — cooling systems and fan assignments
 - [Before First Power-On](../operation/initial-setup/before-first-power-on.md) — pre-power commissioning inspection
 - [First Power-On](../operation/initial-setup/first-power-on.md) — controlled initial power-up procedure
+
+---
+
+## Chemical Storage and Disposal
+
+Avoid direct skin contact with cleaning chemicals. Follow the product safety information when selecting protective gloves.
+
+Keep chemicals in their original, clearly labelled and tightly sealed containers, away from heat, sparks and open flames.
+
+Dispose of used chemicals and contaminated cloths or paper towels according to local regulations. Do not pour chemicals down the drain.

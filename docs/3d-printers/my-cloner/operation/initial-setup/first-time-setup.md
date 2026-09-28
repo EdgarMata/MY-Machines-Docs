@@ -12,94 +12,129 @@ Before continuing, complete:
 
 ---
 
-## 1. Check Axis Movement Direction
+## 1. Check Stepper Communication and Direction
 
-Before running automatic homing, verify that each axis moves in the expected direction.
+Before automatic homing, validate each motor independently.
 
-Use the Mainsail controls to move each axis only a small distance.
+Because an unhomed Klipper axis may reject normal position moves, use the controlled bring-up procedure defined by the current firmware configuration rather than forcing large manual moves.
 
-Start with small movements such as:
+First confirm that Klipper can communicate with each TMC2209 driver.
 
-- 1 mm
-- 5 mm
+The Rev A driver mapping is:
 
-Check each axis individually.
+| Function | Driver Position | Klipper Section |
+|---|---|---|
+| X | X | `stepper_x` |
+| Y | Y | `stepper_y` |
+| Left Z | Z | `stepper_z` |
+| Right Z | E1 | `stepper_z1` |
+| Extruder | E0 | `extruder` |
+
+Where appropriate, Klipper's `STEPPER_BUZZ` command can be used during controlled bring-up to confirm that the intended motor responds without requiring a full homing cycle.
+
+Example:
+
+    STEPPER_BUZZ STEPPER=stepper_x
+
+Test one motor at a time.
 
 ### X-Axis
 
-The X-axis controls the extruder carriage.
+Confirm that:
 
-Verify that:
-
-- Positive X movement moves the extruder to the right.
-- Negative X movement moves the extruder to the left.
-
----
+- Only the X motor responds.
+- The carriage moves freely.
+- The motor direction agrees with the intended machine coordinate system.
+- There is no binding, belt skipping or unexpected noise.
 
 ### Y-Axis
 
-The Y-axis controls the heated bed.
+Confirm that:
 
-Verify that the movement direction matches the current Klipper configuration and machine coordinate system.
-
-Use only small movements during this test.
-
----
+- Only the Y motor responds.
+- The bed moves freely.
+- The direction agrees with the intended machine coordinate system.
+- There is no binding, belt skipping or unexpected noise.
 
 ### Z-Axis
 
-The Z-axis moves the X-axis gantry vertically.
+Test the Left Z and Right Z motors independently before normal Z operation.
 
-Verify that:
+Confirm that:
 
-- Positive Z movement raises the gantry.
-- Negative Z movement lowers the gantry.
+- The Z driver operates the Left Z motor.
+- The E1 driver operates the Right Z motor.
+- Both motors raise/lower the gantry in the same physical direction when operated together.
+- Neither side binds.
 
-Both Z motors should move together and remain synchronized.
+!!! warning "Stop If a Motor Moves Incorrectly"
+    If a motor moves in the wrong direction or an unexpected motor responds, stop immediately.
 
-!!! warning "Stop If an Axis Moves Incorrectly"
-    If an axis moves in the wrong direction, stop immediately.
-
-    Correct the motor direction in the Klipper configuration before continuing.
-
----
-
-## 2. Check Endstops and Probe
-
-Before automatic homing, verify that Klipper can correctly detect the machine reference sensors.
-
-Check the status of:
-
-- X endstop
-- Y endstop
-- P.I.N.D.A. probe
-
-Use the Klipper console or Mainsail diagnostics to verify that each input changes state when activated.
-
-!!! danger "Do Not Home with an Incorrect Sensor State"
-    If an endstop or probe does not respond correctly, do not perform automatic homing.
-
-    A failed sensor can cause the printer to move beyond its mechanical limits.
+    Correct the Rev A Klipper configuration or motor wiring before continuing.
 
 ---
 
-## 3. Home the X and Y Axes
+## 2. Validate X/Y Sensorless Homing and the P.I.N.D.A.
 
-Once the X and Y movement directions and endstops have been verified, home the horizontal axes.
+The My-Cloner Rev A does **not** use physical X or Y endstop switches.
 
-Use the configured homing controls in Mainsail or the Klipper console.
+X and Y use **TMC2209 sensorless homing** through StallGuard / DIAG.
 
-The printer should move each axis toward its configured reference position and stop when the corresponding endstop is triggered.
+Before attempting X or Y homing:
 
-Observe the complete process.
+1. Confirm TMC2209 UART communication.
+2. Confirm the correct DIAG routing:
+   - X → `PA15`
+   - Y → `PD2`
+3. Configure conservative motor-current values suitable for initial testing.
+4. Configure the sensorless-homing parameters in Klipper.
+5. Confirm the intended homing direction.
+6. Make sure the axis moves freely by hand with power removed.
+7. Start with a conservative homing speed and StallGuard threshold.
+8. Keep the power switch accessible during the first test.
+
+The P.I.N.D.A. is validated separately for Z.
+
+Confirm that:
+
+- The probe is mounted securely.
+- Klipper can read the probe input.
+- Its state changes reliably when the probe is actuated by the appropriate test target.
+- The final input pin matches the validated Rev A wiring.
+
+!!! danger "Do Not Home with an Unverified Reference System"
+    Do not perform automatic homing if TMC2209 UART/DIAG communication or the P.I.N.D.A. input is not behaving as expected.
+
+---
+
+## 3. Home and Tune the X and Y Axes
+
+Test X and Y separately before running a complete `G28`.
+
+For each axis:
+
+1. Position the moving assembly away from the mechanical end with power removed.
+2. Restore power and confirm Klipper is ready.
+3. Start the individual homing operation.
+4. Watch the entire movement.
+5. Stop immediately if the axis moves in the wrong direction or pushes continuously against the frame.
+6. Adjust `driver_SGTHRS`, motor current or homing speed only as required.
+7. Repeat the homing cycle several times.
+8. Confirm that the reference position is repeatable.
 
 Check that:
 
-- X moves in the correct homing direction.
-- Y moves in the correct homing direction.
-- Both axes stop correctly.
-- No belt slips or skips.
-- No motor continues driving after the endstop is triggered.
+- X moves toward its intended homing end.
+- Y moves toward its intended homing end.
+- StallGuard stops each axis reliably at the mechanical reference.
+- Neither axis false-triggers before reaching the reference.
+- Neither motor continues driving against the frame.
+- Belts do not slip or skip.
+
+!!! important "Sensorless Homing Is a Physical Calibration"
+    A working pin map alone does not validate sensorless homing.
+
+    Final StallGuard thresholds, motor currents and homing speeds must be accepted only after repeated physical tests.
 
 ---
 
@@ -330,8 +365,8 @@ Before the first print, confirm:
 - [ ] X-axis direction verified.
 - [ ] Y-axis direction verified.
 - [ ] Z-axis direction verified.
-- [ ] X endstop verified.
-- [ ] Y endstop verified.
+- [ ] X TMC2209 UART / DIAG and sensorless homing verified.
+- [ ] Y TMC2209 UART / DIAG and sensorless homing verified.
 - [ ] P.I.N.D.A. probe verified.
 - [ ] X and Y homing completed successfully.
 - [ ] Z homing completed successfully.

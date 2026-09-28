@@ -1,6 +1,8 @@
 # Understanding Key Print Settings
 
-While the provided profiles are a great starting point, understanding what the key settings do will allow you to fine-tune your prints for perfect results. These settings are found in the "Process" tab on the left sidebar.
+Understanding the key slicer settings is important even when using a validated profile. These settings are available through OrcaSlicer's process and filament configuration areas.
+
+The final My-Cloner Rev A public profile package is still pending physical validation, so example values on this page should be treated as general slicing concepts rather than machine-specific validated settings.
 
 ---
 ## First Layer Settings

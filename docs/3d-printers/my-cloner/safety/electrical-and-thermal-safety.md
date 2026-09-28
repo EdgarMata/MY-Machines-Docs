@@ -278,6 +278,17 @@ If mains wiring, the power supply or the main power architecture has been change
 
 ---
 
+## Internal PSU Service
+
+!!! danger "Do Not Open the PSU"
+    The PSU contains mains-voltage circuitry and internal components that may retain charge after disconnection.
+
+    Do not open or repair the power supply unless you are qualified to service mains-powered equipment.
+
+Replace a damaged or suspect PSU with a suitable unit matching the approved Rev A specification.
+
+---
+
 ## Related Documentation
 
 - [Safe Usage Guidelines](safe-usage.md) — general operating precautions

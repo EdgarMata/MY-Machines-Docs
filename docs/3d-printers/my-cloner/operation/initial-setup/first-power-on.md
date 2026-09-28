@@ -190,7 +190,7 @@ Do not continue if any fan is obstructed or wired incorrectly.
 
 ## 12. Do Not Home Yet
 
-At this stage, do not perform automatic homing unless the endstops, probe and axis directions have already been verified.
+At this stage, do not perform automatic homing unless the X/Y sensorless-homing configuration, P.I.N.D.A. probe and axis directions have already been verified.
 
 The next setup procedure will verify motion and homing in a controlled sequence.
 

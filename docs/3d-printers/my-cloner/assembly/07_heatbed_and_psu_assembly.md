@@ -9,7 +9,7 @@ In this chapter, we will prepare and mount the two main power components of the 
     This chapter involves connecting high-power electrical components. Please follow the instructions for polarity and wiring precisely to avoid damaging your printer or creating a safety hazard.
 
 ---
-## Part 1: Assembling the Heatbed Cables
+## Heatbed Wiring
 
 First, we will securely attach the main power cable to the heated bed.
 
@@ -47,7 +47,7 @@ Gather all the necessary components for this crucial connection.
 </figure>
 
 ---
-## Part 2: Assembling the Heatbed Cable Cover
+## Heatbed Cable Cover
 
 Now we will install the printed cover that protects the solder joints and manages the cable strain.
 
@@ -86,7 +86,9 @@ Now we will install the printed cover that protects the solder joints and manage
 </figure>
 
 ---
-## Step 6: Finalizing the Cable Wrap
+## Heatbed Installation
+
+### Step 6: Finalizing the Cable Wrap
 
 * **Action:** Continue wrapping the textile sleeve neatly around the entire length of the heatbed cable bundle. When finished, you can twist the sleeve slightly to make it tighter and more uniform.
 
@@ -117,16 +119,22 @@ Now we will mount the prepared heatbed assembly onto the Y-carriage.
 </figure>
 
 ---
-## Step 8: Preparing the PSU Parts
+## PSU Installation and Wiring
+
+### Step 8: Preparing the PSU Parts
 
 It's time to prepare the Power Supply Unit (PSU), the component that powers the entire printer.
 
 * **Parts needed:**
-    * 24V Power Supply Unit (PSU) (1x)
-    * PSU power cables (2x pairs)
+    * Mean Well LRS-350-24 power supply (1x)
+    * Required 24 V DC power cables
     * M4x10r screw (2x)
     * M3x10 screw (2x)
-* **Note:** The Mean Well LRS-350-24 uses a manual input-voltage selector. Check it against the intended 230 V AC supply before power-on; see [Power Distribution](../wiring/power-distribution.md).
+
+!!! warning "Input Voltage Selector"
+    The Mean Well LRS-350-24 uses a selectable AC input range.
+
+    For the standard My-Cloner Rev A configuration, verify that the selector is set correctly for **230 V AC** before connecting mains power.
 
 ---
 ## Step 9: Mounting the PSU to the Frame
@@ -137,24 +145,58 @@ It's time to prepare the Power Supply Unit (PSU), the component that powers the 
 * **Action:** Before the final tightening, ensure the PSU is pressed firmly against both the bottom extrusion and the vertical frame. Once everything is aligned, fully tighten all the mounting screws (both the M3 and M4 screws).
 
 ---
-## Step 10: Connecting Power Cables to the PSU (CRITICAL)
+### Step 10: Verify the PSU Electrical Connections
 
-The Rev A PSU is the Mean Well LRS-350-24. Identify terminals from the installed unit and the [manufacturer documentation](https://www.meanwell.com/Upload/PDF/LRS-350/LRS-350-SPEC.PDF). The legacy four-terminal layout is not a Rev A wiring reference.
+!!! danger "Mains Voltage"
+    Do not make or modify AC mains connections while the printer is connected to the power outlet.
 
-See [Power Distribution](../wiring/power-distribution.md) for the intended AC, protective-earth, 24 V and LM2596 architecture. Terminal preparation, fuse rating and conductor sizes remain pending validation.
+    The Mean Well LRS-350-24 includes dedicated AC input terminals and 24 V DC output terminals. Their exact functions must be identified from the markings on the installed PSU and the current My-Cloner electrical schematic.
+
+Before connecting any conductor:
+
+1. Verify the PSU model is **Mean Well LRS-350-24**.
+2. Verify the input-voltage selector is set for the intended **230 V AC** supply.
+3. Identify the AC **L**, **N** and protective-earth terminals.
+4. Identify the 24 V DC positive and negative output terminals.
+5. Check every cable destination against the current [Power Distribution](../wiring/power-distribution.md) page and the QElectroTech schematic.
+6. Do not rely on terminal order copied from an older printer or PSU.
+
+!!! important "Protective Earth"
+    Protective earth is a safety connection and must be installed according to the approved Rev A electrical design.
 
 ---
-## Step 11: Connecting the Main Power Cables
 
-Keep mains disconnected while making connections. Use the electrical schematic and verify polarity and terminal identity; do not infer either from terminal position or wire colour. The controller and LM2596 branches are Rev A assignments, with physical checks still pending.
+### Step 11: Connect the 24 V DC Distribution
+
+The PSU provides the main 24 V DC rail for the My-Cloner Rev A.
+
+The 24 V distribution supplies:
+
+- MKS Robin Nano V3
+- Heater outputs
+- Stepper drivers and motors
+- 24 V cooling fans
+- LM2596 converter input
+
+Use correctly sized conductors and secure terminations. Verify polarity with a multimeter before connecting sensitive electronics.
+
+The detailed distribution architecture and current validation status are maintained in:
+
+[Power Distribution](../wiring/power-distribution.md)
 
 ---
-## Step 12: Connecting the Power Panic Cable
 
-This legacy step does not apply to My-Cloner Rev A. Power Panic / power-loss recovery is not implemented; no Power Panic cable connection is assigned. See the [I/O Map](../wiring/io-map.md#power-control-and-auxiliary-inputs).
+### Step 12: Power-Loss Recovery
+
+**Power Panic is not implemented in the My-Cloner Rev A.**
+
+Do not install a Power Panic cable or assume that a legacy power-loss-recovery board is part of the current electrical architecture.
+
+Any future power-loss-recovery feature must be documented as a separate validated revision before it is added to the assembly procedure.
 
 ---
-## Step 13: Heatbed and PSU are Finished!
+
+### Step 13: Heatbed and PSU are Finished!
 
 The main power systems of your printer are now fully assembled and mounted.
 

@@ -33,19 +33,41 @@ These are the most common critical errors and are related to your heaters and te
     * **Solution:** With the power off, check the thermistor's connection on your mainboard and inspect the entire length of the wire for damage.
 
 ---
-## Homing and Endstop Errors
+## Homing and Sensorless-Homing Errors
 
-These errors typically occur when you try to home the printer.
+The My-Cloner Rev A uses **TMC2209 sensorless homing** on X and Y and a **P.I.N.D.A. probe** for Z.
 
-* **Error Message:** `Endstop x still triggered after retract`
-    * **Meaning:** The printer hit the endstop switch, moved away from it, but the firmware still sees the switch as being pressed.
-    * **Causes:** A faulty mechanical endstop switch that is physically stuck, or incorrect wiring.
-    * **Solution:** Check that your endstop switch can physically "click" and is not jammed. Check its wiring. If the pin name in your `printer.cfg` is prefixed with a `^` (pull-up), try removing it, or vice-versa.
+Klipper may still use the word `endstop` in error messages because the TMC2209 DIAG signal is configured as a virtual endstop. This does **not** mean that the Rev A has physical X/Y endstop switches.
+
+* **Error Message:** `Endstop x still triggered after retract` or a similar virtual-endstop error
+    * **Meaning:** Klipper still sees the X sensorless-homing input as triggered when it expects the axis to be released.
+    * **Likely Causes:**
+        1. Incorrect TMC2209 DIAG configuration.
+        2. StallGuard sensitivity is too high.
+        3. Motor current is unsuitable for the homing test.
+        4. The axis is mechanically binding.
+        5. The DIAG signal or MCU pin assignment does not match the Rev A I/O map.
+    * **Solution:** Confirm TMC2209 UART communication, check the X DIAG mapping (`PA15`), inspect free axis movement, and retune the sensorless-homing parameters conservatively.
 
 * **Error Message:** `Homing failed to trigger endstop`
-    * **Meaning:** The print head moved its full range of motion but never triggered the endstop switch.
-    * **Causes:** The endstop is disconnected or its wire is broken; the switch itself is faulty; or there is a mechanical obstruction preventing the axis from reaching the endstop.
-    * **Solution:** Check the endstop wiring. Manually press the switch and see if its status changes in the web interface. Check the axis for any physical obstructions.
+    * **Meaning:** The axis completed the allowed homing movement without the configured virtual endstop triggering.
+    * **Likely Causes:**
+        1. StallGuard sensitivity is too low.
+        2. The DIAG pin is incorrect or not electrically connected as expected.
+        3. TMC2209 UART/driver configuration is incorrect.
+        4. The configured homing direction is wrong.
+        5. Motor current or homing speed is unsuitable.
+    * **Solution:** Stop repeated homing attempts. Confirm the board mapping and TMC2209 communication first, then tune `driver_SGTHRS`, motor current and homing speed in small controlled steps.
+
+* **Z Homing / Probe Error**
+    * **Meaning:** Klipper cannot obtain a valid Z reference from the P.I.N.D.A. probe.
+    * **Likely Causes:** Incorrect probe input, wiring problem, probe mounting/height issue, or incorrect signal polarity.
+    * **Solution:** Verify the P.I.N.D.A. input state before Z homing. Do not allow the nozzle to approach the bed if the probe state is not changing reliably.
+
+!!! warning "Do Not Diagnose Rev A as a Mechanical-Endstop Printer"
+    Do not troubleshoot X/Y by looking for a switch to press or click.
+
+    The authoritative Rev A homing architecture is documented in [Motors & Homing](../wiring/motors-and-homing.md).
 
 ---
 ## Configuration and Communication Errors

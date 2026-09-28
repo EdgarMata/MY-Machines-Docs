@@ -118,11 +118,13 @@ You can normally choose movement increments such as:
 
 Mainsail provides controls for homing the printer.
 
-The My-Cloner uses:
+The My-Cloner Rev A uses:
 
-- X endstop for X homing
-- Y endstop for Y homing
-- P.I.N.D.A. probe as part of the Z homing system
+- TMC2209 sensorless homing for X
+- TMC2209 sensorless homing for Y
+- P.I.N.D.A. probe for Z reference and probing
+
+In Klipper, the X/Y sensorless setup still behaves as an endstop interface at firmware level, but there are **no physical X/Y endstop switches** on the Rev A machine.
 
 A complete homing cycle can also be started from the console with:
 

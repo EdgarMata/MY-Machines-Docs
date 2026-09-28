@@ -36,7 +36,7 @@ Under-extrusion is the opposite of over-extrusion: the printer is not pushing ou
 
 5.  **Under-extrusion on the First Layer**
     * **Cause:** If the problem only occurs on the first layer, the cause is a nozzle that is too far from the bed.
-    * **Solution:** Adjust your "Live Adjust Z" to a more negative value.
+    * **Solution:** Adjust your "Z offset" to a more negative value.
 
 <figure markdown="1">
   ![Under-Extrusion Example](/assets/images/image-placeholder.webp#only-light){ width="600" }

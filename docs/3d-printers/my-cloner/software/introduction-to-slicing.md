@@ -8,7 +8,7 @@ Before your 3D printer can bring a digital model to life, that model must be tra
 ---
 ## Our Recommended Slicer: Orca Slicer
 
-While there are many great slicers available, we recommend **Orca Slicer** for the MY Cloner 3D Printer.
+While there are many great slicers available, we recommend **Orca Slicer** for the My-Cloner 3D Printer.
 
 * **Why Orca Slicer?**
     * It's a modern, powerful, and easy-to-use slicer based on the excellent foundations of PrusaSlicer and Bambu Studio.
@@ -17,7 +17,9 @@ While there are many great slicers available, we recommend **Orca Slicer** for t
 
 ## Support for Other Slicers
 
-We understand that you may have a preference for other popular slicers. Because of this, we also provide tested profiles for **PrusaSlicer** and **SuperSlicer**. The setup process for these is covered in a separate guide in this section.
+Other slicers can be used if they are configured correctly for the machine, but the My-Cloner project currently focuses its official Rev A profile work on **OrcaSlicer**.
+
+The final My-Cloner Rev A OrcaSlicer package is not yet available for public download. It will be published after review and physical validation.
 
 ## The Basic Slicing Workflow
 

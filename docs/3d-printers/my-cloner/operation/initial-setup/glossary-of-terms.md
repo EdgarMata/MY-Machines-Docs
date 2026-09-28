@@ -183,9 +183,9 @@ Warping can be influenced by:
 
 ### Endstop
 
-A sensor used to detect a reference or limit position of an axis.
+A mechanism used by firmware to detect a reference or limit position of an axis.
 
-The My-Cloner uses configured endstops for its X and Y homing system.
+On the My-Cloner Rev A, X and Y do **not** use physical endstop switches. Their endstop function is provided by the TMC2209 sensorless-homing system using StallGuard / DIAG signals.
 
 ---
 
@@ -211,11 +211,11 @@ On the My-Cloner Rev A, the host is the:
 
 The process of establishing a known reference position for the printer axes.
 
-On the My-Cloner:
+On the My-Cloner Rev A:
 
-- X uses its configured endstop.
-- Y uses its configured endstop.
-- Z uses the P.I.N.D.A. probe as part of the homing system.
+- X uses TMC2209 sensorless homing.
+- Y uses TMC2209 sensorless homing.
+- Z uses the P.I.N.D.A. probe for its reference.
 
 ---
 

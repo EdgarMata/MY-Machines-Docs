@@ -3,10 +3,12 @@
 !!! warning "My-Cloner Rev A — Pending validation"
     This chapter retains legacy mechanical assembly references. Housing fit, fasteners and illustrations require confirmation against the Rev A CAD and installed hardware. Placeholder images are not wiring references. Follow the [Wiring & Electronics](../wiring/index.md) pages for Rev A assignments and complete [Before First Power-On](../operation/initial-setup/before-first-power-on.md) before energizing the machine.
 
-The physical assembly is complete! This final chapter covers the last crucial physical adjustment needed before you power on the printer for the first time and move on to the software calibration.
+This chapter covers the final **mechanical pre-power checks** after assembly. Electrical bring-up and machine-specific validation are separate stages and must be completed before normal calibration or printing.
 
 ---
-## Step 1: Setting the Initial Z-Probe Height
+## Assembly Procedure
+
+### Step 1: Setting the Initial Z-Probe Height
 
 This procedure sets a rough, safe starting distance between your Z-probe and the nozzle tip. It is the most important step in this chapter.
 
@@ -25,8 +27,10 @@ This procedure sets a rough, safe starting distance between your Z-probe and the
     * Let the probe rest gently on top of the zip tie.
     * While holding the probe in this position, re-tighten the screw to secure it.
 
-!!! info "Why do we do this?"
-    This simple trick sets the probe to be slightly higher than the nozzle tip (by the thickness of a zip tie). This legacy spacing method does not establish a safe P.I.N.D.A. trigger height. Confirm the installed probe, target surface and trigger response before Z motion; the final Z offset requires physical calibration.
+!!! info "Coarse Mechanical Adjustment Only"
+    This step provides only an initial mechanical relationship between the probe and nozzle.
+
+    The final P.I.N.D.A. mounting position, electrical input and Z offset must be confirmed during the controlled Rev A bring-up. Do not assume this mechanical adjustment alone makes Z homing safe.
 
 <figure markdown="1">
   ![Z-Probe Adjustment with Zip Tie](/assets/images/image-placeholder.webp#only-light){ width="500" }
@@ -35,15 +39,20 @@ This procedure sets a rough, safe starting distance between your Z-probe and the
 </figure>
 
 ---
-## Step 2: Quick Guide for Your First Prints
+### Step 2: Continue to Controlled Bring-Up
 
-Your physical assembly is now **100% complete**. The next stage involves software calibration and your very first prints.
+The mechanical build is now ready for the staged electrical and firmware checks.
 
-* **Action:** To proceed, please move on to the next guide in our documentation:
-    * **➡️ [Chapter 2: First Time Setup & Calibration Guide](../operation/initial-setup/first-time-setup.md)**
+Proceed in this order:
 
-!!! warning
-    Please follow the calibration steps in the next guide exactly. Skipping steps can result in failed prints or, in the worst case, damage to your print surface.
+1. [Before First Power-On](../operation/initial-setup/before-first-power-on.md)
+2. [First Power-On](../operation/initial-setup/first-power-on.md)
+3. [First Time Setup & Calibration](../operation/initial-setup/first-time-setup.md)
+
+!!! warning "Do Not Skip Bring-Up Stages"
+    Do not jump directly to full homing, heater calibration or a first print.
+
+    Rev A sensorless homing, P.I.N.D.A., thermistors, fans and other machine-specific parameters must be validated in the controlled sequence.
 
 ---
 ## Step 3: Where to Find Printable 3D Models
@@ -73,5 +82,5 @@ If you encounter any problems during calibration or printing, we are here to hel
 !!! success "Congratulations on Building Your 3D Printer!"
     You have successfully completed the entire assembly process. You've built a complex machine from scratch, and you should be very proud of your work.
 
-    Power-on readiness remains pending validation. Complete [Before First Power-On](../operation/initial-setup/before-first-power-on.md), followed by the staged [First Power-On](../operation/initial-setup/first-power-on.md) procedure.
+    You are now ready to begin the controlled pre-power and bring-up procedure.
 

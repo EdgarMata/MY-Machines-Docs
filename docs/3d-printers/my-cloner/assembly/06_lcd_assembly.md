@@ -1,20 +1,24 @@
-# LCD Assembly
+# Display Assembly
 
 !!! warning "My-Cloner Rev A — Pending validation"
     This chapter retains legacy mechanical assembly references. Housing fit, fasteners and illustrations require confirmation against the Rev A CAD and installed hardware. Placeholder images are not wiring references. Follow the [Wiring & Electronics](../wiring/index.md) pages for Rev A assignments and complete [Before First Power-On](../operation/initial-setup/before-first-power-on.md) before energizing the machine.
 
-Mainsail is the primary My-Cloner Rev A interface. The MKS TS35 V2.0 mounting and Klipper integration remain pending validation. The housing and control-knob steps below are legacy mechanical references and must not be assumed to fit the TS35.
+The My-Cloner Rev A includes an **MKS TS35 V2.0** display. The housing and control-knob procedures below are legacy mechanical references; their compatibility with the TS35 must be confirmed against the Rev A CAD and installed hardware before use.
+
+**Mainsail is the primary user interface for the My-Cloner Rev A.** The TS35 is the local display hardware, but its final electrical and Klipper integration is still under validation.
 
 ---
-## Step 1: Tools and Parts Preparation
+## Assembly Procedure
 
-First, let's gather all the parts needed for the LCD module. The bag with the small fasteners is often taped directly to the LCD screen itself.
+### Step 1: Tools and Parts Preparation
+
+First, let's gather all the parts needed for the display module. The bag with the small fasteners is often taped directly to the LCD screen itself.
 
 * **Tools needed:**
     * 2.5mm Allen key
     * 2mm Allen key
 * **Parts needed:**
-    * LCD screen with controller board (1x)
+    * MKS TS35 V2.0 display (1x)
     * `LCD-cover` (1x printed part)
     * `LCD-support` (2x printed parts)
     * `LCD-knob` (1x printed part)
@@ -23,10 +27,14 @@ First, let's gather all the parts needed for the LCD module. The bag with the sm
     * SD card (1x)
 
 ---
-## Step 2: Checking the LCD Cables
+### Step 2: Checking the Display Cables
 
-!!! warning "TS35 Connection — Pending validation"
-    Do not connect a display by cable stripes or assume EXP1/EXP2 compatibility. The TS35 connection method is TBD; use [Display & Filament Sensor](../wiring/display-and-filament-sensor.md).
+!!! warning "Electrical Integration Pending"
+    The Robin Nano V3 exposes EXP1 and EXP2 headers, but the final MKS TS35 V2.0 connection method and operating mode under Klipper are still being validated.
+
+    Do not connect ribbon cables solely from stripe count or from inherited printer instructions.
+
+    Before electrical connection, follow the current [Display & Filament Sensor](../wiring/display-and-filament-sensor.md) documentation and the validated Rev A wiring schematic.
 
 <figure markdown="1">
   ![LCD Cable Check](/assets/images/image-placeholder.webp#only-light){ width="500" }
@@ -39,9 +47,9 @@ First, let's gather all the parts needed for the LCD module. The bag with the sm
 
 Now we will place the screen into its printed housing.
 
-* **Action:** Take the two printed `LCD-support` parts and slide them onto the sides of the LCD controller board.
+* **Action:** Take the two printed `LCD-support` parts and slide them onto the sides of the display controller board.
 * **Action:** Carefully press this entire sub-assembly into the main `LCD-cover`. Be mindful of the control knob shaft on the other side. The controller should click securely into place.
-* **Action:** Secure the LCD controller to the cover using two M3x10 screws from the back.
+* **Action:** Secure the display controller to the cover using two M3x10 screws from the back.
 
 ---
 ## Step 4: Mounting the LCD to the Frame
@@ -60,9 +68,9 @@ Now we will place the screen into its printed housing.
 * **Action:** Take the printed `LCD-knob` and press it firmly onto the metal shaft of the rotary encoder on the front of the screen.
 
 ---
-## Step 6: LCD Assembly is Finished!
+### Step 6: Display Mechanical Assembly is Finished!
 
-The LCD module is now fully assembled and mounted.
+Mechanical completion remains subject to confirmation of the Rev A housing, fasteners and installed display. Electrical and Klipper integration still require validation.
 
 * **Action:** You can now carefully peel the protective film from the LCD screen.
 * **Action:** You can also insert the included SD card into the slot on the left side of the screen.

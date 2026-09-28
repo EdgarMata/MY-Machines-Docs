@@ -1,70 +1,119 @@
-# FAQ's
+# Frequently Asked Questions
 
-## Frequently Asked Questions
+This page answers common questions about the **My-Cloner Rev A**.
 
-1. ### How do I calibrate the printer?
-    - Refer to the [User Manual](operation/index.md) for detailed steps.
+## What is the current hardware revision?
 
-2. ### What materials can I use with My Cloner 3D Printer?
-    - You can use PLA, ABS, PETG, and other common 3D printing materials.
+The current documented machine is **My-Cloner Rev A**.
 
-3. ### How do I level the print bed?
-    - Most printers have a manual or automatic bed leveling feature. Refer to your printer's manual for specific instructions.
+Use the Rev A BOM, printed parts, wiring documentation and configuration files together. Do not mix older prototype parts or inherited MK3S instructions unless compatibility has been explicitly confirmed.
 
-4. ### Why is my print not sticking to the bed?
-    - Ensure the bed is clean and properly leveled. You can also use adhesives like glue stick or painter's tape.
+## What is the build volume?
 
-5. ### How do I prevent warping?
-    - Use a heated bed, ensure proper bed adhesion, and print in an enclosed space to maintain consistent temperature.
+The Rev A build volume is:
 
-6. ### What is the best temperature for printing PLA?
-    - The optimal temperature for PLA is usually between 190°C and 220°C. Check the filament manufacturer's recommendations.
+**230 × 230 × 220 mm**
 
-7. ### How do I store filament?
-    - Store filament in a cool, dry place, preferably in an airtight container with desiccant to prevent moisture absorption.
+## What electronics does the Rev A use?
 
-8. ### Why is my print stringy?
-    - Stringing can be reduced by adjusting retraction settings and ensuring the nozzle temperature is not too high.
+The current architecture uses:
 
-9. ### How do I clean the nozzle?
-    - You can use a needle or a specialized nozzle cleaning kit to remove clogs. Regular maintenance helps prevent blockages.
+- MKS Robin Nano V3
+- 5 × TMC2209 stepper drivers
+- Raspberry Pi Zero 2 W
+- LM2596 24 V → 5 V converter
+- Klipper
+- Mainsail
 
-10. ### What is infill and how does it affect my print?
-    - Infill is the internal structure of a print. Higher infill density increases strength but also increases print time and material usage.
+See [Wiring & Electronics](wiring/index.md) for the complete architecture.
 
-11. ### How do I change the filament?
-    - Most printers have a filament change option in the menu. Heat the nozzle, unload the old filament, and load the new one.
+## Does the My-Cloner use physical X and Y endstop switches?
 
-12. ### What is the difference between ABS and PLA?
-    - PLA is easier to print and environmentally friendly, while ABS is more durable and heat-resistant but requires a heated bed.
+No.
 
-13. ### How do I improve print quality?
-    - Ensure proper bed leveling, use the correct print settings, maintain your printer, and use high-quality filament.
+The Rev A uses **TMC2209 sensorless homing** on X and Y through StallGuard / DIAG.
 
-14. ### Why is my print layer shifting?
-    - Layer shifting can be caused by loose belts, stepper motor issues, or incorrect print speed settings.
+The final sensitivity, motor current and homing-speed values are established during physical bring-up.
 
-15. ### How do I fix under-extrusion?
-    - Check for clogs, ensure the filament is feeding properly, and adjust the extrusion multiplier or flow rate.
+## Which Z probe is used?
 
-16. ### What is a slicer and which one should I use?
-    - A slicer converts 3D models into G-code for printing. Popular slicers include Cura, PrusaSlicer, and Simplify3D.
+The Rev A uses a **P.I.N.D.A. probe**.
 
-17. ### How do I print with multiple colors?
-    - You can use a multi-material upgrade, manually change filament during the print, or use a dual-extruder printer.
+The final controller input is still pending validation against the Rev A electrical schematic and physical machine.
 
-18. ### What is the best way to remove prints from the bed?
-    - Allow the bed to cool down, then use a spatula or scraper to gently remove the print.
+## Which display is used?
 
-19. ### How do I reduce print time?
-    - Lower the infill density, increase layer height, and optimize print speed settings.
+The hardware includes an **MKS TS35 V2.0**.
 
-20. ### How do I troubleshoot print failures?
-    - Check for common issues like bed leveling, nozzle clogs, and filament quality. Refer to troubleshooting guides for specific problems.
+Its final integration with the Klipper-based system is still under validation.
 
-If you didn't find a solution to your problem, join our community and ask for help on our social networks:<br>
-[Facebook](https://www.facebook.com/mymachinescom/) |
-[Instagram](https://www.instagram.com/my_machines_com/) |
-[YouTube](https://www.youtube.com/@my_machines_com/) |
-[Pinterest](https://pintrest.com/my_machines_com/) |
-[TikTok](https://tiktok.com/@my_machines_com/)
+**Mainsail remains the primary user interface.**
+
+## Which slicer should I use?
+
+The recommended slicer is **OrcaSlicer**.
+
+The final public Rev A profile package will be released after the profiles have been reviewed and tested on the physical machine.
+
+See [Slicer Profiles](downloads/slicer-profiles.md).
+
+## Where can I get the BOM?
+
+The current BOM is available in the [Bill of Materials](bom/index.md) section and as downloadable XLSX / CSV files in [BOM Downloads](downloads/bom-files.md).
+
+## Where can I get the STL files?
+
+Use the current Rev A package from [STL Files](downloads/stl-files.md).
+
+Do not mix printed parts from older revisions unless compatibility has been confirmed.
+
+## Are CAD files available?
+
+Yes. See [CAD Files](downloads/cad-files.md) for the currently available formats and project options.
+
+## Is the final Klipper configuration available?
+
+Not yet.
+
+The final `printer.cfg` depends on physical validation of items including:
+
+- Motor directions and currents
+- X/Y sensorless homing
+- P.I.N.D.A. input
+- Fan assignment
+- Thermistor models
+- Heater parameters
+- Filament sensor
+- TS35 integration
+
+See [Firmware Configuration](downloads/firmware-configuration.md).
+
+## How do I perform the first power-on?
+
+Follow the staged procedure in:
+
+[Before First Power-On](operation/initial-setup/before-first-power-on.md)
+
+and then:
+
+[First Power-On](operation/initial-setup/first-power-on.md)
+
+Do not jump directly to full homing or heater testing.
+
+## How do I load or unload filament?
+
+Follow:
+
+[Loading and Unloading Filament](operation/initial-setup/loading-unloading-filament.md)
+
+## What should I do if the printer reports a Klipper error?
+
+Read the complete error in the Mainsail console first.
+
+For hardware and communication issues, start with:
+
+[Hardware Issues and Shutdowns](troubleshooting/hardware-issues.md)
+
+## Where should I report a documentation problem?
+
+If a page appears inconsistent with the current Rev A BOM, CAD, electrical schematic or validated firmware configuration, treat the engineering source as authoritative and report the documentation mismatch so it can be corrected.
