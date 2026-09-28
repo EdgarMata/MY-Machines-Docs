@@ -8,14 +8,14 @@ Replacing the nozzle is a common maintenance task, whether due to a clog you can
 
 ---
 
-### Tools and Preparation
+## Tools and Preparation
 
 !!! info "Tools Needed :wrench:"
     * **New Nozzle:** Make sure you have the correct replacement nozzle.
     * **17mm Wrench:** Or an adjustable wrench, to hold the heater block.
     * **7mm Socket Wrench:** Or needle-nose pliers, to unscrew/tighten the nozzle.
 
-### Step-by-Step Procedure
+## Step-by-Step Procedure
 
 1.  **Access the Nozzle**
     On the printer's menu, move the Z-axis as high as possible to get good working access to the hotend.
@@ -45,7 +45,7 @@ Replacing the nozzle is a common maintenance task, whether due to a clog you can
     !!! tip "A Small Gap is Normal"
         When the nozzle is fully tightened, it is normal for a small gap to exist between the hexagonal head of the nozzle and the heater block. Do not try to tighten further to close this gap.
 
-### Finalization
+## Finalization
 
 !!! success "Mandatory Calibration"
     Whenever you replace the nozzle, the distance to the print bed will change slightly. It is **highly recommended** (nearly mandatory) to re-run the **"First Layer Calibration"** to ensure perfect adhesion and prevent the new nozzle from crashing into the bed.
