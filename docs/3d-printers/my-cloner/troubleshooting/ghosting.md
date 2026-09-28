@@ -6,7 +6,7 @@
     This artifact is caused by **vibrations**. When the print head abruptly changes direction or stops, inertia causes the entire system to vibrate. These vibrations are transferred to the part and become visible on its surface.
 
 ---
-### Causes and Solutions
+## Causes and Solutions
 
 1.  **Loose Belts**
     * **Cause:** Loose belts on the X or Y axes are the most common cause of ghosting. The slack in the belt allows vibration to propagate without being dampened.
