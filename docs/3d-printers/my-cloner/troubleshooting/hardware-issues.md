@@ -12,7 +12,7 @@ Klipper is designed with safety as a top priority. When it detects a problem tha
 </figure>
 
 ---
-### Temperature-Related Errors
+## Temperature-Related Errors
 
 These are the most common critical errors and are related to your heaters and temperature sensors (thermistors).
 
@@ -33,7 +33,7 @@ These are the most common critical errors and are related to your heaters and te
     * **Solution:** With the power off, check the thermistor's connection on your mainboard and inspect the entire length of the wire for damage.
 
 ---
-### Homing and Sensorless-Homing Errors
+## Homing and Sensorless-Homing Errors
 
 The My-Cloner Rev A uses **TMC2209 sensorless homing** on X and Y and a **P.I.N.D.A. probe** for Z.
 
@@ -70,7 +70,7 @@ Klipper may still use the word `endstop` in error messages because the TMC2209 D
     The authoritative Rev A homing architecture is documented in [Motors & Homing](../wiring/motors-and-homing.md).
 
 ---
-### Configuration and Communication Errors
+## Configuration and Communication Errors
 
 These errors are often related to your `printer.cfg` file or the connection between the host and the MCU.
 
