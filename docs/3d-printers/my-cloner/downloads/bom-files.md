@@ -21,7 +21,7 @@ The BOM contains the mechanical, frame, fastener, electronic, hotend and 3D prin
 
     **Format:** XLSX
 
-    [:material-download: Download My-Cloner BOM V2](../../../../assets/downloads/cloner/My-Cloner_BOM_V2.xlsx){ .md-button .md-button--primary }
+    [:material-download: Download My-Cloner BOM V2](../../../assets/downloads/cloner/My-Cloner_BOM_V2.xlsx){ .md-button .md-button--primary }
 
 -   :material-file-delimited:{ .lg .middle } __CSV__
 
@@ -33,7 +33,7 @@ The BOM contains the mechanical, frame, fastener, electronic, hotend and 3D prin
 
     **Format:** CSV
 
-    [:material-download: Download My-Cloner BOM V2 CSV](../../../../assets/downloads/cloner/My-Cloner_BOM_V2.csv){ .md-button .md-button--primary }
+    [:material-download: Download My-Cloner BOM V2 CSV](../../../assets/downloads/cloner/My-Cloner_BOM_V2.csv){ .md-button .md-button--primary }
 
 </div>
 
