@@ -203,7 +203,7 @@ Now we will place the linear bearings into the loosely attached clips on the Y-c
 
 * **CRITICAL Bearing Orientation:**
     !!! danger "Correct Bearing Orientation is a Must"
-        Linear bearings have internal rows of ball bearings. [cite_start]You must orient the bearings so that these rows run parallel to the direction of movement (along the sides)[cite: 167]. [cite_start]**Do not** orient a bearing so that a single row of balls is at the very bottom, as this will quickly wear a groove into your smooth rods and ruin them[cite: 170, 171].
+        Linear bearings have internal rows of ball bearings. You must orient the bearings so that these rows run parallel to the direction of movement (along the sides). **Do not** orient a bearing so that a single row of balls is at the very bottom, as this will quickly wear a groove into your smooth rods and ruin them.
 
     <figure markdown="1">
       ![Bearing Orientation](/assets/images/image-placeholder.webp#only-light){ width="610" }
@@ -214,17 +214,17 @@ Now we will place the linear bearings into the loosely attached clips on the Y-c
 ---
 ### Step 22: Securing the Bearings
 
-* **Action:** Before tightening, align the bearing so that it is centered within the bearing clip. [cite_start]An equal part of the bearing should be visible on each side[cite: 172].
-* [cite_start]**Action:** While maintaining the bearing's position, fully tighten the two screws to secure it firmly[cite: 173].
-* [cite_start]**Action:** Repeat steps 20-22 for the remaining two bearings[cite: 174].
+* **Action:** Before tightening, align the bearing so that it is centered within the bearing clip. An equal part of the bearing should be visible on each side.
+* **Action:** While maintaining the bearing's position, fully tighten the two screws to secure it firmly.
+* **Action:** Repeat steps 20-22 for the remaining two bearings.
 
 ---
 ### Step 23: Inserting Smooth Rods into Y-Carriage
 
-* [cite_start]**Action:** Identify the two mid-sized smooth rods (typically 330 mm) for the Y-axis[cite: 176].
+* **Action:** Identify the two mid-sized smooth rods (350 mm) for the Y-axis.
 
 !!! warning "Handle with Care"
-    [cite_start]Gently insert a smooth rod straight through the aligned bearings on one side of the carriage[cite: 177]. [cite_start]Do not use excessive force or tilt the rod, as this can dislodge the small ball bearings inside the linear bearing, ruining it[cite: 177, 181]. [cite_start]If you feel resistance, check that the bearings are aligned properly[cite: 178]. Repeat for the second rod on the other side.
+    Gently insert a smooth rod straight through the aligned bearings on one side of the carriage. Do not use excessive force or tilt the rod, as this can dislodge the small ball bearings inside the linear bearing, ruining it. If you feel resistance, check that the bearings are aligned properly. Repeat for the second rod on the other side.
 
 ---
 ### Step 24: Y-Axis - Preparing the Smooth Rod Holders
@@ -239,27 +239,27 @@ Now, gather the parts that will hold the smooth rods in the main frame.
 ---
 ### Step 25: Preparing the Y-Rod Holders
 
-* [cite_start]**Action:** Take one `Y-rod-holder` part and insert two M3nS nuts into the top slots[cite: 182].
-* [cite_start]**Action:** Insert one M3nS nut into the side of the part[cite: 186].
-* [cite_start]**Action:** Ensure all nuts are pressed all the way in. If a nut is a tight fit, use the "screw pulling technique" to seat it properly[cite: 184].
-* [cite_start]**Action:** Repeat this process for the remaining three Y-rod-holders[cite: 188].
+* **Action:** Take one `Y-rod-holder` part and insert two M3nS nuts into the top slots.
+* **Action:** Insert one M3nS nut into the side of the part.
+* **Action:** Ensure all nuts are pressed all the way in. If a nut is a tight fit, use the "screw pulling technique" to seat it properly.
+* **Action:** Repeat this process for the remaining three Y-rod-holders.
 
 ---
 ### Step 26: Mounting the Rod Holders
 
-* [cite_start]**Action:** With the Y-carriage on a flat surface, slide one of the prepared rod holders onto the end of a smooth rod[cite: 189].
-* **Orientation:** Make sure the holder is oriented correctly. [cite_start]The screw hole on the side must be facing up and towards the "inside" of the Y-carriage[cite: 190].
-* [cite_start]**Action:** Repeat this for all four ends of the two smooth rods[cite: 191].
+* **Action:** With the Y-carriage on a flat surface, slide one of the prepared rod holders onto the end of a smooth rod.
+* **Orientation:** Make sure the holder is oriented correctly. The screw hole on the side must be facing up and towards the "inside" of the Y-carriage.
+* **Action:** Repeat this for all four ends of the two smooth rods.
 
 ---
 ### Step 27: Installing the Y-Carriage into the Frame
 
 This is a major assembly step where we join the carriage to the main frame.
 
-* [cite_start]**Action:** Carefully take the entire Y-carriage assembly (with rods and holders) and place it into the YZ-frame[cite: 192].
-* [cite_start]**Orientation:** Make sure the side of the Y-carriage with two bearings is on the left side of the frame (when viewed from the front)[cite: 193].
-* **Action:** Secure each of the four rod holders to the front and rear plates using two M3x10 screws each. [cite_start]**Do not fully tighten these screws yet**; they should be just snug enough to hold the parts in place[cite: 194, 197].
-* [cite_start]**Action:** Insert and tighten the single M3x10 screw into the side of each of the four rod holders[cite: 196, 198].
+* **Action:** Carefully take the entire Y-carriage assembly (with rods and holders) and place it into the YZ-frame.
+* **Orientation:** Make sure the side of the Y-carriage with two bearings is on the left side of the frame (when viewed from the front).
+* **Action:** Secure each of the four rod holders to the front and rear plates using two M3x10 screws each. **Do not fully tighten these screws yet**; they should be just snug enough to hold the parts in place.
+* **Action:** Insert and tighten the single M3x10 screw into the side of each of the four rod holders.
 
 ---
 ### Step 28: Aligning the Smooth Rods
@@ -267,19 +267,19 @@ This is a major assembly step where we join the carriage to the main frame.
 This is a critical alignment step for ensuring smooth, low-friction movement.
 
 !!! tip "How to Align Your Rods for Smooth Motion"
-    * [cite_start]**Action:** First, ensure all the screws connecting the rod holders to the frame are slightly loosened, so the holders can move a little[cite: 202].
-    * **Action:** Slide the Y-carriage back and forth across the entire length of the smooth rods several times. [cite_start]This allows the rods and bearings to self-align into their natural, lowest-friction position[cite: 203].
-    * [cite_start]**Action:** Once aligned, move the carriage to the **front** of the printer and fully tighten all the screws on the two **front** rod holders[cite: 204].
-    * [cite_start]**Action:** Now, move the carriage to the **back** of the printer and fully tighten all the screws on the two **rear** rod holders[cite: 205].
+    * **Action:** First, ensure all the screws connecting the rod holders to the frame are slightly loosened, so the holders can move a little.
+    * **Action:** Slide the Y-carriage back and forth across the entire length of the smooth rods several times. This allows the rods and bearings to self-align into their natural, lowest-friction position.
+    * **Action:** Once aligned, move the carriage to the **front** of the printer and fully tighten all the screws on the two **front** rod holders.
+    * **Action:** Now, move the carriage to the **back** of the printer and fully tighten all the screws on the two **rear** rod holders.
 
 ---
 ### Step 29: Assembling the Y-Motor Pulley
 
-* [cite_start]**Action:** Rotate the Y-axis motor shaft until the flat part is facing up[cite: 207].
-* [cite_start]**Action:** Slide the GT2 toothed pulley onto the shaft[cite: 208].
+* **Action:** Rotate the Y-axis motor shaft until the flat part is facing up.
+* **Action:** Slide the GT2 toothed pulley onto the shaft.
 
 !!! danger "Critical Step: Pulley Alignment"
-    [cite_start]One of the small grub screws in the pulley **must be tightened against the flat part of the motor shaft**[cite: 209]. This provides a secure lock and prevents the pulley from slipping. [cite_start]Also, leave a small gap between the pulley and the motor housing so it can rotate freely[cite: 208]. [cite_start]Slightly tighten both grub screws for now[cite: 210, 211].
+    One of the small grub screws in the pulley **must be tightened against the flat part of the motor shaft**. This provides a secure lock and prevents the pulley from slipping. Also, leave a small gap between the pulley and the motor housing so it can rotate freely. Slightly tighten both grub screws for now.
 
 <figure markdown="1">
   ![Motor Pulley Alignment](/assets/images/image-placeholder.webp#only-light){ width="400" }
