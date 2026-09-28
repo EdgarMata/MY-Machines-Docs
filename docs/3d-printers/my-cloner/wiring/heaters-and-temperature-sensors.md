@@ -54,7 +54,7 @@ The My-Cloner Rev A uses a **V6-style hotend** with a **24 V heater cartridge**.
 | Voltage | 24 V DC |
 | Board output | HE0 |
 | MCU pin | `PE5` |
-| Heater power | TBD |
+| Heater power | Pending confirmation |
 | Maximum documented hotend temperature | 300 °C |
 
 The heater output is controlled by the Robin Nano V3 MOSFET stage.
@@ -107,7 +107,7 @@ The My-Cloner Rev A uses a:
 | Voltage | 24 V DC |
 | Board output | H-BED |
 | MCU pin | `PA0` |
-| Heater power | TBD |
+| Heater power | Pending confirmation |
 
 The generic Klipper configuration uses:
 
@@ -324,8 +324,8 @@ Recommended procedure:
 | Heated-bed voltage | Defined — 24 V |
 | Hotend thermistor model | Pending confirmation |
 | Bed thermistor model | Pending confirmation |
-| Hotend heater power | TBD |
-| Heated-bed power | TBD |
+| Hotend heater power | Pending confirmation |
+| Heated-bed power | Pending confirmation |
 | Hotend PID | Pending calibration |
 | Heated-bed PID | Pending calibration |
 | Hotend thermal limits | Pending final validation |
