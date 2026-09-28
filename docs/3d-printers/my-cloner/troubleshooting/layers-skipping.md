@@ -6,7 +6,7 @@ The term "skipping layers" often describes a print defect where it appears that 
     While it might look like the Z-axis failed to move up, this issue is almost always a severe case of **under-extrusion**. The printer *did* move up to the next layer, but it failed to extrude any plastic (or extruded very little) for that period.
 
 ---
-### Primary Cause: Severe Under-Extrusion
+## Primary Cause: Severe Under-Extrusion
 
 This problem shares all the same causes as regular under-extrusion. The issue has simply become so severe that extrusion stops completely for a short time.
 
