@@ -6,11 +6,11 @@ In this chapter, we will prepare and mount the two main power components of the 
     This chapter involves connecting high-power electrical components. Please follow the instructions for polarity and wiring precisely to avoid damaging your printer or creating a safety hazard.
 
 ---
-### Part 1: Assembling the Heatbed Cables
+## Heatbed Wiring
 
 First, we will securely attach the main power cable to the heated bed.
 
-#### Step 1: Preparing the Heatbed Power Cable
+### Step 1: Preparing the Heatbed Power Cable
 
 Gather all the necessary components for this crucial connection.
 
@@ -21,7 +21,7 @@ Gather all the necessary components for this crucial connection.
     * M3 washer (2x)
     * M3nN nyloc nut (2x)
 
-#### Step 2: Attaching the Power Cable
+### Step 2: Attaching the Power Cable
 
 !!! danger "CRITICAL: Check Wire Polarity"
     Connecting the wires with the wrong polarity will damage your printer's electronics. Double-check every connection.
@@ -44,11 +44,11 @@ Gather all the necessary components for this crucial connection.
 </figure>
 
 ---
-### Part 2: Assembling the Heatbed Cable Cover
+## Heatbed Cable Cover
 
 Now we will install the printed cover that protects the solder joints and manages the cable strain.
 
-#### Step 3: Preparing the Cable Cover Parts
+### Step 3: Preparing the Cable Cover Parts
 
 * **Parts needed:**
     * `Heatbed-cable-cover` (1x, the larger printed part)
@@ -57,7 +57,7 @@ Now we will install the printed cover that protects the solder joints and manage
     * Various M3 screws and nuts.
 * **Action:** Take the smaller `Heatbed-cable-cover-clip` and insert two M3n nuts into its slots.
 
-#### Step 4: Mounting the Main Cable Cover
+### Step 4: Mounting the Main Cable Cover
 
 * **Action:** Place the larger `Heatbed-cable-cover` onto the heatbed, aligning its hole with the central mounting hole on the bed's power terminal section. Secure it with an M3x10 screw and an M3nN nyloc nut.
 
@@ -66,7 +66,7 @@ Now we will install the printed cover that protects the solder joints and manage
     * **Action:** Ensure there is some slack in this cable underneath the cover. If it's too tight, it could break when the bed moves.
     * **Action:** To keep it neat, wrap the thermistor cable a few times around the main power cable bundle.
 
-#### Step 5: Wrapping and Securing the Cable Sleeve
+### Step 5: Wrapping and Securing the Cable Sleeve
 
 * **Action:** Take the textile sleeve and begin wrapping it around the power and thermistor cables, starting from right behind the cable cover. Slide the first few centimeters of the sleeve inside the cover.
 * **Action:** Take the smaller `Heatbed-cable-cover-clip` that you prepared earlier and place it on top of the main cover.
@@ -83,6 +83,8 @@ Now we will install the printed cover that protects the solder joints and manage
 </figure>
 
 ---
+## Heatbed Installation
+
 ### Step 6: Finalizing the Cable Wrap
 
 * **Action:** Continue wrapping the textile sleeve neatly around the entire length of the heatbed cable bundle. When finished, you can twist the sleeve slightly to make it tighter and more uniform.
@@ -114,6 +116,8 @@ Now we will mount the prepared heatbed assembly onto the Y-carriage.
 </figure>
 
 ---
+## PSU Installation and Wiring
+
 ### Step 8: Preparing the PSU Parts
 
 It's time to prepare the Power Supply Unit (PSU), the component that powers the entire printer.
