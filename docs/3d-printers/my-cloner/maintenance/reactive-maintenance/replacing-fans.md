@@ -7,14 +7,14 @@ The fans are critical for print quality and reliability. If one fails (becomes v
 
 ---
 
-### Identifying the Correct Fan
+## Identifying the Correct Fan
 
 Your printer has two fans on the extruder carriage:
 
 * **Part Cooling Fan:** Usually in the front, it blows air onto the part you are printing. It is crucial for overhang quality and fine details.
 * **Hotend Fan:** Usually on the side, it blows air across the hotend's heatsink to prevent heat from traveling upwards and causing clogs ("heat creep").
 
-### Replacement Procedure
+## Replacement Procedure
 
 1.  **Disconnect the Cable :wrench:**
     Trace the fan's cable to the mainboard and disconnect it. Take note of the port it was plugged into. An electronics diagram can help you identify the ports for the **part cooling fan** and the **hotend fan**.
