@@ -355,10 +355,10 @@ Now we'll install the main fan that cools your prints.
 ---
 ### Step 28: Assembling the Z-Probe Sensor
 
-This sensor is used for automatic bed leveling.
+The P.I.N.D.A. probe is used for Z referencing and bed probing.
 
 * **Parts needed:**
-    * Z-Probe Sensor (e.g., SuperPINDA or similar) (1x)
+    * P.I.N.D.A. probe (1x)
 * **Action:** Insert the probe into its cylindrical holder on the extruder assembly.
 * **Action:** Lightly tighten the M3 screw on the holder to keep the probe from falling out.
 
