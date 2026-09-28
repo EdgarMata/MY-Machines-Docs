@@ -27,8 +27,8 @@ The MKS Robin Nano V3 provides two controllable fan outputs.
 
 | Board Output | MCU Pin | My-Cloner Assignment |
 |---|---:|---|
-| FAN1 | `PC14` | TBD |
-| FAN2 | `PB1` | TBD |
+| FAN1 | `PC14` | Pending assignment |
+| FAN2 | `PB1` | Pending assignment |
 
 The board-level pin mapping is confirmed by the official Robin Nano V3 documentation and Klipper configuration.
 
@@ -50,8 +50,8 @@ Its purpose is to cool the hotend heatsink and reduce heat creep.
 | Size | 40 × 40 × 10 mm |
 | Voltage | 24 V DC |
 | Function | Hotend heatsink cooling |
-| Board output | TBD |
-| MCU pin | TBD |
+| Board output | Pending assignment |
+| MCU pin | Pending assignment |
 
 The final electrical assignment will be either FAN1 or FAN2.
 
@@ -76,8 +76,8 @@ Its purpose is to provide controlled airflow to the printed part.
 | Size | 50 × 50 × 15 mm |
 | Voltage | 24 V DC |
 | Function | Part cooling |
-| Board output | TBD |
-| MCU pin | TBD |
+| Board output | Pending assignment |
+| MCU pin | Pending assignment |
 
 The final electrical assignment will be either FAN1 or FAN2.
 
@@ -108,8 +108,8 @@ The intended result will be documented as:
 
 | Function | Fan | Board Output | MCU Pin | Klipper Section |
 |---|---|---|---:|---|
-| Hotend cooling | 4010 | TBD | TBD | TBD |
-| Part cooling | 5015 | TBD | TBD | `[fan]` |
+| Hotend cooling | 4010 | Pending assignment | Pending assignment | `[heater_fan hotend_fan]` — planned |
+| Part cooling | 5015 | Pending assignment | Pending assignment | `[fan]` — planned |
 
 !!! note "Pending Wiring Decision"
     The board pins are known, but the functional assignment is intentionally left open until the final wiring is confirmed.
