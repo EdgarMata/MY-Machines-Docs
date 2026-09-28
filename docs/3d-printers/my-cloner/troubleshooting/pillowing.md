@@ -6,7 +6,7 @@
     This issue is almost always caused by **insufficient cooling** of the plastic and/or an **insufficient number of top solid layers**. The hot plastic sags into the gaps of the infill pattern below before it has a chance to solidify.
 
 ---
-### Solutions (in the Slicer)
+## Solutions (in the Slicer)
 
 The solutions for pillowing are almost all configured in your slicing software.
 
