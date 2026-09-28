@@ -10,7 +10,7 @@ Replacing the entire hotend assembly may be necessary in case of severe damage, 
 
 ---
 
-### General Replacement Procedure
+## General Replacement Procedure
 
 1.  **Access the Hotend and Electronics**
     You may need to remove the fan shroud or other parts of the extruder carriage to get full access to the hotend. Also, open the electronics case to access the mainboard.
@@ -30,7 +30,7 @@ Replacing the entire hotend assembly may be necessary in case of severe damage, 
     -   Connect them to the correct ports on the mainboard, using your photo as a reference.
     -   Re-mount any fans or shrouds you removed.
 
-### Finalization and Calibrations
+## Finalization and Calibrations
 
 !!! success "Mandatory Post-Replacement Calibrations :arrows_counterclockwise:"
     Whenever you replace critical hotend components, you **must** re-run certain calibrations to ensure the printer's safety and performance.

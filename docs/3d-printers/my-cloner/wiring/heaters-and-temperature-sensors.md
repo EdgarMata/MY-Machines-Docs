@@ -1,5 +1,7 @@
 # My-Cloner Rev A — Heaters & Temperature Sensors
 
+See [Owner-Reported Hardware and Test Status](io-map.md#owner-reported-hardware-and-test-status) for the confirmed V3.0 hardware, connections and remaining checks.
+
 This page documents the heating and temperature-sensing architecture used by the **My-Cloner Rev A**.
 
 The printer uses:
@@ -11,10 +13,10 @@ The printer uses:
 
 The MKS Robin Nano V3 controls both heaters and reads both temperature sensors.
 
-!!! warning "Thermistor Models Not Yet Final"
+!!! warning "Temperature Validation Pending"
     The electrical input pins are known.
 
-    The exact thermistor models installed on the My-Cloner Rev A still require final confirmation.
+    The hotend sensor is owner-identified as ATC Semitec 104GT-2. The original Ender 3 bed sensor is NTC 100 kΩ; its exact curve remains TBD.
 
     The Klipper `sensor_type` must match the actual installed sensor.
 
@@ -40,9 +42,7 @@ The My-Cloner Rev A uses two heating systems:
 | Hotend Heater | 24 V DC | HE0 | `PE5` |
 | Heated Bed | 24 V DC | H-BED | `PA0` |
 
-The generic Klipper configuration for the Robin Nano V3 uses the same MCU pins for the primary hotend heater and heated bed.
-
----
+The generic Klipper configuration for the MKS Robin Nano V3 uses the same MCU pins for the primary hotend heater and heated bed.
 
 ### Hotend Heater
 
@@ -54,24 +54,24 @@ The My-Cloner Rev A uses a **V6-style hotend** with a **24 V heater cartridge**.
 | Voltage | 24 V DC |
 | Board output | HE0 |
 | MCU pin | `PE5` |
-| Heater power | TBD |
-| Maximum documented hotend temperature | 300 °C |
+| Heater power | 40 W — owner-reported specification |
+| Intended hotend temperature target | 300 °C — Pending validation; operating limit TBD |
 
-The heater output is controlled by the Robin Nano V3 MOSFET stage.
+The heater output is controlled by the MKS Robin Nano V3 MOSFET stage.
 
 Example Klipper structure:
 
-    [extruder]
-    heater_pin: PE5
+```ini
+[extruder]
+heater_pin: PE5
+```
 
 !!! warning "Heater Power"
-    The exact heater-cartridge power must be confirmed before the final Rev A firmware and safety limits are released.
-
----
+    The owner reports a 24 V, 40 W cartridge, Ø6 × 21 mm, and resistance checked against the expected 12–15 Ω range. Thermal limits and heater operation under the new configuration remain pending validation.
 
 ### Hotend Thermistor
 
-The primary hotend thermistor input on the Robin Nano V3 is:
+The primary hotend thermistor input on the MKS Robin Nano V3 is:
 
 | Function | Board Input | MCU Pin |
 |---|---|---:|
@@ -79,17 +79,21 @@ The primary hotend thermistor input on the Robin Nano V3 is:
 
 The generic Klipper configuration uses:
 
-    sensor_pin: PC1
+```ini
+sensor_pin: PC1
+```
 
 
 The generic example configuration uses:
 
-    sensor_type: ATC Semitec 104GT-2
+```ini
+sensor_type: ATC Semitec 104GT-2
+```
 
-However, this value belongs to the generic Klipper example and must **not automatically be treated as the My-Cloner Rev A thermistor specification**.
+The owner also identifies the installed sensor as ATC Semitec 104GT-2, NTC 100 kΩ, with a reported Ø3 × 15 mm cartridge. The owner checked resistance against approximately 100 kΩ at 25 °C; exact readings were not recorded here.
 
 !!! important "Sensor Type Must Match Hardware"
-    The My-Cloner Rev A hotend thermistor model is still pending confirmation.
+    ATC Semitec 104GT-2 is the owner-reported hotend model. Temperature readings still require validation with the new configuration.
 
     The final Klipper `sensor_type` must match the actual thermistor installed in the V6-style hotend.
 
@@ -99,20 +103,22 @@ However, this value belongs to the generic Klipper example and must **not automa
 
 The My-Cloner Rev A uses a:
 
-**230 × 230 mm, 24 V DC heated bed**
+**Ender 3 type, 235 × 235 mm, 24 V DC, 220 W heated bed**
 
 | Item | Specification |
 |---|---|
-| Bed size | 230 × 230 mm |
+| Bed size | 235 × 235 mm |
 | Voltage | 24 V DC |
 | Board output | H-BED |
 | MCU pin | `PA0` |
-| Heater power | TBD |
+| Heater power | 220 W — owner-reported specification |
 
 The generic Klipper configuration uses:
 
-    [heater_bed]
-    heater_pin: PA0
+```ini
+[heater_bed]
+heater_pin: PA0
+```
 
 
 !!! warning "High-Current Load"
@@ -120,32 +126,34 @@ The generic Klipper configuration uses:
 
     Wiring, connectors and terminal preparation must be suitable for the final measured or specified current.
 
----
+### Heated Bed Thermistor
 
-### Heated-Bed Thermistor
-
-The heated-bed thermistor uses the Robin Nano V3 bed-temperature input:
+The heated bed thermistor uses the MKS Robin Nano V3 bed-temperature input:
 
 | Function | Board Input | MCU Pin |
 |---|---|---:|
-| Heated-Bed Thermistor | TB | `PC0` |
+| Heated Bed Thermistor | TB | `PC0` |
 
 The generic Klipper configuration uses:
 
-    sensor_pin: PC0
+```ini
+sensor_pin: PC0
+```
 
 and provides the example:
 
-    sensor_type: EPCOS 100K B57560G104F
+```ini
+sensor_type: EPCOS 100K B57560G104F
+```
 
 
-As with the hotend sensor, the exact sensor fitted to the My-Cloner heated bed must be confirmed before the final firmware configuration is released.
+The owner confirms the original Ender 3 bed thermistor, NTC 100 kΩ. This does not identify its exact curve. The example EPCOS sensor_type must not be treated as the installed model without confirmation.
 
 ---
 
 ## Additional Thermistor Input
 
-The Robin Nano V3 also provides an additional thermistor input:
+The MKS Robin Nano V3 also provides an additional thermistor input:
 
 | Input | MCU Pin | My-Cloner Rev A |
 |---|---:|---|
@@ -172,8 +180,6 @@ graph LR
 
 The heater is switched as required to maintain the requested temperature.
 
----
-
 ### PID Control
 
 The official generic Klipper configuration contains example PID values for the hotend and bed.
@@ -196,8 +202,6 @@ The resulting values should only be saved after successful testing.
     PID values depend on the actual heater, sensor, mechanical assembly, airflow and thermal environment.
 
     Always calibrate the physical My-Cloner Rev A.
-
----
 
 ### Thermal Protection
 
@@ -314,44 +318,32 @@ Recommended procedure:
 
 ## Validation Status
 
+See [Status Definitions](io-map.md#status-definitions). Design assignments and source mappings do not establish physical validation.
+
 | Item | Status |
 |---|---|
 | Hotend heater MCU pin | Source confirmed |
 | Heated-bed MCU pin | Source confirmed |
 | Hotend thermistor MCU pin | Source confirmed |
 | Bed thermistor MCU pin | Source confirmed |
-| Hotend voltage | Defined — 24 V |
-| Heated-bed voltage | Defined — 24 V |
-| Hotend thermistor model | Pending confirmation |
-| Bed thermistor model | Pending confirmation |
-| Hotend heater power | TBD |
-| Heated-bed power | TBD |
-| Hotend PID | Pending calibration |
-| Heated-bed PID | Pending calibration |
-| Hotend thermal limits | Pending final validation |
-| Heated-bed thermal limits | Pending final validation |
-| Physical heater tests | Pending |
+| Hotend voltage | Rev A assignment — 24 V |
+| Heated-bed voltage | Rev A assignment — 24 V |
+| Hotend thermistor — ATC Semitec 104GT-2 | Rev A assignment |
+| Bed thermistor model | Pending validation |
+| Hotend heater power — 40 W | Rev A assignment |
+| Heated-bed power — 220 W | Rev A assignment |
+| Hotend PID | Pending validation |
+| Heated-bed PID | Pending validation |
+| Hotend thermal limits | Pending validation |
+| Heated-bed thermal limits | Pending validation |
+| Physical heater tests | Pending validation |
 
 ---
 
 ## Related Documentation
 
-For the complete board mapping:
-
-[I/O Map](io-map.md)
-
-For the controller:
-
-[Controller Board](controller-board.md)
-
-For electrical power:
-
-[Power Distribution](power-distribution.md)
-
-For cooling:
-
-[Fans](fans.md)
-
-For the future Klipper configuration:
-
-[Firmware Configuration](../downloads/firmware-configuration.md)
+- [I/O Map](io-map.md) — complete heater and temperature-sensor pin mapping
+- [Controller Board](controller-board.md) — heater outputs and thermistor inputs
+- [Power Distribution](power-distribution.md) — 24 V heater power architecture
+- [Fans](fans.md) — hotend and part-cooling systems
+- [Firmware Configuration](../downloads/firmware-configuration.md) — planned Klipper thermal configuration

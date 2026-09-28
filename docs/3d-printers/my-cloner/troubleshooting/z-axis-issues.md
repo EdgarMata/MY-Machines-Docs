@@ -2,7 +2,7 @@
 
 Mechanical problems with the Z-axis are less common than other issues but can cause distinct print failures. These issues are related to the physical movement of the X-gantry up and down the printer's frame.
 
-### Common Symptoms of Z-axis Problems
+## Common Symptoms of Z-axis Problems
 
 * Prints appear squashed or flattened, with incorrect overall height.
 * The X-gantry (the horizontal bar that carries the extruder) appears visibly tilted, with one side higher than the other.
@@ -10,7 +10,7 @@ Mechanical problems with the Z-axis are less common than other issues but can ca
 * The first layer calibration fails repeatedly, or the nozzle crashes into the bed.
 
 ---
-### Mechanical Checks and Solutions
+## Mechanical Checks and Solutions
 
 1.  **Check for Physical Obstructions**
     * **Problem:** Debris, stray strands of filament, or even poorly routed cables can get caught in the Z-axis lead screws or smooth rods, preventing movement.

@@ -1,5 +1,8 @@
 # Electronics Assembly
 
+!!! warning "My-Cloner Rev A — Pending validation"
+    This chapter retains legacy mechanical assembly references. Housing fit, fasteners and illustrations require confirmation against the Rev A CAD and installed hardware. Placeholder images are not wiring references. Follow the [Wiring & Electronics](../wiring/index.md) pages for Rev A assignments and complete [Before First Power-On](../operation/initial-setup/before-first-power-on.md) before energizing the machine.
+
 Welcome to the final assembly chapter. Here we will mount the mainboard (MCU) into its protective case, connect all the cables from the motors and sensors, and perform the final cable management.
 
 !!! danger "CRITICAL: Electrostatic Discharge (ESD) Warning"
@@ -9,7 +12,7 @@ Welcome to the final assembly chapter. Here we will mount the mainboard (MCU) in
     * **Discharge yourself first.** Before handling the board, touch a large, grounded metal object (like a radiator or metal desk leg) to discharge any static electricity from your body.
 
 ---
-### Step 1: Tools Necessary for This Chapter
+## Step 1: Tools Necessary for This Chapter
 
 * **Tools needed:**
     * Needle-nose pliers (for trimming zip ties)
@@ -17,7 +20,7 @@ Welcome to the final assembly chapter. Here we will mount the mainboard (MCU) in
     * 1.5mm and 2.5mm Allen keys
 
 ---
-### Step 2: Preparing and Mounting the Electronics Case Door
+## Step 2: Preparing and Mounting the Electronics Case Door
 
 First, we will assemble the hinged door for the electronics case. This combines several smaller preparation and assembly steps.
 
@@ -35,7 +38,7 @@ First, we will assemble the hinged door for the electronics case. This combines 
     5.  Place the `Einsy-hinge-top` onto the top of the door and secure it to the frame with the remaining screw. Check that the door can open and close freely.
 
 ---
-### Step 3: Preparing the X-Axis Motor Cable
+## Step 3: Preparing the X-Axis Motor Cable
 
 Before we mount the main case, let's prepare the X-axis motor cable for neat routing.
 
@@ -46,7 +49,7 @@ Before we mount the main case, let's prepare the X-axis motor cable for neat rou
 * **Action:** Use a zip tie to temporarily secure the end of the sleeve to the cable bundle.
 
 ---
-### Step 4: Preparing the Mainboard Case
+## Step 4: Preparing the Mainboard Case
 
 Now we will prepare the main housing that holds the printer's electronics. This combines several preparation steps.
 
@@ -55,14 +58,14 @@ Now we will prepare the main housing that holds the printer's electronics. This 
     * Mainboard / MCU (1x)
     * Various M3 screws, M3n, and M3nS nuts.
 
-!!! tip "Raspberry Pi Slot"
-    The mainboard case may have a small, removable piece of plastic covering an opening. This opening is designed to give access to the GPIO pins for installing a Raspberry Pi Zero W directly onto the mainboard, which is a popular way to run Klipper. If you plan this upgrade, you can carefully cut this piece away now.
+!!! note "Raspberry Pi Zero 2 W"
+    Rev A uses a separate LM2596 5 V supply and USB communication with the MKS Robin Nano V3. Do not use the legacy direct-to-mainboard GPIO mounting instruction. Verify enclosure fit against the Rev A CAD.
 
 * **Action:** Take the `Einsy-base` printed part and insert all the required M3nS and M3n nuts into their designated hexagonal and square slots. Use an Allen key to ensure they are all properly aligned.
 * **Action:** Carefully place the mainboard into the base and secure it with four M3x10 screws. Tighten the screws gently to avoid damaging the circuit board.
 
 ---
-### Step 5: Mounting the Mainboard Case to the Frame
+## Step 5: Mounting the Mainboard Case to the Frame
 
 Now we will attach the case containing the mainboard to the printer's frame.
 
@@ -83,7 +86,7 @@ Now we will attach the case containing the mainboard to the printer's frame.
 </figure>
 
 ---
-### Step 6: Routing and Bundling the Main Cables
+## Step 6: Routing and Bundling the Main Cables
 
 This is a multi-part process to create one neat cable bundle that runs along the printer's frame to the electronics case.
 
@@ -104,7 +107,7 @@ This is a multi-part process to create one neat cable bundle that runs along the
 </figure>
 
 ---
-### Step 7: Finalizing the Frame Cable Bundle
+## Step 7: Finalizing the Frame Cable Bundle
 
 This is the final step in tidying up the main cable bundle that runs along the printer's frame.
 
@@ -112,7 +115,7 @@ This is the final step in tidying up the main cable bundle that runs along the p
 * **Action:** You can now turn the printer back onto its feet.
 
 ---
-### Step 8: Securing the Heatbed Cable Bundle
+## Step 8: Securing the Heatbed Cable Bundle
 
 Now we will connect the cable bundle coming from the heated bed to the electronics case.
 
@@ -123,28 +126,12 @@ Now we will connect the cable bundle coming from the heated bed to the electroni
 * **Action:** Use the `Heatbed-cable-clip` and two M3x10 screws to firmly clamp the cable bundle in place. Pay attention to the orientation of the clip to ensure the electronics case door will be able to close later.
 
 ---
-### Step 9: Connecting the High-Power Wires (PSU & Heatbed)
+## Step 9: Connecting the High-Power Wires (PSU & Heatbed)
 
-This is the most critical wiring step of the entire build. Please read all instructions carefully before proceeding. An error here can damage your electronics.
-
-!!! danger "CRITICAL: Check Polarity and Orientation"
-    * **Polarity is Everything:** You must connect the POSITIVE `(+)` wire to the POSITIVE `(+)` terminal and the NEGATIVE `(-)` wire to the NEGATIVE `(-)` terminal. The positive wire is typically marked with a **red line** or is entirely **red**. The negative wire is **black**.
-    * **Connector Orientation:** The metal "fork" connectors on the wires have a slight bend. The bent part must always face **UP**, away from the circuit board.
-    * **Tighten Firmly:** All screws on these green power terminals must be tightened firmly with a Philips screwdriver. A loose connection can cause overheating.
-
-* **Connection Order:**
-    1.  **PSU Cable 1:** Connect the first pair of wires from the PSU to the leftmost power terminal.
-    2.  **PSU Cable 2:** Connect the second pair of wires from the PSU to the middle power terminal.
-    3.  **Heatbed Cable:** Connect the pair of wires from the Heatbed to the rightmost power terminal.
-
-<figure markdown="1">
-  ![Main Power Wiring](/assets/images/image-placeholder.webp#only-light){ width="610" }
-  ![Main Power Wiring](/assets/images/image-placeholder.webp#only-dark){ width="610" }
-  <figcaption>The final, correct wiring for the PSU and Heatbed power cables on the mainboard.</figcaption>
-</figure>
+Use the [Power Distribution](../wiring/power-distribution.md) and [I/O Map](../wiring/io-map.md) with mains disconnected. Identify the MKS Robin Nano V3 supply terminals and H-BED output from the board documentation and electrical schematic. The legacy left/middle/right terminal sequence does not apply. Polarity, conductor sizing and terminations remain pending validation.
 
 ---
-### Step 10: Installing the Power Terminal Cover
+## Step 10: Installing the Power Terminal Cover
 
 Once you have triple-checked your power connections, it's time to install the safety cover.
 
@@ -155,7 +142,7 @@ Once you have triple-checked your power connections, it's time to install the sa
 * **Action:** Slide the printed `PSU-cover` over the green power terminals and secure it with two M3x10 screws.
 
 ---
-### Step 11: Securing the Extruder Cable Bundle
+## Step 11: Securing the Extruder Cable Bundle
 
 Finally, let's secure the main cable bundle coming from the extruder and hotend.
 
@@ -169,49 +156,26 @@ Finally, let's secure the main cable bundle coming from the extruder and hotend.
 * **Action:** Use the `Extruder-cable-clip` and two M3x10 screws to firmly clamp the bundle in place.
 
 ---
-### Step 12: Connecting the LCD and Motor Cables
+## Step 12: Connecting the LCD and Motor Cables
 
-Now we will begin connecting the main components to the electronics board.
+The Rev A motor assignments are X → X, Y → Y, left Z → Z, right Z → E1 and extruder → E0. Confirm cable orientation, motor direction and TMC2209 UART operation during bring-up; see [Motors & Homing](../wiring/motors-and-homing.md).
 
-* **LCD Cables:**
-    !!! warning "Check LCD Cable Order"
-        It is critical to plug the two flat ribbon cables from the LCD into the correct ports.
-        * The cable with **ONE stripe** connects to the port labeled **EXP1**.
-        * The cable with **TWO stripes** connects to the port labeled **EXP2**.
-
-* **Motor Cables:**
-    * **Action:** Plug in the cables for the Y-axis motor, both Z-axis motors, and the Extruder motor into their clearly labeled ports on the mainboard.
-    * **Action:** Create small, neat loops with the excess cable length before plugging them in.
-
-* **Power Panic Cable:**
-    * **Action:** Guide the Power Panic cable to its port in the bottom right corner of the board and plug it in.
-
-<figure markdown="1">
-  ![Motor and LCD Connections](/assets/images/image-placeholder.webp#only-light){ width="610" }
-  ![Motor and LCD Connections](/assets/images/image-placeholder.webp#only-dark){ width="610" }
-  <figcaption>Illustration showing the correct ports for the LCD and motor cables.</figcaption>
-</figure>
+TS35 wiring remains TBD. Do not connect it using legacy cable-stripe instructions. Power Panic is not implemented and has no assigned cable connection.
 
 ---
-### Step 13: Connecting the Extruder and Hotend Wires
+## Step 13: Connecting the Extruder and Hotend Wires
 
-This is the final, most dense wiring step. Take your time and connect each component one by one.
+Use the [I/O Map](../wiring/io-map.md) for HE0, H-BED, TH1 and TB board mappings. Physical connections still require verification against the electrical schematic.
 
-!!! danger "CRITICAL: Check Sensor Voltage Pins (3-pin connectors)"
-    Some sensors (like the filament sensor) use 3-pin connectors that have 5V power. Plugging these into the wrong pins, even if they fit, can **instantly and permanently destroy the sensor**. Triple-check the alignment and refer to your board's diagram.
+- FAN1 / PC14: 4010 hotend fan; FAN2 / PB1: 5015 part-cooling fan. Operation pending validation.
+- P.I.N.D.A. V1: owner reports Z- / PC8, GND and 5 V. Klipper trigger polarity and offsets remain pending validation.
+- IR V0.4 filament sensor: MT_DET1 / PA4. Supply and signal polarity remain pending validation.
+- Hotend: 24 V / 40 W, owner-identified ATC Semitec 104GT-2. Bed: 24 V / 220 W, original NTC 100 kΩ; exact bed sensor curve remains TBD.
 
-* **Action:** Following the labels on your mainboard, connect the remaining cables from the extruder's main bundle in the following order:
-    1.  **IR Filament Sensor:** Connect to the dedicated 3-pin sensor port. Verify the orientation.
-    2.  **Part Cooling Fan (`Print fan`):** Connect to its labeled fan port.
-    3.  **Hotend Thermistor:** Connect to its labeled thermistor port.
-    4.  **Z-Probe (`SuperPINDA`):** Connect to its dedicated probe port.
-    5.  **Hotend Heater:** Connect the two thicker wires to the heater power terminal.
-    6.  **Hotend Fan:** Connect to its labeled fan port.
-
-* **Cable Management:** Use two zip ties inserted through the holes in the electronics case to neatly bundle all of these wires along the side of the case.
+Do not connect an unresolved sensor or fan by connector fit alone. Confirm the assignment, voltage and orientation first. Secure the cable bundle without straining connectors.
 
 ---
-### Step 14: Final Verification
+## Step 14: Final Verification
 
 This is your last chance to check all connections before closing the case.
 
@@ -229,7 +193,7 @@ This is your last chance to check all connections before closing the case.
 </figure>
 
 ---
-### Step 15: Finalizing the Electronics Case
+## Step 15: Finalizing the Electronics Case
 
 Once you are confident that all wiring is correct, it's time to close up the case.
 
@@ -239,14 +203,14 @@ Once you are confident that all wiring is correct, it's time to close up the cas
 * **Action:** Secure the door with the long M3x40 screw.
 
 ---
-### Step 16: Mounting the Antivibration Feet
+## Step 16: Mounting the Antivibration Feet
 
 This is a final reminder in case you skipped this step earlier.
 
 * **Action:** If you haven't already installed the four rubber anti-vibration feet into the ends of the aluminum extrusions, please do so now.
 
 ---
-### Step 17: Assembling and Mounting the Spool Holder
+## Step 17: Assembling and Mounting the Spool Holder
 
 The final mechanical part to assemble is the spool holder, which will sit on top of the printer's frame. This combines a few smaller steps.
 
@@ -267,7 +231,7 @@ The final mechanical part to assemble is the spool holder, which will sit on top
 </figure>
 
 ---
-### Step 18: Attaching the Serial Number Label (Important)
+## Step 18: Attaching the Serial Number Label (Important)
 
 Your kit may come with a silver label containing your printer's unique serial number. This is an important step for identifying your machine for any future support or warranty claims.
 
@@ -279,10 +243,10 @@ Your kit may come with a silver label containing your printer's unique serial nu
 * **Action:** Carefully peel the label from its backing and apply it smoothly to the cleaned area, ensuring no air bubbles are trapped underneath.
 
 ---
-### Step 19: The Build is Complete!
+## Step 19: The Build is Complete!
 
 !!! success "Congratulations, You've Assembled Your 3D Printer!"
     You have just finished the complete mechanical and electrical assembly of your machine. This was a long and challenging process, and you've done a fantastic job!
 
-    The final step before you can start printing is to perform the "Pre-Flight Check" and the initial software calibrations.
+    Assembly does not establish electrical validation. Complete the pre-power checks and staged bring-up before calibration or printing.
 

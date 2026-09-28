@@ -6,7 +6,7 @@ Layer shifting is a printing failure where one or more layers are suddenly offse
     This issue is almost always caused by a mechanical problem that prevents the print head or the bed from moving to its intended position for a moment. The printer's motors "skip" steps, and the printer continues the print from this new, incorrect position.
 
 ---
-### Primary Mechanical Causes
+## Primary Mechanical Causes
 
 These are the most common reasons for layer shifting and should be the first things you check.
 
@@ -30,7 +30,7 @@ These are the most common reasons for layer shifting and should be the first thi
       <figcaption>A close-up illustration of a motor shaft with its flat side, and an arrow pointing to the grub screw on the pulley that must be tightened against it.</figcaption>
     </figure>
 
-### Other Causes and Solutions
+## Other Causes and Solutions
 
 * **Print Collisions:** If the nozzle physically collides with the print, it can be forceful enough to cause the motor to skip steps. This often happens if a part of the print has curled up due to **warping**.
     * **Solution:** Resolve any warping issues first. See the `Troubleshooting: Warping` guide.

@@ -9,13 +9,16 @@ The My-Cloner Rev A uses a **24 V DC electrical architecture**, with a Raspberry
 
     Purchase links are provided for convenience and may include affiliate links. Equivalent components may be used when they meet the specifications listed in the BOM.
 
+!!! note "Installed Hardware Update — 2026-09-28"
+    This page incorporates the owner-reported installed hardware. See the [hardware record](../wiring/io-map.md#owner-reported-hardware-and-test-status). Existing BOM V2 downloadable files have not been revised in this documentation update.
+
 ## Control Electronics
 
 | Qty | Component | Specification | Amazon | AliExpress |
 |:---:|---|---|:---:|:---:|
-| 1 | MKS Robin Nano V3 Controller Board | 24 V DC main system supply | [Amazon](https://amzn.to/3ZCNnzE) | [AliExpress](https://s.click.aliexpress.com/e/_oFuFnJq) |
+| 1 | MKS Robin Nano V3 Controller Board | V3.0; 24 V DC main system supply | [Amazon](https://amzn.to/3ZCNnzE) | [AliExpress](https://s.click.aliexpress.com/e/_oFuFnJq) |
 | 1 | Raspberry Pi Zero 2 W | Klipper host | — | — |
-| 1 | MKS TS35 V2.0 Display | Connected through the controller interface | [Amazon](https://amzn.to/3ZCNnzE) | [AliExpress](https://s.click.aliexpress.com/e/_oFuFnJq) |
+| 1 | MKS TS35 V2.0 Display | Integration pending validation | [Amazon](https://amzn.to/3ZCNnzE) | [AliExpress](https://s.click.aliexpress.com/e/_oFuFnJq) |
 | 1 | LM2596 DC-DC Step-Down Converter | 24 V DC input → 5 V DC output for Raspberry Pi | — | — |
 | 5 | TMC2209 Stepper Driver | StepStick-compatible, UART mode, DIAG pin available, compatible with MKS Robin Nano V3 | — | — |
 
@@ -48,11 +51,11 @@ The My-Cloner uses five stepper motors.
 
 | Qty | Component | Function | Amazon | AliExpress |
 |:---:|---|---|:---:|:---:|
-| 1 | NEMA 17 Stepper Motor | X axis | [Amazon](https://amzn.to/4kP6lf0) | [AliExpress](https://s.click.aliexpress.com/e/_on92auc) |
-| 1 | NEMA 17 Stepper Motor | Y axis | [Amazon](https://amzn.to/4kP6lf0) | [AliExpress](https://s.click.aliexpress.com/e/_on92auc) |
-| 1 | NEMA 17 Stepper Motor | Left Z axis | [Amazon](https://amzn.to/4kP6lf0) | [AliExpress](https://s.click.aliexpress.com/e/_on92auc) |
-| 1 | NEMA 17 Stepper Motor | Right Z axis | [Amazon](https://amzn.to/4kP6lf0) | [AliExpress](https://s.click.aliexpress.com/e/_on92auc) |
-| 1 | NEMA 17 Pancake Stepper Motor | Direct-drive extruder | [Amazon](https://amzn.to/3SS62Um) | [AliExpress](https://s.click.aliexpress.com/e/_oCEGMP6) |
+| 1 | 17HS13-0404S1 — 0.4 A/phase | X axis | [Amazon](https://amzn.to/4kP6lf0) | [AliExpress](https://s.click.aliexpress.com/e/_on92auc) |
+| 1 | 17HS13-0404S1 — 0.4 A/phase | Y axis | [Amazon](https://amzn.to/4kP6lf0) | [AliExpress](https://s.click.aliexpress.com/e/_on92auc) |
+| 1 | 17HS13-0404S1 — 0.4 A/phase | Left Z axis | [Amazon](https://amzn.to/4kP6lf0) | [AliExpress](https://s.click.aliexpress.com/e/_on92auc) |
+| 1 | 17HS13-0404S1 — 0.4 A/phase | Right Z axis | [Amazon](https://amzn.to/4kP6lf0) | [AliExpress](https://s.click.aliexpress.com/e/_on92auc) |
+| 1 | 17HS10-0704S — 0.7 A/phase | Direct-drive extruder | [Amazon](https://amzn.to/3SS62Um) | [AliExpress](https://s.click.aliexpress.com/e/_oCEGMP6) |
 
 ### Stepper Drivers
 
@@ -70,8 +73,8 @@ The Z axis uses the P.I.N.D.A. probe for Z referencing.
 
 | Qty | Component | Specification | Amazon | AliExpress |
 |:---:|---|---|:---:|:---:|
-| 1 | Heated Bed | 230 × 230 mm, 24 V DC | [Amazon](https://amzn.to/4la2xVc) | [AliExpress](https://s.click.aliexpress.com/e/_olKRKYM) |
-| 1 | Heated Bed Thermistor | Compatible with the heated bed and Klipper configuration | — | — |
+| 1 | Heated Bed | Ender 3 type; 235 × 235 mm, 24 V DC, 220 W | [Amazon](https://amzn.to/4la2xVc) | [AliExpress](https://s.click.aliexpress.com/e/_olKRKYM) |
+| 1 | Heated Bed Thermistor | Original Ender 3 NTC 100 kΩ; exact curve / sensor_type TBD | — | — |
 
 The removable spring steel sheet and PEI print surface are mechanical/build-surface components and are listed in the [Mechanical Parts](mechanical-parts.md) BOM.
 
@@ -83,8 +86,8 @@ The My-Cloner Rev A uses a V6-style hotend.
 
 | Qty | Component | Specification |
 |:---:|---|---|
-| 1 | Heater Cartridge | 24 V DC |
-| 1 | Hotend Thermistor | Compatible with the V6 heater block and Klipper configuration |
+| 1 | Heater Cartridge | 24 V DC, 40 W; Ø6 × 21 mm |
+| 1 | Hotend Thermistor | Owner-identified ATC Semitec 104GT-2, NTC 100 kΩ; reported Ø3 × 15 mm cartridge |
 
 The remaining mechanical hotend components are defined separately in the engineering BOM.
 
@@ -99,8 +102,8 @@ The remaining mechanical hotend components are defined separately in the enginee
 
 | Qty | Component | Specification | Amazon | AliExpress |
 |:---:|---|---|:---:|:---:|
-| 1 | 4010 Axial Fan | 24 V DC — hotend cooling | [Amazon](https://amzn.to/4l9BObn) | [AliExpress](https://s.click.aliexpress.com/e/_oCuAsFy) |
-| 1 | 5015 Blower Fan | 24 V DC — part cooling | [Amazon](https://amzn.to/4472GSH) | [AliExpress](https://s.click.aliexpress.com/e/_oFIKbT0) |
+| 1 | 4010 Axial Fan | 24 V DC — hotend cooling; FAN1 / PC14 | [Amazon](https://amzn.to/4l9BObn) | [AliExpress](https://s.click.aliexpress.com/e/_oCuAsFy) |
+| 1 | 5015 Blower Fan | 24 V DC — part cooling; FAN2 / PB1 | [Amazon](https://amzn.to/4472GSH) | [AliExpress](https://s.click.aliexpress.com/e/_oFIKbT0) |
 
 !!! warning "24 V Fans"
     The My-Cloner Rev A uses **24 V fans**.
@@ -113,8 +116,8 @@ The remaining mechanical hotend components are defined separately in the enginee
 
 | Qty | Component | Specification | Amazon | AliExpress |
 |:---:|---|---|:---:|:---:|
-| 1 | P.I.N.D.A. Probe | Inductive Z probe | [Amazon](https://amzn.to/4n7H29s) | [AliExpress](https://s.click.aliexpress.com/e/_omTpVJA) |
-| 1 | IR Filament Sensor | MK3-style IR sensor with mechanical ball and magnet mechanism | [Amazon](https://amzn.to/4jYzFhV) | [AliExpress](https://s.click.aliexpress.com/e/_oBvssJ8) |
+| 1 | P.I.N.D.A. Probe | V1, three wires; Z- / PC8, GND, 5 V reported | [Amazon](https://amzn.to/4n7H29s) | [AliExpress](https://s.click.aliexpress.com/e/_omTpVJA) |
+| 1 | IR Filament Sensor | IR V0.4; MT_DET1 / PA4; mechanical ball and magnet mechanism | [Amazon](https://amzn.to/4jYzFhV) | [AliExpress](https://s.click.aliexpress.com/e/_oBvssJ8) |
 
 ---
 

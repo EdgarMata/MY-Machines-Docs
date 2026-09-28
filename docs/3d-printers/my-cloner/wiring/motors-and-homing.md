@@ -1,5 +1,7 @@
 # My-Cloner Rev A — Motors & Homing
 
+See [Owner-Reported Hardware and Test Status](io-map.md#owner-reported-hardware-and-test-status) for the confirmed V3.0 hardware, connections and remaining checks.
+
 This page describes the stepper motor architecture, driver assignments and homing strategy used by the **My-Cloner Rev A**.
 
 The printer uses:
@@ -8,7 +10,7 @@ The printer uses:
 - 5 × TMC2209 stepper drivers
 - UART communication
 - Sensorless homing on X and Y
-- P.I.N.D.A. probe for Z reference
+- P.I.N.D.A. V1 probe for Z reference
 
 !!! warning "Physical Validation Required"
     Motor direction, current, sensorless-homing sensitivity and homing repeatability must be validated on the physical My-Cloner Rev A.
@@ -33,11 +35,7 @@ The Z axis uses two independent motors.
 
 The current Rev A board assignment is:
 
-```mermaid
-graph LR
-    ZDRV[Z Driver] --> ZL[Left Z Motor]
-    E1DRV[E1 Driver] --> ZR[Right Z Motor]
-```
+**Z driver → left Z motor; E1 driver → right Z motor.**
 
 This assignment will be physically validated during machine bring-up.
 
@@ -84,7 +82,7 @@ The drivers are intended to operate in:
 
 This allows Klipper to configure and monitor driver parameters directly.
 
-The Robin Nano V3 provides individual UART lines for each driver position.
+The MKS Robin Nano V3 provides individual UART lines for each driver position.
 
 | Driver | UART Pin |
 |---|---:|
@@ -95,8 +93,6 @@ The Robin Nano V3 provides individual UART lines for each driver position.
 | E1 | `PD8` |
 
 These assignments are documented in the My-Cloner [I/O Map](io-map.md).
-
----
 
 ### Driver Configuration
 
@@ -111,16 +107,20 @@ The final TMC2209 configuration will include parameters such as:
 
 Example structure:
 
-    [tmc2209 stepper_x]
-    uart_pin: PD5
-    run_current: TBD
-    diag_pin: TBD
-    driver_SGTHRS: TBD
+```ini
+[tmc2209 stepper_x]
+uart_pin: PD5
+diag_pin: PA15
+run_current: TBD
+driver_SGTHRS: TBD
+```
 
 !!! warning "Do Not Copy Example Values"
-    Driver-current and StallGuard values depend on the actual motors and mechanical system.
+    The UART and DIAG MCU pins are known from the MKS Robin Nano V3 board mapping.
 
-    These values must be determined during physical testing.
+    The final Klipper `diag_pin` configuration may require pull-up or signal inversion depending on the physical TMC2209 installation and DIAG behaviour.
+
+    Motor current and StallGuard sensitivity depend on the actual motors and mechanical system and must be determined during physical testing.
 
 ---
 
@@ -138,8 +138,6 @@ Example structure:
 
 The final direction polarity will be determined during motor testing.
 
----
-
 ### Y Axis
 
 | Signal | MCU Pin |
@@ -152,8 +150,6 @@ The final direction polarity will be determined during motor testing.
 
 The final direction polarity will be determined during motor testing.
 
----
-
 ### Left Z Axis
 
 | Signal | MCU Pin |
@@ -164,8 +160,6 @@ The final direction polarity will be determined during motor testing.
 | UART | `PD4` |
 
 The Left Z motor uses the board's standard Z driver position.
-
----
 
 ### Right Z Axis
 
@@ -187,8 +181,6 @@ In Klipper this will be configured as:
 
     This allows separate motor control while still operating as one Z axis.
 
----
-
 ### Extruder
 
 | Signal | MCU Pin |
@@ -206,13 +198,15 @@ The extruder uses the E0 driver position.
 
 The My-Cloner Rev A does not use physical X or Y endstop switches.
 
-Instead, the X and Y axes are planned to use:
+Instead, the Rev A architecture uses:
 
 **TMC2209 sensorless homing**
 
 Sensorless homing detects the mechanical end of travel using the driver's StallGuard functionality.
 
-The Robin Nano V3 routes the TMC2209 DIAG signals to the endstop inputs.
+The sensorless-homing architecture is defined for Rev A, but the final driver current, StallGuard sensitivity, homing speed and repeatability must be determined during physical bring-up.
+
+The MKS Robin Nano V3 routes the TMC2209 DIAG signals to the endstop inputs.
 
 | Axis | DIAG / Endstop | MCU Pin |
 |---|---|---:|
@@ -229,8 +223,6 @@ graph LR
     YDriver -->|StallGuard| YDiag[Y DIAG]
     YDiag -->|PD2| MCU
 ```
-
----
 
 ### Sensorless Homing Parameters
 
@@ -256,8 +248,6 @@ A configuration that works on another printer must not be assumed to work correc
     If the threshold is not sensitive enough, the motor may continue pushing against the frame after reaching the mechanical end.
 
 The value must therefore be tuned conservatively.
-
----
 
 ### Sensorless Homing Validation
 
@@ -297,7 +287,9 @@ The Klipper `dir_pin` polarity may therefore require inversion during bring-up.
 
     Example:
 
-        dir_pin: !PE2
+    ```ini
+    dir_pin: !PE2
+    ```
 
     The required polarity must be determined from the actual motor movement.
 
@@ -319,7 +311,7 @@ The probe provides:
 
 ```mermaid
 graph TD
-    PINDA[P.I.N.D.A. Probe] -->|Z Reference| MCU[MKS Robin Nano V3]
+    PINDA[P.I.N.D.A. V1] -->|Z- / PC8| MCU[MKS Robin Nano V3]
     MCU --> KLIPPER[Klipper]
 
     KLIPPER --> ZDRV[Z Driver]
@@ -329,9 +321,7 @@ graph TD
     E1DRV --> ZR[Right Z Motor]
 ```
 
-The final board input used by the P.I.N.D.A. is still pending electrical validation.
-
----
+The owner reports P.I.N.D.A. V1 on Z- / PC8, GND and 5 V, and confirms response to metal. Klipper trigger polarity, offsets and repeatability remain pending validation.
 
 ### Z Motor Behaviour
 
@@ -374,7 +364,7 @@ For the Z axis, test Left Z and Right Z independently before operating them toge
 
 ## Motor Current
 
-The final TMC2209 current values are not yet defined.
+The four axis motors are 17HS13-0404S1, rated 0.4 A per phase by the manufacturer. The extruder motor is 17HS10-0704S, rated 0.7 A per phase. These ratings are not final Klipper run_current settings; operating currents remain pending selection and testing.
 
 Motor current must be selected according to:
 
@@ -399,7 +389,7 @@ The final current values will be recorded after physical validation.
 
 ## Microstepping
 
-The generic Robin Nano V3 Klipper configuration uses:
+The generic MKS Robin Nano V3 Klipper configuration uses:
 
     microsteps: 16
 
@@ -419,25 +409,15 @@ The final configuration must remain consistent with:
 
 ### X and Y
 
-The My-Cloner X and Y axes use belt-driven motion.
-
-The final Klipper `rotation_distance` depends on:
-
-- Belt pitch
-- Pulley tooth count
-- Motor step angle
-
-This value will be confirmed against the actual My-Cloner mechanical configuration.
+The [mechanical BOM](../bom/mechanical-parts.md) specifies GT2 belts and 20-tooth pulleys, confirmed by the owner. With 2 mm belt pitch, the nominal travel is 40 mm per pulley revolution. Verify actual motion during calibration.
 
 ### Z
 
-The Z axis uses two lead screws.
-
-The final Z `rotation_distance` must match the installed lead-screw geometry.
+The installed lead screws have 2 mm pitch and 8 mm lead. Nominal Z travel is 8 mm per revolution; use the lead, not the thread pitch, when deriving rotation_distance.
 
 ### Extruder
 
-The extruder `rotation_distance` must be calibrated physically.
+The owner confirms direct motor-to-drive-gear operation without reduction. Extruder `rotation_distance` must still be calibrated physically; do not assume a geared extruder ratio.
 
 The generic Klipper value must not be treated as the final My-Cloner value.
 
@@ -468,6 +448,8 @@ Do not attempt a full automatic homing sequence until each subsystem has been te
 
 ## Validation Status
 
+See [Status Definitions](io-map.md#status-definitions). Design assignments and source mappings do not establish physical validation.
+
 | Item | Status |
 |---|---|
 | X motor board mapping | Source confirmed |
@@ -476,9 +458,9 @@ Do not attempt a full automatic homing sequence until each subsystem has been te
 | E0 / Extruder mapping | Source confirmed |
 | E1 / Right Z mapping | Rev A assignment |
 | TMC2209 UART pins | Source confirmed |
-| X sensorless architecture | Planned |
-| Y sensorless architecture | Planned |
-| Z homing architecture | Defined — P.I.N.D.A. |
+| X sensorless architecture | Rev A assignment |
+| Y sensorless architecture | Rev A assignment |
+| Z homing architecture | Rev A assignment — P.I.N.D.A. |
 | Motor directions | Pending validation |
 | Motor currents | Pending validation |
 | X StallGuard threshold | Pending validation |
@@ -486,24 +468,13 @@ Do not attempt a full automatic homing sequence until each subsystem has been te
 | Homing speeds | Pending validation |
 | Homing repeatability | Pending validation |
 | Z motor synchronization | Pending validation |
-| Extruder rotation distance | Pending calibration |
+| Extruder rotation distance | Pending validation |
 
 ---
 
 ## Related Documentation
 
-For the complete board mapping:
-
-[I/O Map](io-map.md)
-
-For the controller:
-
-[Controller Board](controller-board.md)
-
-For the Z probe and temperature sensors:
-
-[Heaters & Temperature Sensors](heaters-and-temperature-sensors.md)
-
-For the future Klipper configuration:
-
-[Firmware Configuration](../downloads/firmware-configuration.md)
+- [I/O Map](io-map.md) — complete motor, UART, DIAG and probe mapping
+- [Controller Board](controller-board.md) — MKS Robin Nano V3 driver and endstop interfaces
+- [Heaters & Temperature Sensors](heaters-and-temperature-sensors.md) — P.I.N.D.A. context and thermal-system documentation
+- [Firmware Configuration](../downloads/firmware-configuration.md) — planned Klipper motor and homing configuration

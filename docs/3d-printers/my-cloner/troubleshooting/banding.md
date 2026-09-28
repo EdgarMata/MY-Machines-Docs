@@ -6,7 +6,7 @@
     This problem is generally caused by mechanical inconsistencies in the Z-axis or by fluctuations in extrusion.
 
 ---
-### Causes and Solutions
+## Causes and Solutions
 
 1.  **Mechanical Z-Axis Issues**
     * **Cause:** The Z-axis rods or lead screws may be dirty, bent, or poorly lubricated. This causes friction and prevents the Z-axis from consistently moving up by the same small amount for each layer, resulting in some layers being more "squished" than others.

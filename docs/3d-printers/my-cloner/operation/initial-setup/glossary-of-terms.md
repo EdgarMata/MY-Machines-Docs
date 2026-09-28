@@ -306,7 +306,7 @@ The electrically heated build platform.
 
 The My-Cloner Rev A uses a:
 
-**230 × 230 mm, 24 V heatbed**
+**235 × 235 mm, 24 V, 220 W Ender 3-type heatbed**
 
 ---
 

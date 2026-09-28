@@ -1,0 +1,13 @@
+title: Assembly
+
+nav:
+  - Overview: index.md
+  - Introduction & Preparation: 01_introduction.md
+  - Y-Axis Assembly: 02_y-axis_assembly.md
+  - X-Axis Assembly: 03_x-axis_assembly.md
+  - Z-Axis Assembly: 04_z-axis_assembly.md
+  - Extruder Assembly: 05_e-axis_assembly.md
+  - Display Assembly: 06_lcd_assembly.md
+  - Heated Bed & Power Supply: 07_heatbed_and_psu_assembly.md
+  - Electronics Assembly: 08_electronics_assembly.md
+  - Pre-Flight Check: 09_pre-flight_check.md

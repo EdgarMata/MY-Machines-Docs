@@ -1,11 +1,13 @@
 # My-Cloner Rev A — Display & Filament Sensor
 
+See [Owner-Reported Hardware and Test Status](io-map.md#owner-reported-hardware-and-test-status) for the confirmed V3.0 hardware, connections and remaining checks.
+
 This page documents the local display and filament-detection hardware used by the **My-Cloner Rev A**.
 
 The current hardware configuration includes:
 
 - MKS TS35 V2.0 display
-- MK3-style IR filament sensor
+- MK3-style IR V0.4 filament sensor
 - MKS Robin Nano V3 controller
 - Raspberry Pi Zero 2 W running Klipper and Mainsail
 
@@ -18,7 +20,7 @@ The current hardware configuration includes:
 
 ## Official References
 
-The Robin Nano V3 connector and MCU mappings documented on this page are based on the official Makerbase and Klipper project files.
+The MKS Robin Nano V3 connector and MCU mappings documented on this page are based on the official Makerbase and Klipper project files.
 
 - [MKS Robin Nano V3.X — Makerbase GitHub](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X){ target="_blank" rel="noopener noreferrer" }
 - [Klipper — Generic MKS Robin Nano V3 Configuration](https://github.com/Klipper3d/klipper/blob/master/config/generic-mks-robin-nano-v3.cfg){ target="_blank" rel="noopener noreferrer" }
@@ -31,7 +33,7 @@ The My-Cloner Rev A includes an:
 
 **MKS TS35 V2.0**
 
-The final operating mode of the display within the Klipper architecture is still being evaluated.
+The final operating mode of the display within the Klipper architecture is pending validation.
 
 The overall system architecture is:
 
@@ -44,7 +46,7 @@ graph TD
     PI -->|USB| BOARD[MKS Robin Nano V3]
 
     USER -->|Local Interface| TS35[MKS TS35 V2.0]
-    TS35 -->|Integration TBD| BOARD
+    TS35 -.->|Pending validation| BOARD
 ```
 
 The Raspberry Pi Zero 2 W remains responsible for:
@@ -54,7 +56,7 @@ The Raspberry Pi Zero 2 W remains responsible for:
 - Network access
 - High-level printer control
 
-The Robin Nano V3 remains responsible for real-time printer hardware control.
+The MKS Robin Nano V3 remains responsible for real-time printer hardware control.
 
 ---
 
@@ -70,7 +72,7 @@ The MKS TS35 V2.0 is part of the planned My-Cloner Rev A hardware configuration.
 | Primary interface | Mainsail |
 | Local-display integration | Pending validation |
 
-!!! warning "Integration Not Yet Final"
+!!! warning "Display Integration Pending Validation"
     The presence of compatible physical connectors does not automatically confirm full TS35 operation under Klipper.
 
     The final connection method, operating mode and software integration must be validated before the display configuration is published.
@@ -113,7 +115,7 @@ These connectors may be used by compatible display hardware.
 | EXP2_9 | GND |
 | EXP2_10 | 3.3 V |
 
-These mappings are also exposed as board aliases in the official generic Klipper configuration for the Robin Nano V3.
+These mappings are also exposed as board aliases in the official generic Klipper configuration for the MKS Robin Nano V3.
 
 ---
 
@@ -123,7 +125,7 @@ The TS35 should be validated independently from the basic printer bring-up.
 
 Recommended sequence:
 
-1. Bring up the Robin Nano V3 without relying on the display.
+1. Bring up the MKS Robin Nano V3 without relying on the display.
 2. Confirm Raspberry Pi communication with the controller.
 3. Confirm Klipper operation.
 4. Confirm Mainsail operation.
@@ -141,7 +143,7 @@ Recommended sequence:
 
 ## Filament Sensor
 
-The My-Cloner Rev A uses a **MK3-style IR filament sensor**.
+The My-Cloner Rev A uses a **MK3-style IR V0.4 filament sensor**.
 
 The mechanical sensing system uses:
 
@@ -168,7 +170,7 @@ graph TD
     MAGNETS[Magnets]
     MOVING[Moving Element]
     SENSOR[IR Sensor]
-    INPUT[Robin Nano V3 Input]
+    INPUT[MKS Robin Nano V3 Input]
     KLIPPER[Klipper]
 
     FILAMENT --> MECH
@@ -178,11 +180,11 @@ graph TD
     MECH --> MOVING
 
     MOVING --> SENSOR
-    SENSOR --> INPUT
+    SENSOR -->|MT_DET1 / PA4| INPUT
     INPUT --> KLIPPER
 ```
 
-The exact electrical input used by the Rev A still requires final wiring confirmation.
+The owner reports MT_DET1 / PA4 as the installed connection. Electrical behaviour remains pending validation.
 
 ---
 
@@ -192,15 +194,13 @@ The MKS Robin Nano V3 provides two material-detection inputs.
 
 | Board Signal | MCU Pin | My-Cloner Rev A |
 |---|---:|---|
-| MT_DET1 | `PA4` | Candidate filament-sensor input |
+| MT_DET1 | `PA4` | IR V0.4 filament sensor |
 | MT_DET2 | `PE6` | Available / alternative input |
 
-The final Rev A connection has not yet been selected.
+The owner reports MT_DET1 / PA4 as the installed connection.
 
-!!! note "Final Input Pending"
-    The I/O resources are known, but the final My-Cloner filament-sensor input must match the QElectroTech schematic and physical wiring.
-
-    Once selected, the authoritative assignment should also be updated in the [I/O Map](io-map.md).
+!!! note "Rev A Assignment"
+    IR V0.4 is connected to MT_DET1 / PA4. Supply voltage, signal polarity and runout behaviour remain pending validation. See the [I/O Map](io-map.md).
 
 ---
 
@@ -226,11 +226,13 @@ The filament sensor can be represented in Klipper using a filament-sensor sectio
 
 A possible configuration structure is:
 
-    [filament_switch_sensor filament_sensor]
-    switch_pin: <MCU_PIN>
-    pause_on_runout: True
+```ini
+[filament_switch_sensor filament_sensor]
+switch_pin: <PA4_WITH_VERIFIED_PREFIXES>
+pause_on_runout: True
+```
 
-The actual input pin and signal polarity are intentionally left undefined until physical validation.
+The assigned MCU input is PA4. Its required signal inversion and pull-up setting remain pending validation.
 
 !!! warning "Example Only"
     Do not copy the placeholder configuration into the final `printer.cfg`.
@@ -336,45 +338,33 @@ Do not compensate for a mechanical fault purely through firmware.
 
 ## Validation Status
 
+See [Status Definitions](io-map.md#status-definitions). Design assignments and source mappings do not establish physical validation.
+
 | Item | Status |
 |---|---|
-| MKS TS35 V2.0 hardware | Defined |
-| Mainsail primary interface | Defined |
+| MKS TS35 V2.0 hardware | Rev A assignment |
+| Mainsail primary interface | Rev A assignment |
 | Robin Nano EXP1 mapping | Source confirmed |
 | Robin Nano EXP2 mapping | Source confirmed |
 | TS35 physical interface | Pending validation |
 | TS35 Klipper integration | Pending validation |
-| IR filament sensor type | Defined |
+| IR filament sensor type | Rev A assignment |
 | MT_DET1 pin | Source confirmed — `PA4` |
 | MT_DET2 pin | Source confirmed — `PE6` |
-| Final filament-sensor input | Pending validation |
-| Sensor supply voltage | Pending confirmation |
+| Filament-sensor input — MT_DET1 / PA4 | Rev A assignment |
+| Sensor supply voltage | Pending validation |
 | Sensor signal polarity | Pending validation |
 | Filament-present state | Pending validation |
 | Filament-absent state | Pending validation |
-| Klipper runout behaviour | Pending configuration |
-| Mechanical repeatability | Pending physical validation |
+| Klipper runout behaviour | Planned |
+| Mechanical repeatability | Pending validation |
 
 ---
 
 ## Related Documentation
 
-For the complete electrical mapping:
-
-[I/O Map](io-map.md)
-
-For the controller interfaces:
-
-[Controller Board](controller-board.md)
-
-For the complete electrical architecture:
-
-[System Overview](system-overview.md)
-
-For the future Klipper configuration:
-
-[Firmware Configuration](../downloads/firmware-configuration.md)
-
-For filament loading and unloading:
-
-[Loading and Unloading Filament](../operation/initial-setup/loading-unloading-filament.md)
+- [I/O Map](io-map.md) — complete display and filament-sensor signal mapping
+- [Controller Board](controller-board.md) — EXP headers and material-detection inputs
+- [System Overview](system-overview.md) — overall My-Cloner Rev A control architecture
+- [Firmware Configuration](../downloads/firmware-configuration.md) — planned Klipper integration
+- [Loading and Unloading Filament](../operation/initial-setup/loading-unloading-filament.md) — filament handling procedure

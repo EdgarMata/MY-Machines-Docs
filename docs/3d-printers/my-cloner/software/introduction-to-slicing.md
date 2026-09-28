@@ -6,7 +6,7 @@ Before your 3D printer can bring a digital model to life, that model must be tra
     A Slicer is a piece of software on your computer that converts a 3D model file (like a `.stl` or `.step` file) into a detailed, layer-by-layer instruction file called **G-code**. This G-code file tells the printer exactly where to move, how fast to go, and how much plastic to extrude at every single point of the print.
 
 ---
-### Our Recommended Slicer: Orca Slicer
+## Our Recommended Slicer: Orca Slicer
 
 While there are many great slicers available, we recommend **Orca Slicer** for the MY Cloner 3D Printer.
 
@@ -15,11 +15,11 @@ While there are many great slicers available, we recommend **Orca Slicer** for t
     * It has outstanding built-in integration for printers running **Klipper firmware**.
     * Its "Device" tab allows you to connect directly to your printer over the network to upload files, monitor print progress, and control the machine, creating a seamless workflow.
 
-### Support for Other Slicers
+## Support for Other Slicers
 
 We understand that you may have a preference for other popular slicers. Because of this, we also provide tested profiles for **PrusaSlicer** and **SuperSlicer**. The setup process for these is covered in a separate guide in this section.
 
-### The Basic Slicing Workflow
+## The Basic Slicing Workflow
 
 No matter which slicer you use, the basic process is always the same:
 

@@ -59,3 +59,9 @@ For slicer configuration:
 For the printer setup process:
 
 [Operation & Use](../operation/index.md)
+
+## Current Installation Plan
+
+The owner confirms an MKS Robin Nano V3.0 and Raspberry Pi Zero 2 W, with microSD card and reader available. A clean Klipper/Mainsail installation is planned. The previous printer.cfg is unavailable, so the configuration must be created from scratch. No configuration is supplied or validated by this documentation update.
+
+Use the [confirmed hardware record](../wiring/io-map.md#owner-reported-hardware-and-test-status) as the starting point. Motion limits, probe offsets and polarity, sensorless thresholds, motor operating currents, bed sensor_type, PID and extrusion calibration remain pending.

@@ -1,9 +1,12 @@
 # Pre-Flight Check
 
+!!! warning "My-Cloner Rev A — Pending validation"
+    This chapter retains legacy mechanical assembly references. Housing fit, fasteners and illustrations require confirmation against the Rev A CAD and installed hardware. Placeholder images are not wiring references. Follow the [Wiring & Electronics](../wiring/index.md) pages for Rev A assignments and complete [Before First Power-On](../operation/initial-setup/before-first-power-on.md) before energizing the machine.
+
 The physical assembly is complete! This final chapter covers the last crucial physical adjustment needed before you power on the printer for the first time and move on to the software calibration.
 
 ---
-### Step 1: Setting the Initial Z-Probe Height
+## Step 1: Setting the Initial Z-Probe Height
 
 This procedure sets a rough, safe starting distance between your Z-probe and the nozzle tip. It is the most important step in this chapter.
 
@@ -23,7 +26,7 @@ This procedure sets a rough, safe starting distance between your Z-probe and the
     * While holding the probe in this position, re-tighten the screw to secure it.
 
 !!! info "Why do we do this?"
-    This simple trick sets the probe to be slightly higher than the nozzle tip (by the thickness of a zip tie). This is a safe starting distance that prevents the nozzle from crashing into the bed during the first automated calibration sequence. The firmware will calculate the precise offset later.
+    This simple trick sets the probe to be slightly higher than the nozzle tip (by the thickness of a zip tie). This legacy spacing method does not establish a safe P.I.N.D.A. trigger height. Confirm the installed probe, target surface and trigger response before Z motion; the final Z offset requires physical calibration.
 
 <figure markdown="1">
   ![Z-Probe Adjustment with Zip Tie](/assets/images/image-placeholder.webp#only-light){ width="500" }
@@ -32,7 +35,7 @@ This procedure sets a rough, safe starting distance between your Z-probe and the
 </figure>
 
 ---
-### Step 2: Quick Guide for Your First Prints
+## Step 2: Quick Guide for Your First Prints
 
 Your physical assembly is now **100% complete**. The next stage involves software calibration and your very first prints.
 
@@ -43,7 +46,7 @@ Your physical assembly is now **100% complete**. The next stage involves softwar
     Please follow the calibration steps in the next guide exactly. Skipping steps can result in failed prints or, in the worst case, damage to your print surface.
 
 ---
-### Step 3: Where to Find Printable 3D Models
+## Step 3: Where to Find Printable 3D Models
 
 Your kit may have come with an SD card or a download link containing some pre-sliced test models that are ready for your first print, such as a calibration cube or a Benchy.
 
@@ -57,7 +60,7 @@ When you are ready to find more models, we recommend these popular community sit
 * [MakerWorld.com](https://makerworld.com/)
 
 ---
-### Step 4: Getting Help and Joining the Community
+## Step 4: Getting Help and Joining the Community
 
 If you encounter any problems during calibration or printing, we are here to help.
 
@@ -65,10 +68,10 @@ If you encounter any problems during calibration or printing, we are here to hel
 * Join our community on [Facebook](https://www.facebook.com/mymachinescom/) to ask questions and share your creations with other users.
 
 ---
-### Step 5: You've Finished the Build!
+## Step 5: You've Finished the Build!
 
 !!! success "Congratulations on Building Your 3D Printer!"
     You have successfully completed the entire assembly process. You've built a complex machine from scratch, and you should be very proud of your work.
 
-    You are now ready to power on your printer
+    Power-on readiness remains pending validation. Complete [Before First Power-On](../operation/initial-setup/before-first-power-on.md), followed by the staged [First Power-On](../operation/initial-setup/first-power-on.md) procedure.
 

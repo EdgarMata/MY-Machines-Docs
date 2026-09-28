@@ -1,9 +1,12 @@
 # LCD Assembly
 
-In this chapter, we will assemble the LCD screen and control knob. This is the primary way you will interact directly with your printer, so a solid assembly is important.
+!!! warning "My-Cloner Rev A — Pending validation"
+    This chapter retains legacy mechanical assembly references. Housing fit, fasteners and illustrations require confirmation against the Rev A CAD and installed hardware. Placeholder images are not wiring references. Follow the [Wiring & Electronics](../wiring/index.md) pages for Rev A assignments and complete [Before First Power-On](../operation/initial-setup/before-first-power-on.md) before energizing the machine.
+
+Mainsail is the primary My-Cloner Rev A interface. The MKS TS35 V2.0 mounting and Klipper integration remain pending validation. The housing and control-knob steps below are legacy mechanical references and must not be assumed to fit the TS35.
 
 ---
-### Step 1: Tools and Parts Preparation
+## Step 1: Tools and Parts Preparation
 
 First, let's gather all the parts needed for the LCD module. The bag with the small fasteners is often taped directly to the LCD screen itself.
 
@@ -20,12 +23,10 @@ First, let's gather all the parts needed for the LCD module. The bag with the sm
     * SD card (1x)
 
 ---
-### Step 2: Checking the LCD Cables
+## Step 2: Checking the LCD Cables
 
-!!! danger "CRITICAL: Check Cable Order"
-    Before assembling anything, check the two ribbon cables on the back of the LCD controller. If they are connected incorrectly, the screen will not work.
-    * The cable with **ONE stripe** must be connected to the port labeled **EXP1**.
-    * The cable with **TWO stripes** must be connected to the port labeled **EXP2**.
+!!! warning "TS35 Connection — Pending validation"
+    Do not connect a display by cable stripes or assume EXP1/EXP2 compatibility. The TS35 connection method is TBD; use [Display & Filament Sensor](../wiring/display-and-filament-sensor.md).
 
 <figure markdown="1">
   ![LCD Cable Check](/assets/images/image-placeholder.webp#only-light){ width="500" }
@@ -34,7 +35,7 @@ First, let's gather all the parts needed for the LCD module. The bag with the sm
 </figure>
 
 ---
-### Step 3: Assembling the LCD Housing
+## Step 3: Assembling the LCD Housing
 
 Now we will place the screen into its printed housing.
 
@@ -43,7 +44,7 @@ Now we will place the screen into its printed housing.
 * **Action:** Secure the LCD controller to the cover using two M3x10 screws from the back.
 
 ---
-### Step 4: Mounting the LCD to the Frame
+## Step 4: Mounting the LCD to the Frame
 
 * **Action:** First, insert the four M3nS nuts into the prepared slots on the `LCD-support` parts that you just assembled.
 * **Action:** Take the completed LCD assembly and place it against the front plate of the printer's main frame.
@@ -54,12 +55,12 @@ Now we will place the screen into its printed housing.
 * **Action:** Align the mounting holes and secure the LCD assembly to the frame using four M3x10 screws.
 
 ---
-### Step 5: Assembling the Control Knob
+## Step 5: Assembling the Control Knob
 
 * **Action:** Take the printed `LCD-knob` and press it firmly onto the metal shaft of the rotary encoder on the front of the screen.
 
 ---
-### Step 6: LCD Assembly is Finished!
+## Step 6: LCD Assembly is Finished!
 
 The LCD module is now fully assembled and mounted.
 

@@ -1,0 +1,7 @@
+title: Safety
+
+nav:
+  - Overview: index.md
+  - Safe Usage: safe-usage.md
+  - Electrical & Thermal Safety: electrical-and-thermal-safety.md
+  - Fire & Environment Safety: fire-and-environment-safety.md

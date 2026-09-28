@@ -12,7 +12,7 @@ Klipper is designed with safety as a top priority. When it detects a problem tha
 </figure>
 
 ---
-### Temperature-Related Errors
+## Temperature-Related Errors
 
 These are the most common critical errors and are related to your heaters and temperature sensors (thermistors).
 
@@ -33,7 +33,7 @@ These are the most common critical errors and are related to your heaters and te
     * **Solution:** With the power off, check the thermistor's connection on your mainboard and inspect the entire length of the wire for damage.
 
 ---
-### Homing and Endstop Errors
+## Homing and Endstop Errors
 
 These errors typically occur when you try to home the printer.
 
@@ -48,7 +48,7 @@ These errors typically occur when you try to home the printer.
     * **Solution:** Check the endstop wiring. Manually press the switch and see if its status changes in the web interface. Check the axis for any physical obstructions.
 
 ---
-### Configuration and Communication Errors
+## Configuration and Communication Errors
 
 These errors are often related to your `printer.cfg` file or the connection between the host and the MCU.
 

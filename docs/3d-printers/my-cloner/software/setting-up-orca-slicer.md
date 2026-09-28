@@ -3,7 +3,7 @@
 This guide will walk you through the initial setup of Orca Slicer, including importing the custom profile for your MY Cloner printer and connecting it to Klipper.
 
 ---
-### Download and Install Orca Slicer
+## Download and Install Orca Slicer
 
 First, download the latest version of Orca Slicer for your operating system (Windows, macOS, or Linux) from their official GitHub page.
 
@@ -11,7 +11,7 @@ First, download the latest version of Orca Slicer for your operating system (Win
 
 Install the software just as you would any other application.
 
-### Initial Setup Wizard
+## Initial Setup Wizard
 
 When you open Orca Slicer for the first time, a setup wizard will appear.
 
@@ -19,7 +19,7 @@ When you open Orca Slicer for the first time, a setup wizard will appear.
 2.  In the filament selection screen, it's a good idea to select **"Generic PLA"** and **"Generic PETG"** to start with.
 3.  Complete the wizard.
 
-### Importing the MY Cloner Printer Profile
+## Importing the MY Cloner Printer Profile
 
 This is the most important step to ensure all settings are optimized for your printer.
 
@@ -28,7 +28,7 @@ This is the most important step to ensure all settings are optimized for your pr
 3.  A window will pop up showing the profiles that will be imported. Ensure the printer profile is checked and click "Import."
 4.  You should now see the "MY Cloner 3D Printer" available in the printer selection dropdown menu on the main screen.
 
-### Connecting to Klipper via the "Device" Tab
+## Connecting to Klipper via the "Device" Tab
 
 This feature allows you to control your printer directly from Orca Slicer.
 

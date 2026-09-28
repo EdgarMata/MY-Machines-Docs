@@ -3,14 +3,14 @@
 In this chapter, we will bring the frame and the X-axis gantry together. We will install the motors and rods that control the vertical movement of the printer, allowing your models to grow layer by layer.
 
 ---
-### Step 1: Tools Necessary for This Chapter
+## Step 1: Tools Necessary for This Chapter
 
 * **Tools needed:**
     * 2.5mm Allen key
     * Needle-nose pliers
 
 ---
-### Step 2: Z-Axis - Assembling Motor Holders
+## Step 2: Z-Axis - Assembling Motor Holders
 
 First, we will attach the mounts for the Z-axis motors to the main frame.
 
@@ -18,7 +18,7 @@ First, we will attach the mounts for the Z-axis motors to the main frame.
 * **Action:** Place each holder on the correct side of the printer frame and secure them with M3x10 screws. Do not use excessive force when tightening screws into printed parts.
 
 ---
-### Step 3: Placing the Z-Screw Covers
+## Step 3: Placing the Z-Screw Covers
 
 Now, let's prepare the Z-axis motors.
 
@@ -29,7 +29,7 @@ Now, let's prepare the Z-axis motors.
 * **Action:** Take the two `Z-screw-cover` parts and screw them onto the lead screws until they are resting gently against the motor body. Do not overtighten; the motor must still be able to spin freely.
 
 ---
-### Step 4: Z-Axis - Assembling the Motors
+## Step 4: Z-Axis - Assembling the Motors
 
 * **Action:** Mount the two Z-axis motors onto the holders you installed in Step 2.
 
@@ -39,7 +39,7 @@ Now, let's prepare the Z-axis motors.
 * **Action:** Secure each motor with four M3x10 screws. Tighten them evenly.
 
 ---
-### Step 5: X-Axis - Preparing the Trapezoidal Nuts
+## Step 5: X-Axis - Preparing the Trapezoidal Nuts
 
 It's time to prepare the X-axis gantry that you built in the previous chapter.
 
@@ -50,7 +50,7 @@ It's time to prepare the X-axis gantry that you built in the previous chapter.
     * M3n nut (4x)
 
 ---
-### Step 6: X-Axis - Attaching the Trapezoidal Nuts
+## Step 6: X-Axis - Attaching the Trapezoidal Nuts
 
 * **Action:** Turn the X-axis gantry upside down.
 * **Action:** Insert the four M3n nuts into their hexagonal slots on both the `X-end-motor` and `X-end-idler` parts.
@@ -58,7 +58,7 @@ It's time to prepare the X-axis gantry that you built in the previous chapter.
 * **Action:** Secure the trapezoidal nuts firmly using the M3x18 screws.
 
 ---
-### Step 7: Assembling the X-Axis and Smooth Rods
+## Step 7: Assembling the X-Axis and Smooth Rods
 
 This is a major step where the main parts of the printer come together.
 
@@ -77,7 +77,7 @@ This is a major step where the main parts of the printer come together.
 </figure>
 
 ---
-### Step 8: Placing the Z-Axis Top Parts (Part 1)
+## Step 8: Placing the Z-Axis Top Parts (Part 1)
 
 Now we will gather the parts to secure the top of the Z-axis.
 
@@ -87,14 +87,14 @@ Now we will gather the parts to secure the top of the Z-axis.
     * M3x10 screw (4x)
 
 ---
-### Step 9: Placing the Z-Axis Top Parts (Part 2)
+## Step 9: Placing the Z-Axis Top Parts (Part 2)
 
 * **Action:** Take the `Z-axis-top-left` part and place it on top of the vertical frame on the left side. It will cap the top of the smooth rod and frame.
 * **Action:** Align the holes in the printed part with the holes in the frame and secure it with two M3x10 screws.
 * **Action:** Repeat this process on the other side with the `Z-axis-top-right` printed part.
 
 ---
-### Step 10: Z-Axis is Finished!
+## Step 10: Z-Axis is Finished!
 
 The Z-axis assembly is now complete. The main structure of your printer is finished!
 

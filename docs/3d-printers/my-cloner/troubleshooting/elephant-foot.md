@@ -2,13 +2,13 @@
 
 "Elephant Foot" is a printing defect where the first few layers of the part are wider than the rest, creating a small lip or "squish" at the base.
 
-### Main Cause: Nozzle Too Close to the Bed
+## Main Cause: Nozzle Too Close to the Bed
 
 This problem is almost always caused by a single thing: the extruder nozzle is too close to the print bed on the first layer.
 
 * **What Happens:** When the nozzle is too low, it squeezes the plastic outwards because there isn't enough vertical space for the amount of plastic being extruded. This effect is usually confined to the first 1-3 layers.
 
-### Solution
+## Solution
 
 The solution is simple and direct: increase the distance between the nozzle and the bed.
 

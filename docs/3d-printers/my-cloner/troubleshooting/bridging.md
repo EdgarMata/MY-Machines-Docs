@@ -6,12 +6,12 @@
     To create a bridge, the extruded plastic is stretched between the two points and cooled as quickly as possible so that it solidifies before it has time to droop.
 
 ---
-### Problems and Solutions
+## Problems and Solutions
 
 * **Problem:** The bridge lines sag, look very messy and loose, or fail to connect the two points altogether.
 * **Cause:** A combination of incorrect print speed and insufficient cooling.
 
-### Solutions (in the Slicer)
+## Solutions (in the Slicer)
 
 Bridging settings are almost entirely controlled by your slicing software. Most good printing profiles already have optimized settings for bridging.
 

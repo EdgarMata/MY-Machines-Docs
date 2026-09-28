@@ -17,7 +17,7 @@ The current Rev A machine uses:
 
 - 24 V electrical architecture
 - Klipper firmware
-- MKS Robin Nano V3 mainboard
+- MKS Robin Nano V3.0 mainboard
 - Raspberry Pi Zero 2 W as the Klipper host
 - Mainsail as the main control interface
 - OrcaSlicer as the recommended slicer
@@ -38,7 +38,7 @@ The main parts of the My-Cloner are:
 - Smooth PEI spring steel sheet
 - P.I.N.D.A. probe
 - Filament sensor
-- MKS Robin Nano V3 mainboard
+- MKS Robin Nano V3.0 mainboard
 - Raspberry Pi Zero 2 W
 - MKS TS35 V2.0 display
 - Mean Well LRS-350-24 power supply
@@ -69,11 +69,11 @@ Understanding these directions is important before performing the first homing p
 | Feature | Specification |
 |---|---|
 | **Hardware Revision** | Rev A |
-| **Build Volume** | 230 × 230 × 220 mm |
+| **Build Volume** | TBD — actual travel and printable area pending measurement |
 | **Filament Diameter** | 1.75 mm |
 | **Standard Nozzle** | 0.4 mm |
-| **Maximum Hotend Temperature** | 300 °C |
-| **Heatbed Size** | 230 × 230 mm |
+| **Intended Hotend Temperature Target** | 300 °C — Pending validation; operating limit TBD |
+| **Heatbed Size** | 235 × 235 mm; Ender 3 type, 24 V, 220 W |
 | **Electrical System** | 24 V DC |
 | **Firmware** | Klipper |
 | **Main Interface** | Mainsail |
@@ -90,6 +90,10 @@ The **Raspberry Pi Zero 2 W** runs the Klipper host software and Mainsail.
 The **MKS Robin Nano V3** acts as the printer MCU and controls the motors, heaters, fans, sensors and probe.
 
 ---
+
+## Current Machine Status
+
+The printer is assembled and has undergone earlier tests. A clean Klipper/Mainsail installation is planned; the earlier configuration is unavailable. The estimated extra 10 mm travel beyond each bed edge is provisional and must not be used as validated motion limits. See the [hardware and test record](../../wiring/io-map.md#owner-reported-hardware-and-test-status).
 
 ## Next Steps
 

@@ -12,7 +12,7 @@ The purpose of this document is to provide a single reference between:
 - Electrical schematic
 - Hardware validation status
 
-!!! warning "Engineering Reference"
+!!! info "Engineering Reference"
     This document contains both board-level pin mappings confirmed by the official Makerbase and Klipper sources and My-Cloner-specific assignments.
 
     My-Cloner-specific assignments must be physically validated before the machine is considered ready for operation.
@@ -29,11 +29,46 @@ The official Makerbase schematic identifies the controller as the **MKS Robin Na
 
 ---
 
+## Owner-Reported Hardware and Test Status
+
+The owner confirmed these details on 2026-09-28. They describe the assembled My-Cloner Rev A; they are not a complete commissioning record.
+
+| Item | Confirmed hardware / connection | Status |
+|---|---|---|
+| Controller | MKS Robin Nano V3.0 | Rev A assignment |
+| Host | Raspberry Pi Zero 2 W; microSD and reader available; clean Klipper/Mainsail installation required | Rev A assignment |
+| X / Y / left Z / right Z motors | 17HS13-0404S1; manufacturer rating 0.4 A per phase | Rev A assignment |
+| Extruder motor | 17HS10-0704S; manufacturer rating 0.7 A per phase; direct gear drive without reduction | Rev A assignment |
+| X/Y transmission | GT2 20-tooth pulleys, as listed in the mechanical BOM | Rev A assignment |
+| Z transmission | 2 mm pitch; 8 mm lead per revolution | Rev A assignment |
+| X/Y homing | TMC2209 sensorless homing selected; DIAG jumpers reported installed | Rev A assignment |
+| P.I.N.D.A. | V1, three wires; Z- / PC8, GND and 5 V as reported by owner | Rev A assignment |
+| Hotend fan | 4010, 24 V; FAN1 / PC14 | Rev A assignment |
+| Part-cooling fan | 5015, 24 V; FAN2 / PB1 | Rev A assignment |
+| Filament sensor | IR V0.4; MT_DET1 / PA4 | Rev A assignment |
+| Hotend heater | 24 V, 40 W; cartridge Ø6 × 21 mm | Rev A assignment |
+| Hotend thermistor | Owner-identified ATC Semitec 104GT-2, NTC 100 kΩ; reported cartridge Ø3 × 15 mm | Rev A assignment |
+| Heated bed | Ender 3 type, 24 V, 220 W, 235 × 235 mm | Rev A assignment |
+| Bed thermistor | Original bed NTC 100 kΩ; exact curve / Klipper sensor_type still TBD | Pending validation |
+
+The owner reports checking the hotend heater resistance against the expected 12–15 Ω range and the hotend thermistor against approximately 100 kΩ at 25 °C. Exact readings and measurement conditions were not recorded here. The P.I.N.D.A. responds to nearby metal; its Klipper open/triggered polarity and Z offset still require verification.
+
+Earlier Klipper tests were performed and errors were resolved, but calibration was unfinished and no printer.cfg or log survives. A clean installation and a new configuration are planned. Recheck each subsystem with that configuration before marking it Validated.
+
+The owner's provisional X/Y travel estimate is 10 mm beyond each edge of the 235 mm bed (255 mm total span per axis). This is not a measured printable area or approved position_min/position_max. Coordinate origin, X/Y limits, Z travel and probe offsets remain pending measurement.
+
+### Motor Sources
+
+- [STEPPERONLINE 17HS13-0404S1](https://www.omc-stepperonline.com/download/17HS13-0404S1.pdf): 0.4 A per phase. The earlier 0.7 A entry for this model is superseded.
+- [STEPPERONLINE 17HS10-0704S](https://www.omc-stepperonline.com/fr/nema-17-bipolaire-1-8deg-13ncm-18-4oz-in-0-7a-2-9v-42x42x25mm-4-fils-17hs10-0704s): 0.7 A per phase.
+
+Motor nameplate current is not an automatically validated Klipper run_current. Driver settings remain to be selected and tested.
+
 ## Controller Overview
 
 | Item | My-Cloner Rev A |
 |---|---|
-| Mainboard | MKS Robin Nano V3 |
+| Controller board | MKS Robin Nano V3.0 |
 | MCU | STM32F407VGT6 |
 | Main supply | 24 V DC |
 | Firmware | Klipper |
@@ -43,7 +78,7 @@ The official Makerbase schematic identifies the controller as the **MKS Robin Na
 | X/Y homing | TMC2209 sensorless homing |
 | Z reference | P.I.N.D.A. probe |
 | Primary user interface | Mainsail |
-| Local display | MKS TS35 V2.0 — integration under validation |
+| Local display | MKS TS35 V2.0 — integration: Pending validation |
 
 ---
 
@@ -61,11 +96,11 @@ The My-Cloner Rev A uses all five driver positions.
 
 | Board Driver | My-Cloner Function | Driver | Communication | Status |
 |---|---|---|---|---|
-| X | X Axis | TMC2209 | UART | Planned |
-| Y | Y Axis | TMC2209 | UART | Planned |
-| Z | Left Z Axis | TMC2209 | UART | Planned |
-| E0 | Extruder | TMC2209 | UART | Planned |
-| E1 | Right Z Axis | TMC2209 | UART | Planned |
+| X | X Axis | TMC2209 | UART | Rev A assignment |
+| Y | Y Axis | TMC2209 | UART | Rev A assignment |
+| Z | Left Z Axis | TMC2209 | UART | Rev A assignment |
+| E0 | Extruder | TMC2209 | UART | Rev A assignment |
+| E1 | Right Z Axis | TMC2209 | UART | Rev A assignment |
 
 !!! note "Z Motor Assignment"
     The current Rev A assignment uses the board's **Z driver for the Left Z motor** and the **E1 driver for the Right Z motor**.
@@ -104,20 +139,22 @@ These pins will be used by the Klipper `[tmc2209 ...]` sections.
 
 Example structure:
 
-    [tmc2209 stepper_x]
-    uart_pin: PD5
+```ini
+[tmc2209 stepper_x]
+uart_pin: PD5
 
-    [tmc2209 stepper_y]
-    uart_pin: PD7
+[tmc2209 stepper_y]
+uart_pin: PD7
 
-    [tmc2209 stepper_z]
-    uart_pin: PD4
+[tmc2209 stepper_z]
+uart_pin: PD4
 
-    [tmc2209 extruder]
-    uart_pin: PD9
+[tmc2209 extruder]
+uart_pin: PD9
 
-    [tmc2209 stepper_z1]
-    uart_pin: PD8
+[tmc2209 stepper_z1]
+uart_pin: PD8
+```
 
 !!! warning "Do Not Copy Driver Settings Yet"
     UART pin assignments are board-level information.
@@ -128,17 +165,19 @@ Example structure:
 
 ## Sensorless Homing
 
-The My-Cloner Rev A is planned to use **TMC2209 sensorless homing on the X and Y axes**.
+The My-Cloner Rev A uses **TMC2209 sensorless homing on the X and Y axes**.
 
-The Robin Nano V3 exposes the driver DIAG signals as follows:
+This is a Rev A design assignment. The final driver current, StallGuard threshold, homing speed and homing repeatability remain pending physical validation.
+
+The MKS Robin Nano V3 exposes the driver DIAG signals as follows:
 
 | Driver DIAG | Board Endstop Input | MCU Pin | My-Cloner Use | Status |
 |---|---|---:|---|---|
-| X DIAG | X- | `PA15` | X sensorless homing | Planned |
-| Y DIAG | Y- | `PD2` | Y sensorless homing | Planned |
-| Z DIAG | Z- | `PC8` | Not used for normal Z homing | Available |
-| E0 DIAG | Z+ | `PC4` | Not currently used | Available |
-| E1 DIAG | E1- | `PE7` | Not currently used | Available |
+| X DIAG | X- | `PA15` | X sensorless homing | Rev A assignment |
+| Y DIAG | Y- | `PD2` | Y sensorless homing | Rev A assignment |
+| Z DIAG / Z- | Z- | `PC8` | Assigned to P.I.N.D.A. V1; Z sensorless homing not used | Rev A assignment |
+| E0 DIAG | Z+ | `PC4` | Not currently used | Source confirmed |
+| E1 DIAG | E1- | `PE7` | Not currently used | Source confirmed |
 
 The official Makerbase circuit maps the DIAG signals to the corresponding endstop inputs.
 
@@ -165,18 +204,18 @@ The My-Cloner Rev A uses a **P.I.N.D.A. inductive probe** for Z referencing and 
 
 | Function | Device | Board Input | MCU Pin | Status |
 |---|---|---|---:|---|
-| Z Probe | P.I.N.D.A. | Z probe / endstop input | TBD | Pending wiring validation |
+| Z Probe | P.I.N.D.A. V1, three wires | Z- | `PC8` | Rev A assignment |
 
-The Robin Nano V3 provides several possible probe-related inputs, including the Z endstop input and a dedicated BLTouch interface.
+The MKS Robin Nano V3 provides several possible probe-related inputs, including the Z endstop input and a dedicated BLTouch interface.
 
-The final P.I.N.D.A. connection must match the My-Cloner electrical schematic.
+The owner reports Z- / PC8, GND and 5 V connections. Response to metal has been observed; Klipper trigger polarity, electrical interface and offsets remain pending validation.
 
 !!! important "Do Not Assume BLTouch Wiring"
     The My-Cloner uses a P.I.N.D.A. probe, not a BLTouch.
 
-    The dedicated Robin Nano V3 BLTouch control pin (`PA8`) must not automatically be assumed to be the correct P.I.N.D.A. signal input.
+    The dedicated MKS Robin Nano V3 BLTouch control pin (`PA8`) must not automatically be assumed to be the correct P.I.N.D.A. signal input.
 
-    The final connection will be documented after the probe wiring is confirmed.
+    PC8 is the reported Rev A signal input. Confirm the electrical interface and open/triggered readings before Z homing.
 
 ---
 
@@ -203,11 +242,13 @@ The E0 driver is reserved for the direct-drive extruder.
 
 The generic Klipper configuration uses:
 
-    heater_pin: PE5
+```ini
+heater_pin: PE5
+```
 
 The My-Cloner Rev A uses a 24 V V6-style heater cartridge.
 
-The exact heater power must still be documented in the final hardware specification.
+The owner identifies the cartridge as 24 V, 40 W, Ø6 × 21 mm and reports checking its resistance against the expected 12–15 Ω range.
 
 ### Thermistor
 
@@ -217,10 +258,10 @@ The exact heater power must still be documented in the final hardware specificat
 
 The generic Klipper configuration uses `PC1` for the hotend thermistor input.
 
-!!! warning "Thermistor Type Pending"
+!!! warning "Temperature Validation Pending"
     The electrical input pin is confirmed.
 
-    The exact My-Cloner Rev A hotend thermistor model and corresponding Klipper `sensor_type` still require final confirmation.
+    The owner identifies the installed hotend thermistor as ATC Semitec 104GT-2. Temperature readings and thermal limits must be verified with the new configuration.
 
     Do not copy the generic Klipper thermistor type without validating the installed sensor.
 
@@ -236,7 +277,9 @@ The generic Klipper configuration uses `PC1` for the hotend thermistor input.
 
 The generic Klipper configuration uses:
 
-    heater_pin: PA0
+```ini
+heater_pin: PA0
+```
 
 ### Thermistor
 
@@ -246,32 +289,34 @@ The generic Klipper configuration uses:
 
 The generic Klipper configuration uses:
 
-    sensor_pin: PC0
+```ini
+sensor_pin: PC0
+```
 
 The generic Klipper example specifies an EPCOS 100K thermistor.
 
-The exact thermistor fitted to the My-Cloner Rev A heated bed must still be confirmed before the final Klipper configuration is released.
+The installed Ender 3 bed is 24 V, 220 W and 235 × 235 mm, with its original NTC 100 kΩ thermistor. Its exact curve / sensor_type remains TBD; the generic EPCOS example is not confirmation of the fitted sensor.
 
 ---
 
 ## Cooling Fans
 
-The Robin Nano V3 provides two controllable fan outputs.
+The MKS Robin Nano V3 provides two controllable fan outputs.
 
 | Function | Board Output | MCU Pin | My-Cloner Device | Status |
 |---|---|---:|---|---|
-| Fan 1 | FAN1 | `PC14` | TBD | Source confirmed / Assignment pending |
-| Fan 2 | FAN2 | `PB1` | TBD | Source confirmed / Assignment pending |
+| Hotend fan | FAN1 | `PC14` | 4010, 24 V | Rev A assignment |
+| Part-cooling fan | FAN2 | `PB1` | 5015, 24 V | Rev A assignment |
 
 The My-Cloner uses:
 
 - 1 × 4010 24 V hotend cooling fan
 - 1 × 5015 24 V part-cooling blower
 
-The final assignment between FAN1/FAN2 and the two physical fans will be confirmed from the electrical schematic and physical wiring.
+The owner reports these fan connections on the assembled printer. PWM, airflow and control under the new configuration remain pending validation.
 
 !!! note "Klipper Generic Configuration"
-    The generic Robin Nano V3 Klipper example uses `PC14` as the primary `[fan]` output and lists `PB1` as the second available fan output.
+    The generic MKS Robin Nano V3 Klipper example uses `PC14` as the primary `[fan]` output and lists `PB1` as the second available fan output.
 
     The My-Cloner configuration does not need to follow that functional assignment if the wiring requires a different mapping.
 
@@ -281,14 +326,14 @@ The final assignment between FAN1/FAN2 and the two physical fans will be confirm
 
 The My-Cloner Rev A uses an **MK3-style IR filament sensor** with the mechanical ball and magnet mechanism.
 
-The Robin Nano V3 provides two material-detection inputs:
+The MKS Robin Nano V3 provides two material-detection inputs:
 
 | Board Input | MCU Pin | My-Cloner Use | Status |
 |---|---:|---|---|
-| MT_DET1 | `PA4` | Candidate filament sensor input | Pending validation |
-| MT_DET2 | `PE6` | Available | Pending validation |
+| MT_DET1 | `PA4` | IR V0.4 filament sensor | Rev A assignment |
+| MT_DET2 | `PE6` | Available / not assigned | Source confirmed |
 
-The final input will be selected according to the electrical schematic.
+MT_DET1 / PA4 is the owner-reported connection; sensor supply, signal polarity and runout behaviour remain pending validation.
 
 ---
 
@@ -328,8 +373,8 @@ Its final Klipper integration is still under investigation.
 | EXP2_9 | GND |
 | EXP2_10 | 3.3 V |
 
-!!! warning "Display Integration Not Final"
-    These are the Robin Nano V3 EXP-header pin mappings.
+!!! warning "Display Integration Pending Validation"
+    These are the MKS Robin Nano V3 EXP-header pin mappings.
 
     They do not by themselves confirm that the MKS TS35 V2.0 will operate directly through Klipper.
 
@@ -355,14 +400,14 @@ The Raspberry Pi is powered separately through the My-Cloner 24 V → 5 V LM2596
 
 ## Power Control and Auxiliary Inputs
 
-The Robin Nano V3 also exposes the following auxiliary signals:
+The MKS Robin Nano V3 also exposes the following auxiliary signals:
 
 | Function | MCU Pin | My-Cloner Rev A |
 |---|---:|---|
 | Power Detect | `PA13` | Not currently implemented |
 | Power Off | `PB2` | Not currently implemented |
-| Material Detect 1 | `PA4` | Candidate filament sensor |
-| Material Detect 2 | `PE6` | Available |
+| MT_DET1 | `PA4` | IR V0.4 filament sensor |
+| MT_DET2 | `PE6` | Available |
 | BLTouch Control | `PA8` | Not currently assigned |
 
 Power Panic / power-loss recovery is **not implemented in the current My-Cloner Rev A**.
@@ -379,12 +424,12 @@ These signals remain available for future development.
 | X Motor DIR | X | `PE2` | `[stepper_x]` | Source confirmed |
 | X Motor EN | X | `PE4` | `[stepper_x]` | Source confirmed |
 | X TMC UART | X | `PD5` | `[tmc2209 stepper_x]` | Source confirmed |
-| X Sensorless | X- | `PA15` | `[stepper_x]` | Planned |
+| X Sensorless | X- | `PA15` | `[stepper_x]` | Rev A assignment |
 | Y Motor STEP | Y | `PE0` | `[stepper_y]` | Source confirmed |
 | Y Motor DIR | Y | `PB9` | `[stepper_y]` | Source confirmed |
 | Y Motor EN | Y | `PE1` | `[stepper_y]` | Source confirmed |
 | Y TMC UART | Y | `PD7` | `[tmc2209 stepper_y]` | Source confirmed |
-| Y Sensorless | Y- | `PD2` | `[stepper_y]` | Planned |
+| Y Sensorless | Y- | `PD2` | `[stepper_y]` | Rev A assignment |
 | Left Z STEP | Z | `PB5` | `[stepper_z]` | Source confirmed |
 | Left Z DIR | Z | `PB4` | `[stepper_z]` | Source confirmed |
 | Left Z EN | Z | `PB8` | `[stepper_z]` | Source confirmed |
@@ -401,15 +446,19 @@ These signals remain available for future development.
 | Hotend Thermistor | TH1 | `PC1` | `[extruder]` | Source confirmed |
 | Heated Bed | H-BED | `PA0` | `[heater_bed]` | Source confirmed |
 | Bed Thermistor | TB | `PC0` | `[heater_bed]` | Source confirmed |
-| Fan 1 | FAN1 | `PC14` | TBD | Function pending |
-| Fan 2 | FAN2 | `PB1` | TBD | Function pending |
-| P.I.N.D.A. | TBD | TBD | `[probe]` | Wiring pending |
-| Filament Sensor | MT_DET1 / TBD | `PA4` / TBD | `[filament_switch_sensor]` | Pending validation |
-| Display | EXP / TBD | TBD | TBD | Under validation |
+| Hotend fan 4010 | FAN1 | `PC14` | `[heater_fan hotend_fan]` planned | Rev A assignment |
+| Part-cooling fan 5015 | FAN2 | `PB1` | `[fan]` planned | Rev A assignment |
+| P.I.N.D.A. V1 | Z- | `PC8` | `[probe]` | Rev A assignment |
+| IR V0.4 Filament Sensor | MT_DET1 | `PA4` | `[filament_switch_sensor]` | Rev A assignment |
+| Display | EXP / TBD | TBD | TBD | Pending validation |
 
 ---
 
 ## Status Definitions
+
+`Source confirmed` applies only to the board mapping. `Rev A assignment` records a design choice; neither status confirms hardware operation. Combined entries describe these separate aspects. No physical test result is established by this page.
+
+`MT_DET` denotes the material-detection input family; use `MT_DET1` or `MT_DET2` for an identified connector. The owner reports the IR V0.4 sensor connected to MT_DET1 / PA4; supply, polarity and runout behaviour still require verification.
 
 | Status | Meaning |
 |---|---|
@@ -417,6 +466,7 @@ These signals remain available for future development.
 | **Rev A assignment** | My-Cloner-specific design decision based on the available board resources |
 | **Planned** | Intended configuration but not physically validated |
 | **Pending validation** | Requires schematic or physical-machine confirmation |
+| **TBD** | Value or assignment has not yet been determined |
 | **Validated** | Tested successfully on the physical My-Cloner Rev A |
 
 ---
@@ -434,7 +484,7 @@ Each My-Cloner I/O point should pass through the following process:
 7. Record the result.
 8. Change the status to **Validated** only after successful testing.
 
-!!! danger "Never Validate by Assumption"
+!!! warning "Never Validate by Assumption"
     A correct MCU pin does not guarantee that a connected device is wired correctly.
 
     Voltage, polarity, connector orientation and device specifications must always be verified before power is applied.
@@ -443,11 +493,11 @@ Each My-Cloner I/O point should pass through the following process:
 
 ## Related Documentation
 
-- [System Overview](system-overview.md)
-- [Power Distribution](power-distribution.md)
-- [Controller Board](controller-board.md)
-- [Motors & Homing](motors-and-homing.md)
-- [Heaters & Temperature Sensors](heaters-and-temperature-sensors.md)
-- [Fans](fans.md)
-- [Display & Filament Sensor](display-and-filament-sensor.md)
-- [Firmware Configuration](../downloads/firmware-configuration.md)
+- [System Overview](system-overview.md) — complete Rev A electrical architecture
+- [Power Distribution](power-distribution.md) — AC, 24 V and 5 V power architecture
+- [Controller Board](controller-board.md) — MKS Robin Nano V3 hardware interfaces
+- [Motors & Homing](motors-and-homing.md) — stepper drivers, motors and homing
+- [Heaters & Temperature Sensors](heaters-and-temperature-sensors.md) — heater and thermistor wiring
+- [Fans](fans.md) — cooling hardware and fan outputs
+- [Display & Filament Sensor](display-and-filament-sensor.md) — TS35 and filament-sensor integration
+- [Firmware Configuration](../downloads/firmware-configuration.md) — planned Klipper configuration

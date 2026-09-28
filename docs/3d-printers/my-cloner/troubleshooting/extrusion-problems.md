@@ -9,7 +9,7 @@ Problems like "clogs," "jams," and filament "grinding" are some of the most comm
     * You hear a grinding sound, and you find the filament has been chewed through by the extruder gear.
 
 ---
-### Step 1: Check the Basics (The Easy Stuff)
+## Step 1: Check the Basics (The Easy Stuff)
 
 Before disassembling anything, check these simple settings.
 
@@ -22,7 +22,7 @@ Before disassembling anything, check these simple settings.
     * **Solution:** Re-run your "First Layer Calibration" and ensure the "Live Adjust Z" is set correctly. The nozzle should be close enough for adhesion but high enough to allow a smooth flow of plastic.
 
 ---
-### Step 2: Clear a Partial Clog
+## Step 2: Clear a Partial Clog
 
 If filament is still coming out, but it's thin or inconsistent, you likely have a partial clog.
 
@@ -42,7 +42,7 @@ If filament is still coming out, but it's thin or inconsistent, you likely have 
     For more stubborn clogs, search online for a guide on how to perform a "Cold Pull" or "Atomic Pull." This technique involves pushing filament through a hot nozzle, letting it cool slightly, and then pulling it back out, dragging the debris with it.
 
 ---
-### Step 3: Check the Extruder Mechanism
+## Step 3: Check the Extruder Mechanism
 
 If you hear grinding noises and see chewed-up filament, the problem is at the extruder itself.
 
@@ -55,7 +55,7 @@ If you hear grinding noises and see chewed-up filament, the problem is at the ex
     * **Solution:** Adjust the tension screw for the extruder's idler door. It should be tight enough to provide a firm grip without crushing the filament.
 
 ---
-### Step 4: Full Hotend Disassembly (Major Jam)
+## Step 4: Full Hotend Disassembly (Major Jam)
 
 !!! danger "Last Resort"
     If none of the above steps work, you may have a severe jam inside the hotend. This could be a piece of broken filament or a deformed PTFE tube. This requires disassembling the hotend.

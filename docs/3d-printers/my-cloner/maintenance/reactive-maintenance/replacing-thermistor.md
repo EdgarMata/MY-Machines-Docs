@@ -7,7 +7,7 @@ The thermistor is the small sensor that measures the temperature of the heater b
 
 ---
 
-### Replacement Procedure
+## Replacement Procedure
 
 1.  **Cool Down the Hotend**
     Ensure the hotend is completely cool to the touch.
@@ -27,7 +27,7 @@ The thermistor is the small sensor that measures the temperature of the heater b
 5.  **Connect to Mainboard**
     Route the new cable and plug it into the correct port on the mainboard.
 
-### Finalization and Calibrations
+## Finalization and Calibrations
 
 !!! success "Mandatory Calibrations :arrows_counterclockwise:"
     Whenever the thermistor is changed, the hotend's thermal behavior changes.

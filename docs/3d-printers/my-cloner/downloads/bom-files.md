@@ -21,7 +21,7 @@ The BOM contains the mechanical, frame, fastener, electronic, hotend and 3D prin
 
     **Format:** XLSX
 
-    [:material-download: Download My-Cloner BOM V2](../../../../assets/downloads/cloner/My-Cloner_BOM_V2.xlsx){ .md-button .md-button--primary }
+    [:material-download: Download My-Cloner BOM V2](../../../assets/downloads/cloner/My-Cloner_BOM_V2.xlsx){ .md-button .md-button--primary }
 
 -   :material-file-delimited:{ .lg .middle } __CSV__
 
@@ -33,7 +33,7 @@ The BOM contains the mechanical, frame, fastener, electronic, hotend and 3D prin
 
     **Format:** CSV
 
-    [:material-download: Download My-Cloner BOM V2 CSV](../../../../assets/downloads/cloner/My-Cloner_BOM_V2.csv){ .md-button .md-button--primary }
+    [:material-download: Download My-Cloner BOM V2 CSV](../../../assets/downloads/cloner/My-Cloner_BOM_V2.csv){ .md-button .md-button--primary }
 
 </div>
 
@@ -91,3 +91,6 @@ For a browser-friendly view of the component lists, see:
 Once you have sourced the required components, continue with the:
 
 [Assembly Guide](../assembly/01_introduction.md)
+## Installed Hardware Update
+
+The owner confirmed additional installed-hardware details on 2026-09-28. These are recorded in [Electronic Parts](../bom/electronic-parts.md) and the [I/O Map](../wiring/io-map.md#owner-reported-hardware-and-test-status). The BOM V2 XLSX/CSV downloads have not been revised in this documentation update.

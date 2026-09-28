@@ -1,16 +1,19 @@
 # Heatbed & PSU Assembly
 
+!!! warning "My-Cloner Rev A — Pending validation"
+    This chapter retains legacy mechanical assembly references. Housing fit, fasteners and illustrations require confirmation against the Rev A CAD and installed hardware. Placeholder images are not wiring references. Follow the [Wiring & Electronics](../wiring/index.md) pages for Rev A assignments and complete [Before First Power-On](../operation/initial-setup/before-first-power-on.md) before energizing the machine.
+
 In this chapter, we will prepare and mount the two main power components of the printer: the Heatbed, where your prints will be built, and the Power Supply Unit (PSU), which provides all the energy for the machine.
 
 !!! warning "Pay Close Attention to Wiring"
     This chapter involves connecting high-power electrical components. Please follow the instructions for polarity and wiring precisely to avoid damaging your printer or creating a safety hazard.
 
 ---
-### Part 1: Assembling the Heatbed Cables
+## Part 1: Assembling the Heatbed Cables
 
 First, we will securely attach the main power cable to the heated bed.
 
-#### Step 1: Preparing the Heatbed Power Cable
+### Step 1: Preparing the Heatbed Power Cable
 
 Gather all the necessary components for this crucial connection.
 
@@ -21,7 +24,7 @@ Gather all the necessary components for this crucial connection.
     * M3 washer (2x)
     * M3nN nyloc nut (2x)
 
-#### Step 2: Attaching the Power Cable
+### Step 2: Attaching the Power Cable
 
 !!! danger "CRITICAL: Check Wire Polarity"
     Connecting the wires with the wrong polarity will damage your printer's electronics. Double-check every connection.
@@ -44,11 +47,11 @@ Gather all the necessary components for this crucial connection.
 </figure>
 
 ---
-### Part 2: Assembling the Heatbed Cable Cover
+## Part 2: Assembling the Heatbed Cable Cover
 
 Now we will install the printed cover that protects the solder joints and manages the cable strain.
 
-#### Step 3: Preparing the Cable Cover Parts
+### Step 3: Preparing the Cable Cover Parts
 
 * **Parts needed:**
     * `Heatbed-cable-cover` (1x, the larger printed part)
@@ -57,7 +60,7 @@ Now we will install the printed cover that protects the solder joints and manage
     * Various M3 screws and nuts.
 * **Action:** Take the smaller `Heatbed-cable-cover-clip` and insert two M3n nuts into its slots.
 
-#### Step 4: Mounting the Main Cable Cover
+### Step 4: Mounting the Main Cable Cover
 
 * **Action:** Place the larger `Heatbed-cable-cover` onto the heatbed, aligning its hole with the central mounting hole on the bed's power terminal section. Secure it with an M3x10 screw and an M3nN nyloc nut.
 
@@ -66,7 +69,7 @@ Now we will install the printed cover that protects the solder joints and manage
     * **Action:** Ensure there is some slack in this cable underneath the cover. If it's too tight, it could break when the bed moves.
     * **Action:** To keep it neat, wrap the thermistor cable a few times around the main power cable bundle.
 
-#### Step 5: Wrapping and Securing the Cable Sleeve
+### Step 5: Wrapping and Securing the Cable Sleeve
 
 * **Action:** Take the textile sleeve and begin wrapping it around the power and thermistor cables, starting from right behind the cable cover. Slide the first few centimeters of the sleeve inside the cover.
 * **Action:** Take the smaller `Heatbed-cable-cover-clip` that you prepared earlier and place it on top of the main cover.
@@ -83,12 +86,12 @@ Now we will install the printed cover that protects the solder joints and manage
 </figure>
 
 ---
-### Step 6: Finalizing the Cable Wrap
+## Step 6: Finalizing the Cable Wrap
 
 * **Action:** Continue wrapping the textile sleeve neatly around the entire length of the heatbed cable bundle. When finished, you can twist the sleeve slightly to make it tighter and more uniform.
 
 ---
-### Step 7: Mounting the Heatbed
+## Step 7: Mounting the Heatbed
 
 Now we will mount the prepared heatbed assembly onto the Y-carriage.
 
@@ -114,20 +117,19 @@ Now we will mount the prepared heatbed assembly onto the Y-carriage.
 </figure>
 
 ---
-### Step 8: Preparing the PSU Parts
+## Step 8: Preparing the PSU Parts
 
 It's time to prepare the Power Supply Unit (PSU), the component that powers the entire printer.
 
 * **Parts needed:**
     * 24V Power Supply Unit (PSU) (1x)
-    * Power Panic cable (1x)
     * PSU power cables (2x pairs)
     * M4x10r screw (2x)
     * M3x10 screw (2x)
-* **Note:** The PSU is designed to work worldwide and automatically switches to the correct local voltage.
+* **Note:** The Mean Well LRS-350-24 uses a manual input-voltage selector. Check it against the intended 230 V AC supply before power-on; see [Power Distribution](../wiring/power-distribution.md).
 
 ---
-### Step 9: Mounting the PSU to the Frame
+## Step 9: Mounting the PSU to the Frame
 
 * **Action:** Turn the printer so the rear side is facing you. Loosely screw two M3x10 screws into the printed PSU holders on the bottom extrusion.
 * **Action:** Slide the PSU onto these screws. You may need to adjust the spacing of the holders so they align with the mounting holes on the side of the PSU.
@@ -135,60 +137,24 @@ It's time to prepare the Power Supply Unit (PSU), the component that powers the 
 * **Action:** Before the final tightening, ensure the PSU is pressed firmly against both the bottom extrusion and the vertical frame. Once everything is aligned, fully tighten all the mounting screws (both the M3 and M4 screws).
 
 ---
-### Step 10: Connecting Power Cables to the PSU (CRITICAL)
+## Step 10: Connecting Power Cables to the PSU (CRITICAL)
 
-This is a critical step that requires your full attention. Incorrect wiring here can damage the printer.
+The Rev A PSU is the Mean Well LRS-350-24. Identify terminals from the installed unit and the [manufacturer documentation](https://www.meanwell.com/Upload/PDF/LRS-350/LRS-350-SPEC.PDF). The legacy four-terminal layout is not a Rev A wiring reference.
 
-!!! danger "CRITICAL: High Voltage - Check All Connections"
-    * **Triple-check** that you are connecting the wires correctly.
-    * The terminals on the PSU are clearly marked for positive `(+)` and negative `(-)` polarity.
-    * The layout is: `+`, `+`, `-`, `-`.
-    * Ensure the bent part of the metal "fork" connectors on the cables is always **facing up**.
-
-<figure markdown="1">
-  ![PSU Terminal Polarity](/assets/images/image-placeholder.webp#only-light){ width="400" }
-  ![PSU Terminal Polarity](/assets/images/image-placeholder.webp#only-dark){ width="400" }
-  <figcaption>A close-up of the PSU terminals, highlighting the correct polarity (+ + - -).</figcaption>
-</figure>
+See [Power Distribution](../wiring/power-distribution.md) for the intended AC, protective-earth, 24 V and LM2596 architecture. Terminal preparation, fuse rating and conductor sizes remain pending validation.
 
 ---
-### Step 11: Connecting the Main Power Cables
+## Step 11: Connecting the Main Power Cables
 
-This step involves connecting the two pairs of power cables to the PSU terminals. These cables will power your mainboard and your heated bed.
-
-!!! danger "CRITICAL: Double-Check Your Wiring"
-    This is the most critical wiring step of the entire build. Incorrect connections here can damage your electronics. **The polarity on the PSU is (+, +, -, -)**.
-    * Ensure the bent part of the cable's fork connector is facing **up**, away from the PSU casing.
-    * The steel washer must be **above** the fork connector when you insert the screw.
-
-* **First Cable Pair:**
-    1.  Connect the **RED** wire to the **FIRST** `(+)` terminal from the left.
-    2.  Connect the **BLACK** wire from the same cable to the **THIRD** `(-)` terminal from the left.
-* **Second Cable Pair:**
-    1.  Connect the **RED** wire to the **SECOND** `(+)` terminal from the left.
-    2.  Connect the **BLACK** wire from the same cable to the **FOURTH** `(-)` terminal from the left.
-
-* **Action:** Use a Philips screwdriver to **tighten all four screws firmly**. A loose connection here can cause serious problems.
-
-<figure markdown="1">
-  ![PSU Final Wiring](/assets/images/image-placeholder.webp#only-light){ width="500" }
-  ![PSU Final Wiring](/assets/images/image-placeholder.webp#only-dark){ width="500" }
-  <figcaption>The final correct wiring on the PSU terminal block.</figcaption>
-</figure>
+Keep mains disconnected while making connections. Use the electrical schematic and verify polarity and terminal identity; do not infer either from terminal position or wire colour. The controller and LM2596 branches are Rev A assignments, with physical checks still pending.
 
 ---
-### Step 12: Connecting the Power Panic Cable
+## Step 12: Connecting the Power Panic Cable
 
-The Power Panic feature allows your printer to recover from a sudden loss of power.
-
-* **Action:** Take the Power Panic cable and connect it to its dedicated two-pin port on the PSU.
-* **Action:** Gently bend the cable and route it along with the main power cables towards the other side of the printer, where the electronics housing will be.
-
-!!! warning "Handle with Care"
-    The connector on the Power Panic board is small and can be fragile. Avoid pulling or straining this cable until the printer is fully assembled.
+This legacy step does not apply to My-Cloner Rev A. Power Panic / power-loss recovery is not implemented; no Power Panic cable connection is assigned. See the [I/O Map](../wiring/io-map.md#power-control-and-auxiliary-inputs).
 
 ---
-### Step 13: Heatbed and PSU are Finished!
+## Step 13: Heatbed and PSU are Finished!
 
 The main power systems of your printer are now fully assembled and mounted.
 

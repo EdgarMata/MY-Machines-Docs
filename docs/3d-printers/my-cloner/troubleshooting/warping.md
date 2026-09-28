@@ -2,11 +2,11 @@
 
 Warping occurs when the corners of a print begin to lift and detach from the print bed during the printing process. This problem is more common with large parts and with materials that have high thermal shrinkage, such as ABS.
 
-### Main Cause: Thermal Contraction
+## Main Cause: Thermal Contraction
 
 Warping happens because as the plastic cools, it shrinks. The upper layers cool faster than the lower layers (which are in contact with the hot bed), creating tension that pulls the corners of the part upwards.
 
-### Solutions
+## Solutions
 
 1.  **Use a Brim or Skirt**
     !!! success "The Most Effective Solution"

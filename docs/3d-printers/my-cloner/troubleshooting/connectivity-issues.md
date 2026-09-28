@@ -3,7 +3,7 @@
 With a Klipper-based printer, there are two main connection points that can cause issues: the connection from your computer to the printer's web interface (usually over Wi-Fi), and the USB connection between the host computer (e.g., Raspberry Pi) and the printer's mainboard (MCU).
 
 ---
-### Web Interface Connection Issues (Wi-Fi / Ethernet)
+## Web Interface Connection Issues (Wi-Fi / Ethernet)
 
 **Symptom:** You cannot access the printer's web interface (Mainsail, Fluidd, etc.) from your browser. The page won't load or shows a "site can't be reached" error.
 
@@ -20,7 +20,7 @@ With a Klipper-based printer, there are two main connection points that can caus
 4.  **Restart the Host:** A simple reboot of the Raspberry Pi can often solve temporary network glitches.
 
 ---
-### Host to Printer MCU Connection Issues (USB)
+## Host to Printer MCU Connection Issues (USB)
 
 **Symptom:** The web interface loads correctly, but it shows an error like `"MCU 'mcu' is not connected"` or `"Printer is not ready"`.
 

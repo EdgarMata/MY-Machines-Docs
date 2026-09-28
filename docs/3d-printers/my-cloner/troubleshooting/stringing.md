@@ -6,7 +6,7 @@
     This problem occurs when molten plastic leaks from the nozzle as it moves from one point to another during a non-extruding "travel move." It is especially common with materials like PETG.
 
 ---
-### Causes and Solutions
+## Causes and Solutions
 
 1.  **Incorrect Retraction Settings**
     * !!! success "Primary Solution"

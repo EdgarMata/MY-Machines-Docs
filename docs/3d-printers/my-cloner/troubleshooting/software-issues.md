@@ -9,7 +9,7 @@ Troubleshooting firmware issues in Klipper is different from traditional printer
     2.  **The MCU Firmware:** A simple piece of software on the printer's mainboard that just receives and executes commands from the host.
 
 ---
-### Section 1: Common Configuration Issues (`printer.cfg`)
+## Section 1: Common Configuration Issues (`printer.cfg`)
 
 **Symptom:** The printer was working, but after editing the `printer.cfg` file, it won't start and the web interface shows an error in a popup or in the console.
 
@@ -34,7 +34,7 @@ Troubleshooting firmware issues in Klipper is different from traditional printer
     Before making significant changes, always download a backup of your working `printer.cfg` file.
 
 ---
-### Section 2: The Klipper Update and Restart Process
+## Section 2: The Klipper Update and Restart Process
 
 * **"Firmware Restart" vs. Full Restart**
     * After editing and saving `printer.cfg`, you don't need to reboot the whole system. Just click the **`FIRMWARE_RESTART`** button in your web interface. This quickly reloads the configuration.

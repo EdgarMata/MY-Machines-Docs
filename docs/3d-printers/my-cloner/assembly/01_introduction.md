@@ -8,7 +8,7 @@ This first chapter is designed to prepare you for the build, introduce you to th
     The most important advice we can give is to enjoy the process. Put on some music, work with a friend, and have fun. Rushing the assembly is the most common cause of problems later on.
 
 ---
-### Your Toolkit
+## Your Toolkit
 
 All the basic tools required to build your printer are included in the kit. No extra soldering or wire crimping is required.
 
@@ -24,7 +24,7 @@ All the basic tools required to build your printer are included in the kit. No e
 </figure>
 
 ---
-### Understanding the Kit Parts
+## Understanding the Kit Parts
 
 To make the assembly process easier, all parts are organized and labeled.
 
@@ -33,7 +33,7 @@ To make the assembly process easier, all parts are organized and labeled.
 * **Spare Parts Bag:** We've included a special bag with spare fasteners. If you lose a screw or a nut during the build, use one from this bag.
 
 ---
-### Pro-Tips for a Smooth Assembly
+## Pro-Tips for a Smooth Assembly
 
 * **Read First, Then Assemble:** Always read all the instructions for the current step *before* you start assembling. Following only the pictures is not enough.
 * **Inserting Nuts into Printed Parts:** Sometimes, a nut might be a tight fit or might keep falling out of its slot in a printed part. Here's how to handle it:
@@ -42,7 +42,7 @@ To make the assembly process easier, all parts are organized and labeled.
 * **Use Reasonable Force:** The printed parts are tough, but they are not indestructible. If something doesn't seem to fit, double-check that you are using the correct part and following the instructions before applying more force.
 
 ---
-### CRITICAL: Electronics Protection
+## CRITICAL: Electronics Protection
 
 !!! danger "Protect Your Electronics from Electrostatic Discharge (ESD)"
     The electronic components, especially the mainboard, are sensitive to static electricity. A small shock that you might not even feel can permanently damage them.

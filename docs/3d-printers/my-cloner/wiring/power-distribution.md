@@ -1,5 +1,7 @@
 # My-Cloner Rev A — Power Distribution
 
+See [Owner-Reported Hardware and Test Status](io-map.md#owner-reported-hardware-and-test-status) for the confirmed V3.0 hardware, connections and remaining checks.
+
 This page describes the power architecture used by the **My-Cloner Rev A**.
 
 The printer uses:
@@ -65,46 +67,52 @@ The intended mains supply is:
 
     For the standard My-Cloner Rev A configuration described here, the intended input is **230 V AC**.
 
----
-
 ### AC Connections
 
-The basic AC wiring is:
+The My-Cloner Rev A uses an IEC C14 inlet with an integrated switch and fuse.
+
+At this stage, the documentation treats the AC input as a **functional architecture** rather than a terminal-by-terminal wiring instruction.
+
+The exact internal routing of:
+
+- Live (`L`)
+- Neutral (`N`)
+- Protective Earth (`PE`)
+- Switch poles
+- Fuse
+
+must match the installed IEC inlet and the current My-Cloner electrical schematic.
 
 ```mermaid
 graph LR
-    IEC[IEC C14 Inlet]
+    MAINS[230 V AC Mains] --> IEC[IEC C14 Inlet<br/>Switch + Fuse]
+    IEC --> PSU[Mains Input<br/>Mean Well LRS-350-24]
 
-    L[Live - L]
-    N[Neutral - N]
-    PE[Protective Earth - PE]
-
-    SW[Switch + Fuse]
-    PSU_L[PSU Live Input]
-    PSU_N[PSU Neutral Input]
-    PSU_PE[PSU Earth Terminal]
-
-    IEC --> L
-    IEC --> N
-    IEC --> PE
-
-    L --> SW
-    SW --> PSU_L
-
-    N --> PSU_N
-    PE --> PSU_PE
+    PE[Protective Earth] --> PSU_PE[PSU Protective-Earth Terminal]
+    PE --> CHASSIS[Required Exposed Conductive Parts]
 ```
 
-The switched and fused live conductor supplies the power supply.
+The IEC inlet provides the mains connection, switching and fuse protection for the printer.
 
-The neutral conductor connects directly to the power supply neutral input.
+The exact conductor routing through the integrated switch and fuse must not be inferred from this functional diagram.
 
-Protective earth must be connected to the power supply earth terminal and to any exposed conductive parts that require protective grounding.
+Before wiring or servicing the AC input, verify the terminal identification and switching arrangement against:
+
+1. The installed IEC inlet.
+2. The My-Cloner QElectroTech schematic.
+3. The component manufacturer's terminal identification, where available.
+
+Protective earth must remain a dedicated safety conductor and must be connected according to the electrical design.
 
 !!! danger "Protective Earth"
     Protective earth is a safety connection and must not be omitted.
 
     Do not use the DC negative conductor as a substitute for protective earth.
+
+!!! warning "Functional Diagram Only"
+    The diagram above does not define which mains conductors are switched or the exact location of the fuse within the IEC inlet assembly.
+
+    Use the validated electrical schematic for terminal-by-terminal AC wiring.
 
 ---
 
@@ -122,8 +130,6 @@ The My-Cloner Rev A uses:
 | Intended AC input | 230 V AC |
 
 The power supply provides the main 24 V DC rail for the printer.
-
----
 
 ### 24 V Distribution
 
@@ -153,13 +159,9 @@ The converter used by the My-Cloner Rev A is:
 
 Its function is:
 
-```mermaid
-graph LR
-    A[24 V DC] --> B[LM2596]
-    B -->|5 V DC| C[Raspberry Pi Zero 2 W]
-```
+**24 V DC → LM2596 → 5 V DC → Raspberry Pi Zero 2 W**
 
-!!! danger "Adjust Before Connecting"
+!!! warning "Adjust Before Connecting"
     Do not connect the Raspberry Pi until the LM2596 output voltage has been measured and adjusted correctly.
 
     Verify the output with a multimeter before connecting the Raspberry Pi.
@@ -167,8 +169,6 @@ graph LR
 The target output is:
 
 **5 V DC**
-
----
 
 ### Raspberry Pi Ground Reference
 
@@ -190,7 +190,7 @@ The board distributes power internally to:
 - Logic circuits
 - Sensor interfaces
 
-The My-Cloner Rev A does not use the Robin Nano V3 as the primary 5 V power source for the Raspberry Pi.
+The My-Cloner Rev A does not use the MKS Robin Nano V3 as the primary 5 V power source for the Raspberry Pi.
 
 The Raspberry Pi uses the dedicated LM2596 converter instead.
 
@@ -200,7 +200,7 @@ The Raspberry Pi uses the dedicated LM2596 converter instead.
 
 ### Hotend Heater
 
-The hotend heater is powered from the 24 V system and controlled by the Robin Nano V3.
+The hotend heater is powered from the 24 V system and controlled by the MKS Robin Nano V3.
 
 | Item | Value |
 |---|---|
@@ -208,11 +208,9 @@ The hotend heater is powered from the 24 V system and controlled by the Robin Na
 | Voltage | 24 V DC |
 | Controller output | HE0 |
 | MCU control pin | `PE5` |
-| Heater power | TBD |
+| Heater power | 40 W — owner-reported specification |
 
 The heater is switched by the controller board MOSFET.
-
----
 
 ### Heated Bed
 
@@ -220,13 +218,13 @@ The heated bed is also powered from the 24 V rail.
 
 | Item | Value |
 |---|---|
-| Bed size | 230 × 230 mm |
+| Bed size | 235 × 235 mm |
 | Voltage | 24 V DC |
 | Controller output | H-BED |
 | MCU control pin | `PA0` |
-| Heater power | TBD |
+| Heater power | 220 W — owner-reported specification |
 
-!!! warning "High Current Load"
+!!! warning "High-Current Load"
     The heated bed is one of the highest-current loads in the printer.
 
     Use suitable wire gauge, connectors and terminal preparation for the expected current.
@@ -240,9 +238,9 @@ The My-Cloner Rev A uses 24 V fans.
 | Fan | Voltage | Function |
 |---|---:|---|
 | 4010 Axial Fan | 24 V DC | Hotend heatsink cooling |
-| 5015 Blower | 24 V DC | Part cooling |
+| 5015 Blower | 24 V DC | Part-cooling |
 
-The final FAN1 / FAN2 assignment on the Robin Nano V3 is still pending validation.
+The My-Cloner Rev A uses 24 V cooling fans. Their controller assignments are documented in the [I/O Map](io-map.md) and [Fans](fans.md) sections.
 
 !!! warning "Do Not Use Legacy 12 V Fans"
     Earlier My-Cloner documentation referenced 12 V fans.
@@ -290,8 +288,8 @@ graph TD
 
     HOTEND[Hotend Heater]
     HEATEDBED[Heated Bed]
-    FAN_A[Cooling Fan]
-    FAN_B[Cooling Fan]
+    FAN_A[4010 Hotend Fan]
+    FAN_B[5015 Part-Cooling Fan]
     MOTORS[Stepper Motors]
 
     PSU -->|24 V DC| BOARD
@@ -306,8 +304,8 @@ graph TD
 
     HE0 --> HOTEND
     BED --> HEATEDBED
-    FAN1 --> FAN_A
-    FAN2 --> FAN_B
+    FAN1 -->|PC14| FAN_A
+    FAN2 -->|PB1| FAN_B
     DRIVERS --> MOTORS
 ```
 
@@ -341,19 +339,22 @@ Particular attention should be given to:
 
 ## Fuse Protection
 
-The IEC inlet includes a fuse.
+The My-Cloner Rev A IEC inlet includes integrated fuse protection.
 
-The final fuse rating must be selected according to:
+The final fuse specification must be selected and documented according to:
 
-- Printer maximum power
-- Input voltage
-- Power supply characteristics
-- Applicable safety requirements
+- Printer maximum input power
+- Intended mains voltage
+- Mean Well LRS-350-24 input characteristics
+- IEC inlet and fuse-holder ratings
+- Applicable electrical and safety requirements
 
-!!! warning "Fuse Rating Pending Final Validation"
-    The exact recommended fuse rating for the My-Cloner Rev A must be confirmed before release.
+The fuse type, current rating and time-current characteristic must match the validated electrical design.
 
-    Do not replace a fuse with a higher-current rating without verifying the electrical design.
+!!! warning "Fuse Specification Pending Validation"
+    The final fuse specification for the My-Cloner Rev A has not yet been validated for release.
+
+    Do not substitute a fuse with a different type or higher current rating without verifying the electrical design.
 
 ---
 
@@ -363,18 +364,19 @@ Before the controller, Raspberry Pi or heaters are connected, the power system s
 
 Recommended sequence:
 
-1. Verify the IEC inlet wiring.
-2. Verify protective earth continuity.
-3. Confirm the PSU voltage-selector position.
-4. Inspect all AC terminal connections.
-5. Power the PSU without sensitive electronics connected where appropriate.
-6. Measure the 24 V output.
-7. Confirm correct polarity.
-8. Connect the LM2596.
-9. Adjust the LM2596 output to 5 V.
-10. Verify the 5 V output with a multimeter.
-11. Disconnect mains power.
-12. Connect the controller and Raspberry Pi only after the voltages are confirmed.
+1. Verify the IEC inlet terminal identification against the electrical schematic.
+2. Verify the switch and fuse routing against the installed inlet.
+3. Verify protective-earth continuity.
+4. Confirm the PSU voltage-selector position for the intended mains supply.
+5. Inspect all AC terminal connections.
+6. Power the PSU without sensitive electronics connected where appropriate.
+7. Measure the 24 V output.
+8. Confirm correct polarity.
+9. Connect the LM2596.
+10. Adjust the LM2596 output to 5 V.
+11. Verify the 5 V output with a multimeter.
+12. Disconnect mains power.
+13. Connect the controller and Raspberry Pi only after the voltages are confirmed.
 
 !!! danger "Power Off Before Rewiring"
     Always disconnect mains power before changing wiring or moving connections.
@@ -383,41 +385,29 @@ Recommended sequence:
 
 ## Validation Status
 
+See [Status Definitions](io-map.md#status-definitions). Design assignments and source mappings do not establish physical validation.
+
 | Item | Status |
 |---|---|
-| IEC C14 inlet | Defined |
-| 230 V AC architecture | Defined |
-| Mean Well LRS-350-24 | Defined |
-| 24 V main rail | Defined |
-| LM2596 24 V → 5 V | Defined |
-| Raspberry Pi Zero 2 W supply | Defined |
-| Hotend heater power | TBD |
-| Heated bed power | TBD |
-| Final fuse rating | Pending validation |
+| IEC C14 inlet | Rev A assignment |
+| 230 V AC architecture | Rev A assignment |
+| Mean Well LRS-350-24 | Rev A assignment |
+| 24 V main rail | Rev A assignment |
+| LM2596 24 V → 5 V | Rev A assignment |
+| Raspberry Pi Zero 2 W supply | Rev A assignment |
+| Hotend heater power — 40 W | Rev A assignment |
+| Heated bed power — 220 W | Rev A assignment |
+| Final fuse specification | Pending validation |
 | Wire gauges | Pending validation |
-| Final grounding layout | Pending schematic validation |
-| Physical power-on test | Pending |
+| Final grounding layout | Pending validation |
+| Physical power-on test | Pending validation |
 
 ---
 
 ## Related Documentation
 
-For the complete electrical architecture:
-
-[System Overview](system-overview.md)
-
-For controller connections:
-
-[Controller Board](controller-board.md)
-
-For the complete signal mapping:
-
-[I/O Map](io-map.md)
-
-For heater wiring:
-
-[Heaters & Temperature Sensors](heaters-and-temperature-sensors.md)
-
-For first power-on checks:
-
-[Before First Power-On](../operation/initial-setup/before-first-power-on.md)
+- [System Overview](system-overview.md) — complete My-Cloner Rev A electrical architecture
+- [Controller Board](controller-board.md) — controller power and hardware interfaces
+- [I/O Map](io-map.md) — complete signal and pin mapping
+- [Heaters & Temperature Sensors](heaters-and-temperature-sensors.md) — heater and temperature-sensor wiring
+- [Before First Power-On](../operation/initial-setup/before-first-power-on.md) — pre-power inspection and validation procedure

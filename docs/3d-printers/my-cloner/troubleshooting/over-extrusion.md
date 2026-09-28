@@ -2,14 +2,14 @@
 
 Over-extrusion occurs when the printer pushes out more plastic than necessary, resulting in parts with excess material, rough surfaces, and dimensional inaccuracy.
 
-### Common Symptoms
+## Common Symptoms
 
 * The top surface of the print is not smooth, but rough and bumpy.
 * The part's dimensions are slightly larger than expected.
 * The nozzle drags material as it moves over the part.
 * Blobs or zits of material on the walls of the print.
 
-### Solutions
+## Solutions
 
 1.  **Calibrate the Flow Rate**
     !!! success "Primary Solution"

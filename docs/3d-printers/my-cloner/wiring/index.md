@@ -1,11 +1,13 @@
 # Wiring & Electronics
 
+See [Owner-Reported Hardware and Test Status](io-map.md#owner-reported-hardware-and-test-status) for the confirmed V3.0 hardware, connections and remaining checks.
+
 This section documents the electrical architecture, wiring, controller configuration and hardware interfaces of the **My-Cloner Rev A**.
 
 The My-Cloner Rev A uses a **24 V DC electrical system**, an **MKS Robin Nano V3** controller, **TMC2209 stepper drivers** and a **Raspberry Pi Zero 2 W** running Klipper and Mainsail.
 
 !!! warning "Work in Progress"
-    The My-Cloner Rev A electrical architecture is currently being prepared for physical bring-up.
+    The My-Cloner Rev A is assembled. A clean Klipper installation and renewed commissioning are planned.
 
     Board-level information may already be confirmed while some My-Cloner-specific connections remain marked as pending validation.
 
@@ -37,8 +39,8 @@ graph TD
     BOARD --> FANS[Cooling Fans]
 
     THERM[Thermistors] --> BOARD
-    PINDA[P.I.N.D.A.] --> BOARD
-    FILAMENT[IR Filament Sensor] --> BOARD
+    PINDA[P.I.N.D.A. V1] -->|Z- / PC8| BOARD
+    FILAMENT[IR V0.4 Filament Sensor] -->|MT_DET1 / PA4| BOARD
 ```
 
 ---
@@ -99,7 +101,7 @@ graph TD
 
     ---
 
-    4010 hotend cooling, 5015 part cooling, Robin Nano fan outputs and PWM validation.
+    4010 hotend cooling, 5015 part-cooling, Robin Nano fan outputs and PWM validation.
 
     [:octicons-arrow-right-24: Fans](fans.md)
 
@@ -141,10 +143,10 @@ The sequence follows the engineering workflow:
 | Mechanical design | Current My-Cloner CAD / prototype |
 | Components | My-Cloner Rev A BOM V2 |
 | Electrical wiring | Current My-Cloner electrical schematic |
-| Board-level pin mapping | Official Makerbase Robin Nano V3 documentation |
-| Klipper board mapping | Official Klipper Robin Nano V3 configuration |
+| Board-level pin mapping | Official Makerbase MKS Robin Nano V3 documentation |
+| Klipper board mapping | Official Klipper MKS Robin Nano V3 configuration |
 | My-Cloner I/O assignments | [I/O Map](io-map.md) |
-| Final firmware configuration | Validated My-Cloner `printer.cfg` |
+| Final firmware configuration | Planned My-Cloner Rev A `printer.cfg`; release pending physical validation |
 
 !!! important "Documentation vs Validation"
     Official board documentation can confirm what a pin or connector does.
@@ -157,24 +159,26 @@ The sequence follows the engineering workflow:
 
 ## Current Bring-Up Status
 
-Several electrical decisions are intentionally still open until the physical Rev A machine is available.
+Use the shared [Status Definitions](io-map.md#status-definitions), including `TBD` for an undecided value and `Pending validation` for an outstanding check.
+
+The machine is assembled and previous tests were performed. No earlier printer.cfg is available; a clean Klipper/Mainsail installation and new configuration are planned. The remaining checks concern commissioning and calibration.
 
 These include:
 
-- P.I.N.D.A. controller input
-- FAN1 / FAN2 functional assignment
-- IR filament-sensor input
+- P.I.N.D.A. PC8 input polarity, offsets and repeatability
+- FAN1 / FAN2 control behaviour, PWM and airflow
+- IR V0.4 sensor polarity and runout behaviour on MT_DET1 / PA4
 - TMC2209 current values
 - X/Y sensorless-homing thresholds
 - Motor directions
-- Exact thermistor models
-- Heater power
+- Bed thermistor curve and both temperature readings under the new configuration
+- Heater operation under the new configuration
 - PID calibration
 - Thermal limits
 - MKS TS35 V2.0 integration
 - Final `printer.cfg`
 
-These items will move from **Pending** to **Validated** during the physical bring-up process.
+These items will move from **Pending validation** to **Validated** during the Rev A bring-up process.
 
 ---
 

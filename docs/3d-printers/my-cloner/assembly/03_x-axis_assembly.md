@@ -3,7 +3,7 @@
 In this chapter, we will build the X-axis. This is the gantry that moves from left to right across the printer, and it will eventually carry the extruder and hotend assembly. A precise and rigid X-axis is key for accurate prints.
 
 ---
-### Step 1: Tools Necessary for This Chapter
+## Step 1: Tools Necessary for This Chapter
 
 Before you begin, gather the tools you will need for this section of the build.
 
@@ -12,7 +12,7 @@ Before you begin, gather the tools you will need for this section of the build.
     * 2mm Allen key
 
 ---
-### Step 2: X-Axis - Preparing X-End Parts (Part 1)
+## Step 2: X-Axis - Preparing X-End Parts (Part 1)
 
 Let's start by gathering the main printed parts and the bearings for the X-axis assembly.
 
@@ -22,7 +22,7 @@ Let's start by gathering the main printed parts and the bearings for the X-axis 
     * Linear bearings (4x)
 
 ---
-### Step 3: X-Axis - Preparing X-End Parts (Part 2)
+## Step 3: X-Axis - Preparing X-End Parts (Part 2)
 
 Now gather the hardware that will be installed into the X-End parts.
 
@@ -34,7 +34,7 @@ Now gather the hardware that will be installed into the X-End parts.
     * `623h` bearing with housing (1x)
 
 ---
-### Step 4: X-Axis - Inserting Linear Bearings
+## Step 4: X-Axis - Inserting Linear Bearings
 
 The first assembly action is to press the linear bearings into the two main plastic parts.
 
@@ -51,7 +51,7 @@ The first assembly action is to press the linear bearings into the two main plas
 </figure>
 
 ---
-### Step 5: X-End-Motor - Tensioner Assembly
+## Step 5: X-End-Motor - Tensioner Assembly
 
 Now, let's prepare the belt tensioning mechanism on the motor-side part.
 
@@ -59,7 +59,7 @@ Now, let's prepare the belt tensioning mechanism on the motor-side part.
 * **Action:** Insert the long M3x30 screw through the hole. For now, just screw it in a few turns to hold it in place. Leave a gap of about 2mm between the screw head and the plastic part. We will adjust this later to tension the belt.
 
 ---
-### Step 6: X-End-Idler - Bearing Assembly
+## Step 6: X-End-Idler - Bearing Assembly
 
 Next, we will install the idler bearing on the opposite side.
 
@@ -68,13 +68,13 @@ Next, we will install the idler bearing on the opposite side.
 * **Action:** Secure the bearing in place using the M3x18 screw. Tighten it, but then check that the bearing can still spin freely. If not, loosen the screw slightly.
 
 ---
-### Step 7: X-Axis - Preparing the Smooth Rods
+## Step 7: X-Axis - Preparing the Smooth Rods
 
 * **Action:** Identify the **longest** pair of smooth rods in your kit. These are for the X-axis.
 * **Action:** It's a good idea to have some paper towels ready to wipe any excess oil from the rods.
 
 ---
-### Step 8: Marking the Bearings (Optional Pro-Tip)
+## Step 8: Marking the Bearings (Optional Pro-Tip)
 
 This optional step makes the alignment from Step 4 much easier to verify.
 
@@ -83,7 +83,7 @@ This optional step makes the alignment from Step 4 much easier to verify.
     * **Benefit:** When you later insert the rods, you can use these marks to visually confirm that the bearings are oriented correctly and offset by 45 degrees.
 
 ---
-### Step 9: X-Axis Assembly
+## Step 9: X-Axis Assembly
 
 Now we will connect the two prepared X-End parts to form the complete gantry.
 
@@ -95,7 +95,7 @@ Now we will connect the two prepared X-End parts to form the complete gantry.
 * **Action:** Repeat the process with the second smooth rod, inserting it through the remaining set of bearings on both X-end parts. Push both ends together to form the complete gantry.
 
 ---
-### Step 10: Assembling the X-Axis Motor Pulley (Part 1)
+## Step 10: Assembling the X-Axis Motor Pulley (Part 1)
 
 The final step in this section is to prepare the motor.
 
@@ -105,7 +105,7 @@ The final step in this section is to prepare the motor.
 * **Action:** Ensure you are using the motor specifically labeled for the **X-axis**, as cable lengths may differ.
 
 ---
-### Step 11: Assembling the X-Axis Motor Pulley (Part 2)
+## Step 11: Assembling the X-Axis Motor Pulley (Part 2)
 
 This step is critical for ensuring the motor can reliably drive the belt without slipping.
 
@@ -123,7 +123,7 @@ This step is critical for ensuring the motor can reliably drive the belt without
 </figure>
 
 ---
-### Step 12: X-Axis - Assembling the Motor
+## Step 12: X-Axis - Assembling the Motor
 
 Now, let's mount the prepared motor onto the X-axis gantry.
 
@@ -133,7 +133,7 @@ Now, let's mount the prepared motor onto the X-axis gantry.
 * **Action:** Secure the motor using the three M3x18 screws. Make sure the motor is oriented correctly so its cable connector points in the intended direction for cable management.
 
 ---
-### Step 13: X-Axis is Finished!
+## Step 13: X-Axis is Finished!
 
 The X-axis gantry is now fully assembled!
 

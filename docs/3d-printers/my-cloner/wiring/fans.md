@@ -1,5 +1,7 @@
 # My-Cloner Rev A — Fans
 
+See [Owner-Reported Hardware and Test Status](io-map.md#owner-reported-hardware-and-test-status) for the confirmed V3.0 hardware, connections and remaining checks.
+
 This page documents the cooling fans used by the **My-Cloner Rev A** and their connection to the MKS Robin Nano V3.
 
 The printer uses two 24 V cooling fans:
@@ -27,12 +29,12 @@ The MKS Robin Nano V3 provides two controllable fan outputs.
 
 | Board Output | MCU Pin | My-Cloner Assignment |
 |---|---:|---|
-| FAN1 | `PC14` | TBD |
-| FAN2 | `PB1` | TBD |
+| FAN1 | `PC14` | 4010 hotend cooling — Rev A assignment |
+| FAN2 | `PB1` | 5015 part cooling — Rev A assignment |
 
-The board-level pin mapping is confirmed by the official Robin Nano V3 documentation and Klipper configuration.
+The board-level pin mapping is confirmed by the official MKS Robin Nano V3 documentation and Klipper configuration.
 
-The final assignment between FAN1/FAN2 and the physical 4010/5015 fans will be defined during wiring validation.
+The owner confirms the physical assignment above. Functional tests with the new configuration remain pending validation.
 
 ---
 
@@ -50,10 +52,10 @@ Its purpose is to cool the hotend heatsink and reduce heat creep.
 | Size | 40 × 40 × 10 mm |
 | Voltage | 24 V DC |
 | Function | Hotend heatsink cooling |
-| Board output | TBD |
-| MCU pin | TBD |
+| Board output | FAN1 |
+| MCU pin | `PC14` |
 
-The final electrical assignment will be either FAN1 or FAN2.
+This is the owner-reported Rev A connection; control behaviour remains pending validation.
 
 !!! important "Hotend Cooling"
     The hotend cooling fan is a critical part of the hotend thermal system.
@@ -76,16 +78,16 @@ Its purpose is to provide controlled airflow to the printed part.
 | Size | 50 × 50 × 15 mm |
 | Voltage | 24 V DC |
 | Function | Part cooling |
-| Board output | TBD |
-| MCU pin | TBD |
+| Board output | FAN2 |
+| MCU pin | `PB1` |
 
-The final electrical assignment will be either FAN1 or FAN2.
+This is the owner-reported Rev A connection; control behaviour remains pending validation.
 
 ---
 
 ## MKS Robin Nano V3 Fan Outputs
 
-The Robin Nano V3 provides two MOSFET-controlled fan outputs.
+The MKS Robin Nano V3 provides two MOSFET-controlled fan outputs.
 
 | Output | MCU Pin |
 |---|---:|
@@ -102,19 +104,17 @@ The physical wiring and final Klipper configuration must agree with each other.
 
 ## Final Fan Assignment
 
-The final Rev A assignment is currently pending.
+The owner has confirmed the following physical Rev A assignments.
 
-The intended result will be documented as:
+The Klipper sections below are planned for the new configuration:
 
 | Function | Fan | Board Output | MCU Pin | Klipper Section |
 |---|---|---|---:|---|
-| Hotend cooling | 4010 | TBD | TBD | TBD |
-| Part cooling | 5015 | TBD | TBD | `[fan]` |
+| Hotend cooling | 4010 | FAN1 | `PC14` | `[heater_fan hotend_fan]` |
+| Part cooling | 5015 | FAN2 | `PB1` | `[fan]` |
 
-!!! note "Pending Wiring Decision"
-    The board pins are known, but the functional assignment is intentionally left open until the final wiring is confirmed.
-
-    Once validated, this table should become the authoritative fan mapping for Rev A.
+!!! note "Rev A Assignment"
+    The wiring is reported by the owner. Temperature-triggered hotend cooling, PWM response and airflow must be checked after the clean Klipper installation.
 
 ---
 
@@ -126,23 +126,26 @@ The final configuration will follow the selected Robin Nano output.
 
 Example structure:
 
-    [fan]
-    pin: <FAN_OUTPUT_PIN>
+```ini
+[fan]
+pin: PB1
+```
 
 The hotend heatsink fan may use an automatically controlled Klipper configuration.
 
 A typical structure is:
 
-    [heater_fan hotend_fan]
-    pin: <FAN_OUTPUT_PIN>
-    heater: extruder
+```ini
+[heater_fan hotend_fan]
+pin: PC14
+```
 
 The final parameters must be validated on the physical printer.
 
 !!! warning "Example Only"
     The configuration above describes the intended structure only.
 
-    Do not copy placeholder pins into the final `printer.cfg`.
+    These are partial sections, not a complete validated `printer.cfg`.
 
 ---
 
@@ -266,37 +269,28 @@ Possible effects include:
 
 ## Validation Status
 
+See [Status Definitions](io-map.md#status-definitions). Design assignments and source mappings do not establish physical validation.
+
 | Item | Status |
 |---|---|
-| 4010 fan type | Defined |
-| 4010 voltage | Defined — 24 V |
-| 5015 fan type | Defined |
-| 5015 voltage | Defined — 24 V |
+| 4010 fan type | Rev A assignment |
+| 4010 voltage | Rev A assignment — 24 V |
+| 5015 fan type | Rev A assignment |
+| 5015 voltage | Rev A assignment — 24 V |
 | FAN1 MCU pin | Source confirmed — `PC14` |
 | FAN2 MCU pin | Source confirmed — `PB1` |
-| 4010 board-output assignment | Pending validation |
-| 5015 board-output assignment | Pending validation |
-| Hotend fan Klipper section | Pending configuration |
-| Part-cooling Klipper section | Pending configuration |
-| PWM behaviour | Pending physical validation |
-| Fan airflow direction | Pending physical validation |
+| 4010 board-output assignment — FAN1 / PC14 | Rev A assignment |
+| 5015 board-output assignment — FAN2 / PB1 | Rev A assignment |
+| Hotend fan Klipper section | Planned |
+| Part-cooling Klipper section | Planned |
+| PWM behaviour | Pending validation |
+| Fan airflow direction | Pending validation |
 
 ---
 
 ## Related Documentation
 
-For the complete electrical mapping:
-
-[I/O Map](io-map.md)
-
-For controller information:
-
-[Controller Board](controller-board.md)
-
-For heater and thermal-system information:
-
-[Heaters & Temperature Sensors](heaters-and-temperature-sensors.md)
-
-For the future Klipper configuration:
-
-[Firmware Configuration](../downloads/firmware-configuration.md)
+- [I/O Map](io-map.md) — complete fan-output and MCU pin mapping
+- [Controller Board](controller-board.md) — MKS Robin Nano V3 fan outputs
+- [Heaters & Temperature Sensors](heaters-and-temperature-sensors.md) — hotend thermal-system documentation
+- [Firmware Configuration](../downloads/firmware-configuration.md) — planned Klipper fan configuration

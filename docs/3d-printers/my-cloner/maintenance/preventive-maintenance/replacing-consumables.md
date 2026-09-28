@@ -3,7 +3,7 @@
 Besides the nozzle, other parts of your printer are considered consumables that wear out over time and may need replacement to maintain print quality. The two most common are the internal PTFE tube in the hotend and the print surface sheet itself.
 
 ---
-### Replacing the Hotend PTFE Tube
+## Replacing the Hotend PTFE Tube
 
 !!! info "What is the PTFE tube and why replace it?"
     Inside the "cold end" of your hotend, there is a small tube made of PTFE (a low-friction plastic) that guides the filament into the melt zone. Over time, especially when printing at high temperatures, this tube can degrade, shrink, or deform.
@@ -28,7 +28,7 @@ Besides the nozzle, other parts of your printer are considered consumables that 
 </figure>
 
 ---
-### Replacing the PEI Print Surface Sheet
+## Replacing the PEI Print Surface Sheet
 
 !!! info "When to replace the PEI sheet?"
     The PEI sheet is a durable surface, but it is a consumable. You might need to replace it if it gets a deep gouge or scratch that affects prints, if it develops bubbles that won't go away, or if it permanently loses its adhesive properties even after cleaning.

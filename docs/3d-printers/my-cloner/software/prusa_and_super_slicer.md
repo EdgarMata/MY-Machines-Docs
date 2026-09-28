@@ -3,7 +3,7 @@
 While we recommend Orca Slicer for its excellent Klipper integration, we understand that you may be more comfortable with or prefer to use **PrusaSlicer** or **SuperSlicer**. We provide optimized profiles for these slicers as well.
 
 ---
-### How to Import the Profiles
+## How to Import the Profiles
 
 The process is simple and very similar to the Orca Slicer setup.
 
@@ -23,7 +23,7 @@ You should now see the "MY Cloner 3D Printer" as a selectable option in the prin
     3.  Slice the model and preview the result.
 
 ---
-### Key Difference: Uploading to Klipper
+## Key Difference: Uploading to Klipper
 
 The main difference when using PrusaSlicer or SuperSlicer is the lack of a built-in "Device" tab for direct Klipper communication.
 

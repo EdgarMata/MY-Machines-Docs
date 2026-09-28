@@ -3,7 +3,7 @@
 While the provided profiles are a great starting point, understanding what the key settings do will allow you to fine-tune your prints for perfect results. These settings are found in the "Process" tab on the left sidebar.
 
 ---
-### First Layer Settings
+## First Layer Settings
 
 !!! success "The Most Important Layer"
     A perfect print starts with a perfect first layer. These settings help you achieve strong bed adhesion.
@@ -12,7 +12,7 @@ While the provided profiles are a great starting point, understanding what the k
 * **First Layer Temperatures:** You can set slightly higher nozzle and bed temperatures for the first layer to improve adhesion.
 
 ---
-### Filament Profiles: The Core Settings
+## Filament Profiles: The Core Settings
 
 A filament profile contains all the settings specific to a material type.
 
@@ -21,7 +21,7 @@ A filament profile contains all the settings specific to a material type.
 * **Retraction:** These settings tell the printer how much to pull the filament back to prevent stringing. Each material may require slightly different retraction settings.
 
 ---
-### Print Speed vs. Quality
+## Print Speed vs. Quality
 
 * **Layer Height:** This is the primary driver of quality and speed. A smaller layer height (e.g., 0.12mm) creates a much smoother, more detailed surface but takes significantly longer to print. A larger layer height (e.g., 0.28mm) is much faster but the layer lines will be more visible.
 * **Speeds:** You can independently control the speed for different parts of the print. The most important are:
@@ -30,7 +30,7 @@ A filament profile contains all the settings specific to a material type.
     * **Travel Moves:** Very fast, as no plastic is being extruded.
 
 ---
-### Support Structures & Bed Adhesion
+## Support Structures & Bed Adhesion
 
 * **Supports:**
     * **When to use them?** Use supports when your model has "overhangs"—parts that would otherwise be printed in mid-air. A good rule of thumb is to enable supports for any overhang steeper than 45-50 degrees.
