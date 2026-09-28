@@ -6,7 +6,7 @@ Replacing the entire hotend assembly may be necessary in case of severe damage, 
     Before you begin, always disconnect the printer from the power outlet. This operation involves disconnecting sensitive electronic components and handling internal wiring.
 
 !!! note "This is a General Guide"
-    The exact steps may vary depending on your printer's specific design. Please consult your "MY Cloner" assembly manual for precise details on how to disassemble the extruder carriage.
+    The exact steps may vary depending on your printer's specific design. Please consult your "My-Cloner" assembly manual for precise details on how to disassemble the extruder carriage.
 
 ---
 
