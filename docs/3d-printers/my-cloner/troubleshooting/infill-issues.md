@@ -6,7 +6,7 @@ The infill is the internal support structure of your print. Problems with the in
     Typically, weak, stringy, or gappy infill is not a problem with the infill setting itself, but rather a symptom of another printing issue, such as under-extrusion.
 
 ---
-### Causes and Solutions
+## Causes and Solutions
 
 1.  **Weak or Incomplete Infill (with Gaps)**
     * **Main Cause:** Under-extrusion. Since infill is often printed much faster than the walls, extrusion problems will manifest there first.
