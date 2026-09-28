@@ -204,8 +204,8 @@ The Robin Nano V3 provides two controllable fan outputs.
 
 | Output | MCU Pin | My-Cloner Assignment |
 |---|---:|---|
-| FAN1 | `PC14` | TBD |
-| FAN2 | `PB1` | TBD |
+| FAN1 | `PC14` | Pending assignment |
+| FAN2 | `PB1` | Pending assignment |
 
 The My-Cloner Rev A uses:
 
@@ -364,12 +364,12 @@ graph LR
 | TH1 | Hotend Thermistor |
 | TH2 | Available |
 | TB | Heated Bed Thermistor |
-| FAN1 | Assignment TBD |
-| FAN2 | Assignment TBD |
+| FAN1 | Assignment pending validation |
+| FAN2 | Assignment pending validation |
 | X- | X Sensorless Homing |
 | Y- | Y Sensorless Homing |
-| P.I.N.D.A. | Final input TBD |
-| MT_DET | IR Filament Sensor — final input TBD |
+| P.I.N.D.A. | Final input pending validation |
+| MT_DET | IR Filament Sensor — final input pending validation |
 | EXP / Display | TS35 V2.0 — integration under validation |
 | USB | Raspberry Pi / Klipper communication |
 
