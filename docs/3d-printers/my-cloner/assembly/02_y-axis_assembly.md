@@ -3,6 +3,8 @@
 Welcome to the first major assembly chapter! The Y-axis is the foundation of your printer, forming the main frame and the moving bed assembly. A well-assembled Y-axis is crucial for stable and accurate prints.
 
 ---
+## Assembly Procedure
+
 ### Step 1: Tools Necessary for This Chapter
 
 Before you begin, gather the tools you will need for this section of the build.
