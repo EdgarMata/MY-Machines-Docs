@@ -6,12 +6,12 @@ Overhangs are parts of a model that are printed over empty space, without direct
     Most 3D printers can print overhangs up to an angle of **45 degrees** from the vertical without a significant loss in quality and without needing supports. Beyond this angle, the quality begins to degrade.
 
 ---
-### Problems and Solutions
+## Problems and Solutions
 
 * **Problem:** The layers of the overhang curl upwards, droop, or have a very messy and rough appearance.
 * **Cause:** The hot plastic is extruded partially into the air and, without rapid and effective cooling, it fails to solidify in the correct position, starting to sag or curl up due to the heat from the nozzle on the next pass.
 
-### Solutions
+## Solutions
 
 1.  **Improve Part Cooling**
     * !!! success "Primary Solution"
