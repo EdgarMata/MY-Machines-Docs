@@ -2,14 +2,14 @@
 
 Under-extrusion is the opposite of over-extrusion: the printer is not pushing out enough plastic. This results in brittle prints with gaps, missing layers, or a spongy texture.
 
-### Common Symptoms
+## Common Symptoms
 
 * There are visible gaps between the lines of each layer.
 * Layers do not bond well to each other, and the part breaks easily.
 * Entire layers are missing in certain parts of the print.
 * The print looks fragile, rough, or stringy.
 
-### Causes and Solutions
+## Causes and Solutions
 
 1.  **Clogged Nozzle**
     !!! warning "Most Common Cause"
@@ -36,7 +36,7 @@ Under-extrusion is the opposite of over-extrusion: the printer is not pushing ou
 
 5.  **Under-extrusion on the First Layer**
     * **Cause:** If the problem only occurs on the first layer, the cause is a nozzle that is too far from the bed.
-    * **Solution:** Adjust your "Live Adjust Z" to a more negative value.
+    * **Solution:** Adjust your "Z offset" to a more negative value.
 
 <figure markdown="1">
   ![Under-Extrusion Example](/assets/images/image-placeholder.webp#only-light){ width="600" }
