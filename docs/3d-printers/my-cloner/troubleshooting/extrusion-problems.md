@@ -19,7 +19,7 @@ Before disassembling anything, check these simple settings.
 
 * **Is the nozzle too close to the bed?**
     * **Problem:** On the first layer, if the nozzle is too close to the print bed, the opening is blocked. The extruder has nowhere to push the plastic, leading to a jam and filament grinding right at the start of a print.
-    * **Solution:** Re-run your "First Layer Calibration" and ensure the "Live Adjust Z" is set correctly. The nozzle should be close enough for adhesion but high enough to allow a smooth flow of plastic.
+    * **Solution:** Recheck the first-layer setup and P.I.N.D.A. Z offset. The nozzle should be close enough for adhesion while still allowing a smooth, consistent extrusion path.
 
 ---
 ## Step 2: Clear a Partial Clog
